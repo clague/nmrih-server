@@ -1,0 +1,50 @@
+// "Power Trip"
+
+"MapHack"
+{
+	"entities"
+	{
+
+		// Replace RNG lever spawn
+		$remove_connections { "targetname" "obj_lever_case" }
+		$edit
+		{
+			"targetname"	"obj_lever_case"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnCase01" "obj_lever_maker3,ForceSpawn,,0,1"
+				}
+			}
+		}
+
+		// Replace RNG key spawn
+		$remove_connections { "targetname" "obj_shed_case" }
+		$edit
+		{
+			"targetname"	"obj_shed_case"
+			"keyvalues" 
+			{
+				"connections"
+				{
+					"OnCase01" "obj_shed_maker1,ForceSpawn,,0,1"
+				}
+			}
+		}
+
+		// Disable RNG light shatter in the generator room
+		$remove_connections { "targetname" "shatter_case" }
+		$edit
+		{
+			"targetname"	"shatter_case"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnCase01" "shatter*,Kill,,0,1"
+				}
+			}
+		}
+	}
+}

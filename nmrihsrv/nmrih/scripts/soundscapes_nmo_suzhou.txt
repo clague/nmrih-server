@@ -1,0 +1,1042 @@
+//****************************************
+// Soundscapes for NMO_Suzhou - Billion(Surya)Lioe
+//****************************************
+//****************************************
+// EXTERIORS
+//****************************************
+//****************************************
+// Lindun Road
+//****************************************
+"suzhou.outdoor_lindun"
+{ 
+
+	"playlooping" 
+	{ 
+		"volume"		"0.2" 
+		"pitch"			"90" 
+
+
+		"wave"			"ambient\chinatown\docs_wind.wav" 
+	}
+ 
+	"playlooping" 
+	{ 
+		"volume"		"0.2" 
+		"pitch"			"90" 
+		"wave"			"ambient\zombies\distant_horde_loop.wav" 
+	}
+ 
+
+	"playrandom"
+	{
+		"time"			"5, 30"
+		"volume"		"0.6"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\wind\wind_moan1.wav"
+			"wave"		"ambient\wind\wind_moan2.wav"
+			"wave"		"ambient\wind\wind_moan4.wav"
+
+		}
+	}
+
+	"playrandom"
+	{
+		"time"			"50, 80"
+		"volume"		"0.2"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\levels\streetwar\city_battle12.wav"
+			"wave"		"ambient\levels\streetwar\city_battle18.wav"
+			"wave"		"ambient\levels\streetwar\city_battle7.wav"
+
+		}
+	}
+
+	"playrandom"
+	{
+		"time"			"100,150"
+		"volume"		"0.75"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\machines\airplane_flyby.wav"
+			"wave"		"ambient/machines/aircraft_distant_flyby1.wav"
+			"wave"		"ambient/machines/aircraft_distant_flyby3.wav"
+		}
+	}
+	
+}
+
+//****************************************
+// Pinjiang road
+//****************************************
+"suzhou.outdoor_pinjiang"
+{ 
+	"playlooping"
+	{
+		"volume"		"0.6"
+		"pitch"			"90"
+		"wave"			"ambient\atmosphere\town_ambience.wav" 
+	}
+
+	"playlooping" 
+	{ 
+		"volume"		"1"
+		"pitch"			"90"
+		"position"		"0"
+
+		"wave"			"ambient\water\waves_shallow_01_loop.wav" 
+	}
+
+	"playrandom"
+	{
+		"time"			"50, 80"
+		"volume"		"0.1"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\levels\streetwar\city_battle12.wav"
+			"wave"		"ambient\levels\streetwar\city_battle18.wav"
+			"wave"		"ambient\levels\streetwar\city_battle7.wav"
+		}
+	}
+
+
+	"playrandom"
+	{
+		"time"			"50, 100"
+		"volume"		"0.1"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\levels\canals\windchine1.wav"
+			"wave"		"ambient\levels\canals\windchime2.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"			"5, 30"
+		"volume"		"0.5"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\wind\wind_moan1.wav"
+			"wave"		"ambient\wind\wind_moan2.wav"
+			"wave"		"ambient\wind\wind_moan4.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"			"80, 100"
+		"volume"		"0.1"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\levels\streetwar\city_scream3.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"			"100,150"
+		"volume"		"0.75"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\machines\airplane_flyby.wav"
+			"wave"		"ambient/machines/aircraft_distant_flyby1.wav"
+			"wave"		"ambient/machines/aircraft_distant_flyby3.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"			"60,120"
+		"volume"		"0.1"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\animals\bird_tweet_07.wav"
+			"wave"		"ambient\animals\bird_tweet_06.wav"
+			"wave"		"ambient\animals\bird_tweet_05.wav"
+			"wave"		"ambient\animals\bird_tweet_04.wav"
+			"wave"		"ambient\animals\bird_tweet_03.wav"
+			"wave"		"ambient\animals\bird_tweet_02.wav"
+			"wave"		"ambient\animals\bird_tweet_01.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"			"25,50"
+		"volume"		"1.0"
+
+		"rndwave"
+		{
+			"wave"		"ambient/background/dist_dog1.wav"
+			"wave"		"ambient/background/dist_dog2.wav"
+			"wave"		"ambient/background/dist_dog3.wav"
+			"wave"		"ambient/background/dist_dog4.wav"
+		}
+	}
+	
+}
+
+//****************************************
+// Canals
+//****************************************
+"suzhou.outdoor_canal"
+{ 
+	"playlooping" 
+	{ 
+		"volume"		"0.6"
+		"pitch"			"90"
+
+		"wave"			"ambient\atmosphere\town_ambience.wav"
+	}
+
+	"playlooping" 
+	{
+		"volume"		"1.0"
+		"pitch"			"90"
+
+		"wave"			"ambient\water\lake_water.wav" 
+	}
+
+	"playrandom"
+	{
+	"time"				"5, 30"
+	"volume"			"0.6"
+	"pitch"				"100"
+
+	"rndwave"
+		{
+			"wave"		"ambient\wind\wind_moan1.wav"
+			"wave"		"ambient\wind\wind_moan2.wav"
+			"wave"		"ambient\wind\wind_moan4.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"			"80, 100"
+		"volume"		"0.1"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\levels\canals\critter6.wav"
+			"wave"		"ambient\levels\canals\critter2.wav"
+			"wave" 		"ambient\levels\canals\critter3.wav"
+		}
+	}
+}
+
+//****************************************
+// Above canals
+//****************************************
+
+"suzhou.outdoor_abovecanal"
+{
+	"playlooping" 
+	{
+		"volume"		"0.6"
+		"pitch"			"90"
+
+		"wave"			"ambient\atmosphere\town_ambience.wav"
+	}
+
+	"playlooping" 
+	{ 
+		"volume"		"0.4" 
+		"pitch"			"90" 
+
+		"wave"			"ambient\water\lake_water.wav" 
+	}
+
+	"playrandom"
+	{
+		"time"			"80,100"
+		"volume"		"0.1"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\levels\canals\critter6.wav"
+			"wave"		"ambient\levels\canals\critter2.wav"
+			"wave"		"ambient\levels\canals\critter3.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"			"20,45"
+		"volume"		"0.1"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\animals\bird_tweet_07.wav"
+			"wave"		"ambient\animals\bird_tweet_06.wav"
+			"wave"		"ambient\animals\bird_tweet_05.wav"
+			"wave"		"ambient\animals\bird_tweet_04.wav"
+			"wave"		"ambient\animals\bird_tweet_03.wav"
+			"wave"		"ambient\animals\bird_tweet_02.wav"
+			"wave"		"ambient\animals\bird_tweet_01.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"25,50"
+		"volume"	"1.0"
+
+		"rndwave"
+		{
+			"wave"		"ambient/background/dist_dog1.wav"
+			"wave"		"ambient/background/dist_dog2.wav"
+			"wave"		"ambient/background/dist_dog3.wav"
+			"wave"		"ambient/background/dist_dog4.wav"
+		}
+	}
+}
+
+//****************************************
+// Generic town
+//****************************************
+"suzhou.outdoor_town"
+{
+	"playlooping"
+	{
+		"volume"		"0.6"
+		"pitch"			"90"
+
+		"wave"			"ambient\atmosphere\town_ambience.wav"
+	}
+
+	"playrandom"
+	{
+		"time"			"50, 80"
+		"volume"		"0.1"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\levels\streetwar\city_battle12.wav"
+			"wave"		"ambient\levels\streetwar\city_battle18.wav"
+			"wave"		"ambient\levels\streetwar\city_battle7.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"			"100,150"
+		"volume"		"0.75"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\machines\airplane_flyby.wav"
+			"wave"		"ambient/machines/aircraft_distant_flyby1.wav"
+			"wave"		"ambient/machines/aircraft_distant_flyby3.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"			"60,120"
+		"volume"		"0.1"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\animals\bird_tweet_07.wav"
+			"wave"		"ambient\animals\bird_tweet_06.wav"
+			"wave"		"ambient\animals\bird_tweet_05.wav"
+			"wave"		"ambient\animals\bird_tweet_04.wav"
+			"wave"		"ambient\animals\bird_tweet_03.wav"
+			"wave"		"ambient\animals\bird_tweet_02.wav"
+			"wave"		"ambient\animals\bird_tweet_01.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"25,50"
+		"volume"	"1.0"
+
+		"rndwave"
+		{
+			"wave"		"ambient/background/dist_dog1.wav"
+			"wave"		"ambient/background/dist_dog2.wav"
+			"wave"		"ambient/background/dist_dog3.wav"
+			"wave"		"ambient/background/dist_dog4.wav"
+		}
+	}
+}
+//****************************************
+// Farside alleys
+//****************************************
+"suzhou.outdoor_backalleys"
+{ 
+
+	"playlooping" 
+	{ 
+		"volume"		"0.5"
+		"pitch"			"90"
+	
+		"wave"			"ambient\atmosphere\tone_alley.wav"
+	}
+
+	"playrandom"
+	{
+		"time"			"100,150"
+		"volume"		"0.75"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient/machines/airplane_flyby.wav"
+			"wave"		"ambient/machines/aircraft_distant_flyby1.wav"
+			"wave"		"ambient/machines/aircraft_distant_flyby3.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"			"30,50"
+		"volume"		"0.1"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\animals\bird_tweet_07.wav"
+			"wave"		"ambient\animals\bird_tweet_06.wav"
+			"wave"		"ambient\animals\bird_tweet_05.wav"
+			"wave"		"ambient\animals\bird_tweet_04.wav"
+			"wave"		"ambient\animals\bird_tweet_03.wav"
+			"wave"		"ambient\animals\bird_tweet_02.wav"
+			"wave"		"ambient\animals\bird_tweet_01.wav"
+		}
+	}	
+
+	"playrandom"
+	{
+		"time"			"25,50"
+		"volume"		"1.0"
+
+		"rndwave"
+		{
+			"wave"		"ambient/background/dist_dog1.wav"
+			"wave"		"ambient/background/dist_dog2.wav"
+			"wave"		"ambient/background/dist_dog3.wav"
+			"wave"		"ambient/background/dist_dog4.wav"
+		}
+	}
+}
+//****************************************
+// Grand canal
+//****************************************
+"suzhou.outdoor_grandcanal"
+	{
+
+	"playlooping" 
+	{ 
+		"volume"		"0.25" 
+		"pitch"			"90" 
+
+		"wave"			"ambient\chinatown\docs_wind.wav" 
+	}
+ 	
+	"playlooping" 
+	{ 
+		"volume"		"0.5" 
+		"pitch"			"90" 
+		"position"		"0"
+
+		"wave"			"ambient\chinatown\docs.wav" 
+	}
+
+	"playrandom"
+	{
+		"time"			"5, 30"
+		"volume"		"0.6"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\wind\wind_moan1.wav"
+			"wave"		"ambient\wind\wind_moan2.wav"
+			"wave"		"ambient\wind\wind_moan4.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"			"50, 80"
+		"volume"		"0.1"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\levels\streetwar\city_battle12.wav"
+			"wave"		"ambient\levels\streetwar\city_battle18.wav"
+			"wave"		"ambient\levels\streetwar\city_battle7.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"			"100,150"
+		"volume"		"0.75"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\machines\airplane_flyby.wav"
+			"wave"		"ambient/machines/aircraft_distant_flyby1.wav"
+			"wave"		"ambient/machines/aircraft_distant_flyby3.wav"
+		}
+	}	
+}
+
+//****************************************
+// Grand canal no positional
+//****************************************
+"suzhou.outdoor_grandcanal_nopos"
+	{
+
+	"playlooping"
+		{
+		"volume"		"0.25" 
+		"pitch"			"90" 
+
+		"wave"			"ambient\chinatown\docs_wind.wav" 
+		}
+ 	
+	"playlooping" 
+		{
+		"volume"		"0.5" 
+		"pitch"			"90" 
+
+		"wave"			"ambient\chinatown\docs.wav" 
+		}
+
+	"playrandom"
+	{
+		"time"			"5, 30"
+		"volume"		"0.6"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\wind\wind_moan1.wav"
+			"wave"		"ambient\wind\wind_moan2.wav"
+			"wave"		"ambient\wind\wind_moan4.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"			"50, 80"
+		"volume"		"0.1"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\levels\streetwar\city_battle12.wav"
+			"wave"		"ambient\levels\streetwar\city_battle18.wav"
+			"wave"		"ambient\levels\streetwar\city_battle7.wav"
+
+		}
+	}
+
+	"playrandom"
+	{
+		"time"			"100,150"
+		"volume"		"0.75"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\machines\airplane_flyby.wav"
+			"wave"		"ambient/machines/aircraft_distant_flyby1.wav"
+			"wave"		"ambient/machines/aircraft_distant_flyby3.wav"
+		}
+	}	
+}
+//****************************************
+// ON A BOAT, TOOT TOOT
+//****************************************
+"suzhou.outdoor_grandcanal_boat"
+	{
+
+	"playlooping" 
+	{ 
+		"volume"		"0.35" 
+		"pitch"			"90" 
+
+		"wave"			"ambient\chinatown\docs_wind.wav" 
+	}
+
+	"playlooping" 
+	{
+		"volume"		"0.6" 
+		"pitch"			"90"
+
+		"wave"			"ambient\chinatown\docs.wav" 
+	}
+
+	"playlooping" 
+	{ 
+		"volume"		"0.5"
+		"pitch"			"90"
+
+		"wave"			"vehicles/airboat/fan_motor_idle_loop1.wav" 
+	}
+
+	"playrandom"
+	{
+		"time"			"5, 30"
+		"volume"		"0.6"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\wind\wind_moan1.wav"
+			"wave"		"ambient\wind\wind_moan2.wav"
+			"wave"		"ambient\wind\wind_moan4.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"			"50, 80"
+		"volume"		"0.1"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\levels\streetwar\city_battle12.wav"
+			"wave"		"ambient\levels\streetwar\city_battle18.wav"
+			"wave"		"ambient\levels\streetwar\city_battle7.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"			"100,150"
+		"volume"		"0.75"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient/machines/airplane_flyby.wav"
+			"wave"		"ambient/machines/aircraft_distant_flyby1.wav"
+			"wave"		"ambient/machines/aircraft_distant_flyby3.wav"
+		}
+	}
+}
+
+//****************************************
+// Canalside town
+//****************************************
+"suzhou.outdoor_town_canal"
+{ 
+	"playlooping"
+	{
+		"volume"		"0.6"
+		"pitch"			"90"
+
+		"wave"			"ambient\atmosphere\town_ambience.wav"
+	}
+
+	"playlooping" 
+	{
+		"volume"		"0.05"
+		"pitch"			"90"
+
+		"wave"			"ambient\chinatown\docs.wav"
+	}
+
+	"playrandom"
+	{
+		"time"			"50, 80"
+		"volume"		"0.1"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\levels\streetwar\city_battle12.wav"
+			"wave"		"ambient\levels\streetwar\city_battle18.wav"
+			"wave"		"ambient\levels\streetwar\city_battle7.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"			"100,150"
+		"volume"		"0.75"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\machines\airplane_flyby.wav"
+			"wave"		"ambient/machines/aircraft_distant_flyby1.wav"
+			"wave"		"ambient/machines/aircraft_distant_flyby3.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"			"60,120"
+		"volume"		"0.1"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\animals\bird_tweet_07.wav"
+			"wave"		"ambient\animals\bird_tweet_06.wav"
+			"wave"		"ambient\animals\bird_tweet_05.wav"
+			"wave"		"ambient\animals\bird_tweet_04.wav"
+			"wave"		"ambient\animals\bird_tweet_03.wav"
+			"wave"		"ambient\animals\bird_tweet_02.wav"
+			"wave"		"ambient\animals\bird_tweet_01.wav"
+		}
+	}
+}
+//****************************************
+// Respawn courtyard
+//****************************************
+"suzhou.outdoor_respawnyard"
+{ 
+
+	"playlooping" 
+	{ 
+		"volume"		"0.5" 
+		"pitch"			"90" 
+
+		"wave"			"ambient\atmosphere\tone_alley.wav" 
+	}
+
+	"playrandom"
+	{
+		"time"			"20, 50"
+		"volume"		"0.1"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\wind\gusthole3.wav"
+			"wave"		"ambient\wind\gusthole5.wav"
+			"wave"		"ambient\wind\gusthole7.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"			"100,150"
+		"volume"		"0.75"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient/machines/airplane_flyby.wav"
+			"wave"		"ambient/machines/aircraft_distant_flyby1.wav"
+			"wave"		"ambient/machines/aircraft_distant_flyby3.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"			"60,120"
+		"volume"		"0.1"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\animals\bird_tweet_07.wav"
+			"wave"		"ambient\animals\bird_tweet_06.wav"
+			"wave"		"ambient\animals\bird_tweet_05.wav"
+			"wave"		"ambient\animals\bird_tweet_04.wav"
+			"wave"		"ambient\animals\bird_tweet_03.wav"
+			"wave"		"ambient\animals\bird_tweet_02.wav"
+			"wave"		"ambient\animals\bird_tweet_01.wav"
+		}
+	}	
+
+	"playrandom"
+	{
+		"time"			"25,50"
+		"volume"		"1.0"
+
+		"rndwave"
+		{
+			"wave"		"ambient/background/dist_dog1.wav"
+			"wave"		"ambient/background/dist_dog2.wav"
+			"wave"		"ambient/background/dist_dog3.wav"
+			"wave"		"ambient/background/dist_dog4.wav"
+		}
+	}
+}
+//****************************************
+// INTERIORS
+//****************************************
+//****************************************
+// Lindun station
+//****************************************
+"suzhou.indoor_station"
+{ 
+ 
+	"playlooping" 
+	{ 
+		"volume"		"1"
+		"pitch"			"90"
+
+		"wave"			"ambient\chinatown\subway.wav"
+	}	
+}
+//****************************************
+// Lindun station
+//****************************************
+"suzhou.indoor_maintenance"
+{ 
+ 
+	"playlooping" 
+	{ 
+		"volume"		"1"
+		"pitch"			"90"
+	
+		"wave"			"ambient\roomtones\roomtone_uneasy2.wav"
+	}
+}
+//****************************************
+// Lindun station
+//****************************************
+"suzhou.indoor_mainthallway"
+{ 
+ 
+	"playlooping" 
+	{ 
+		"volume"		"1" 
+		"pitch"			"90" 
+	
+		"wave"			"ambient\roomtones\roomtone_uneasy1.wav" 
+	}
+}
+//****************************************
+// Drainage
+//****************************************
+"suzhou.indoor_stinkysewer"
+{ 
+ 
+	"playlooping" 
+	{ 
+		"volume"		"1" 
+		"pitch"			"90" 
+	
+		"wave"			"ambient\water\corridor_water.wav" 
+	}
+
+	"playrandom"
+	{
+		"time"			"20, 50"
+		"volume"		"0.3"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\creatures\rats1.wav"
+			"wave"		"ambient\creatures\rats2.wav"
+			"wave"		"ambient\creatures\rats3.wav"
+			"wave"		"ambient\creatures\rats4.wav"
+		}
+	}
+	
+}
+//****************************************
+// Generic indoor
+//****************************************
+"suzhou.indoor_generic"
+{ 
+ 
+	"playlooping" 
+	{ 
+		"volume"		"1" 
+		"pitch"			"90" 
+	
+		"wave"			"ambient\roomtones\room_tone_3.wav" 
+	}
+
+}
+//****************************************
+// Ancestral shrine
+//****************************************
+"suzhou.indoor_ancestor"
+{ 
+ 
+	"playlooping" 
+	{ 
+		"volume"		"1" 
+		"pitch"			"90" 
+	
+		"wave"			"ambient\roomtones\room_tone_3.wav" 
+	}
+
+	"playrandom"
+	{
+		"time"			"5, 15"
+		"volume"		"0.5"
+		"pitch"			"100"
+		"position" 		"0"
+
+		"rndwave"
+		{
+			"wave"		"ambient\levels\canals\windchine1.wav"
+			"wave"		"ambient\levels\canals\windchime2.wav"
+		}
+	}
+	
+}
+//****************************************
+// Antiquestore
+//****************************************
+"suzhou.indoor_antique"
+{ 
+ 
+	"playlooping" 
+	{ 
+		"volume"		"1" 
+		"pitch"			"90" 
+	
+		"wave"			"ambient\roomtones\roomtone_neutral1.wav" 
+	}
+
+	"playrandom"
+	{
+		"time"			"100, 150"
+		"volume"		"0.1"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\levels\canals\windchine1.wav"
+			"wave"		"ambient\levels\canals\windchime2.wav"
+
+		}
+	}
+}
+//****************************************
+// Burntout teashop
+//****************************************
+"suzhou.indoor_burntout"
+{ 
+ 
+	"playlooping" 
+	{ 
+		"volume"		"0.15"
+		"pitch"			"90"
+
+		"wave"			"ambient\fire\fire_small1.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"			"8,20"
+		"volume"		"0.8"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\materials\wood_creak1.wav"
+			"wave"		"ambient\materials\wood_creak2.wav"
+			"wave"		"ambient\materials\wood_creak3.wav"
+			"wave"		"ambient\materials\wood_creak4.wav"
+			"wave"		"ambient\materials\wood_creak5.wav"
+			"wave"		"ambient\materials\wood_creak6.wav"
+		}
+	}
+}
+//****************************************
+// waterside indoor
+//****************************************
+"suzhou.indoor_waterside"
+{
+	"playlooping" 
+	{
+		"volume"		"0.75"
+		"pitch"			"90"
+		
+		"wave"			"ambient\roomtones\room_tone_3.wav"
+	}
+
+	"playlooping" 
+	{
+		"volume"		"0.5"
+		"pitch"			"90"
+		"position"		"0"
+
+		"wave"			"ambient\water\lake_water.wav"
+	}
+}
+//****************************************
+// Indoor with TV set tuned to static lel
+//****************************************
+"suzhou.indoor_TV"
+{
+	"playlooping" 
+	{ 
+		"volume"		"1"
+		"pitch"			"90"
+	
+		"wave"			"ambient\roomtones\roomtone_neutral1.wav"
+	}
+
+	"playlooping" 
+	{ 
+		"volume"		"0.3"
+		"pitch"			"90"
+		"position"		"0"
+
+		"wave"			"ambient\radio\radio_static_2_loop.wav"
+	}
+}
+
+//****************************************
+// Indoor with whispers judging your fashionsense
+//****************************************
+"suzhou.indoor_whispers"
+{ 
+ 
+	"playlooping" 
+	{ 
+		"volume"		"1" 
+		"pitch"			"90" 
+	
+		"wave"			"ambient\roomtones\room_tone_3.wav" 
+	}
+
+	"playrandom"
+	{
+		"time"			"15, 25"
+		"volume"		"0.2"
+		"pitch"			"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\whispers\ambient.whisper2.wav"
+			"wave"		"ambient\whispers\ambient.whisper3.wav"
+		}
+	}
+}

@@ -1,0 +1,32 @@
+// 21: Extinguish the fire. - Extinguish the fire.
+// 23: Cut through the shutter. - Cut through the shutter.
+// 22: Break down the barricade. - Break down the barricade.
+// 243: Raise the gate. - Raise the gate.
+// 25: Exit the subway station. - Exit the subway station.
+// 30: Climb the fence with a ladder. - Climb the fence with a ladder.
+// 183: Torch through the parking garage. - Torch through the parking garage.
+// 28: Find keys to the recreational vehicle. - Find keys to the recreational vehicle.
+// 27: Unlock the hospital doors. - Unlock the hospital doors.
+
+// Objective challenges
+// KV names are identifiers, and will be saved in records!
+"Challenges"
+{
+	"nmo_anxiety_challenge_1"
+	{
+		"Name" "Exposure Therapy"
+		"Description" "Can you feel your heart beating?"
+		"Objectives"
+		{
+			"0" "23" // Cut through the shutter.
+			"1" "21" // Extinguish the fire.
+			"2" "22" // Break down the barricade.
+			"3" "243" // Raise the gate.
+			"4" "25" // Exit the subway station.
+			"5" "30" // Climb the fence with a ladder.
+			"6" "183" // Torch through the parking garage.
+			"7" "27" // Unlock the hospital doors.
+			"8" "28" // Find keys to the recreational vehicle.
+		}
+	}
+}

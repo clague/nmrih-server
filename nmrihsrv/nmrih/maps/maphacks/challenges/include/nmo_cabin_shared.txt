@@ -1,0 +1,20 @@
+"MapHack"
+{
+	"precache"
+	{
+		"sound" "ambient\radio\radio_internet_blava.wav"
+	}
+
+	"entities"
+	{
+		// Replace radio message
+		$edit
+		{
+			"targetname" "radiostatic"
+			"keyvalues"
+			{
+				"message" "ambient\radio\radio_internet_blava.wav"
+			}
+		}
+	}
+}

@@ -1,0 +1,685 @@
+//****************************************************************************
+// NO MORE ROOM IN HELL
+// Soundscapes for 'Survival: Night of the dead 1968'
+//
+//****************************************************************************
+//
+
+//****************************************
+// Ambient Setups
+//****************************************
+
+"notld68.fireplace"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"		"100"
+		"wave"		"ambient\fire\fire_small_loop2.wav"
+		"soundlevel" 	"SNDLVL_70dB"
+	}
+}
+
+"notld68.interior_tone1"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"		"100"
+		"wave"		"ambient\roomtones\low_ambient_room_loop.wav"
+	}
+}
+
+
+"notld68.interior_tone2"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/room_tone_3.wav"
+	}
+}
+
+"notld68.basement_tone"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.8"
+		"pitch"		"100"
+		"wave"		"ambient\roomtones\roomtone_danger2.wav"
+	}
+}
+
+"notld68.paranoia_tone"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"wave"		"ambient\roomtones\room_paranoia.wav"
+	}
+}
+
+
+"notld68.fridge"
+{
+	"playlooping"
+	{
+		"volume"		"0.2"
+		"pitch"		"110"
+		"wave"		"ambient\machines\fridge2.wav"
+		"soundlevel" 	"SNDLVL_70dB"
+	}
+}
+
+"noltd68.radio"
+{
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"110"
+		"wave"		"ambient\machines\radio_static.wav"
+	}
+}
+
+"noltd68.brokenwater"
+{
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"		"100"
+		"wave"		"ambient\levels\canals\waterleak_loop1.wav"
+		"soundlevel" 	"SNDLVL_65dB"
+		
+	}
+}
+
+
+"notld68.interior_disturbances"
+{
+	"playrandom"
+	{
+		"time"         "24,60"
+		"volume"       "0.1,0.3"
+		"pitch"	       "100"
+		"position" "random"
+		"soundlevel"	"SNDLVL_60dB"
+		"rndwave"
+		{
+			"wave"	"physics\glass\glass_pottery_break4.wav"
+			"wave"	"physics\wood\wood_box_break1.wav"
+			"wave"	"physics\wood\wood_furniture_break2.wav"
+			"wave"	"physics\wood\wood_panel_break1.wav"
+			"wave"	"physics\glass\glass_sheet_break2.wav"
+			"wave"	"physics\glass\glass_cup_break2.wav"
+			"wave"	"physics\glass\glass_bottle_break2.wav"
+			"wave"	"ambient\creatures\town_zombie_call1.wav"
+			"wave"	"ambient\atmosphere\city_truckpass1.wav"
+			"wave"	"ambient\background\window_smash1.wav"
+			"wave"	"ambient\materials\cupdrop.wav"
+			"wave"	"ambient\materials\dinnerplates1.wav"
+			"wave"	"ambient\materials\dinnerplates2.wav"
+			"wave"	"ambient\materials\dinnerplates3.wav"
+			"wave"	"ambient\materials\dinnerplates4.wav"
+			"wave"	"ambient\materials\platedrop1.wav"
+		}
+	}
+}
+
+
+
+
+"notld68.woodcreak"
+{
+	"playrandom"
+	{
+		"time"         "4,30"
+		"volume"       "0.2,0.4"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\materials\wood_creak1.wav"
+			"wave"	"ambient\materials\wood_creak2.wav"
+			"wave"	"ambient\materials\wood_creak3.wav"
+			"wave"	"ambient\materials\wood_creak4.wav"
+			"wave"	"ambient\materials\wood_creak5.wav"
+			"wave"	"ambient\materials\wood_creak6.wav"
+			"wave"	"ambient\materials\creaking.wav"
+			"wave"	"ambient\materials\squeekyfloor2.wav"
+
+		}
+	}
+}
+
+"notld68.generator"
+{
+	"playlooping"	
+	{
+		"volume"	"1"
+		"pitch" "100"
+		"soundlevel" 	"SNDLVL_70dB"
+		"wave"	"vehicles/crane/crane_idle_loop3.wav"
+	}
+
+}
+"notld68.drips"
+{	
+	"playrandom"
+	{
+		"time"		"16,32"
+		"volume"	"0.7,1.0"
+		"pitch"		"95,105"
+		"attenuation"	"0.9"
+		"position" "random"
+		"soundlevel"	"SNDLVL_40dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient/water/drip1.wav"
+			"wave"		"ambient/water/drip2.wav"
+			"wave"		"ambient/water/drip3.wav"
+			"wave"		"ambient/water/drip4.wav"
+			"wave"		"ambient/water/drip5.wav"
+		}
+	}
+}
+
+"notld68.dogs"
+{	
+	"playrandom"
+	{
+		"time"		"10,19"
+		"volume"	"0.8,1.0"
+		"pitch"		"90,100"
+		"attenuation"	"0.9"
+		"position" "random"
+		"soundlevel"	"SNDLVL_40dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient/background/dist_dog1.wav"
+			"wave"		"ambient/background/dist_dog2.wav"
+			"wave"		"ambient/background/dist_dog3.wav"
+			"wave"		"ambient/background/dist_dog4.wav"
+		}
+	}
+}
+
+"notld68.crows"
+{	
+	"playrandom"
+	{
+		"time"		"8,32"
+		"volume"	"0.2,0.5"
+		"pitch"		"90,100"
+		"attenuation"	"0.9"
+		"soundlevel"	"SNDLVL_30dB"
+		"position" "random"
+
+		"rndwave"
+		{
+			"wave"		"ambient/background/dist_crows1.wav"
+			"wave"		"ambient/background/dist_crows2.wav"
+			"wave"		"ambient/background/dist_crows3.wav"
+		}
+	}
+}
+
+"notld68.windgusts"
+{
+	"playrandom"
+	{
+		"volume"	"0.3,0.5"
+		"pitch"		"100"
+		"time"		"7,25"
+		"pitch"		"90,130"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave" "ambient/wind/wind_hit1.wav"
+			"wave" "ambient/wind/wind_hit2.wav"
+			"wave" "ambient/wind/wind_snippet3.wav"
+			"wave" "ambient/wind/wind_snippet4.wav"
+			"wave" "ambient/wind/wind_snippet5.wav"
+		}
+	}
+}
+
+
+"notld68.critters"
+{
+	"playrandom"
+	{
+		"time"		"4, 6"
+		"volume"	"0.1,0.2"
+		"pitch"		"95,110"
+		"soundlevel"	"SNDLVL_140db"
+		"position" "random"
+		"rndwave"
+		{
+			"wave"	"ambient/levels/canals/critter1.wav"
+			"wave"	"ambient/levels/canals/critter2.wav"
+			"wave"	"ambient/levels/canals/critter3.wav"
+			"wave"	"ambient/levels/canals/critter4.wav"
+			"wave"	"ambient/levels/canals/critter5.wav"
+			"wave"	"ambient/levels/canals/critter6.wav"
+			"wave"	"ambient/levels/canals/critter7.wav"
+			"wave"	"ambient/levels/canals/critter8.wav"
+		}
+	}
+}
+
+"notld68.voices"
+{
+	"playrandom"
+	{
+		"volume"	"1"
+		"time"		"20,35"
+		"pitch"		"90,130"
+		"soundlevel"	"SNDLVL_140db"
+		"position" "random"
+		"rndwave"
+		{
+			"wave" "ambient/creatures/town_scared_breathing1.wav"
+			"wave" "ambient/creatures/town_scared_breathing2.wav"
+			"wave" "ambient/creatures/town_scared_sob1.wav"
+		}
+	}
+}
+
+
+"notld68.rats"
+{
+	"playrandom"
+	{
+		"time"		"25, 32"
+		"volume"	"0.2,0.3"
+		"pitch"		"95,110"
+		"soundlevel"	"SNDLVL_140db"
+		"position" "random"
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/rats1.wav"
+			"wave"	"ambient/creatures/rats2.wav"
+			"wave"	"ambient/creatures/rats3.wav"
+			"wave"	"ambient/creatures/rats4.wav"
+		}
+	}
+}
+
+"notld68.dogs"
+{
+	"playrandom"
+	{
+		"time"		"20,45"
+		"volume"	".3"
+		"pitch"		"90,110"
+		"attenuation"	".2,.3"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"ambient\background\dist_dog1.wav"
+			"wave"	"ambient\background\dist_dog2.wav"
+			"wave"	"ambient\background\dist_dog3.wav"
+			"wave"	"ambient\background\dist_dog4.wav"
+
+			
+		}
+	}
+}
+
+	"notld68.zombiesbang"
+{
+
+	"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"100"
+		"wave"		"ambient\zombies\bangonglass_group.wav"
+	}
+
+}
+
+
+	"notld68.distantzombies"
+{
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"		"ambient\zombies\horde_medium_stereo.wav"
+	}
+
+}
+
+//****************************************
+// Level Areas 
+//****************************************
+
+
+
+"notld68.interior"
+{
+	"dsp"	"1"
+
+
+	"playsoundscape"
+	{
+		"name"	"notld68.interior_tone1"
+		"volume" "0.7"
+	}	
+	
+	"playsoundscape"
+	{
+		"name"	"notld68.interior_disturbances"
+		"volume" "1"
+	}
+	
+
+	
+	"playsoundscape"
+	{
+		"name"	"notld68.voices"
+		"volume" "1"
+	}
+		
+		
+    //**********
+	//Positioned 
+    //**********
+	
+	"playsoundscape"
+	{
+		"name"	"notld68.fridge"
+		"volume" "1"
+		"positionoverride" "0"
+	}
+	
+	"playsoundscape"
+	{
+		"name"	"notld68.fireplace"
+		"volume" "0.8"
+		"positionoverride" "1"
+	}
+
+
+}
+
+"notld68.interior_fireplace"
+{
+	"dsp"	"1"
+	
+	
+
+
+
+	"playsoundscape"
+	{
+		"name"	"notld68.interior"
+		"volume" "1"
+	}	
+	
+	"playsoundscape"
+	{
+		"name"	"notld68.fireplace"
+		"volume" "0.7"
+		"positionoverride" "0"
+	}
+
+}
+
+
+"notld68.cellar"
+{
+	"dsp"	"1"
+
+	
+		"playsoundscape"
+	{
+		"name"	"notld68.basement_tone"
+		"volume" "0.8"
+	}		
+	
+	"playsoundscape"
+	{
+		"name"	"notld68.interior_tone1"
+		"volume" "0.4"
+	}
+	
+	"playsoundscape"
+	{
+		"name"	"notld68.rats"
+		"volume" "1"
+	}
+	
+	//"playsoundscape"
+	//{
+		//"name"	"notld68.critters"
+		//"volume" "1"
+	//}		
+	
+	"playsoundscape"
+	{
+		"name"	"notld68.woodcreak"
+		"volume" "1"
+	}	
+	
+	"playsoundscape"
+	{
+		"name"	"notld68.drips"
+		"volume" "1"
+	}	
+	
+	
+	//**********
+	// Positioned
+	//**********
+	
+	"playsoundscape"
+	{
+		"name"	"noltd68.brokenwater"
+		"volume" "1"
+		"positionoverride" "0"
+	}
+	
+	
+}
+
+"notld68.barn"
+{
+	"dsp"	"1"
+	
+
+	
+	"playsoundscape"
+	{
+		"name"	"notld68.exterior"
+		"volume" "0.7"
+	}		
+
+	
+	
+	
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\ambience_base.wav"
+	}	
+
+	
+
+}
+
+"notld68.exterior"
+{
+	"dsp"	"1"
+	
+	// General Ambience
+	"playlooping"
+	{
+		"volume"		"1.0"
+		"pitch"		"100"
+		"wave"		"ambient\wind\wind_draft_eerie_loop.wav"
+	}		
+	
+
+
+	// General Ambience
+	"playlooping"
+	{
+		"volume"		"0.1"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\hole_amb3.wav"
+	}		
+
+	
+	// General Ambience
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"		"90"
+		"wave"		"ambient\atmosphere\drone4lp.wav"
+	}
+
+	
+	"playsoundscape"	
+	{
+		"name"		"notld68.dogs"
+		"volume"	"1.0"
+	}	
+	
+	"playsoundscape"	
+	{
+		"name"		"notld68.windgusts"
+		"volume"	"1.0"
+	}
+
+
+
+	"playsoundscape"	
+	{
+		"name"		"notld68.crows"
+		"volume"	"0.7"
+	}	
+	
+
+	
+	
+	//Scary ambience
+	"playrandom"
+	{
+		"time"		"30,60"
+		"volume"	"0.3,0.7"
+		"pitch"		"90,100"
+		"attenuation"	"0.9"
+		"soundlevel"	"SNDLVL_50dB"
+		"position" "random"
+
+		"rndwave"
+		{
+			"wave"		"ambient\levels\prison\inside_battle_zombie3.wav"
+			"wave"		"ambient\levels\prison\inside_battle_zombie2.wav"
+			"wave"		"ambient/background/dist_crows3.wav"
+			"wave"		"ambient\wind\wind_draft_eerie_loop.wav"
+			"wave"		"ambient\creatures\town_zombie_call1.wav"
+		}
+		
+	}	
+	
+	
+	//Wind chimes
+	"playrandom"
+	{
+		"time"		"6,30"
+		"volume"	"0.6,1.0"
+		"pitch"		"90,100"
+		"attenuation"	"0.9"
+		"soundlevel"	"SNDLVL_60dB"
+		"position" "random"
+
+		"rndwave"
+		{
+			"wave"		"ambient\materials\shuffle1.wav"
+			"wave"		"ambient\materials\shutter6.wav"
+			"wave"		"ambient\materials\shutter7.wav"
+			"wave"		"ambient\materials\shutter8.wav"
+		}
+	}
+
+
+	//******
+	// Positioned
+	// ********
+	
+	// Zombies banging behind bus
+	"playsoundscape"
+	{
+		"positionoverride"		"0"
+		"name"	"notld68.zombiesbang"
+		"volume" "0.4"
+	}
+	
+	// Generator
+		"playsoundscape"	
+	{
+		"positionoverride"		"1"
+		"name"	"notld68.generator"
+		"volume" "1.0"
+	}	
+	
+	// Halo lamp
+
+	
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_70dB"
+		"wave"		"ambient\electricity\fluorescent_hum.wav"
+		"position" "2"
+	}
+	
+	
+		// humvee engine
+
+	
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_75dB"
+		"wave"		"vehicles\v8\v8_idle_loop1.wav"
+		"position" "3"
+	}
+	
+
+	// 1930 fridge 
+		"playsoundscape"
+	{
+		"name"	"notld68.fridge"
+		"volume" "1"
+		"positionoverride" "4"
+	}
+	    // Distant zombie hoard
+        "playsoundscape"	
+	{
+		"name"		"notld68.distantzombies"
+		"volume"	"1"	
+	    "positionoverride" "5"
+	}
+	
+}

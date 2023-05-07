@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/techknow/tf2/spy/eyes"
+	"$model" 1
+	"$normalmapalphaenvmapmask" "1"
+        "$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+	"$envmapconstrast" "1"
+	"$envmapsaturation" 0.3
+	"$envmaptint" "[0.05 0.05 0.04]"
+        "$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[2 3 6]"
+	"$halflambert" "1"
+	"$phongalbedotint" "1"
+}

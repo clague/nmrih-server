@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/player/techknow/tf2/spy/spy_head_blue"
+	"$bumpmap" "models\player\techknow\tf2\spy\spy_head_n"
+	"$halflambert" 1
+ 	"$phong" "1"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$phongalbedotint" "1"
+	"$phongexponent" "20"
+	"$phongboost"	".5"
+ 	"$surfaceprop" 	"flesh"
+	"$model" "1"
+}

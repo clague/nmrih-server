@@ -1,0 +1,6 @@
+"Alt1"
+{
+	"name"		"tFg"
+	"script"	"scripts/voice_soundscripts/voice_set_alt1.txt"
+	"gender"	"m"
+}

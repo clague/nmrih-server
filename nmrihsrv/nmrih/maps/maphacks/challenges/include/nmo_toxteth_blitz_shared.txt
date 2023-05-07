@@ -1,0 +1,88 @@
+"MapHack"
+{
+	"events"
+	{
+		"SpawnSecondTelephone"
+		{
+			"type" "EVENT_OUTPUT"
+			"targetname" "boundary_objI"
+			"output" "OnObjectiveBegin"
+		}
+		
+		"SpawnEvacTrigger"
+		{
+			"type" "EVENT_OUTPUT"
+			"targetname" "obj_finale_helicopter_path3"
+			"output" "OnPass"
+		}
+	}
+
+	"entities"
+	{
+		// Used for extraction
+		"nmrih_game_state"
+		{
+			"targetname" "game_state"
+		}
+
+		$remove { "targetname" "telephonet" } // Remove 2nd telephone template, we spawn it manually
+	}
+	
+	// Recreate second telephone to skip the speech
+	"SpawnSecondTelephone"
+	{
+		"func_button"
+		{
+			"origin" "-850 -2049 139.51"
+			"targetname" "toxteth_telephone_2nd"
+			"keyvalues"
+			{
+				"health" "0"
+				"lip" "0"
+				"movedir" "0 0 0"
+				"sounds" "0"
+				"spawnflags" "1025"
+				"speed" "0"
+				"wait" "-1"
+				
+				"connections"
+				{
+					"OnPressed" "toxteth_objb_phonesound,StopSound,,0,1"
+					"OnPressed" "boundary_objI,ObjectiveComplete,,0,-1"
+					"OnPressed" "toxteth_phoneline_obji,PickRandom,,0,-1"
+				}
+			}
+		}
+	}
+	
+	// Spawn a trigger near helicopter for a fast evac
+	"SpawnEvacTrigger"
+	{
+		"instant_trigger"
+		{
+			"origin" "-800 -5144 100"
+			"angles" "0 0 0"
+			"targetname" "trig_evac"
+			"keyvalues"
+			{
+				"allowPlayers" "1"
+				"radius" "65"
+				"noclear" "1"
+				
+				// Fire I/O chain to gamestate ent
+				"connections"
+				{
+					"OnTrigger" "game_state,ExtractPlayer,,0,-1"
+				}
+			}
+		}
+		
+		// Remove this trigger when the helicopter leaves
+		$trigger { "event" "RemoveEvacTrigger" "delay" "61.0" }
+	}
+	
+	"RemoveEvacTrigger"
+	{
+		$remove { "targetname" "trig_evac" } 
+	}
+}

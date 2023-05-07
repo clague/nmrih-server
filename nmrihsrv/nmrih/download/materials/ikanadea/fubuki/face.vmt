@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "IKanadeA/Fubuki/face"
+	"$bumpmap" "IKanadeA/Fubuki/normal"
+	"$lightwarptexture" "IKanadeA/Fubuki/shader/lightwarptexture"
+	$alphatest 1
+	$allowalphatocoverage 1
+
+	"$phong" "1"
+	"$phongboost"	"24"
+	"$phongalbedotint" "1"
+	"$phongexponenttexture" "IKanadeA/Fubuki/phong_exp"
+	"$phongfresnelranges"	"[0 0 1]"
+	$phongexponent 5
+	$halflambert 1
+	$ambientocclusion 1
+
+	$nodecal 1
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "4"
+}

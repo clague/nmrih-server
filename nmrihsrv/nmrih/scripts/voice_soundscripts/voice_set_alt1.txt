@@ -1,0 +1,1077 @@
+// **************************************************************
+// Common sounds
+
+"Death.Alt1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/pain/pain1.wav"
+		"wave"		"player/pain/pain2.wav"
+        "wave"		"player/pain/pain3.wav"
+	}
+}
+
+"Pain.Alt1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/pain/pain1.wav"
+		"wave"		"player/pain/pain2.wav"
+        "wave"		"player/pain/pain3.wav"
+	}
+}
+
+"Bleedout_Damage.Alt1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/bleed/Bleeding01.wav"
+		"wave"		"player/bleed/Bleeding02.wav"
+		"wave"		"player/bleed/Bleeding03.wav"
+		"wave"		"player/bleed/Bleeding04.wav"
+		"wave"		"player/bleed/Bleeding05.wav"
+		"wave"		"player/bleed/Bleeding06.wav"
+		"wave"		"player/bleed/Bleeding07.wav"
+		"wave"		"player/bleed/Bleeding08.wav"
+		"wave"		"player/bleed/Bleeding09.wav"
+	}
+}
+
+"Drown_Damage.Alt1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/pl_drown2.wav"
+		"wave"		"player/pl_drown3.wav"
+	}
+}
+
+"LightBreath.Alt1"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_30dB"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"rndwave"
+	{
+		"wave"		"player/stamina/light_breath.wav"
+	}
+}
+
+"MediumBreath.Alt1"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_40dB"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"rndwave"
+	{
+		"wave"		"player/stamina/medium_breath1.wav"
+	}
+}
+
+"HeavyBreath.Alt1"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"rndwave"
+	{
+		"wave"		"player/stamina/heavy_breath1.wav"
+		"wave"		"player/stamina/heavy_breath2.wav"
+		"wave"		"player/stamina/heavy_breath3.wav"
+	}
+}
+
+// **************************************************************
+// Ammo check sounds
+
+"AmmoCheck.Alt1.0"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/00rounds_01.wav"
+		"wave"		"player/ammocheck/tfg/00rounds_02.wav"
+		"wave"		"player/ammocheck/tfg/00rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt1.1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/01rounds_01.wav"
+		"wave"		"player/ammocheck/tfg/01rounds_02.wav"
+		"wave"		"player/ammocheck/tfg/01rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt1.2"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/02rounds_01.wav"
+		"wave"		"player/ammocheck/tfg/02rounds_02.wav"
+		"wave"		"player/ammocheck/tfg/02rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt1.3"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/03rounds_01.wav"
+		"wave"		"player/ammocheck/tfg/03rounds_02.wav"
+		"wave"		"player/ammocheck/tfg/03rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt1.4"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/04rounds_01.wav"
+		"wave"		"player/ammocheck/tfg/04rounds_02.wav"
+		"wave"		"player/ammocheck/tfg/04rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt1.5"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/05rounds_01.wav"
+		"wave"		"player/ammocheck/tfg/05rounds_02.wav"
+		"wave"		"player/ammocheck/tfg/05rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt1.6"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/06rounds_01.wav"
+		"wave"		"player/ammocheck/tfg/06rounds_02.wav"
+		"wave"		"player/ammocheck/tfg/06rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt1.7"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/07rounds_01.wav"
+		"wave"		"player/ammocheck/tfg/07rounds_02.wav"
+		"wave"		"player/ammocheck/tfg/07rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt1.8"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/08rounds_01.wav"
+		"wave"		"player/ammocheck/tfg/08rounds_02.wav"
+		"wave"		"player/ammocheck/tfg/08rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt1.9"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/09rounds_01.wav"
+		"wave"		"player/ammocheck/tfg/09rounds_02.wav"
+		"wave"		"player/ammocheck/tfg/09rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt1.10"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/10rounds_01.wav"
+		"wave"		"player/ammocheck/tfg/10rounds_02.wav"
+		"wave"		"player/ammocheck/tfg/10rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt1.11"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/11rounds_01.wav"
+		"wave"		"player/ammocheck/tfg/11rounds_02.wav"
+		"wave"		"player/ammocheck/tfg/11rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt1.12"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/12rounds_01.wav"
+		"wave"		"player/ammocheck/tfg/12rounds_02.wav"
+	}
+}
+
+"AmmoCheck.Alt1.13"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/13rounds_01.wav"
+		"wave"		"player/ammocheck/tfg/13rounds_02.wav"
+		"wave"		"player/ammocheck/tfg/13rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt1.14"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/14rounds_01.wav"
+		"wave"		"player/ammocheck/tfg/14rounds_02.wav"
+		"wave"		"player/ammocheck/tfg/14rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt1.15"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/15rounds_01.wav"
+		"wave"		"player/ammocheck/tfg/15rounds_02.wav"
+		"wave"		"player/ammocheck/tfg/15rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt1.Half"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/rounds_abouthalf_01.wav"
+		"wave"		"player/ammocheck/tfg/rounds_abouthalf_02.wav"
+		"wave"		"player/ammocheck/tfg/rounds_abouthalf_03.wav"
+	}
+}
+
+"AmmoCheck.Alt1.OverHalf"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/rounds_overhalf_01.wav"
+		"wave"		"player/ammocheck/tfg/rounds_overhalf_02.wav"
+		"wave"		"player/ammocheck/tfg/rounds_overhalf_03.wav"
+	}
+}
+
+"AmmoCheck.Alt1.AlmostFull"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/rounds_almostfull_01.wav"
+		"wave"		"player/ammocheck/tfg/rounds_almostfull_02.wav"
+	}
+}
+
+"AmmoCheck.Alt1.Full"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/tfg/rounds_full_01.wav"
+		"wave"		"player/ammocheck/tfg/rounds_full_02.wav"
+		"wave"		"player/ammocheck/tfg/rounds_full_03.wav"
+	}
+}
+
+// **************************************************************
+// Reload sounds
+// 'X Loads Remaining'
+
+"Reload.Alt1.Load0"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/00loads_01.wav"
+	}
+}
+
+"Reload.Alt1.Load1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/01loads_01.wav"
+	}
+}
+
+"Reload.Alt1.Load2"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/02loads_01.wav"
+	}
+}
+
+"Reload.Alt1.Load3"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/03loads_01.wav"
+	}
+}
+
+"Reload.Alt1.Load4"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/04loads_01.wav"
+	}
+}
+
+"Reload.Alt1.Load5"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/05loads_01.wav"
+	}
+}
+
+"Reload.Alt1.Load6"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/06loads_01.wav"
+	}
+}
+
+"Reload.Alt1.Load7"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/07loads_01.wav"
+	}
+}
+
+"Reload.Alt1.Load8"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/08loads_01.wav"
+	}
+}
+
+"Reload.Alt1.Load9"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/09loads_01.wav"
+	}
+}
+
+"Reload.Alt1.Load10"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/10loads_01.wav"
+	}
+}
+
+"Reload.Alt1.Load11"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/11loads_01.wav"
+	}
+}
+
+"Reload.Alt1.Load12"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/12loads_01.wav"
+	}
+}
+
+"Reload.Alt1.Load13"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/13loads_01.wav"
+	}
+}
+
+"Reload.Alt1.Load14"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/14loads_01.wav"
+	}
+}
+
+"Reload.Alt1.Load15"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/15loads_01.wav"
+	}
+}
+
+"Reload.Alt1.PlentyLoad"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/plenty_loads_01.wav"
+		"wave"	")player/reload/tfg/plenty_loads_02.wav"
+	}
+}
+
+// **************************************************************
+// Reload Sounds
+// 'X Magazines Remaining'
+
+"Reload.Alt1.Mag0"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/00mags_01.wav"
+
+	}
+}
+
+"Reload.Alt1.Mag1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/01mags_01.wav"
+
+	}
+}
+
+
+"Reload.Alt1.Mag2"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/02mags_01.wav"
+
+	}
+}
+
+
+"Reload.Alt1.Mag3"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/03mags_01.wav"
+
+	}
+}
+
+
+"Reload.Alt1.Mag4"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/04mags_01.wav"
+
+	}
+}
+
+"Reload.Alt1.Mag5"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/05mags_01.wav"
+
+	}
+}
+
+
+"Reload.Alt1.Mag6"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/06mags_01.wav"
+
+	}
+}
+
+
+"Reload.Alt1.Mag7"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/07mags_01.wav"
+
+	}
+}
+
+
+"Reload.Alt1.Mag8"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/08mags_01.wav"
+
+	}
+}
+
+"Reload.Alt1.Mag9"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/09mags_01.wav"
+
+	}
+}
+
+
+"Reload.Alt1.Mag10"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/10mags_01.wav"
+
+	}
+}
+
+"Reload.Alt1.Mag11"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/11mags_01.wav"
+
+	}
+}
+
+"Reload.Alt1.Mag12"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/12mags_01.wav"
+
+	}
+}
+
+"Reload.Alt1.Mag13"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/13mags_01.wav"
+
+	}
+}
+
+"Reload.Alt1.Mag14"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/14mags_01.wav"
+
+	}
+}
+
+"Reload.Alt1.Mag15"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/15mags_01.wav"
+
+	}
+}
+
+"Reload.Alt1.PlentyMag"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/tfg/plenty_mags_01.wav"
+		"wave"	")player/reload/tfg/plenty_mags_02.wav"
+
+	}
+}
+
+// *********************************************************
+// Voice commands
+"VoiceCommand.Alt1.Ammo"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\tfg\needammo_01.wav"
+		"wave"		")voice\command\tfg\needammo_02.wav"
+		"wave"		")voice\command\tfg\needammo_03.wav"
+		"wave"		")voice\command\tfg\needammo_04.wav"
+		"wave"		")voice\command\tfg\needammo_05.wav"
+	}
+}
+
+"VoiceCommand.Alt1.Follow"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\tfg\followme_01.wav"
+		"wave"		")voice\command\tfg\followme_02.wav"
+		"wave"		")voice\command\tfg\followme_03.wav"
+		"wave"		")voice\command\tfg\followme_04.wav"
+		"wave"		")voice\command\tfg\followme_05.wav"
+	}
+}
+
+"VoiceCommand.Alt1.Help"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\tfg\helpme_01.wav"
+		"wave"		")voice\command\tfg\helpme_02.wav"
+		"wave"		")voice\command\tfg\helpme_03.wav"
+		"wave"		")voice\command\tfg\helpme_04.wav"
+		"wave"		")voice\command\tfg\helpme_05.wav"
+	}
+}
+
+"VoiceCommand.Alt1.No"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\tfg\no_01.wav"
+		"wave"		")voice\command\tfg\no_02.wav"
+		"wave"		")voice\command\tfg\no_03.wav"
+		"wave"		")voice\command\tfg\no_04.wav"
+		"wave"		")voice\command\tfg\no_05.wav"
+	}
+}
+
+"VoiceCommand.Alt1.Stay"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\tfg\waithere_01.wav"
+		"wave"		")voice\command\tfg\waithere_02.wav"
+		"wave"		")voice\command\tfg\waithere_03.wav"
+		"wave"		")voice\command\tfg\waithere_04.wav"
+		"wave"		")voice\command\tfg\waithere_05.wav"
+	}
+}
+
+"VoiceCommand.Alt1.ThankYou"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\tfg\thankyou_01.wav"
+		"wave"		")voice\command\tfg\thankyou_02.wav"
+		"wave"		")voice\command\tfg\thankyou_03.wav"
+		"wave"		")voice\command\tfg\thankyou_04.wav"
+		"wave"		")voice\command\tfg\thankyou_05.wav"
+	}
+}
+
+"VoiceCommand.Alt1.Yes"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\tfg\yes_01.wav"
+		"wave"		")voice\command\tfg\yes_02.wav"
+		"wave"		")voice\command\tfg\yes_03.wav"
+		"wave"		")voice\command\tfg\yes_04.wav"
+		"wave"		")voice\command\tfg\yes_05.wav"
+	}
+}
+
+"VoiceCommand.Alt1.Injured"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\tfg\injured_01.wav"
+		"wave"		")voice\command\tfg\injured_02.wav"
+		"wave"		")voice\command\tfg\injured_03.wav"
+		"wave"		")voice\command\tfg\injured_04.wav"
+		"wave"		")voice\command\tfg\injured_05.wav"
+	}
+}
+
+"VoiceCommand.Alt1.Incoming"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\tfg\incoming_01.wav"
+		"wave"		")voice\command\tfg\incoming_02.wav"
+		"wave"		")voice\command\tfg\incoming_03.wav"
+		"wave"		")voice\command\tfg\incoming_04.wav"
+		"wave"		")voice\command\tfg\incoming_05.wav"
+	}
+}
+
+"VoiceCommand.Alt1.FireInTheHole"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\tfg\grenade_01.wav"
+		"wave"		")voice\command\tfg\grenade_02.wav"
+		"wave"		")voice\command\tfg\grenade_03.wav"
+		"wave"		")voice\command\tfg\grenade_04.wav"
+		"wave"		")voice\command\tfg\grenade_05.wav"
+	}
+}
+
+"VoiceCommand.Alt1.Taunt"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\tfg\taunt_01.wav"
+		"wave"		")voice\command\tfg\taunt_02.wav"
+		"wave"		")voice\command\tfg\taunt_03.wav"
+		"wave"		")voice\command\tfg\taunt_04.wav"
+		"wave"		")voice\command\tfg\taunt_05.wav"
+		"wave"		")voice\command\tfg\taunt_06.wav"
+		"wave"		")voice\command\tfg\taunt_07.wav"
+		"wave"		")voice\command\tfg\taunt_08.wav"
+	}
+}

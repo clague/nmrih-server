@@ -1,0 +1,107 @@
+//************
+// shotgun_doublebarrel
+//************
+
+"weapon_db.shellout"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.85"
+	"soundlevel"	"SNDLVL_120dB"
+
+	"rndwave"
+	{
+		"wave"		")weapons/firearms/ShellCasing_1Shotty1.wav"
+		"wave"		")weapons/firearms/ShellCasing_1Shotty2.wav"
+		"wave"		")weapons/firearms/ShellCasing_1Shotty3.wav"
+		"wave"		")weapons/firearms/ShellCasing_1Shotty4.wav"
+	}
+}
+
+"weapon_db.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"		"95,105"
+
+	"rndwave"
+	{
+		"wave"		")weapons/firearms/shtg_berettasv10/beretta_fire_01.wav"
+	}
+}
+
+"weapon_db.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+	
+	"rndwave"
+	{
+		"wave"		
+	")weapons/firearms/shtg_berettasv10/shotgun_doublebarrel_Close.wav"
+		"wave"
+	")weapons/firearms/shtg_berettasv10/shotgun_doublebarrel_Close2.wav"
+	}
+}
+
+"Weapon_SV10.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"rndwave"
+	{
+		
+	"wave" ")weapons/firearms/shtg_berettasv10/shotgun_doublebarrel_Open.wav"	
+	"wave" ")weapons/firearms/shtg_berettasv10/shotgun_doublebarrel_Open2.wav"	
+	}
+}
+
+"weapon_db.DryFire"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+
+		"rndwave"
+	{
+		"wave"
+	")weapons/firearms/shtg_berettasv10/shotgun_doublebarrel_DryFire1.wav"
+		"wave"
+	")weapons/firearms/shtg_berettasv10/shotgun_doublebarrel_DryFire2.wav"
+	}
+}
+
+"weapon_db.GenericFoley"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.3"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"rndwave"
+	{
+		"wave"		")player/clothes_generic_foley_01.wav"
+		"wave"		")player/clothes_generic_foley_02.wav"
+		"wave"		")player/clothes_generic_foley_03.wav"
+		"wave"		")player/clothes_generic_foley_04.wav"
+		"wave"		")player/clothes_generic_foley_05.wav"
+	}
+}
+
+"weapon_db.LoadShell"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.2,0.4"
+	"pitch"         "95,105"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"rndwave"
+	{
+		"wave"		")weapons/firearms/shtg_berettasv10/shotgun_doublebarrel_LoadShell1.wav"
+		"wave"		")weapons/firearms/shtg_berettasv10/shotgun_doublebarrel_LoadShell2.wav"
+		"wave"		")weapons/firearms/shtg_berettasv10/Shotgun_DoubleBarrel_LoadShell3.wav"
+		"wave"		")weapons/firearms/shtg_berettasv10/shotgun_doublebarrel_LoadShell4.wav"
+	}
+}

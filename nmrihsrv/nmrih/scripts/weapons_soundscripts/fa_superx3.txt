@@ -1,0 +1,59 @@
+//************
+// Shotgun semiauto
+//************
+
+"Weapon_ShotgunAuto.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"		"95,105"
+	
+	"rndwave"
+	{
+        "wave"		")weapons/firearms/shtg_winchestersx3/winchestersx3_fire_01.wav"
+    	}
+}
+
+"Weapon_ShotgunAuto.SlideBack"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.6"
+	"soundlevel"	"SNDLVL_45dB"
+
+    "wave"		")weapons/firearms/shtg_winchestersx3/Shotgun_SemiAuto_Slide1.wav"
+}
+
+"Weapon_ShotgunAuto.SlideForward"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.6"
+	"soundlevel"	"SNDLVL_45dB"
+
+    "wave"		")weapons/firearms/shtg_winchestersx3/Shotgun_SemiAuto_Slide2.wav"
+}
+
+"Weapon_ShotgunAuto.LoadShell"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.4"
+	"soundlevel"	"SNDLVL_55dB"
+
+    "rndwave"
+	{
+       "wave"		")weapons/firearms/shtg_winchestersx3/Shotgun_SemiAuto_Reload1.wav"
+       "wave"		")weapons/firearms/shtg_winchestersx3/Shotgun_SemiAuto_Reload2.wav"
+       "wave"		")weapons/firearms/shtg_winchestersx3/Shotgun_SemiAuto_Reload3.wav"
+       "wave"		")weapons/firearms/shtg_winchestersx3/Shotgun_SemiAuto_Reload4.wav"
+       "wave"		")weapons/firearms/shtg_winchestersx3/Shotgun_SemiAuto_Reload5.wav"
+    }
+}
+
+"Weapon_ShotgunAuto.DryFire"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.6"
+	"soundlevel"	"SNDLVL_55dB"
+	
+    "wave"		")weapons/firearms/shtg_winchestersx3/Shotgun_SemiAuto_DryFire.wav"
+}

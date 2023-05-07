@@ -1,0 +1,65 @@
+//=============================================================================
+// NOTE:
+// You're viewing a stock ruleset, editing this file isn't recommended. 
+// If you wish to edit the rules, please copy and rename this file.
+// You can have unlimited number of custom rulesets, which can be loaded with
+// "sv_difficulty <ruleset name>" in console, or using the in-game selector.
+//=============================================================================
+
+//-----------------------------------------------------------------------------
+// Rulesets are simple server-side configurations for game rules.
+// Unlike .cfg files, CVAR values will be reverted when map or ruleset changes.
+//-----------------------------------------------------------------------------
+"Ruleset"
+{
+	//-----------------------------------------------------------------------------
+	// "Name" value is the display name players see on user interface.
+	//-----------------------------------------------------------------------------
+	"Name"	"#NMRiH_Difficulty_Classic"
+	
+	//-----------------------------------------------------------------------------
+	// "Base" block is where CVAR values are set when ruleset is loaded.
+	//-----------------------------------------------------------------------------
+	"Base"
+	{
+		//-----------------------------------------------------------------------------
+		// You can easily add CVARs like this, it is compliant with KeyValues syntax:
+		// <cvar> <value>
+		//-----------------------------------------------------------------------------
+		
+		sv_respawn_token_objective 0				// Are respawn tokes enabled in objective mode
+		sv_respawn_kills_per_token_objective 0		// Kills per token in objective mode
+		
+		sv_respawn_token_survival 1					// Are respawn tokes enabled in survival mode
+		sv_respawn_kills_per_token_survival 40		// Kills per token in survival mode
+	
+		sv_respawn_allowed 0						// Whether or not to allow respawning after death
+		sv_respawn_with_weapon 0					// Should players spawn with a weapon
+		
+		sv_respawn_nearby_allowed 0					// Whether or not to allow spawning near other players
+		
+		sv_spawn_grace 180.0						// Spawn grace time
+		sv_spawn_grace_wave_percent -1				// Spawn grace time wave percent
+		
+		sv_wave_reset_tokens 0						// Reset tokens on new wave
+		sv_wave_remove_inflictions 0				// Remove inflictions on new wave
+		sv_wave_heal_amount 0						// Heal amount on new wave
+		
+		sv_respawn_initial_token_count_objective 0	// Respawn token initial count in objective mode
+		sv_respawn_initial_token_count_survival 0	// Respawn token initial count in survival mode
+		
+		sv_zombie_health 500						// Zombie maximum health
+		sv_spawn_density 1							// Multiplier For Zombie Spawn Zones without specific maximums
+		sv_brainstem 0								// Enables/Disables zombie brainstem hitbox
+		
+		sv_infect_chance_modifier 0.975				// Modifier for infect chance formula
+		sv_infect_survival_modifier 2.0				// Infect chance multiplier for survival mode
+		
+		sv_friendly_fire_factor 0.1					// Damage factor of friendly fire
+		
+		ov_runner_chance 0.075						// Chance for each zombie spawned to be a runner
+		ov_runner_kid_chance 0.5					// Chance of spawned runner zombie to be a kid
+		
+		sv_health_display 1							// Whether or not to allow health to be displayed
+	}
+}

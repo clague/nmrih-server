@@ -1,0 +1,64 @@
+//************
+// Sako 85
+//************
+
+"Weapon_Sako.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_140dB"
+	
+	"rndwave"
+	{
+        "wave"		")weapons/firearms/rifle_sako85/sako_fire_01.wav"
+    }
+}
+
+"Weapon_Sako.BoltOpen"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_70dB"
+	
+	"rndwave"
+	{
+        "wave"		")weapons/firearms/rifle_sako85/Sako_BoltOpen.wav"
+    }
+}
+
+
+"Weapon_Sako.BoltClosed"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_70dB"
+	
+	"rndwave"
+	{
+        "wave"		")weapons/firearms/rifle_sako85/Sako_BoltClosed.wav"
+    }
+}
+
+"Weapon_Sako.Magout"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_70dB"
+	
+	"rndwave"
+	{
+        "wave"		")weapons/firearms/rifle_sako85/Sako_magOut.wav"
+    }
+}
+
+"Weapon_Sako.Magin"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_70dB"
+	
+	"rndwave"
+	{
+        "wave"		")weapons/firearms/rifle_sako85/Sako_magIn.wav"
+    }
+}

@@ -1,0 +1,11 @@
+"Ruleset"
+{
+	"Name"	"Weightless Ammo"
+	"Author"	"NMRiH Team"
+	"Description"	"Ammo will not take inventory space."
+
+	"Base"
+	{
+		inv_ammoweight 0
+	}
+}

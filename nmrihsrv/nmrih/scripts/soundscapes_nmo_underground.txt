@@ -1,0 +1,441 @@
+//****************************************
+// small soundscapes
+//****************************************
+"underground.guns"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"time"		"30,200"
+		"volume"	"0.5,0.7"
+		"pitch"		"80,95"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"		"ambient\background\amb_gunfire3.wav"
+			"wave"		"ambient\background\amb_gunfire4.wav"
+			"wave"		"ambient/chinatown/distant_fire1.wav"
+			"wave"		"ambient/chinatown/distant_fire2.wav"
+			"wave"		"ambient/chinatown/distant_fire3.wav"
+			"wave"		"ambient/chinatown/distant_fire4.wav"
+			"wave"		"ambient/chinatown/distant_fire5.wav"
+		}
+	}
+}
+"underground.sirens"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"time"		"60,200"
+		"volume" 	"0.5,0.7"
+		"pitch"		"80,100"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" 		"ambient\background\amb_siren1.wav"
+			"wave"		"ambient\background\amb_siren2.wav"
+			"wave"		"ambient\background\ambient.policesiren1.wav"
+		}
+	}
+}
+"underground.dogs"
+{	
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"time"		"20,100"
+		"volume"	"0.7,0.9"
+		"pitch"		"90,100"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"		"ambient/background/dist_dog1.wav"
+			"wave"		"ambient/background/dist_dog2.wav"
+			"wave"		"ambient/background/dist_dog3.wav"
+			"wave"		"ambient/background/dist_dog4.wav"
+		}
+	}
+}
+"underground.screams"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"time"		"30,200"
+		"volume" 	"0.6,0.8"
+		"pitch"		"65,110"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" 		"ambient\creatures\town_child_scream1.wav"
+			"wave"		"ambient\levels\streetwar\city_scream3.wav"
+			"wave"		"ambient\creatures\town_moan1.wav"
+			"wave"		"ambient\levels\streetwar\strider_distant2.wav"
+		}
+	}
+}
+"underground.crows"
+{	
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"time"		"12,60"
+		"volume"	"0.5,0.8"
+		"pitch"		"90,100"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"		"ambient\background\dist_crows1.wav"
+			"wave"		"ambient\background\dist_crows2.wav"
+			"wave"		"ambient\background\dist_crows3.wav"
+			"wave"		"ambient\flooded\ravens.wav"
+		}
+	}
+}
+"underground.wind"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"time"		"12,60"
+		"volume" 	"0.6,0.7"
+		"pitch"		"80,100"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" 		"ambient\wind\wind_moan1.wav"
+			"wave" 		"ambient\wind\wind_moan2.wav"
+			"wave" 		"ambient\wind\wind_moan4.wav"
+			"wave" 		"ambient\wind\wind_snippet1.wav"
+			"wave" 		"ambient\wind\wind_snippet2.wav"
+			"wave" 		"ambient\wind\wind_snippet3.wav"
+			"wave" 		"ambient\wind\wind_snippet4.wav"
+			"wave" 		"ambient\wind\wind_snippet5.wav"
+		}
+	}
+}
+"underground.loop"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+
+		"volume"	"0.7"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\underground_hall_loop1.wav"
+	}
+}
+"underground.voices"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"time"		"12,48"
+		"volume"	"0.8,0.9"
+		"pitch"		"90,115"
+		"rndwave"
+		{
+			"wave" "ambient/creatures/town_scared_breathing1.wav"
+			"wave" "ambient/creatures/town_scared_breathing2.wav"
+			"wave" "ambient/creatures/town_scared_sob1.wav"
+			"wave" "ambient/creatures/town_scared_sob2.wav"
+		}
+	}
+}
+"underground.town"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\town_ambience.wav"
+	}
+}
+"underground.noise"
+{
+	"playrandom"
+	{
+		"time"       	"30,200"
+		"volume"       	"0.4,0.6"
+		"pitch"	      	"85,100"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"	"ambient/chinatown/outside_noise1.wav"
+		}
+	}
+}
+"underground.water"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient\levels\canals\waterleak_loop1.wav"
+	}
+}
+"underground.drips"
+{	
+	"playrandom"
+	{
+		"time"		"3,6"
+		"volume"	"0.7,1.0"
+		"pitch"		"95,105"
+		"attenuation"	"0.9"
+		"soundlevel"	"SNDLVL_40dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient\water\distant_drip1.wav"
+			"wave"		"ambient\water\distant_drip2.wav"
+			"wave"		"ambient\water\distant_drip3.wav"
+			"wave"		"ambient\water\distant_drip4.wav"
+		}
+	}
+}
+"underground.cargo"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\cargo_hold2.wav"
+	}
+}
+"underground.sky"
+{	
+	"playrandom"
+	{
+		"time"		"100,300"
+		"volume"	"0.7,0.9"
+		"pitch"		"90,100"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"		"ambient\atmosphere\city_skypass1.wav"
+			"wave"		"ambient\chinatown\heli_pass.wav"
+			"wave"		"ambient\machines\heli_pass_distant1.wav"
+			"wave"		"ambient\machines\truck_pass_distant1.wav"
+			"wave"		"ambient\machines\truck_pass_distant3.wav"
+		}
+	}
+}
+"underground.rats"
+{	
+	"playrandom"
+	{
+		"time"		"15,25"
+		"volume"	"0.6,0.8"
+		"pitch"		"90,100"
+		"attenuation"	"0.9"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"		"ambient\creatures\rats1.wav"
+			"wave"		"ambient\creatures\rats2.wav"
+			"wave"		"ambient\creatures\rats3.wav"
+			"wave"		"ambient\creatures\rats4.wav"
+		}
+	}
+}
+//****************************************
+// big soundscapes
+//****************************************
+"underground.tonnel"
+{
+	"dsp"	"1"
+
+	"playsoundscape"
+	{
+		"volume"	"1"
+		"name"		"underground.loop"
+	}
+	"playsoundscape"
+	{
+		"volume"	"1"
+		"name"		"underground.voices"
+	}
+	"playsoundscape"
+	{
+		"volume"	"1"
+		"name"		"underground.rats"
+	}
+}
+"underground.tonnelwater"
+{
+	"dsp"	"1"
+
+	"playsoundscape"
+	{
+		"volume"	"1"
+		"name"		"underground.loop"
+	}
+	"playsoundscape"
+	{
+		"volume"	"1"
+		"name"		"underground.voices"
+	}
+	"playsoundscape"
+	{
+		"volume"	"1"
+		"name"		"underground.water"
+	}
+	"playsoundscape"
+	{
+		"volume"	"1"
+		"name"		"underground.drips"
+	}
+	"playsoundscape"
+	{
+		"volume"	"1"
+		"name"		"underground.rats"
+	}
+}
+"underground.cave"
+{
+	"dsp"	"1"
+
+	"playsoundscape"
+	{
+		"volume"	"1"
+		"name"		"underground.cargo"
+	}
+	"playsoundscape"
+	{
+		"volume"	"0.5"
+		"name"		"underground.guns"
+	}
+	"playsoundscape"
+	{
+		"volume"	"0.5"
+		"name"		"underground.sirens"
+	}
+	"playsoundscape"
+	{
+		"volume"	"0.5"
+		"name"		"underground.crows"
+	}
+	"playsoundscape"
+	{
+		"volume"	"0.7"
+		"name"		"underground.wind"
+	}
+	"playsoundscape"
+	{
+		"volume"	"0.5"
+		"name"		"underground.sky"
+	}
+}
+"underground.street"
+{
+	"dsp"	"1"
+
+	"playsoundscape"
+	{
+		"volume"	"1"
+		"name"		"underground.town"
+	}
+	"playsoundscape"
+	{
+		"volume"	"1"
+		"name"		"underground.guns"
+	}
+	"playsoundscape"
+	{
+		"volume"	"1"
+		"name"		"underground.sirens"
+	}
+	"playsoundscape"
+	{
+		"volume"	"1"
+		"name"		"underground.crows"
+	}
+	"playsoundscape"
+	{
+		"volume"	"1"
+		"name"		"underground.wind"
+	}
+	"playsoundscape"
+	{
+		"volume"	"1"
+		"name"		"underground.noise"
+	}
+	"playsoundscape"
+	{
+		"volume"	"1"
+		"name"		"underground.dogs"
+	}
+	"playsoundscape"
+	{
+		"volume"	"1"
+		"name"		"underground.screams"
+	}
+	"playsoundscape"
+	{
+		"volume"	"1"
+		"name"		"underground.sky"
+	}	
+}
+"underground.buildings"
+{
+	"dsp"	"1"
+
+	"playsoundscape"
+	{
+		"volume"	"0.3"
+		"name"		"underground.town"
+	}
+	"playsoundscape"
+	{
+		"volume"	"0.3"
+		"name"		"underground.guns"
+	}
+	"playsoundscape"
+	{
+		"volume"	"0.3"
+		"name"		"underground.sirens"
+	}
+	"playsoundscape"
+	{
+		"volume"	"0.3"
+		"name"		"underground.crows"
+	}
+	"playsoundscape"
+	{
+		"volume"	"0.3"
+		"name"		"underground.noise"
+	}
+	"playsoundscape"
+	{
+		"volume"	"0.3"
+		"name"		"underground.dogs"
+	}
+	"playsoundscape"
+	{
+		"volume"	"0.3"
+		"name"		"underground.screams"
+	}
+	"playsoundscape"
+	{
+		"volume"	"0.3"
+		"name"		"underground.sky"
+	}	
+}

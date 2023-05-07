@@ -1,0 +1,30 @@
+// "Graveyard Dash" (Blitz)
+
+"MapHack"
+{
+	"includes"
+	{
+		"file" "maps/maphacks/challenges/include/nmo_toxteth_blitz_shared.txt"
+		"file" "maps/maphacks/challenges/nmo_toxteth_challenge_1.txt"
+	}
+
+	"entities"
+	{
+		$remove_connections { "targetname" "toxteth_telephone" }
+
+		// Replace the telephone I/O
+		$edit
+		{
+			"targetname" "toxteth_telephone"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnPressed" "toxteth_objb_phonesound,StopSound,,0,1"
+					"OnPressed" "toxteth_phoneline01a,PickRandom,,1,1"
+					"OnPressed" "boundary_objB,ObjectiveComplete,,0,1" // Don't bother listening through the obnoxiously long phone call!
+				}
+			}
+		}
+	}
+}

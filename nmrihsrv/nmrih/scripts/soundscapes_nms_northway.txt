@@ -1,0 +1,646 @@
+//****************************************************************************
+// NO MORE ROOM IN HELL
+// Soundscapes for 'Northway'
+//
+//****************************************************************************
+//
+//****************************************
+// Ambient Setups
+//****************************************
+
+//****************************************
+// Warehouse
+//****************************************
+
+"northway.warehouse_main"
+{
+	"dsp"	"1"
+
+	"playlooping"		//general roomtone
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/roomtone_neutral1.wav"
+	}
+
+	"playlooping"		//computer
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"position"		"0"
+		"wave"			"ambient/machines/computer1.wav"
+	}
+
+	"playlooping"		//vendingmachine
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"position"		"1"
+		"wave"			"ambient/machines/fridge2.wav"
+	}
+
+	"playlooping"		//radio
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"position"		"2"
+		"wave"			"ambient/radio/radio_static_2_loop.wav"
+	}
+
+	"playlooping"		//zombie moaning
+	{
+		"volume"		"0.7"
+		"pitch"			"100"
+		"position"		"3"
+		"wave"			"ambient/zombies/distant_horde_loop.wav"
+	}
+
+	"playlooping"		//vents
+	{
+		"volume"		"0.3"
+		"pitch"			"100"
+		"position"		"4"
+		"wave"			"ambient/machines/aircon_intake.wav"
+	}
+
+	"playrandom"
+	{
+		"time"         "10,20"
+		"volume"       "0.4,0.6"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient/wind/low_wind_gust.wav"
+		}
+	}
+}
+
+"northway.warehouse_controlroom"
+{
+	"dsp"	"1"
+
+	"playlooping"		//general roomtone
+	{
+		"volume"		"0.7"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/room_tone_3.wav"
+	}
+	
+	"playlooping"		//computer
+	{
+		"volume"		"0.1"
+		"pitch"			"100"
+		"position"		"1"
+		"wave"			"ambient/machines/computer1.wav"
+	}
+
+	"playlooping"		//radio
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"position"		"2"
+		"wave"			"ambient/radio/radio_static_2_loop.wav"
+	}
+
+	"playlooping"		//zombie moaning
+	{
+		"volume"		"0.3"
+		"pitch"			"100"
+		"position"		"3"
+		"wave"			"ambient/zombies/distant_horde_loop.wav"
+	}
+
+	"playlooping"		//backroom
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"position"		"4"
+		"wave"			"ambient/roomtones/serverroom_loop.wav"
+	}
+}
+
+"northway.warehouse_corridors"
+{
+	"dsp"	"1"
+
+	"playlooping"		//general roomtone
+	{
+		"volume"		"0.6"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/roomtone_uneasy2.wav"
+	}
+
+	"playlooping"		//vendingmachine
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"position"		"0"
+		"wave"			"ambient/machines/fridge2.wav"
+	}
+
+	"playlooping"		//spotlight stand
+	{
+		"volume"		"0.3"
+		"pitch"			"100"
+		"position"		"1"
+		"wave"			"ambient/machines/light_spot_stand.wav"
+	}
+
+	"playlooping"		//securityroom
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"position"		"2"
+		"wave"			"ambient/roomtones/security_center_loop.wav"
+	}
+}
+
+//****************************************
+// Entrances
+//****************************************
+
+"northway.entrance"
+{
+	"dsp"	"1"
+
+	"playlooping"		//general roomtone
+	{
+		"volume"		"0.9"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/room_paranoia.wav"
+	}
+
+	"playlooping"		//zombie moaning
+	{
+		"volume"		"0.7"
+		"pitch"			"100"
+		"position"		"0"
+		"wave"			"ambient/zombies/distant_horde_loop.wav"
+	}
+
+	"playrandom"
+	{
+		"time"         "10,20"
+		"volume"       "0.6,0.8"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient/wind/low_wind_gust.wav"
+		}
+	}
+}
+
+//****************************************
+// Garage
+//****************************************
+
+"northway.garage_hallways"
+{
+	"dsp"	"1"
+
+	"playlooping"		//general roomtone
+	{
+		"volume"		"0.8"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/roomtone_uneasy1.wav"
+	}
+
+	"playlooping"		//vendingmachine
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"position"		"0"
+		"wave"			"ambient/machines/fridge2.wav"
+	}
+
+	"playlooping"		//vents
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"position"		"1"
+		"wave"			"ambient/machines/fan_slow.wav"
+	}
+	
+	"playlooping"		//pickup truck
+	{
+		"volume"		"0.7"
+		"pitch"			"100"
+		"position"		"2"
+		"wave"			"ambient/machines/car-idle2loop.wav"
+	}
+	
+	"playlooping"		//vents
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"position"		"3"
+		"wave"			"ambient/machines/fan_slow.wav"
+	}
+	
+	"playlooping"		//vents
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"position"		"4"
+		"wave"			"ambient/machines/fan_slow.wav"
+	}
+
+	"playrandom"
+	{
+		"time"         "13, 26"
+		"volume"       "0.3,0.6"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient/whispers/Ambient.Whisper1.wav"
+			"wave"	"ambient/whispers/Ambient.Whisper2.wav"
+			"wave"	"ambient/whispers/Ambient.Whisper3.wav"
+			"wave"	"ambient/whispers/Ambient.Whisper4.wav"
+			"wave"	"ambient/whispers/Ambient.Whisper5.wav"
+		}
+	}
+}
+
+"northway.garage_abandoned"
+{
+	"dsp"	"1"
+
+	"playlooping"		//general roomtone
+	{
+		"volume"		"0.1"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/room_tone_1.wav"
+	}
+
+	"playlooping"		//dripping water
+	{
+		"volume"		"0.4"
+		"pitch"			"100"
+		"wave"			"ambient/water/drip_loop1.wav"
+	}
+
+	"playlooping"		//ambalamps
+	{
+		"volume"		"0.7"
+		"pitch"			"100"
+		"position"		"0"
+		"wave"			"ambient\machines\policecar_engine_idle.wav"
+	}
+	
+	"playlooping"		//spotlight stand
+	{
+		"volume"		"0.3"
+		"pitch"			"100"
+		"position"		"1"
+		"wave"			"ambient/machines/light_spot_stand.wav"
+	}
+
+	"playrandom"
+	{
+		"time"         "13, 26"
+		"volume"       "0.3,0.6"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient/whispers/Ambient.Whisper1.wav"
+			"wave"	"ambient/whispers/Ambient.Whisper2.wav"
+			"wave"	"ambient/whispers/Ambient.Whisper3.wav"
+			"wave"	"ambient/whispers/Ambient.Whisper4.wav"
+			"wave"	"ambient/whispers/Ambient.Whisper5.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"         "10, 20"
+		"volume"       "0.4,0.6"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/rats1.wav"
+			"wave"	"ambient/creatures/rats2.wav"
+			"wave"	"ambient/creatures/rats3.wav"
+			"wave"	"ambient/creatures/rats4.wav"
+		}
+	}
+}
+
+"northway.garage_main"
+{
+	"dsp"	"1"
+
+	"playlooping"		//general roomtone
+	{
+		"volume"		"0.7"
+		"pitch"			"100"
+		"wave"			"ambient/atmosphere/underground_hall_loop1.wav"
+	}
+
+	"playlooping"		//pickup truck
+	{
+		"volume"		"0.9"
+		"pitch"			"100"
+		"position"		"0"
+		"wave"			"ambient/machines/car-idle2loop.wav"
+	}
+	
+	"playlooping"		//fema-van
+	{
+		"volume"		"0.9"
+		"pitch"			"100"
+		"position"		"1"
+		"wave"			"ambient/machines/car-idle3loop.wav"
+	}
+	
+	"playlooping"		//ambalamps
+	{
+		"volume"		"0.9"
+		"pitch"			"100"
+		"position"		"2"
+		"wave"			"ambient\machines\policecar_engine_idle.wav"
+	}
+
+	"playlooping"		//zombie moaning1
+	{
+		"volume"		"0.7"
+		"pitch"			"100"
+		"position"		"3"
+		"wave"			"ambient/zombies/distant_horde_loop.wav"
+	}
+
+	"playlooping"		//zombie moaning2
+	{
+		"volume"		"0.7"
+		"pitch"			"100"
+		"position"		"4"
+		"wave"			"ambient/zombies/distant_horde_loop.wav"
+	}
+
+	"playlooping"		//tunnel wind
+	{
+		"volume"		"0.7"
+		"pitch"			"100"
+		"position"		"5"
+		"wave"			"ambient/wind/wind_draft_eerie_loop.wav"
+	}
+	
+	"playlooping"		//spotlight
+	{
+		"volume"		"0.1"
+		"pitch"			"100"
+		"position"		"6"
+		"wave"			"ambient/machines/light_round.wav"
+	}
+}
+
+"northway.garage_stairs"
+{
+	"dsp"	"1"
+
+	"playlooping"		//general roomtone
+	{
+		"volume"		"0.6"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/roomtone_danger2.wav"
+	}
+}
+
+//****************************************
+// Security Room
+//****************************************
+
+"northway.securityroom"
+{
+	"dsp"	"1"
+
+	"playlooping"		//general roomtone
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/serverroom_loop.wav"
+	}
+
+	"playlooping"		//radio
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"position"		"0"
+		"wave"			"ambient/radio/radio_static_2_loop.wav"
+	}
+}
+
+//****************************************
+// Construction Area
+//****************************************
+
+"northway.construction_main"
+{
+	"dsp"	"1"
+
+	"playlooping"		//general roomtone
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/roomtone_neutral1.wav"
+	}
+
+	"playlooping"		//spotlight stand
+	{
+		"volume"		"0.3"
+		"pitch"			"100"
+		"position"		"0"
+		"wave"			"ambient/machines/light_spot_stand.wav"
+	}
+	
+	"playlooping"		//spotlight floor1
+	{
+		"volume"		"0.1"
+		"pitch"			"100"
+		"position"		"1"
+		"wave"			"ambient/machines/light_round.wav"
+	}
+	
+	"playlooping"		//spotlight floor2
+	{
+		"volume"		"0.1"
+		"pitch"			"100"
+		"position"		"2"
+		"wave"			"ambient/machines/light_round.wav"
+	}
+	
+	"playlooping"		//vents
+	{
+		"volume"		"0.3"
+		"pitch"			"100"
+		"position"		"3"
+		"wave"			"ambient/machines/aircon_intake.wav"
+	}
+	
+	"playlooping"		//vents
+	{
+		"volume"		"0.3"
+		"pitch"			"100"
+		"position"		"4"
+		"wave"			"ambient/machines/aircon_intake.wav"
+	}
+
+	"playrandom"
+	{
+		"time"         "10,20"
+		"volume"       "0.4,0.6"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient/wind/low_wind_gust.wav"
+		}
+	}
+}
+	
+//****************************************
+// Toilets
+//****************************************	
+
+"northway.toilets"
+{
+	"dsp"	"1"
+
+	"playlooping"		//general roomtone
+	{
+		"volume"		"0.8"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/roomtone_uneasy1.wav"
+	}
+
+	"playlooping"		//vents
+	{
+		"volume"		"0.4"
+		"pitch"			"100"
+		"position"		"0"
+		"wave"			"ambient/machines/fan_slow.wav"
+	}
+
+	"playlooping"		//spotlight floor1
+	{
+		"volume"		"0.1"
+		"pitch"			"100"
+		"position"		"1"
+		"wave"			"ambient/machines/light_round.wav"
+	}
+
+	"playlooping"		//spotlight floor2
+	{
+		"volume"		"0.1"
+		"pitch"			"100"
+		"position"		"2"
+		"wave"			"ambient/machines/light_round.wav"
+	}
+}
+
+//****************************************
+// Main Area (Shops, breakroom, etc.)
+//****************************************
+
+"northway.main_laundry"
+{
+	"dsp"	"1"
+
+	"playlooping"		//general roomtone
+	{
+		"volume"		"0.4"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/laundry_loop1.wav"
+	}
+}
+	
+"northway.main_hallways"
+{
+	"dsp"	"1"
+
+	"playlooping"		//general roomtone
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/roomtone_neutral1.wav"
+	}
+	
+	"playlooping"		//mall-music
+	{
+		"volume"		"0.6"
+		"pitch"			"100"
+
+		"wave"		"music/toxteth_store.wav"
+
+	}
+
+	"playlooping"		//laundry
+	{
+		"volume"		"0.4"
+		"pitch"			"100"
+		"position"		"0"
+		"wave"			"ambient/roomtones/laundry_loop1.wav"
+	}
+	
+	"playlooping"		//vendingmachine
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"position"		"1"
+		"wave"			"ambient/machines/fridge2.wav"
+	}
+}
+
+"northway.main_breakroom"
+{
+	"dsp"	"1"
+
+	"playlooping"		//general roomtone
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/roomtone_neutral1.wav"
+	}
+}
+
+"northway.main_restaurant"
+{
+	"dsp"	"1"
+
+	"playlooping"		//general roomtone
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/roomtone_neutral1.wav"
+	}
+}
+
+"northway.main_market"
+{
+	"dsp"	"1"
+
+	"playlooping"		//general roomtone
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/roomtone_neutral1.wav"
+	}
+	
+	"playlooping"		//vendingmachine
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"position"		"0"
+		"wave"			"ambient/machines/fridge2.wav"
+	}
+}
+
+"northway.main_generic"
+{
+	"dsp"	"1"
+
+	"playlooping"		//general roomtone
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/roomtone_neutral1.wav"
+	}
+}

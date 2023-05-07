@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/biohazard/673542016/frat/frat"
+	"$bumpmap"	"models/player/biohazard/673542016/frat/frat_n"
+	"$halflambert" 1
+        "$nocull" 1
+ 	"$phong" "1"
+	"$phongexponent" "3"
+	"$phongboost"	"0.7"
+	"$phongfresnelranges"	"[1 1 1]"
+}

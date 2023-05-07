@@ -1,0 +1,89 @@
+//****************************************************************************
+// NO MORE ROOM IN HELL
+// Soundscapes for 'Biohazard Project: Raccoon Police Department'
+//
+//****************************************************************************
+//
+//****************************************
+// Ambient Setups
+//****************************************
+
+"rpd.fronthall"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1.0"
+		"pitch"		"100"
+		"wave"		 "rpd/bgm/rpd_the_front_hall.wav"
+	}
+}
+
+
+"rpd.firstfloor"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1.0"
+		"pitch"		"100"
+		"wave"		"rpd/bgm/rpd_the_first_floor.wav"
+	}
+}
+
+"rpd.secondfloor"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1.0"
+		"pitch"		"100"
+		"wave"		"rpd/bgm/rpd_the_second_floor.wav"
+	}
+}
+
+"rpd.library"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1.0"
+		"pitch"		"100"
+		"wave"		"rpd/bgm/rpd_library.wav"
+	}
+}
+
+"rpd.basement"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1.0"
+		"pitch"		"100"
+		"wave"		"rpd/bgm/rpd_basement.wav"
+	}
+}
+
+
+"rpd.evac"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1.0"
+		"pitch"		"100"
+		"wave"		"rpd/bgm/rpd_evac.wav"
+	}
+}
+
+
+
+
+
+

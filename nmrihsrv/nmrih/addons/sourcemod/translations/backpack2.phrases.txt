@@ -1,0 +1,43 @@
+"Phrases"
+{
+	"Backpack Settings"
+	{
+		"en"	"Backpack Settings"
+	}
+	"Hints Enabled"
+	{
+		"en"	"Show Hints: ENABLED"
+	}
+
+	"Hints Disabled"
+	{
+		"en"	"Show Hints: DISABLED"
+	}	
+
+	"Hint You Can Drop"
+	{
+		"en"	"%%+dropweapon%% Drop backpack"
+	}
+
+	"Hint You Can Pick Up"
+	{
+		"en"	"%%+attack%% Equip %%+use%% Open"
+	}
+
+	"Give Backpack Success"
+	{
+		"#format" "{1:N}"
+		"en" "Gave {1} a backpack"
+	}
+
+	"Give Backpack Already Owns"
+	{
+		"#format" "{1:N}"
+		"en" "{1} already owns a backpack"
+	}
+
+	"Invalid Drop Position"
+	{
+		"en"	"Backpack cannot be dropped here"
+	}
+}

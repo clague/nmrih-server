@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+tmux send -t nmrih:1.$1 ENTER
+echo "say $2" > ~/nmrihsrv/nmrih/cfg/talk_temp.cfg
+tmux send -t nmrih:1.$1 "exec talk_temp" ENTER

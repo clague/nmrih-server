@@ -1,0 +1,69 @@
+//************
+// Wrench
+//************
+
+"Weapon_Wrench.Draw"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+	"pitch"		"98,100"
+
+	"rndwave"
+	{
+		"wave"		")player/weapon_draw_01.wav"
+		"wave"		")player/weapon_draw_02.wav"
+		"wave"		")player/weapon_draw_03.wav"
+		"wave"		")player/weapon_draw_04.wav"
+		"wave"		")player/weapon_draw_05.wav"
+	}
+}
+
+"Weapon_Wrench.Holster"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+	"pitch"		"98,100"
+
+	"rndwave"
+	{
+		"wave"		")player/weapon_holster_01.wav"
+		"wave"		")player/weapon_holster_02.wav"
+		"wave"		")player/weapon_holster_03.wav"
+		"wave"		")player/weapon_holster_04.wav"
+		"wave"		")player/weapon_holster_05.wav"
+	}
+}
+
+"Weapon_Wrench.Shove"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+	"pitch"		"98,100"
+
+	"rndwave"
+	{
+		"wave"		")player/shove_01.wav"
+		"wave"		")player/shove_02.wav"
+		"wave"		")player/shove_03.wav"
+		"wave"		")player/shove_04.wav"
+		"wave"		")player/shove_05.wav"
+	}
+}
+
+"Weapon_Melee.Wrench"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_85dB"
+	"volume"	"0.85"
+	"pitch"		"98,100"
+
+	"rndwave"
+	{
+		"wave"		")weapons/melee/swing_light_sharp_01.wav"
+		"wave"		")weapons/melee/swing_light_sharp_02.wav"
+		"wave"		")weapons/melee/swing_light_sharp_03.wav"
+	}
+}

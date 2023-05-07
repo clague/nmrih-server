@@ -1,0 +1,14 @@
+"Games"
+{
+	"nmrih"
+	{
+		"Offsets"
+		{
+			"CGameClient::SendNetMsg"
+			{
+				"windows"	"0"
+				"linux"		"23"
+			}
+		}
+	}
+}

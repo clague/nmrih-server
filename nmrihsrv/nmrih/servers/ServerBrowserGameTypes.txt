@@ -1,0 +1,21 @@
+"ServerBrowserGameTypes.txt"
+{
+	"gametype_1"
+	{
+		"prefix"	"nmo_"
+		"name"		"Objective"
+		"name_load"	"#NMRiH_GameType_Objective"
+	}
+	"gametype_2"
+	{
+		"prefix"	"nms_"
+		"name"		"Survival"
+		"name_load"	"#NMRiH_GameType_Survival"
+	}
+	"gametype_3"
+	{
+		"prefix"	"pvp_"
+		"name"		"PvP"
+		"name_load"	"#NMRiH_GameType_PVP"
+	}
+}

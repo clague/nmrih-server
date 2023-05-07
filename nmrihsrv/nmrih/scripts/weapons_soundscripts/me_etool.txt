@@ -1,0 +1,106 @@
+//************
+// Etool
+//************
+
+"Weapon_Etool.Draw"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		")player/weapon_draw_01.wav"
+		"wave"		")player/weapon_draw_02.wav"
+		"wave"		")player/weapon_draw_03.wav"
+		"wave"		")player/weapon_draw_04.wav"
+		"wave"		")player/weapon_draw_05.wav"
+	}
+}
+
+"Weapon_Etool.Holster"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		")player/weapon_holster_01.wav"
+		"wave"		")player/weapon_holster_02.wav"
+		"wave"		")player/weapon_holster_03.wav"
+		"wave"		")player/weapon_holster_04.wav"
+		"wave"		")player/weapon_holster_05.wav"
+	}
+}
+
+"Weapon_Etool.Shove"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		")player/shove_01.wav"
+		"wave"		")player/shove_02.wav"
+		"wave"		")player/shove_03.wav"
+		"wave"		")player/shove_04.wav"
+		"wave"		")player/shove_05.wav"
+	}
+}
+
+"Weapon_Etool.SwingLight"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		")weapons/melee/swing_heavy_sharp_01.wav"
+		"wave"		")weapons/melee/swing_heavy_sharp_02.wav"
+		"wave"		")weapons/melee/swing_heavy_sharp_03.wav"
+	}
+}
+
+"Weapon_Etool.SwingHeavy"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		")weapons/melee/swing_heavy_sharp_01.wav"
+		"wave"		")weapons/melee/swing_heavy_sharp_02.wav"
+		"wave"		")weapons/melee/swing_heavy_sharp_03.wav"
+	}
+}
+
+"Weapon_Etool.Spin"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		")weapons/melee/etool/etool_spin_01.wav"
+		"wave"		")weapons/melee/etool/etool_spin_02.wav"
+		"wave"		")weapons/melee/etool/etool_spin_03.wav"
+		"wave"		")weapons/melee/etool/etool_spin_04.wav"
+		"wave"		")weapons/melee/etool/etool_spin_05.wav"
+		"wave"		")weapons/melee/etool/etool_spin_06.wav"
+	}
+}
+
+"Weapon_Etool.AdjustStraight"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"wave"		")weapons/melee/etool/etool_to_default_01.wav"
+}
+
+"Weapon_Etool.AdjustAlternate"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"wave"		")weapons/melee/etool/etool_to_alternate_01.wav"
+}

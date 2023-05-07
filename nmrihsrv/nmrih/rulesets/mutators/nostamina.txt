@@ -1,0 +1,24 @@
+"Ruleset"
+{
+	"Name"	"No Stamina"
+	"Author"	"NMRiH Team"
+	"Description"	"Disables stamina."
+
+	"Base"
+	{
+		sv_bash_cost_per_sec 0
+		sv_bleedout_jump_stam_mult 1
+		sv_melee_require_stamina 0
+		sv_shove_cost 0
+		sv_sprint_penalty 0
+		sv_stam_drainrate 0
+		sv_stam_empty_shove_penalty 0
+		sv_stam_jumpcost 0
+		sv_stam_min_move_pct 1
+		sv_stam_min_sprint_pct 1
+		sv_stam_regen_crouch 100
+		sv_stam_regen_idle 100
+		sv_stam_regen_moving 100
+		sv_stam_regen_sprint 100
+	}
+}

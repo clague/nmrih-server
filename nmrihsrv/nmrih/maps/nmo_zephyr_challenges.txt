@@ -1,0 +1,62 @@
+// 27: objective1_leavebuilding - Find the code and escape the office building
+// 28: objective2_blowwarehouse - Find a way to access the warehouse
+// 29: objective2a_sewertime - Find a tool to pry open the manhole
+// 30: objective2b_blowtorchsewer - Melt the grate using a welder
+// 32: objective3_warehouseelevator - Activate elevator and ascend to the upper level
+// 31: objective4_pickupwalkie - Pickup walkie talkie
+// 33: objective5a_2710 - Code to the door is 2710
+// 34: objective5d_powerup - Find fuel to power up generator
+// 45: Objective5b_2606 - Code to the door is 2606
+// 46: Objective5c_1901 - Code to the door is 1901
+// 35: objective6_activate - Activate the turntable
+// 36: objective6a_unclog - Unclog the turntable mechanism
+// 37: objective7_switch1 - Throw the switch behind the locomotive
+// 38: objective8_switchdasequel - Throw the other switch
+// 39: objective9_brakes - Release hand brakes
+// 40: objective10_allaboard - Radio the engineer when ready
+
+// Objective challenges
+// KV names are identifiers, and will be saved in records!
+"Challenges"
+{
+	"nmo_zephyr_challenge_1"
+	{
+		"Name" "Way of the Zephyrs"
+		"Description" "Hearing human voice is so refreshing."
+		"Objectives"
+		{
+			"0" "27" // Find the code and escape the office building
+			"1" "28" // Find a way to access the warehouse
+			"2" "32" // Activate elevator and ascend to the upper level
+			"3" "31" // Pickup walkie talkie
+			"4" "33" // Code to the door is 2710
+			"5" "35" // Activate the turntable
+			"6" "37" // Throw the switch behind the locomotive
+			"7" "38" // Throw the other switch
+			"8" "39" // Release hand brakes
+			"9" "40" // Radio the engineer when ready
+		}
+	}
+
+	"nmo_zephyr_challenge_2"
+	{
+		"Name" "Lack of Maintenance"
+		"Description" "What's up with that engineer? Nothing seems to be working."
+		"Objectives"
+		{
+			"0" "27" // Find the code and escape the office building
+			"1" "28" // Find a way to access the warehouse
+			"2" "32" // Activate elevator and ascend to the upper level
+			"3" "31" // Pickup walkie talkie
+			"4" "46" // Code to the door is 1901
+			"5" "34" // Find fuel to power up generator
+			"6" "35" // Activate the turntable
+			"7" "36" // Unclog the turntable mechanism
+			"8" "37" // Throw the switch behind the locomotive
+			"9" "38" // Throw the other switch
+			"10" "39" // Release hand brakes
+			"11" "40" // Radio the engineer when ready
+		}
+	}
+
+}

@@ -1,0 +1,21 @@
+.previewimg {
+  display: block;
+  max-width:240px;
+  max-height:112px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+}
+
+.wraptocenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+	width: 240px;
+    height: 112px;
+	background-color: #000000;
+}
+.wraptocenter * {
+    vertical-align: middle;
+}

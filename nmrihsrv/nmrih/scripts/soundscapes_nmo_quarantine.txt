@@ -1,0 +1,710 @@
+//****************************************************************************
+// NO MORE ROOM IN HELL
+// Soundscapes for 'Quarantine'
+//
+//****************************************************************************
+//
+//****************************************
+// Ambient Setups
+//****************************************
+
+//****************************************
+// Spawn
+//****************************************
+
+"quarantine.laundry"
+{
+	"dsp"	"22"
+
+	"playlooping"		//nice trick bro
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/quarantine/drone_sewer1.mp3"
+	}
+
+	"playrandom" //sewer ambiance loop
+	{
+		"time" "58"
+		"volume"		"1"
+		"pitch"			"100"
+		"rndwave"
+		{
+		"wave"			"ambient/quarantine/drone_sewer1.mp3"
+		"wave"			"ambient/quarantine/drone_sewer1.mp3"
+		}
+	}
+
+	"playlooping" 
+	{
+		"volume"		"0.3"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/room_tone_3.wav"
+	}
+
+	"playlooping" //Vending machine
+	{
+		"volume"	"0.35"
+		"pitch"		"100"
+		"wave"		"ambient/machines/fridge2.wav"
+		"position" 	"0"
+
+
+	}
+	
+}
+
+//****************************************
+// Outside
+//****************************************
+
+"Quarantine.streets.1"
+{
+	"dsp"	"1"
+
+	"playlooping"		//nice trick bro
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/quarantine/drone_street1.mp3"
+	}
+
+	"playrandom" //spooky wind/drone loop
+	{
+		"time" 			"60"
+		"volume"		"1"
+		"pitch"			"100"
+		"rndwave"
+		{
+			"wave"		"ambient/quarantine/drone_street1.mp3"
+			"wave"		"ambient/quarantine/drone_street1.mp3"
+		}
+	}
+	
+	"playlooping"		//zombie moaning
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"wave"			"ambient/zombies/distant_horde_loop.wav"
+	}
+	
+	"playrandom" //alley wind
+	{
+		"time"		"10, 25"
+		"volume"	"0.15, 0.2"
+		"pitch"		"85, 100"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"	"ambient/wind/wind_window_howl_01.wav"
+			"wave"	"ambient/wind/wind_window_howl_02.wav"
+			"wave"	"ambient/wind/wind_window_howl_03.wav"
+			"wave"	"ambient/wind/wind_window_howl_04.wav"
+			"wave"	"ambient/wind/wind_window_howl_05.wav"
+			"wave"	"ambient/wind/wind_window_howl_06.wav"
+		}
+	}
+	
+	"playrandom"		//dogs barking
+	{
+		"time"		"14, 28"
+		"volume"	"0.3, 0.5"
+		"pitch"		"85, 100"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"	"ambient/background/dist_dog1.wav"
+			"wave"	"ambient/background/dist_dog2.wav"
+			"wave"	"ambient/background/dist_dog3.wav"
+			"wave"	"ambient/background/dist_dog4.wav"
+		}
+	}
+	 
+	"playlooping" //Banging on door
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/zombies/bangonglass_group.wav"
+		"position"	"0"
+	}
+
+	"playlooping" //Fire
+	{
+		"volume"	"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/fire/fire_small_loop1.wav"
+		"position"	"1"
+	}
+
+		"playlooping" //Fire
+	{
+		"volume"	"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/fire/fire_small_loop1.wav"
+		"position"	"5"
+	}
+	
+	"playlooping" //Fire
+	{
+		"volume"	"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/fire/fire_small_loop1.wav"
+		"position" 	"2"
+	}
+
+	"playlooping" //Fire
+	{
+		"volume"	"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/fire/fire_small_loop1.wav"
+		"position" 	"3"
+	}
+
+	"playlooping" //Propoganda
+	{
+		"volume"	"0.05"
+		"pitch"		"100"
+		"wave"		"voice/junction/junction_vo1.wav"
+		"position" 	"4"
+	}
+	
+	"playrandom" //Zombie moaning in buildings
+	{
+		"time"		"25, 35"
+		"volume"	"0.15"
+		"pitch"		"100"
+		"position" 	"6"
+		"rndwave"
+		{
+			"wave"	"ambient/quarantine/z_moan1.mp3"
+			"wave"	"ambient/quarantine/z_moan2.mp3"
+			"wave"	"ambient/quarantine/z_moan3.mp3"
+			"wave"	"ambient/quarantine/z_moan4.mp3"
+			"wave"	"ambient/quarantine/z_moan5.mp3"
+		}
+	}
+	
+	"playrandom" //Zombie moaning in buildings
+	{
+		"time"		"25, 35"
+		"volume"	"0.15"
+		"pitch"		"100"
+		"position" 	"7"
+		"rndwave"
+		{
+			"wave"	"ambient/quarantine/z_moan1.mp3"
+			"wave"	"ambient/quarantine/z_moan2.mp3"
+			"wave"	"ambient/quarantine/z_moan3.mp3"
+			"wave"	"ambient/quarantine/z_moan4.mp3"
+			"wave"	"ambient/quarantine/z_moan5.mp3"
+		}
+	}
+
+
+}
+
+"Quarantine.streets.2"
+{
+	"dsp"	"1"
+
+	"playlooping"		//nice trick bro
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/quarantine/drone_street2.mp3"
+	}
+
+	"playrandom" //spooky wind/drone loop
+	{
+		"time" "60"
+		"volume"		"1"
+		"pitch"			"100"
+		"rndwave"
+		{
+		"wave"			"ambient/quarantine/drone_street2.mp3"
+		"wave"			"ambient/quarantine/drone_street2.mp3"
+		}
+	}
+	
+	"playlooping"		//zombie moaning
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"wave"			"ambient/zombies/distant_horde_loop.wav"
+	}
+	
+	"playrandom" //alley wind
+	{
+		"time" 	        "10, 25"
+		"volume"       "0.15, 0.2"
+		"pitch"	       "85, 100"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"	"ambient/wind/wind_window_howl_01.wav"
+			"wave"	"ambient/wind/wind_window_howl_02.wav"
+			"wave"	"ambient/wind/wind_window_howl_03.wav"
+			"wave"	"ambient/wind/wind_window_howl_04.wav"
+			"wave"	"ambient/wind/wind_window_howl_05.wav"
+			"wave"	"ambient/wind/wind_window_howl_06.wav"
+		}
+	}
+	
+	"playrandom"		//dogs barking
+	{
+		"time" 	        "14, 28"
+		"volume"       "0.3, 0.5"
+		"pitch"	       "85, 100"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"	"ambient/background/dist_dog1.wav"
+			"wave"	"ambient/background/dist_dog2.wav"
+			"wave"	"ambient/background/dist_dog3.wav"
+			"wave"	"ambient/background/dist_dog4.wav"
+		}
+	}
+	 
+	"playlooping" //Banging on door
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/zombies/bangonglass_group.wav"
+		"position" 	"0"
+
+
+	}
+
+	"playlooping" //Fire
+	{
+		"volume"	"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/fire/fire_small_loop1.wav"
+		"position" 	"1"
+
+
+	}
+
+		"playlooping" //Fire
+	{
+		"volume"	"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/fire/fire_small_loop1.wav"
+		"position" 	"5"
+
+
+	}
+	
+	"playlooping" //Fire
+	{
+		"volume"	"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/fire/fire_small_loop1.wav"
+		"position" 	"2"
+
+
+	}
+
+	"playlooping" //Fire
+	{
+		"volume"	"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/fire/fire_small_loop1.wav"
+		"position" 	"3"
+
+
+	}
+
+}
+
+"Quarantine.alley"
+{
+	"dsp"	"1"
+
+	"playlooping"		//nice trick bro
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/quarantine/drone_street1.mp3"
+	}
+
+	"playrandom" //spooky wind/drone loop
+	{
+		"time" "60"
+		"volume"		"1"
+		"pitch"			"100"
+		"rndwave"
+		{
+		"wave"			"ambient/quarantine/drone_street1.mp3"
+		"wave"			"ambient/quarantine/drone_street1.mp3"
+		}
+	}
+	
+	"playlooping"		//zombie moaning
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"wave"			"ambient/zombies/distant_horde_loop.wav"
+	}
+	
+	"playrandom" //alley wind
+	{
+		"time" 	        "10, 25"
+		"volume"       "0.15, 0.2"
+		"pitch"	       "85, 100"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"	"ambient/wind/wind_window_howl_01.wav"
+			"wave"	"ambient/wind/wind_window_howl_02.wav"
+			"wave"	"ambient/wind/wind_window_howl_03.wav"
+			"wave"	"ambient/wind/wind_window_howl_04.wav"
+			"wave"	"ambient/wind/wind_window_howl_05.wav"
+			"wave"	"ambient/wind/wind_window_howl_06.wav"
+		}
+	}
+	
+	"playrandom"		//dogs barking
+	{
+		"time" 	        "14, 28"
+		"volume"       "0.3, 0.5"
+		"pitch"	       "85, 100"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"	"ambient/background/dist_dog1.wav"
+			"wave"	"ambient/background/dist_dog2.wav"
+			"wave"	"ambient/background/dist_dog3.wav"
+			"wave"	"ambient/background/dist_dog4.wav"
+		}
+	}
+	 
+	"playlooping" //Banging on door
+	{
+		"volume"	"0.25"
+		"pitch"		"100"
+		"wave"		"ambient/zombies/zombie_door_bang_01_loop.wav"
+		"position" 	"0"
+
+
+	}
+
+	"playlooping" //Fire
+	{
+		"volume"	"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/fire/fire_small_loop1.wav"
+		"position" 	"1"
+
+
+	}
+
+	"playlooping" //Fire
+	{
+		"volume"	"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/fire/fire_small_loop1.wav"
+		"position" 	"2"
+
+
+	}
+	
+				"playlooping" //corpse
+	{
+		"volume"	"0.15"
+		"pitch"		"100"
+		"wave"		"ambient/animals/flies_loop1.wav"
+		"position" 	"3"
+
+
+	}
+
+}
+
+
+
+//****************************************
+// Inside
+//****************************************
+
+"quarantine.gunstore"
+{
+	"dsp"	"1"
+	
+		"playlooping"		//nice trick bro
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/quarantine/drone_sewer1.mp3"
+	}
+
+	"playrandom" //sewer ambiance loop
+	{
+		"time" "58"
+		"volume"		"1"
+		"pitch"			"100"
+		"rndwave"
+		{
+		"wave"			"ambient/quarantine/drone_sewer1.mp3"
+		"wave"			"ambient/quarantine/drone_sewer1.mp3"
+		}
+	}
+	
+		"playlooping" //Vending machine
+	{
+		"volume"	"0.35"
+		"pitch"		"100"
+		"wave"		"ambient/machines/fridge2.wav"
+		"position" 	"0"
+
+
+	}
+	
+			"playlooping" //dead looter
+	{
+		"volume"	"0.15"
+		"pitch"		"100"
+		"wave"		"ambient/animals/flies_loop1.wav"
+		"position" 	"1"
+
+
+	}
+	
+
+}
+
+"quarantine.warehouse"
+{
+	"dsp"	"1"
+	
+		"playlooping"		//nice trick bro
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/quarantine/drone_sewer1.mp3"
+	}
+
+	"playrandom" //sewer ambiance loop
+	{
+		"time" "58"
+		"volume"		"1"
+		"pitch"			"100"
+		"rndwave"
+		{
+		"wave"			"ambient/quarantine/drone_sewer1.mp3"
+		"wave"			"ambient/quarantine/drone_sewer1.mp3"
+		}
+	}
+	
+		"playlooping" //Vending machine
+	{
+		"volume"	"0.15"
+		"pitch"		"100"
+		"wave"		"ambient/machines/fridge2.wav"
+
+
+
+	}
+	
+			"playlooping" //trash
+	{
+		"volume"	"0.15"
+		"pitch"		"100"
+		"wave"		"ambient/animals/flies_loop1.wav"
+		"position" 	"1"
+
+
+	}
+	
+
+}
+
+//****************************************
+// Sewers
+//****************************************
+
+"quarantine.sewers"
+{
+	"dsp"	"20"
+
+	"playlooping"		//nice trick bro
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/quarantine/drone_sewer1.mp3"
+	}
+
+	"playrandom" //sewer ambiance loop
+	{
+		"time" "58"
+		"volume"		"1"
+		"pitch"			"100"
+		"rndwave"
+		{
+		"wave"			"ambient/quarantine/drone_sewer1.mp3"
+		"wave"			"ambient/quarantine/drone_sewer1.mp3"
+		}
+	}
+	
+		"playlooping"		//nice trick bro
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/quarantine/sewer_ambient_moaning.mp3"
+	}
+
+	"playrandom" //sewer ambiance loop
+	{
+		"time" "32"
+		"volume"		"1"
+		"pitch"			"100"
+		"rndwave"
+		{
+		"wave"			"ambient/quarantine/sewer_ambient_moaning.mp3"
+		"wave"			"ambient/quarantine/sewer_ambient_moaning.mp3"
+		}
+	}
+	
+	"playlooping"		//dripping water
+	{
+		"volume"		"0.4"
+		"pitch"			"100"
+		"wave"			"ambient/water/drip_loop1.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		"0.7"
+		"pitch"			"100"
+		"wave"			"ambient/chinatown/sewers.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"			"10, 20"
+		"volume"		"0.4,0.6"
+		"pitch"			"100"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/rats1.wav"
+			"wave"	"ambient/creatures/rats2.wav"
+			"wave"	"ambient/creatures/rats3.wav"
+			"wave"	"ambient/creatures/rats4.wav"
+		}
+	}
+	
+}
+	
+	"quarantine.sewers.2"
+{
+	"dsp"	"20"
+
+	"playlooping"		//nice trick bro
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/quarantine/drone_sewer2.mp3"
+	}
+
+	"playrandom" //sewer ambiance loop
+	{
+		"time" "58"
+		"volume"		"1"
+		"pitch"			"100"
+		"rndwave"
+		{
+		"wave"			"ambient/quarantine/drone_sewer2.mp3"
+		"wave"			"ambient/quarantine/drone_sewer2.mp3"
+		}
+	}
+	
+	"playlooping"		//dripping water
+	{
+		"volume"		"0.4"
+		"pitch"			"100"
+		"wave"			"ambient/water/drip_loop1.wav"
+	}
+	
+
+	"playrandom"
+	{
+		"time"			"10, 20"
+		"volume"		"0.4,0.6"
+		"pitch"			"100"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/rats1.wav"
+			"wave"	"ambient/creatures/rats2.wav"
+			"wave"	"ambient/creatures/rats3.wav"
+			"wave"	"ambient/creatures/rats4.wav"
+		}
+	}
+	
+}
+	
+
+//****************************************
+// Sewers
+//****************************************
+
+"chinatown.sewers_2"
+{
+	"dsp"	"20"
+
+	"playlooping"
+	{
+		"volume"		"0.9"
+		"pitch"			"100"
+		"wave"			"ambient/chinatown/subway.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		"0.9"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/roomtone_danger2.wav"
+	}
+	
+	"playlooping"		//dripping water
+	{
+		"volume"		"0.4"
+		"pitch"			"100"
+		"wave"			"ambient/water/drip_loop1.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		"0.7"
+		"pitch"			"100"
+		"wave"			"ambient/chinatown/sewers.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"			"10, 20"
+		"volume"		"0.4,0.6"
+		"pitch"			"100"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/rats1.wav"
+			"wave"	"ambient/creatures/rats2.wav"
+			"wave"	"ambient/creatures/rats3.wav"
+			"wave"	"ambient/creatures/rats4.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"         "10, 20"
+		"volume"       "0.4, 0.6"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient/chinatown/subway_pass1.wav"
+			"wave"	"ambient/chinatown/subway_pass2.wav"
+		}
+	}
+}

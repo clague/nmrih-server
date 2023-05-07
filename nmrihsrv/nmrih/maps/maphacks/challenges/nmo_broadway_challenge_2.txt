@@ -1,0 +1,60 @@
+// "Motel Rush"
+
+"MapHack"
+{
+	"entities"
+	{
+		$remove_connections { "targetname" "1case_objb" }
+		$remove_connections { "targetname" "case_obje" }
+		$remove_connections { "targetname" "case_objg" }
+		$remove { "targetname" "keypad_logic" }
+	
+		// Replace RNG gas canister
+		$edit
+		{
+			"targetname"	"1case_objb"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnCase01" "template_objb1a_2,ForceSpawn,,0,-1"
+				}
+			}
+		}
+		
+		// Replace RNG bar key
+		$edit
+		{
+			"targetname"	"case_obje"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnCase01" "template_obje_3,ForceSpawn,,0,-1"
+				}
+			}
+		}
+	
+		// Replace RNG switch
+		$edit
+		{
+			"targetname"	"case_objg"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnCase01" "template_objg_2,ForceSpawn,,0,-1"
+				}
+			}
+		}
+		
+		// Remove keypad RNG, only use code 1854
+		$fire 
+		{ 
+			"targetname" "keypad_controller"
+			"input" "InputSetCode"
+			"value" "1854" 
+			"type"	"string" // Keypad only takes strings, have to override
+		}
+	}
+}

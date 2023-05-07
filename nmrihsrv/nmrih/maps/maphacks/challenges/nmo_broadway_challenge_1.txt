@@ -1,0 +1,32 @@
+// "Cinema Premiere"
+
+"MapHack"
+{
+	"entities"
+	{
+		$remove_connections { "targetname" "case_objc" }
+		$remove { "targetname" "keypad_logic" }
+		
+		// Replace RNG key spawn
+		$edit
+		{
+			"targetname"	"case_objc"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnCase01" "template_objc_3,ForceSpawn,,0,-1"
+				}
+			}
+		}
+		
+		// Remove keypad RNG, only use code 9247
+		$fire 
+		{ 
+			"targetname" "keypad_controller"
+			"input" "InputSetCode"
+			"value" "9247" 
+			"type"	"string" // Keypad only takes strings, have to override
+		}
+	}
+}

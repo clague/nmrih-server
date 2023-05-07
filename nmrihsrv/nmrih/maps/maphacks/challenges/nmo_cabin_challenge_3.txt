@@ -1,0 +1,43 @@
+// "Secret Knowledge"
+
+"MapHack"
+{
+	"includes"
+	{
+		"file"	"maps/maphacks/challenges/include/nmo_cabin_shared.txt"
+	}
+
+	"entities"
+	{
+		$remove_connections { "targetname" "case_obja" }
+		$remove_connections { "targetname" "case_objc" }
+		
+		// Remove key RNG
+		$edit
+		{
+			"targetname" "case_obja"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnCase01" "template_obja_3,ForceSpawn,,0,-1"
+				}
+			}
+		}
+		
+		// Remove book RNG
+		$edit
+		{
+			"targetname" "case_objc"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnCase01" "bookr2,Enable,,0,-1"
+					"OnCase01" "template_objf1a_2,ForceSpawn,,0,-1"
+					"OnCase01" "cabin_safe002_brush,Kill,,0,-1"
+				}
+			}
+		}
+	}
+}

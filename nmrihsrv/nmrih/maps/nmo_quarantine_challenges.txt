@@ -1,0 +1,42 @@
+// 30: obj_gravesite - Find a shovel and dig for fuel at the make-shift grave-yard.
+// 33: obj_leavespawn - Escape the alley.
+// 34: obj_fillup_generator_turn_on - Fuel the generator and turn it on.
+// 36: obj_get_sewer_key - Find the key to the maintenance room.
+// 37: obj_get_sewer_crank - Find the missing crank and unflood the maintenance room!
+// 38: obj_leave_sewer - Escape the sewers.
+// 39: obj_close_gate - Close the open quarantine entry gate to gain access to the inner quarantine!
+// 40: obj_waitfordoor - Wait for the rollup door to open.
+// 41: obj_enter_sewer - Get into the sewers
+// 42: obj_enter_inner_quarantine - Get into the inner quarantine before the failsafe activates!
+// 35: obj_use_radio - Use the radio!
+// 43: obj_get_walkie - Take the walkie talkie.
+// 44: obj_activate_siren - Activate the siren when ready.
+// 45: obj_survive - Survive for 2 minutes
+
+// Objective challenges
+// KV names are identifiers, and will be saved in records!
+"Challenges"
+{
+	"nmo_quarantine_challenge_1"
+	{
+		"Name" "Containment Loss"
+		"Description" "Oopsies, we made a mess."
+		"Objectives"
+		{
+			"0" "33" // Escape the alley.
+			"1" "30" // Find a shovel and dig for fuel at the make-shift grave-yard.
+			"2" "34" // Fuel the generator and turn it on.
+			"3" "40" // Wait for the rollup door to open.
+			"4" "41" // Get into the sewers
+			"5" "36" // Find the key to the maintenance room.
+			"6" "37" // Find the missing crank and unflood the maintenance room!
+			"7" "35" // Use the radio!
+			"8" "43" // Take the walkie talkie.
+			"9" "38" // Escape the sewers.
+			"10" "39" // Close the open quarantine entry gate to gain access to the inner quarantine!
+			"11" "42" // Get into the inner quarantine before the failsafe activates!
+			"12" "44" // Activate the siren when ready.
+			"13" "45" // Survive for 2 minutes
+		}
+	}
+}

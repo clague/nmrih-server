@@ -1,0 +1,245 @@
+"MapHack"
+{
+	"precache"
+	{
+		"model" "models/props_wasteland/dockplank01b.mdl"
+		"model" "models/props/street/police_barricade_4.mdl"
+		"model" "models/weapons/tool_barricade/w_barricadeboard.mdl"
+		"model" "models/props_wasteland/cargo_container01.mdl"
+	}
+
+	"entities"
+	{
+		// Sewer roadblock
+		"prop_dynamic_override"
+		{
+			"origin" "-1930 -1217 -254"
+			"keyvalues"
+			{
+				"model" "models/props/street/police_barricade_4.mdl"
+				"solid" "6"
+			}
+		}
+
+		// Sewer skip hints
+		// Since breakables can't glow, we spawn some decoy props to glow the barricades
+		"prop_dynamic_override"
+		{
+			"targetname" "cc_sewerplank1"
+			"origin" "-1047 -1217 -172"
+			"angles" "88.5 270 -90"
+			"keyvalues"
+			{
+				"model" "models/props_wasteland/dockplank01b.mdl"
+				"rendermode" "2"
+				"solid" "0"
+				"spawnflags" "256"
+				"renderamt" "0"
+			}
+		}
+
+		"prop_dynamic_override"
+		{
+			"targetname" "cc_sewerplank2"
+			"origin" "-1047 -1220 -148"
+			"angles" "89 90 90"
+			"keyvalues"
+			{
+				"model" "models/props_wasteland/dockplank01b.mdl"
+				"rendermode" "2"
+				"solid" "0"
+				"spawnflags" "256"
+				"renderamt" "0"
+			}
+		}
+
+		"prop_dynamic_override"
+		{
+			"targetname" "cc_sewerplank3"
+			"origin" "-1047 -1216 -234"
+			"angles" "87 90 90"
+			"keyvalues"
+			{
+				"model" "models/props_wasteland/dockplank01b.mdl"
+				"rendermode" "2"
+				"solid" "0"
+				"spawnflags" "256"
+				"renderamt" "0"
+			}
+		}
+
+		"prop_dynamic_override"
+		{
+			"targetname" "cc_sewerplank4"
+			"origin" "-1047 -1213 -209"
+			"angles" "89 270 -90"
+			"keyvalues"
+			{
+				"model" "models/props_wasteland/dockplank01b.mdl"
+				"rendermode" "2"
+				"solid" "0"
+				"spawnflags" "256"
+				"renderamt" "0"
+			}
+		}
+
+		"prop_dynamic_override"
+		{
+			"targetname" "cc_sewerplank5"
+			"origin" "-1047 -1215 -192"
+			"angles" "88 90 90"
+			"keyvalues"
+			{
+				"model" "models/props_wasteland/dockplank01b.mdl"
+				"rendermode" "2"
+				"solid" "0"
+				"spawnflags" "256"
+				"renderamt" "0"
+			}
+		}
+
+		// Make boundary manage glows
+		$edit
+		{
+			"targetname" "sewer_way_boundary"
+			"keyvalues"
+			{
+				"GlowEntity1Color" "255 255 128"
+				"GlowEntity1Name" "cc_sewerplank1"	
+				"GlowEntity2Color" "255 255 128"
+				"GlowEntity2Name" "cc_sewerplank2"	
+				"GlowEntity3Color" "255 255 128"
+				"GlowEntity3Name" "cc_sewerplank3"	
+				"GlowEntity4Color" "255 255 128"
+				"GlowEntity4Name" "cc_sewerplank4"	
+				"GlowEntity5Color" "255 255 128"
+				"GlowEntity5Name" "cc_sewerplank5"		
+			}
+		}
+
+		$edit
+		{
+			"id" "3017224"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnBreak" "cc_sewerplank1,Kill,,0,-1"
+					"OnBreak" "cc_sewerplank2,Kill,,0,-1"
+					"OnBreak" "cc_sewerplank3,Kill,,0,-1"
+					"OnBreak" "cc_sewerplank4,Kill,,0,-1"
+					"OnBreak" "cc_sewerplank5,Kill,,0,-1"
+				}
+			}
+		}
+
+		// Finale skip hints
+		"prop_dynamic_override"
+		{
+			"targetname" "cc_finaleplank1"
+			"origin" "-2308 2031 41"
+			"angles" "0 90 -4"
+			"keyvalues"
+			{
+				"model" "models/weapons/tool_barricade/w_barricadeboard.mdl"
+				"rendermode" "2"
+				"solid" "0"
+				"spawnflags" "256"
+				"renderamt" "0"
+			}
+		}
+
+		"prop_dynamic_override"
+		{
+			"targetname" "cc_finaleplank2"
+			"origin" "-2310 2031 64"
+			"angles" "0 90 -13"
+			"keyvalues"
+			{
+				"model" "models/weapons/tool_barricade/w_barricadeboard.mdl"
+				"rendermode" "2"
+				"solid" "0"
+				"spawnflags" "256"
+				"renderamt" "0"
+			}
+		}
+
+		$edit 
+		{
+			"id" "3064376"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnBreak" "cc_finaleplank1,Kill,,0,-1"
+					"OnBreak" "cc_finaleplank2,Kill,,0,-1"
+				}
+			}
+		}
+
+		// Make room for revolver and ammo
+		$remove{"id" "2909140"}
+		$remove{"id" "2909142"}
+		$remove{"id" "2909144"}
+
+		// Finale skip revolver
+		"fa_sw686"
+		{
+			"angles" "0 255 -90"
+			"origin" "-2639 2641.01 52.59"
+			"targetname" "cc_revolver"
+		}
+
+		// Finale skip ammo
+		"random_spawner"
+		{
+			"angles" "0 227.5 0"
+			"origin" "-2657 2621.01 48.4236"
+			"keyvalues"
+			{
+				"ammo_fill_pct_max" "100"
+				"ammo_fill_pct_min" "100"
+				"ammobox_357" "100"
+			}
+		}
+
+		"random_spawner"
+		{
+			"angles" "0 325.5 0"
+			"origin" "-2647.65 2613.24 48.4236"
+			"keyvalues"
+			{
+				"ammo_fill_pct_max" "100"
+				"ammo_fill_pct_min" "100"
+				"ammobox_357" "100"
+			}
+		}
+
+		// Finale skip glows
+		$edit
+		{
+			"targetname" "finale_boundary"
+			"keyvalues"
+			{
+				"GlowEntity2Color" "255 255 128"
+				"GlowEntity2Name" "cc_finaleplank1"	
+				"GlowEntity3Color" "255 255 128"
+				"GlowEntity3Name" "cc_finaleplank2"
+				"GlowEntity4Color" "255 255 128"
+				"GlowEntity4Name" "cc_revolver"		
+			}
+		}
+
+		// Finale roadblock
+		"prop_dynamic_override"
+		{
+			"origin" "-2879 2672 61"
+			"angles" "0 356.5 0"
+			"keyvalues"
+			{
+				"model" "models/props_wasteland/cargo_container01.mdl"
+				"solid" "6"
+			}
+		}
+	}
+}

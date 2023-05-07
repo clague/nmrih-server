@@ -1,0 +1,20 @@
+"MapHack"
+{
+	"entities"
+	{
+		$remove_connections { "targetname" "badass_door_case" }
+
+		// Always unlock the weapons stash
+		$edit
+		{
+			"targetname" "badass_door_case"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnCase01" "badass_door,Unlock,,0,-1"
+				}
+			}
+		}
+	}
+}

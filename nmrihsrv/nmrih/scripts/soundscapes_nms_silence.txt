@@ -1,0 +1,124 @@
+//****************************************************************************
+// NO MORE ROOM IN HELL
+// Soundscapes for 'Silence'
+//
+//****************************************************************************
+//
+//****************************************
+// Ambient Setups
+//****************************************
+
+//****************************************
+// Interiors (Chapel, shacks, basements, etc.)
+//****************************************
+
+"silence.chapel"
+{
+	"dsp"	"1"
+
+	"playlooping"		//rain on roof
+	{
+		"volume"		"0.4"
+		"pitch"			"100"
+		"wave"			"ambient/water/city_rain_light_thinroof.wav"
+	}
+	
+	"playlooping"		//general roomtone
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/roomtone_danger2.wav"
+	}
+}
+
+"silence.shack"
+{
+	"dsp"	"1"
+
+	"playlooping"		//rain on roof
+	{
+		"volume"		"0.6"
+		"pitch"			"100"
+		"wave"			"ambient/water/city_rain_light_thinroof.wav"
+	}
+	
+	"playlooping"		//general roomtone
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/roomtone_uneasy2.wav"
+	}
+}
+
+"silence.basement"
+{
+	"dsp"	"22"
+
+	"playlooping"		//general roomtone
+	{
+		"volume"		"0.7"
+		"pitch"			"100"
+		"wave"			"ambient/chinatown/subway.wav"
+	}
+	
+	"playlooping"		//light rain
+	{
+		"volume"		"0.25"
+		"pitch"			"100"
+		"wave"			"ambient/water/city_rain_light_backalley.wav"
+	}	
+	
+}
+
+//****************************************
+// Outside
+//****************************************
+
+"silence.outside"
+{
+	"dsp"	"22"
+
+	"playrandom"		//crows
+	{
+		"time" 	        "8, 24"
+		"volume"       "0.3, 0.5"
+		"pitch"	       "85, 100"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"	"ambient/background/dist_crows1.wav"
+			"wave"	"ambient/background/dist_crows2.wav"
+			"wave"	"ambient/background/dist_crows3.wav"
+		}
+	}
+	
+	"playrandom"		//whispers
+	{
+		"time"         "15, 30"
+		"volume"       "0.3,0.6"
+		"pitch"	       "100"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"	"ambient/whispers/Ambient.Whisper1.wav"
+			"wave"	"ambient/whispers/Ambient.Whisper2.wav"
+			"wave"	"ambient/whispers/Ambient.Whisper3.wav"
+			"wave"	"ambient/whispers/Ambient.Whisper4.wav"
+			"wave"	"ambient/whispers/Ambient.Whisper5.wav"
+		}
+	}
+	
+	"playlooping"		//rain generic
+	{
+		"volume"		"0.7"
+		"pitch"			"100"
+		"wave"			"ambient/water/city_rain_light_generic.wav"
+	}
+	
+	"playlooping"		//zombie moaning
+	{
+		"volume"		"0.3"
+		"pitch"			"100"
+		"wave"			"ambient/zombies/distant_horde_loop.wav"
+	}
+}

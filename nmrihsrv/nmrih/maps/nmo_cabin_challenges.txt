@@ -1,0 +1,122 @@
+// 24: objStart - Break out of the attic.
+// 21: ObjA - Find keys to unlock door.
+// 23: ObjB - Break planks to proceed.
+// 25: ObjC - Family is the answer, Find the secret book.
+// 26: ObjD - Release stair gate.
+// 30: ObjE - Blast through cabin wall
+// 28: ObjF - Enter the book into the shelf.
+// 27: ObjG - Weld through the kitchen door
+// 32: ObjH - Reconnect the telegraph line
+// 33: ObjI - Find Car battery, power up the generator and call for help! [Evac]
+// 40: ObjG2 - Proceed through the underground
+
+// Objective challenges
+// KV names are identifiers, and will be saved in records!
+"Challenges"
+{
+	"nmo_cabin_challenge_1"
+	{
+		"Name"	"Cabin Fever"
+		"Description"	"Local neighbors don't seem too impressed about your antics, better get the hell out from here."
+		"Objectives"
+		{
+			"0"	"21"
+			"1"	"26"
+			"2"	"30"
+			"3"	"27"
+			"4"	"32"
+			"5"	"33"
+		}
+		
+		"MapHack"
+		{
+			"includes"
+			{
+				"file"	"maps/maphacks/challenges/nmo_cabin_challenge_1.txt"
+			}
+		}
+	}
+	
+	"nmo_cabin_challenge_2"
+	{
+		"Name"	"Under the Cabin"
+		"Description"	"What did the janitor hide down there? Let's find out."
+		"Objectives"
+		{
+			"0"	"23"
+			"1"	"26"
+			"2"	"30"
+			"3"	"40"
+			"4"	"33"
+		}
+		
+		"MapHack"
+		{
+			"includes"
+			{
+				"file"	"maps/maphacks/challenges/nmo_cabin_challenge_2.txt"
+			}
+		}
+	}
+	
+	"nmo_cabin_challenge_3"
+	{
+		"Name"	"Secret Knowledge"
+		"Description"	"The family is the answer, now featuring moving bookcases!"
+		"Objectives"
+		{
+			"0"	"21"
+			"1"	"25"
+			"2"	"28"
+			"3"	"27"
+			"4"	"32"
+			"5"	"33"
+		}
+		
+		"MapHack"
+		{
+			"includes"
+			{
+				"file"	"maps/maphacks/challenges/nmo_cabin_challenge_3.txt"
+			}
+		}
+	}
+	
+	"nmo_cabin_blitz_1"
+	{
+		"Name"	"Blitz: Cabin Fever"
+		"Description"	"Now they are really onto us... In Blitz mode, gain more time by completing objectives!"
+		"Blitz"	"1"
+		"Objectives"
+		{
+			"0"	"21"
+			"1"	"26"
+			"2"	"30"
+			"3"	"27"
+			"4"	"32"
+			"5"	"33"
+		}
+		
+		"BlitzParams"
+		{
+			"InitialTime"	"180" // Start at 3 minutes
+			
+			// Objective timer additions
+			"DefaultObjAdd" "30" // By default, add 30s
+			"ObjectiveTimerAdd"
+			{
+				"28" "0" // Kludge for bookcase (ObjF) being completed outside obj chain
+				"32" "120" // Give extra for car battery obj
+				"33" "60" // Give extra time for evac
+			}
+		}
+		
+		"MapHack"
+		{
+			"includes"
+			{
+				"file"	"maps/maphacks/challenges/nmo_cabin_blitz_1.txt"
+			}
+		}
+	}
+}

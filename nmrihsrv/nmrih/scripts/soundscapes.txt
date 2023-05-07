@@ -1,0 +1,209 @@
+// DSP Effects
+// 0 : "Normal (off)"
+// 1 : "Generic"
+// 2 : "Metal Small"
+// 3 : "Metal Medium"
+// 4 : "Metal Large"
+// 5 : "Tunnel Small"
+// 6 : "Tunnel Medium"
+// 7 : "Tunnel Large"
+// 8 : "Chamber Small"
+// 9 : "Chamber Medium"
+// 10: "Chamber Large"
+// 11: "Bright Small"
+// 12: "Bright Medium"
+// 13: "Bright Large"
+// 14: "Water 1"
+// 15: "Water 2"
+// 16: "Water 3"
+// 17: "Concrete Small"
+// 18: "Concrete Medium"
+// 19: "Concrete Large"
+// 20: "Big 1"
+// 21: "Big 2"
+// 22: "Big 3"
+// 23: "Cavern Small"
+// 24: "Cavern Medium"
+// 25: "Cavern Large"
+// 26: "Weirdo 1"
+// 27: "Weirdo 2"
+// 28: "Weirdo 3"
+
+//	ATTN_NONE		0.0f	
+//	ATTN_NORM		0.8f	75dB
+//	ATTN_IDLE		2.0f	60dB
+//	ATTN_STATIC		1.25f	66dB
+//	ATTN_RICOCHET	1.5f	65dB
+//	ATTN_GUNFIRE	0.27f	140dB
+
+//	SNDLVL_50dB		= 50,	// 3.9
+//	SNDLVL_55dB		= 55,	// 3.0
+//	SNDLVL_IDLE		= 60,	// 2.0
+//	SNDLVL_TALKING	= 60,	// 2.0
+//	SNDLVL_60dB		= 60,	// 2.0
+//	SNDLVL_65dB		= 65,	// 1.5
+//	SNDLVL_STATIC	= 66,	// 1.25
+//	SNDLVL_70dB		= 70,	// 1.0
+//	SNDLVL_NORM		= 75,
+//	SNDLVL_75dB		= 75,	// 0.8
+//	SNDLVL_80dB		= 80,	// 0.7
+//	SNDLVL_85dB		= 85,	// 0.6
+//	SNDLVL_90dB		= 90,	// 0.5
+//	SNDLVL_95dB		= 95,
+//	SNDLVL_100dB	= 100,	// 0.4
+//	SNDLVL_105dB	= 105,
+//	SNDLVL_120dB	= 120,
+//	SNDLVL_130dB	= 130,
+//	SNDLVL_GUNFIRE	= 140,	// 0.27
+//	SNDLVL_140dB	= 140,	// 0.2
+//	SNDLVL_150dB	= 150,	// 0.2
+
+// *NMRiH note - room and other simple soundscapes are defined in 'soundscapes_mapname.txt'
+// so that complex soundscape mixing can be configured on a per map basis.
+
+// General soundscapes
+
+// This soundscape enables automatic dsp
+
+"automatic"
+{
+	"dsp"	"1"
+	"dsp_volume" "1.0"
+}
+// This soundscape enables automatic dsp at 50% mix - good if you have 
+// a lot of dialog that must be understood at any distance
+
+"automatic_dialog"
+{
+	"dsp"	"1"
+	"dsp_volume" "0.5"
+}
+
+// for corridors and small rooms which are 'quiet'
+"indoor.silence"
+{
+	"dsp"	"1"
+	"dsp_volume"	"0.3"
+
+	"playlooping"
+	{
+		"volume"		"0.15"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/roomtone_veryquiet.wav"
+	}
+}
+
+//****************************
+// Soundscape objects (positional sounds, machines etc)
+//****************************
+
+// dull rain pouring on sealed/thick window
+"skylight.rain"
+{
+	"playlooping"
+	{
+		"volume"		"0.7"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_65dB"
+		"wave"		"ambient/water/city_rain_skylightclosed.wav"
+	}
+}
+
+"aircon.intake"
+{
+	"playlooping"
+	{
+		"volume"		"1.0"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_55dB"
+		"wave"		"ambient/machines/aircon_intake.wav"
+	}
+}
+
+"aircon.outtake"
+{
+	"playlooping"
+	{
+		"volume"		"1.0"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_60dB"
+		"wave"		"ambient/machines/aircon_outtake.wav"
+	}
+}
+
+//mono zombie moan
+"zombiehorde.distant"
+{
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_75dB"
+		"wave"		"ambient/zombies/distant_horde_loop.wav"
+	}
+}
+
+"flies.swarm"
+{		
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"wave"		"ambient/animals/flies_loop1.wav"
+	}
+
+	"playrandom"	//random flys buzz 
+	{
+		"time"		"2,8"
+		"volume"		"0.7,0.95"
+		"pitch"		"95,105"
+
+		"rndwave"
+		{
+			"wave"		"ambient/animals/fly_buzz1.wav"
+			"wave"		"ambient/animals/fly_buzz2.wav"
+			"wave"		"ambient/animals/fly_buzz3.wav"
+			"wave"		"ambient/animals/fly_buzz4.wav"
+			"wave"		"ambient/animals/fly_buzz5.wav"
+			"wave"		"ambient/animals/fly_buzz6.wav"
+			"wave"		"ambient/animals/fly_buzz7.wav"
+			"wave"		"ambient/animals/fly_buzz8.wav"
+			"wave"		"ambient/animals/fly_buzz9.wav"
+			"wave"		"ambient/animals/fly_buzz10.wav"
+			"wave"		"ambient/animals/fly_buzz11.wav"
+			"wave"		"ambient/animals/fly_buzz12.wav"
+			"wave"		"ambient/animals/fly_buzz13.wav"
+			"wave"		"ambient/animals/fly_buzz14.wav"
+			"wave"		"ambient/animals/fly_buzz15.wav"
+		}
+	}
+}
+
+"flies.blood"
+{		
+	"playrandom"	//random flys buzz 
+	{
+		"time"		"5,15"
+		"volume"		"0.5,0.8"
+		"pitch"		"95,105"
+
+		"rndwave"
+		{
+			"wave"		"ambient/animals/fly_buzz1.wav"
+			"wave"		"ambient/animals/fly_buzz2.wav"
+			"wave"		"ambient/animals/fly_buzz3.wav"
+			"wave"		"ambient/animals/fly_buzz4.wav"
+			"wave"		"ambient/animals/fly_buzz5.wav"
+			"wave"		"ambient/animals/fly_buzz6.wav"
+			"wave"		"ambient/animals/fly_buzz7.wav"
+			"wave"		"ambient/animals/fly_buzz8.wav"
+			"wave"		"ambient/animals/fly_buzz9.wav"
+			"wave"		"ambient/animals/fly_buzz10.wav"
+			"wave"		"ambient/animals/fly_buzz11.wav"
+			"wave"		"ambient/animals/fly_buzz12.wav"
+			"wave"		"ambient/animals/fly_buzz13.wav"
+			"wave"		"ambient/animals/fly_buzz14.wav"
+			"wave"		"ambient/animals/fly_buzz15.wav"
+		}
+	}
+}

@@ -1,0 +1,40 @@
+// 27: Objective 1 - Proceed to the main hall
+// 28: Objective 2 - Go upstairs
+// 29: Objective 3 - Find a way to open up the control room
+// 33: Objective 7 - Look for clues
+// 30: Objective 4 - Use the heart key to open up the door connecting to the lobby room (which is located upstairs)
+// 34: Objective 8 - Find switches and activate them onto the panel
+// 31: Objective 5 - Find a lever and use it to gain entrance towards the maintenance tunnels
+// 24: Objective 9 - Prepare your escape route !
+// 32: Objective 6 - Open the door which is pointing towards the sewers
+// 41: Objective 7_pre - Turn off the gas
+// 42: Objective 5_pre - Activate the generator by pressing the button in the engine room
+// 43: Objective 6_pre - Head downstairs into the maintenance tunnels
+// 44: Objective 7_prepre - Destroy the board to gain access towards the sewer
+
+// Objective challenges
+// KV names are identifiers, and will be saved in records!
+"Challenges"
+{
+	"nmo_shelter_challenge_1"
+	{
+		"Name" "There Be No Shelter Here!"
+		"Description" "The thin line between entertainment and war."
+		"Objectives"
+		{
+			"0" "27" // Proceed to the main hall
+			"1" "28" // Go upstairs
+			"2" "29" // Find a way to open up the control room
+			"3" "30" // Use the heart key to open up the door connecting to the lobby room (which is located upstairs)
+			"4" "42" // Activate the generator by pressing the button in the engine room
+			"5" "31" // Find a lever and use it to gain entrance towards the maintenance tunnels
+			"6" "43" // Head downstairs into the maintenance tunnels
+			"7" "32" // Open the door which is pointing towards the sewers
+			"8" "44" // Destroy the board to gain access towards the sewer
+			"9" "41" // Turn off the gas
+			"10" "33" // Look for clues
+			"11" "34" // Find switches and activate them onto the panel
+			"12" "24" // Prepare your escape route !
+		}
+	}
+}

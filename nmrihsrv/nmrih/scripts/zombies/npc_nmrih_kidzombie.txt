@@ -1,0 +1,32 @@
+"npc_nmrih_shamblerzombie"
+{
+	"models/nmr_zombie/zombiekid_boy.mdl"
+	{
+		"male"	"1"
+		"alert"		"Zombie.Alert"
+		"attack"	"Zombie.Attack"
+		"attackhit"	"Zombie.AttackHit"
+		"attackmiss"	"Zombie.AttackMiss"
+		"clawhit"	"Zombie.ClawHit"
+		"chomp"		"Zombie.Chomp"
+		"die"		"Zombie.Die"
+		"idle"		"Zombie.Idle"
+		"moan"		"Zombie.Moan1"
+		"pain"		"Zombie.Pain"
+	}
+
+	"models/nmr_zombie/zombiekid_girl.mdl"
+	{
+		"male"	"0"
+		"alert"		"Zombie.Alert"
+		"attack"	"Zombie.Attack"
+		"attackhit"	"Zombie.AttackHit"
+		"attackmiss"	"Zombie.AttackMiss"
+		"clawhit"	"Zombie.ClawHit"
+		"chomp"		"Zombie.Chomp"
+		"die"		"Zombie.Die"
+		"idle"		"Zombie.Idle"
+		"moan"		"Zombie.Moan1"
+		"pain"		"Zombie.Pain"
+	}
+}

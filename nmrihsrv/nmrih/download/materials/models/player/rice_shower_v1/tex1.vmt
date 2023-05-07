@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/rice_shower_v1/tex1"
+    "$lightwarptexture" "models/player/rice_shower_v1/basewarp"
+
+	"$halflambert"	1
+	"$nocull"	1
+	"$phong" "1"
+	"$phongboost"	".02"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[1 .1 .1]"
+	"$PhongExponent" "1.0"
+	"$ambientocclusion" "0"
+}

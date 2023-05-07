@@ -1,0 +1,67 @@
+//************
+// JAE700
+//************
+
+"Weapon_JAE700.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_140dB"
+	
+	"rndwave"
+	{
+        "wave"		")weapons/firearms/rifle_jae700/jae_fire_01.wav"
+    }
+}
+
+
+"Weapon_JAE700.BoltSlide"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_70dB"
+	
+	"rndwave"
+	{
+        "wave"		")weapons/firearms/rifle_jae700/jae_boltpull_01.wav"
+    }
+}
+
+
+"Weapon_JAE700.BoltSlideSlow"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_70dB"
+	
+	"rndwave"
+	{
+        "wave"		")weapons/firearms/rifle_jae700/jae_boltpull_slow_01.wav"
+    }
+}
+
+
+"Weapon_JAE700.Magout"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_70dB"
+	
+	"rndwave"
+	{
+        "wave"		")weapons/firearms/rifle_jae700/jae_magout_01.wav"
+    }
+}
+
+
+"Weapon_JAE700.Magin"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_70dB"
+	
+	"rndwave"
+	{
+        "wave"		")weapons/firearms/rifle_jae700/jae_magin_01.wav"
+    }
+}

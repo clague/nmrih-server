@@ -1,0 +1,183 @@
+// NOTE:  THIS FILE IS AUTOMATICALLY REGENERATED, 
+//DO NOT EDIT THIS HEADER, YOUR COMMENTS WILL BE LOST IF YOU DO
+// User options script
+//
+// Format:
+//  Version [float]
+//  Options description followed by 
+//  Options defaults
+//
+// Option description syntax:
+//
+//  "cvar" { "Prompt" { type [ type info ] } { default } }
+//
+//  type = 
+//   BOOL   (a yes/no toggle)
+//   STRING
+//   NUMBER
+//   LIST
+//
+// type info:
+// BOOL                 no type info
+// NUMBER       min max range, use -1 -1 for no limits
+// STRING       no type info
+// LIST          delimited list of options value pairs
+//
+//
+// default depends on type
+// BOOL is "0" or "1"
+// NUMBER is "value"
+// STRING is "value"
+// LIST is "index", where index "0" is the first element of the list
+
+
+// Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
+// File generated:  Tue May 26 04:33:22 AM
+//
+//
+// Cvar	-	Setting
+
+VERSION 1.0
+
+DESCRIPTION INFO_OPTIONS
+{
+	"fov_desired"
+	{
+		"#NMRiH_Advanced_fov_desired"
+		{ NUMBER 75 110 }
+		{ "90" }
+	}
+
+	"cl_textfilter"
+	{
+		"#NMRiH_Advanced_cl_textfilter"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"cl_richpresence"
+	{
+		"#NMRiH_Advanced_cl_richpresence"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_vmcamera_enabled"
+	{
+		"#NMRiH_Advanced_cl_vmcamera_enabled"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_stickyironsight" //the convar
+	{
+		"#NMRiH_Advanced_cl_stickyironsight"  //the description
+		{ BOOL }  //the type of convar
+		{ "1" }  //the boolean value
+	}
+	
+	"cl_voicesubtitles"
+	{
+		"#NMRiH_Advanced_cl_voicesubtitles"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_ejectbrass"
+	{
+		"#NMRiH_Advanced_cl_ejectbrass"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_muzzle_dlight"
+	{
+		"#NMRiH_Advanced_cl_muzzle_dlight"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"fov_allow_change"
+	{
+		"#NMRiH_Advanced_fov_allow_change"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_disablehtmlmotd"
+	{
+		"#NMRiH_Advanced_cl_disablehtmlmotd"
+		{ OBSOLETE }
+		{ "" }
+	}
+	
+	"cl_new_impact_effects_cheap"
+	{
+		"#NMRiH_Advanced_cl_new_impact_effects_cheap"
+		{ LIST "#NMRiH_Advanced_cl_new_impact_effects_cheap_0" 0 "#NMRiH_Advanced_cl_new_impact_effects_cheap_1" 1 }
+		{ "0" }
+	}
+	
+	"cl_mainmenu_background"
+	{
+		"#NMRiH_Advanced_cl_mainmenu_background"
+		{ LIST "#NMRiH_Advanced_cl_mainmenu_background_Random" -1 "#NMRiH_Advanced_cl_mainmenu_background_1" 1 "#NMRiH_Advanced_cl_mainmenu_background_2" 2 "#NMRiH_Advanced_cl_mainmenu_background_0" 0 }
+		{ "0" }
+	}
+
+	"nmrih_screenspace"
+	{
+		"#NMRiH_Advanced_nmrih_screenspace"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"nmrih_screenspace_shadow"
+	{
+		"#NMRiH_Advanced_nmrih_screenspace_shadow"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"nmrih_grain"
+	{
+		"#NMRiH_Advanced_nmrih_grain"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"nmrih_grain_intensity"
+	{
+		"#NMRiH_Advanced_nmrih_grain_intensity"
+		{ SLIDER 1 40 }
+		{ "20" }
+	}
+
+	"nmrih_lensflare"
+	{
+		"#NMRiH_Advanced_nmrih_lensflare"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"nmrih_dof"
+	{
+		"#NMRiH_Advanced_nmrih_dof"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"nmrih_ssao"
+	{
+		"#NMRiH_Advanced_nmrih_ssao"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"mp_decals" //convar
+	{
+		"#NMRiH_Advanced_mp_decals"
+		{ NUMBER 0 4096 }
+		{ "200" }
+	}	
+}

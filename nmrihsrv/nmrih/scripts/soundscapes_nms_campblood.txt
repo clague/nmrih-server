@@ -1,0 +1,1408 @@
+//****************************************************************************
+// NO MORE ROOM IN HELL
+// Soundscapes for 'Campblood'
+//
+//****************************************************************************
+//
+//****************************************
+// Ambient Setups
+//****************************************
+
+"campblood.drips"
+{	
+	"playrandom"
+	{
+		"time"		"1,2"
+		"volume"	"0.7,1.0"
+		"pitch"		"95,105"
+		"attenuation"	"0.9"
+		"soundlevel"	"SNDLVL_50dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient/water/drip1.wav"
+			"wave"		"ambient/water/drip2.wav"
+			"wave"		"ambient/water/drip3.wav"
+			"wave"		"ambient/water/drip4.wav"
+			"wave"		"ambient/water/drip5.wav"
+		}
+	}
+}
+
+"campblood.toxic.slime"
+{	
+	"playrandom"
+	{
+		"time"		"2,4"
+		"volume"	"0.5,0.7"
+		"pitch"		"100"
+		"attenuation"	"0.9"
+		"soundlevel"	"SNDLVL_50dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient/levels/canals/toxic_slime_sizzle2.wav"
+			"wave"		"ambient/levels/canals/toxic_slime_sizzle3.wav"
+		}
+	}
+}
+
+"campblood.wind"
+{
+	"playrandom"
+	{
+		"volume"	"0.3,0.5"
+		"time"		"7,25"
+		"pitch"		"90,110"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+
+		"rndwave"
+		{
+			"wave" "ambient/wind/wind_eerie_snippet_01.wav"
+			"wave" "ambient/wind/wind_eerie_snippet_02.wav"
+			"wave" "ambient/wind/wind_eerie_snippet_03.wav"
+			"wave" "ambient/wind/wind_eerie_snippet_04.wav"
+			"wave" "ambient/wind/wind_eerie_snippet_05.wav"
+			"wave" "ambient/wind/wind_eerie_snippet_06.wav"
+			"wave" "ambient/wind/wind_eerie_snippet_07.wav"
+		}
+	}
+}
+
+//****************************************
+// Animals setup
+//****************************************
+
+"campblood.crickets"
+{
+	"playrandom"
+	{
+		"time"       	"15,30"
+		"volume"       	"0.6,0.8"
+		"pitch"	       	"90,100"
+		"attenuation"	"0.9"
+		"position" 	"random"
+		"soundlevel"	"SNDLVL_40dB"
+
+		"rndwave"
+		{
+			"wave"	"ambient/flooded/cricket.wav"
+		}
+	}
+}
+
+"campblood.crows"
+{
+	"playrandom"
+	{
+		"time"       	"15,30"
+		"volume"       	"0.8,1.0"
+		"pitch"	       	"90,100"
+		"attenuation"	"0.9"
+		"position" 	"random"
+		"soundlevel"	"SNDLVL_40dB"
+
+		"rndwave"
+		{
+			"wave"	"ambient/background/dist_crows1.wav"
+			"wave"	"ambient/background/dist_crows2.wav"
+			"wave"	"ambient/background/dist_crows3.wav"
+			"wave"	"ambient/flooded/ravens.wav"
+		}
+	}
+}
+
+"campblood.frogs"
+{	
+	"playrandom"
+	{
+		"time"		"5,12"
+		"volume"	"0.8,1.0"
+		"pitch"		"90,100"
+		"attenuation"	"0.9"
+		"position" 	"random"
+		"soundlevel"	"SNDLVL_40dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient/animals/frog_croak_01.wav"
+			"wave"		"ambient/animals/frog_croak_02.wav"
+			"wave"		"ambient/animals/frog_croak_03.wav"
+			"wave"		"ambient/animals/frog_croak_04.wav"
+			"wave"		"ambient/animals/frog_croak_05.wav"
+			"wave"		"ambient/animals/frog_croak_06.wav"
+		}
+	}
+}
+
+"campblood.owls"
+{	
+	"playrandom"
+	{
+		"time"		"8,32"
+		"volume"	"0.2,0.5"
+		"pitch"		"90,100"
+		"attenuation"	"0.9"
+		"soundlevel"	"SNDLVL_50dB"
+		"position" "random"
+
+		"rndwave"
+		{
+			"wave"		"ambient/animals/owl_hoot_01.wav"
+			"wave"		"ambient/animals/owl_hoot_02.wav"
+			"wave"		"ambient/animals/owl_hoot_03.wav"
+			"wave"		"ambient/animals/owl_hoot_04.wav"
+			"wave"		"ambient/animals/owl_hoot_05.wav"
+		}
+	}
+}
+
+"campblood.rats"
+{
+	"playrandom"
+	{
+		"time"		"25, 32"
+		"volume"	"0.2,0.3"
+		"pitch"		"95,110"
+		"soundlevel"	"SNDLVL_140db"
+		"position" "random"
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/rats1.wav"
+			"wave"	"ambient/creatures/rats2.wav"
+			"wave"	"ambient/creatures/rats3.wav"
+			"wave"	"ambient/creatures/rats4.wav"
+		}
+	}
+}
+
+"campblood.wolfs"
+{	
+	"playrandom"
+	{
+		"time"		"10,19"
+		"volume"	"0.8,1.0"
+		"pitch"		"90,100"
+		"attenuation"	"0.9"
+		"position" 	"random"
+		"soundlevel"	"SNDLVL_40dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient/animals/wolf_howl_01.wav"
+			"wave"		"ambient/animals/wolf_howl_02.wav"
+			"wave"		"ambient/animals/wolf_howl_03.wav"
+			"wave"		"ambient/animals/wolf_howl_04.wav"
+		}
+	}
+}
+
+//****************************************
+// Outside
+//****************************************
+
+"campblood.exterior.base"
+{
+	"dsp"	"1"
+
+	// Exterior Base Ambient
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/wind/wind_forest_01_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/animals/cricket_ambient_01_loop.wav"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.wind"
+		"volume"	"1.0"
+	}
+	
+	// Animal soundscapes
+	"playsoundscape"	
+	{
+		"name"		"campblood.wolfs"
+		"volume"	"1.0"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.owls"
+		"volume"	"1.0"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.crows"
+		"volume"	"1.0"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.crickets"
+		"volume"	"1.0"
+	}
+}
+
+"campblood.exterior"
+{
+	"dsp"	"1"
+
+	// Exterior Base Ambient
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/wind/wind_forest_01_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/animals/cricket_ambient_01_loop.wav"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.wind"
+		"volume"	"1.0"
+	}
+	
+	// Animal soundscapes
+	"playsoundscape"	
+	{
+		"name"		"campblood.wolfs"
+		"volume"	"1.0"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.owls"
+		"volume"	"1.0"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.crows"
+		"volume"	"1.0"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.crickets"
+		"volume"	"1.0"
+	}
+
+	// Position 0: Campfire
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/fire/fire_small_loop1.wav"
+		"soundlevel" 	"SNDLVL_50dB"
+		"position" 	"0"
+	}
+
+	// Position 1: Generator
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"vehicles/diesel_loop2.wav"
+		"soundlevel" 	"SNDLVL_60dB"
+		"position" 	"1"
+	}
+
+	// Position 2: Fluor Light
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/machines/light_spot_stand.wav"
+		"soundlevel"	"SNDLVL_40dB"
+		"position" "2"
+	}
+
+	// Position 3: Fluor Light
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/machines/light_spot_stand.wav"
+		"soundlevel"	"SNDLVL_40dB"
+		"position" "3"
+	}
+	
+	// Position 4: Rez Bang Door
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/zombies/zombie_door_bang_01_loop.wav"
+		"soundlevel"	"SNDLVL_60dB"
+		"position" "4"
+	}
+	
+	// Position 5: Police Car Radio
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/machines/policecar_radiochatter1.wav"
+		"soundlevel"	"SNDLVL_45dB"
+		"position" "5"
+	}
+}
+
+"campblood.exterior.lake"
+{
+	"dsp"	"1"
+	
+	// Exterior Base Ambient
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/wind/wind_forest_01_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"ambient/animals/cricket_ambient_01_loop.wav"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.wind"
+		"volume"	"0.6"
+	}
+	
+	// Animal soundscapes
+	"playsoundscape"	
+	{
+		"name"		"campblood.wolfs"
+		"volume"	"0.4"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.owls"
+		"volume"	"0.4"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.crows"
+		"volume"	"0.4"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.crickets"
+		"volume"	"0.6"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.frogs"
+		"volume"	"1.0"
+	}
+
+	
+	"dsp"	"14"
+	// Position 0: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/lake_water.wav"
+		"position" 	"0"
+	}
+
+	"dsp"	"14"
+	// Position 1: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/waves_shallow_01_loop.wav"
+		"position" 	"1"
+	}
+
+	"dsp"	"14"
+	// Position 2: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/lake_water.wav"
+		"position" 	"2"
+	}
+
+	"dsp"	"14"
+	// Position 3: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/waves_shallow_01_loop.wav"
+		"position" 	"3"
+	}
+
+	"dsp"	"14"
+	// Position 4: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/lake_water.wav"
+		"position" 	"4"
+	}
+
+	"dsp"	"1"
+
+	// Position 6: Fan
+	"playlooping" 
+         { 
+		"pitch"        "100"
+		"volume" 	"1.0"
+		"wave"         "ambient/machines/aircon_outtake.wav"
+		"soundlevel" 	"SNDLVL_50dB"
+		"position" 	"6"
+	}
+
+	// Position 7: Fan
+	"playlooping" 
+         { 
+		"pitch"        "100"
+		"volume" 	"1.0"
+		"wave"         "ambient/machines/aircon_outtake.wav"
+		"soundlevel" 	"SNDLVL_50dB"
+		"position" 	"7"
+	}
+}
+
+"campblood.exterior.boatside"
+{
+	"dsp"	"1"
+	
+	// Exterior Base Ambient
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/wind/wind_forest_01_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"ambient/animals/cricket_ambient_01_loop.wav"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.wind"
+		"volume"	"0.6"
+	}
+	
+	// Animal soundscapes
+	"playsoundscape"	
+	{
+		"name"		"campblood.wolfs"
+		"volume"	"0.4"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.owls"
+		"volume"	"0.4"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.crows"
+		"volume"	"0.4"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.crickets"
+		"volume"	"0.6"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.frogs"
+		"volume"	"1.0"
+	}
+
+	
+	"dsp"	"14"
+	// Position 0: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/lake_water.wav"
+		"position" 	"0"
+	}
+
+	"dsp"	"14"
+	// Position 1: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/waves_shallow_01_loop.wav"
+		"position" 	"1"
+	}
+
+	"dsp"	"14"
+	// Position 2: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/lake_water.wav"
+		"position" 	"2"
+	}
+
+	// Position 3: Motor Engine
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"vehicles/v8/v8_idle_loop1.wav"
+		"soundlevel"	"SNDLVL_75dB"
+		"position" "3"
+	}
+
+	// Position 4: Fluor Light
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/machines/light_spot_stand.wav"
+		"soundlevel"	"SNDLVL_40dB"
+		"position" "4"
+	}
+
+	// Position 5: Flies
+	"playlooping"
+	{
+		"volume"		"1.0"
+		"pitch"		"110"
+		"wave"		"ambient/animals/flies_loop1.wav"
+		"soundlevel"	"SNDLVL_50dB"
+		"position" "5"
+	}
+
+	// Position 6: Bob tribute
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"music/Campblood_regge_radio.mp3"
+		"soundlevel"	"SNDLVL_65dB"
+		"position" "6"
+	}
+}
+
+"campblood.exterior.boatside1"
+{
+	"dsp"	"1"
+	
+	// Exterior Base Ambient
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/wind/wind_forest_01_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"ambient/animals/cricket_ambient_01_loop.wav"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.wind"
+		"volume"	"0.6"
+	}
+	
+	// Animal soundscapes
+	"playsoundscape"	
+	{
+		"name"		"campblood.wolfs"
+		"volume"	"0.4"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.owls"
+		"volume"	"0.4"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.crows"
+		"volume"	"0.4"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.crickets"
+		"volume"	"0.6"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.frogs"
+		"volume"	"1.0"
+	}
+
+	
+	"dsp"	"14"
+	// Position 0: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/lake_water.wav"
+		"position" 	"0"
+	}
+
+	"dsp"	"14"
+	// Position 1: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/waves_shallow_01_loop.wav"
+		"position" 	"1"
+	}
+
+	"dsp"	"14"
+	// Position 2: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/lake_water.wav"
+		"position" 	"2"
+	}
+
+	// Position 3: Motor Engine
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"vehicles/v8/v8_idle_loop1.wav"
+		"soundlevel"	"SNDLVL_75dB"
+		"position" "3"
+	}
+
+	// Position 4: Fluor Light
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/machines/light_spot_stand.wav"
+		"soundlevel"	"SNDLVL_40dB"
+		"position" "4"
+	}
+
+	// Position 5: Flies
+	"playlooping"
+	{
+		"volume"		"1.0"
+		"pitch"		"110"
+		"wave"		"ambient/animals/flies_loop1.wav"
+		"soundlevel"	"SNDLVL_50dB"
+		"position" "5"
+	}
+
+	// Position 6: Bob tribute
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"music/steamtrailer_radio.mp3"
+		"soundlevel"	"SNDLVL_65dB"
+		"position" "6"
+	}
+}
+
+"campblood.exterior.middle"
+{
+	"dsp"	"1"
+	
+	// Exterior Base Ambient
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/wind/wind_forest_01_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"ambient/animals/cricket_ambient_01_loop.wav"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.wind"
+		"volume"	"0.6"
+	}
+	
+	// Animal soundscapes
+	"playsoundscape"	
+	{
+		"name"		"campblood.wolfs"
+		"volume"	"0.4"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.owls"
+		"volume"	"0.4"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.crows"
+		"volume"	"0.4"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.crickets"
+		"volume"	"0.6"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.frogs"
+		"volume"	"1.0"
+	}
+
+	"dsp"	"14"
+	// Position 0: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/lake_water.wav"
+		"position" 	"0"
+	}
+
+	"dsp"	"14"
+	// Position 1: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/waves_shallow_01_loop.wav"
+		"position" 	"1"
+	}
+
+	"dsp"	"14"
+	// Position 2: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/lake_water.wav"
+		"position" 	"2"
+	}
+
+	"dsp"	"14"
+	// Position 3: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/lake_water.wav"
+		"position" 	"3"
+	}
+
+	"dsp"	"14"
+	// Position 4: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/waves_shallow_01_loop.wav"
+		"position" 	"4"
+	}
+
+	// Position 5: Fluor Light
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/machines/light_spot_stand.wav"
+		"soundlevel"	"SNDLVL_40dB"
+		"position" "5"
+	}
+}
+
+//****************************************
+// Inside
+//****************************************
+
+"campblood.boat.house"
+{
+	"dsp"	"1"
+
+	// Exterior Base Ambient
+	"playsoundscape"	
+	{
+		"name"		"campblood.exterior.base"
+		"volume"	"0.5"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.frogs"
+		"volume"	"0.8"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.rats"
+		"volume"	"1.0"
+	}
+
+	// Base Ambient
+	"playlooping"	
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/roomtone_neutral1.wav"
+		"soundlevel" 	"SNDLVL_50dB"
+	}
+
+	"dsp"	"14"
+	// Position 0: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/lake_water.wav"
+		"position" 	"0"
+	}
+
+	"dsp"	"14"
+	// Position 1: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/waves_shallow_01_loop.wav"
+		"position" 	"1"
+	}
+
+	"dsp"	"14"
+	// Position 2: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/lake_water.wav"
+		"position" 	"2"
+	}
+
+	// Position 3: Water drips
+	"playsoundscape"
+	{
+		"name"		"campblood.drips"
+		"volume" 	"1"
+		"positionoverride" "3"
+	}
+	
+	// Position 4: Motor Engine
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"vehicles/v8/v8_idle_loop1.wav"
+		"soundlevel"	"SNDLVL_75dB"
+		"position" "4"
+	}
+
+	// Position 5: Flou Light
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/electricity/fluorescent_hum.wav"
+		"soundlevel"	"SNDLVL_40dB"
+		"position" "5"
+	}
+	
+	// Position 6: Flies
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"110"
+		"wave"		"ambient/animals/flies_loop1.wav"
+		"soundlevel"	"SNDLVL_50dB"
+		"position" "6"
+	}
+
+	// Position 7: Bob tribute
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"music/campblood_regge_radio.mp3"
+		"soundlevel"	"SNDLVL_70dB"
+		"position" "7"
+	}
+}
+
+"campblood.boat.house1"
+{
+	"dsp"	"1"
+
+	// Exterior Base Ambient
+	"playsoundscape"	
+	{
+		"name"		"campblood.exterior.base"
+		"volume"	"0.5"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.frogs"
+		"volume"	"0.8"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.rats"
+		"volume"	"1.0"
+	}
+
+	// Base Ambient
+	"playlooping"	
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/roomtone_neutral1.wav"
+		"soundlevel" 	"SNDLVL_50dB"
+	}
+
+	"dsp"	"14"
+	// Position 0: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/lake_water.wav"
+		"position" 	"0"
+	}
+
+	"dsp"	"14"
+	// Position 1: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/waves_shallow_01_loop.wav"
+		"position" 	"1"
+	}
+
+	"dsp"	"14"
+	// Position 2: Waves
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/water/lake_water.wav"
+		"position" 	"2"
+	}
+
+	// Position 3: Water drips
+	"playsoundscape"
+	{
+		"name"		"campblood.drips"
+		"volume" 	"1"
+		"positionoverride" "3"
+	}
+	
+	// Position 4: Motor Engine
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"vehicles/v8/v8_idle_loop1.wav"
+		"soundlevel"	"SNDLVL_75dB"
+		"position" "4"
+	}
+
+	// Position 5: Flou Light
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/electricity/fluorescent_hum.wav"
+		"soundlevel"	"SNDLVL_40dB"
+		"position" "5"
+	}
+	
+	// Position 6: Flies
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"110"
+		"wave"		"ambient/animals/flies_loop1.wav"
+		"soundlevel"	"SNDLVL_50dB"
+		"position" "6"
+	}
+
+	// Position 7: Bob tribute / Switch Steam Trailer
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"music/steamtrailer_radio.mp3"
+		"soundlevel"	"SNDLVL_65dB"
+		"position" "7"
+	}
+}
+
+"campblood.mechanics.lodge"
+{
+	"dsp"	"1"
+
+	// Exterior Base Ambient
+	"playsoundscape"	
+	{
+		"name"		"campblood.exterior.base"
+		"volume"	"0.5"
+	}
+
+	// Base Ambient
+	"playlooping"	
+	{
+		"volume"	"1"	
+		"wave"		"ambient/roomtones/roomtone_danger2.wav"
+	}
+}
+
+"campblood.price.lodge"
+{
+	"dsp"	"1"
+
+	// Exterior Base Ambient
+	"playsoundscape"	
+	{
+		"name"		"campblood.exterior.base"
+		"volume"	"0.2"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.frogs"
+		"volume"	"0.2"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.rats"
+		"volume"	"0.6"
+	}
+
+	// Base Ambient
+	"playlooping"	
+	{
+		"volume"	"0.7"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/roomtone_neutral1.wav"
+		"soundlevel" 	"SNDLVL_50dB"
+	}
+
+	// Position 0: Washing machine
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/machines/washing_machine_cycle3.wav"
+		"soundlevel"	"SNDLVL_60dB"
+		"position" "0"
+	}
+
+	// Position 1: Water drips
+	"playsoundscape"
+	{
+		"name"		"campblood.drips"
+		"volume" 	"0.4"
+		"positionoverride" "1"
+	}
+
+	// Position 2: Flou Light
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/electricity/fluorescent_hum.wav"
+		"soundlevel"	"SNDLVL_40dB"
+		"position" "2"
+	}
+}
+
+"campblood.price.lodge.torture"
+{
+	"dsp"	"1"
+
+	// Exterior Base Ambient
+	"playsoundscape"	
+	{
+		"name"		"campblood.exterior.base"
+		"volume"	"0.2"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.frogs"
+		"volume"	"0.1"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.rats"
+		"volume"	"0.4"
+	}
+
+	// Base Ambient
+	"playlooping"	
+	{
+		"volume"	"0.7"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/roomtone_neutral1.wav"
+		"soundlevel" 	"SNDLVL_50dB"
+	}
+
+	// Base Ambient
+	"playlooping"	
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/roomtone_danger2.wav"
+		"soundlevel" 	"SNDLVL_35dB"
+	}
+
+	// Position 0: Carbattery
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/machines/electric_machine.wav"
+		"soundlevel" 	"SNDLVL_35dB"
+		"position" "0"
+	}
+
+	"dsp"	"1"
+
+	// Position 1: Toxic Water
+	"playsoundscape"
+	{
+		"name"		"campblood.toxic.slime"
+		"volume" 	"0.6"
+		"positionoverride" "1"
+	}
+
+
+	// Position 0: Water drips
+	"playsoundscape"
+	{
+		"name"		"campblood.drips"
+		"volume" 	"0.3"
+		"positionoverride" "2"
+	}
+
+	// Position 0: Waterleak
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/levels/canals/waterleak_loop1.wav"
+		"soundlevel" 	"SNDLVL_50dB"
+		"position" "3"
+	}
+
+	// Position 4: Flou Light
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/electricity/fluorescent_hum.wav"
+		"soundlevel"	"SNDLVL_40dB"
+		"position" "4"
+	}
+
+	// Position 5: Flou Light
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/electricity/fluorescent_hum.wav"
+		"soundlevel"	"SNDLVL_40dB"
+		"position" "5"
+	}
+
+	// Position 6: Washing machine
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/machines/washing_machine_cycle3.wav"
+		"soundlevel"	"SNDLVL_60dB"
+		"position" "6"
+	}
+}
+
+"campblood.price.lodge.growroom"
+{
+	"dsp"	"1"
+
+	// Exterior Base Ambient
+	"playsoundscape"	
+	{
+		"name"		"campblood.exterior.base"
+		"volume"	"0.2"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.frogs"
+		"volume"	"0.1"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"campblood.rats"
+		"volume"	"0.4"
+	}
+
+	// Base Ambient
+	"playlooping"	
+	{
+		"volume"	"0.7"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/roomtone_neutral1.wav"
+		"soundlevel" 	"SNDLVL_50dB"
+	}
+
+	// Base Ambient
+	"playlooping"	
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/roomtone_danger2.wav"
+		"soundlevel" 	"SNDLVL_35dB"
+	}
+
+	// Position 0: Fan
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/machines/fan_growroom.wav"
+		"soundlevel"	"SNDLVL_40dB"
+		"position" "0"
+	}
+
+	// Position 1: Fan (PVC)
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/machines/fan_fast.wav"
+		"soundlevel"	"SNDLVL_40dB"
+		"position" "1"
+	}
+
+	// Position 2: Flou Light
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/electricity/fluorescent_hum.wav"
+		"soundlevel"	"SNDLVL_40dB"
+		"position" "2"
+	}
+
+	// Position 3: Flou Light
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/electricity/fluorescent_hum.wav"
+		"soundlevel"	"SNDLVL_40dB"
+		"position" "3"
+	}
+}
+
+"campblood.vandusen.lodge"
+{
+	"dsp"	"1"
+
+	// Exterior Base Ambient
+	"playsoundscape"	
+	{
+		"name"		"campblood.exterior.base"
+		"volume"	"0.2"
+	}
+
+	// Base Ambient
+	"playlooping"	
+	{
+		"volume"	"0.7"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/roomtone_neutral1.wav"
+		"soundlevel" 	"SNDLVL_50dB"
+	}
+
+	// Position 0: Fridge
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"110"
+		"wave"		"ambient/machines/fridge2.wav"
+		"soundlevel" 	"SNDLVL_50dB"
+		"position"	"0"
+	}
+
+	// Position 1: Generator
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"vehicles/diesel_loop2.wav"
+		"soundlevel" 	"SNDLVL_65dB"
+		"position" 	"1"
+	}
+}

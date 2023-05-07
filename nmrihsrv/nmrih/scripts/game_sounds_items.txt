@@ -1,0 +1,654 @@
+//*********************************************************
+// Prop sounds
+"InventoryBox.Open"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_75dB"
+
+	"rndwave"
+	{
+		"wave"		")props/itembox/crate-open1.wav"
+		"wave"		")props/itembox/crate-open2.wav"
+	}
+}
+
+"InventoryBox.Close"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_75dB"
+
+	"wave"		")props/itembox/crate-closed.wav"
+}
+
+"InventoryBox.Select"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_75dB"
+
+	"wave"		")props/itembox/item-select1.wav"
+}
+
+"InventoryBox.Take"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_75dB"
+	
+	"rndwave"
+	{
+		"wave"		")props/itembox/item-take1.wav"
+		"wave"		")props/itembox/item-take2.wav"
+	}
+}
+
+//*********************************************************
+// Barricade
+"BarricadeProp.Damage"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_75dB"
+	
+	"rndwave"
+	{
+		"wave"		")weapons/melee/hammer/board_damage-light1.wav"
+		"wave"		")weapons/melee/hammer/board_damage-light2.wav"
+		"wave"		")weapons/melee/hammer/board_damage-light4.wav"
+		"wave"		")weapons/melee/hammer/board_damage-heavy1.wav"
+		"wave"		")weapons/melee/hammer/board_damage-heavy2.wav"
+		"wave"		")weapons/melee/hammer/board_damage-heavy3.wav"
+	}
+}
+
+"BarricadeProp.Break"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_75dB"
+	
+	"rndwave"
+	{
+		"wave"		")weapons/melee/hammer/board_damage-broken1.wav"
+		"wave"		")weapons/melee/hammer/board_damage-broken2.wav"
+	}
+}
+
+//*********************************************************
+// HL2 Item sounds
+
+"ItemBattery.Touch"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/battery_pickup.wav"
+}
+
+"HealthKit.Touch"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/smallmedkit1.wav"
+}
+
+"HealthVial.Touch"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/smallmedkit1.wav"
+}
+
+"WallHealth.Deny"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/medshotno1.wav"
+}
+
+"WallHealth.Start"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/medshot4.wav"
+}
+
+"WallHealth.LoopingContinueCharge"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/medcharge4.wav"
+}
+
+"WallHealth.Recharge"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/medshot4.wav"
+}
+
+"SuitRecharge.Deny"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.75"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/suitchargeno1.wav"
+}
+
+"SuitRecharge.Start"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.75"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/suitchargeok1.wav"
+}
+
+"SuitRecharge.ChargingLoop"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.75"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/suitcharge1.wav"
+}
+
+"AmmoCrate.Open"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.45"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/ammocrate_open.wav"
+}
+
+"AmmoCrate.Close"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.45"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/ammocrate_close.wav"
+}
+
+"ExtinguisherCharger.Use"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"items/medshot4.wav"
+}
+
+
+"SprayCan.Paint"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"player/sprayer.wav"
+}
+
+"Flare.Touch"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/flaregun/impact.wav"
+}
+
+"Item.Materialize"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"	"150"
+
+	"wave"	"items/suitchargeok1.wav"
+}
+
+"Doll.Squeak"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	".5"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"	"PITCH_NORM"
+
+	"wave"	"ambient/creatures/teddy.wav"
+}
+// **********************************
+// OBSOLETE: player viewpoint missile
+
+"Missile.Accelerate"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/rpg/rocket1.wav"
+}
+
+"Missile.Ignite"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"wave"			"weapons/rpg/rocket1.wav"
+}
+
+"Missile.ShotDown"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"wave"			"weapons/rpg/shotdown.wav"	
+}
+
+// **************************
+// Health items
+"HealthSupply.Activate"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_90dB"
+
+	"wave"			"survival/surv_zone_resupply.wav"
+}
+
+"HealthSupply.Use"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_90dB"
+
+	"wave"			")survival/health_supply_loop.wav"
+}
+
+"HealthSupply.Deplete"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_90dB"
+
+	"wave"			")survival/surv_player_heal_depleted.wav"
+}
+
+"HealthSupply.Open"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_90dB"
+
+	"wave"			")survival/health_supply_open.wav"
+}
+
+"HealthSupply.Close"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_90dB"
+
+	"wave"			")survival/health_supply_close.wav"
+}
+
+// **************************
+// OBSOLETE: portable thumper
+
+"PortableThumper.ThumpSound"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"ambient/machines/thumper_dust.wav"
+}
+
+"Combine_Console.Detach"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_105dB"
+
+	"rndwave"
+	{
+		"wave"	"physics/metal/metal_box_break1.wav"
+		"wave"	"physics/metal/metal_box_break2.wav"
+	}
+}
+
+// **************************
+// *******Health Items*******
+// **************************
+
+"Pills.Draw"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"wave"			"player/pills/pills_draw_01.wav"
+}
+
+"Pills.LidTwist"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"rndwave"
+	{
+		"wave"		"player/pills/pills_lid_twist_01.wav"
+		"wave"		"player/pills/pills_lid_twist_02.wav"
+		"wave"		"player/pills/pills_lid_twist_03.wav"
+	}
+}
+
+"Pills.LidTwistFinal"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"wave"			"player/pills/pills_lid_twist_open_01.wav"
+}
+
+"Pills.Shake"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"rndwave"
+	{
+		"wave"		"player/pills/pills_shake_01.wav"
+		"wave"		"player/pills/pills_shake_02.wav"
+		"wave"		"player/pills/pills_shake_03.wav"
+		"wave"		"player/pills/pills_shake_04.wav"
+		"wave"		"player/pills/pills_shake_05.wav"
+	}
+}
+
+"Pills.EnterMouth"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"rndwave"
+	{
+		"wave"		"player/pills/pills_enter_mouth_01.wav"
+		"wave"		"player/pills/pills_enter_mouth_02.wav"
+		"wave"		"player/pills/pills_enter_mouth_03.wav"
+		"wave"		"player/pills/pills_enter_mouth_04.wav"
+	}
+}
+
+"Pills.Swallow"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"rndwave"
+	{
+		"wave"		"player/pills/gulp_01.wav"
+		"wave"		"player/pills/gulp_02.wav"
+
+	}
+}
+
+"Bandage.Unravel1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"wave"			"player/bandage/bandage_unravel_01.wav"
+}
+
+"Bandage.Unravel2"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_IDLE"
+
+	"wave"			"player/bandage/bandage_unravel_02.wav"
+}
+
+"Bandage.Apply"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"rndwave"
+	{
+		"wave"		"player/bandage/bandage_apply_01.wav"
+		"wave"		"player/bandage/bandage_apply_02.wav"
+
+	}
+}
+
+"Genetherapy.CapOff"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"wave"			"player/genetherapy/genetherapy_cap_remove_01.wav"
+}
+
+"Genetherapy.Inject"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"wave"			"player/genetherapy/genetherapy_inject_01.wav"
+}
+
+"Genetherapy.Click"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"wave"			"player/genetherapy/genetherapy_click_01.wav"
+}
+
+"Medkit.Open"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"wave"			"player/medkit/medkit_unzip_01.wav"
+}
+
+"Medkit.Shuffle"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"rndwave"
+	{
+		"wave"		"player/medkit/medkit_shuffle_01.wav"
+		"wave"		"player/medkit/medkit_shuffle_02.wav"
+
+	}
+}
+
+"Scissors.Snip"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"rndwave"
+	{
+		"wave"		"player/medkit/scissors_snip_01.wav"
+		"wave"		"player/medkit/scissors_snip_02.wav"
+		"wave"		"player/medkit/scissors_snip_03.wav"
+
+	}
+}
+
+"Stitch.Flesh"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"rndwave"
+	{
+		"wave"		"player/medkit/stitch_fleshy_01.wav"
+		"wave"		"player/medkit/stitch_fleshy_02.wav"
+		"wave"		"player/medkit/stitch_fleshy_03.wav"
+
+	}
+}
+
+"Stitch.Prepare"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"rndwave"
+	{
+		"wave"		"player/medkit/stitching_prepare_01.wav"
+
+	}
+}
+
+"Tape.Unravel"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"rndwave"
+	{
+		"wave"		"player/medkit/tape_unravel_01.wav"
+
+	}
+}
+
+"MedPills.Draw"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"rndwave"
+	{
+		"wave"		"player/medkit/medpills_draw_01.wav"
+
+	}
+}
+
+"MedPills.Open"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"rndwave"
+	{
+		"wave"		"player/medkit/medpills_open_01.wav"
+
+	}
+}
+
+"MedPills.Shake"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+	"soundlevel"  		"SNDLVL_IDLE"
+
+	"rndwave"
+	{
+		"wave"		"player/medkit/medpills_shake_01.wav"
+		"wave"		"player/medkit/medpills_shake_02.wav"
+		"wave"		"player/medkit/medpills_shake_03.wav"
+
+	}
+}
+
+

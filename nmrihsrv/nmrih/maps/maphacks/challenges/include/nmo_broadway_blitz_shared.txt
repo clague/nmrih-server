@@ -1,0 +1,52 @@
+"MapHack"
+{
+	"events"
+	{
+		"SpawnEvacTrigger"
+		{
+			"type"	"EVENT_OUTPUT"
+			"targetname"	"obj_h_laptopbutton"
+			"output"	"OnPressed"
+		}
+	}
+	
+	"entities"
+	{
+		// Used for extraction
+		"nmrih_game_state"
+		{
+			"targetname"	"game_state"
+		}
+	}
+	
+	// Spawn a trigger near train doors for a fast evac
+	"SpawnEvacTrigger"
+	{
+		"instant_trigger"
+		{
+			"origin"	"-68.871 1286.160 459.531"
+			"angles"	"0 0 0"
+			"targetname"	"trig_evac"
+			"keyvalues"
+			{
+				"allowPlayers" "1"
+				"radius" "78"
+				"noclear" "1"
+				
+				// Fire I/O chain to gamestate ent
+				"connections"
+				{
+					"OnTrigger" "game_state,ExtractPlayer,,0,-1"
+				}
+			}
+		}
+		
+		// Remove this trigger when the train doors close
+		$trigger { "event" "RemoveEvacTrigger" "delay" "100.0" }
+	}
+	
+	"RemoveEvacTrigger"
+	{
+		$remove { "targetname" "trig_evac" } 
+	}
+}

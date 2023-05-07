@@ -1,0 +1,81 @@
+// 20: Open The Door - Find a way to open the door!
+// 21: Fence Welder - Weld through grate!
+// 22: Find Dinamite - Find dynamite and blow up the wall!
+// 26: Elevator - Activate elevator!
+// 37: Last_Objective - Use all looted items!
+// 38: HelicopterCome - Wait for the helicopter!
+// 28: cart1a - Push the cart!
+// 30: cart1b - Push the cart!
+// 31: cart2b - Loot a smoke grenade!
+// 32: cart2a - Look for a code in the office building and loot a can of paint!
+// 33: cart3a - Push the cart!
+// 34: cart4a - Loot the car battery!
+// 35: cart5a - Push the cart!
+// 36: cart6a - Loot a smoke grenade!
+// 39: cart7a - Push the cart!
+// 40: cart3b - Push the cart!
+// 41: cart4b - Loot the car battery!
+// 42: cart5b - Push the cart!
+// 43: cart6b - Look for a code in the office building and loot a can of paint!
+// 44: cart7b - Push the cart!
+
+// Objective challenges
+// KV names are identifiers, and will be saved in records!
+"Challenges"
+{
+	"nmo_underground_challenge_1"
+	{
+		"Name" "Commuter Hell"
+		"Description" "You won't get far..."
+		"Objectives"
+		{
+			"0" "20" // Find a way to open the door!
+			"1" "21" // Weld through grate!
+			"2" "22" // Find dynamite and blow up the wall!
+			"3" "26" // Activate elevator!
+			"4" "28" // Push the cart!
+			"5" "32" // Look for a code in the office building and loot a can of paint!
+			"6" "33" // Push the cart!
+			"7" "34" // Loot the car battery!
+			"8" "35" // Push the cart!
+			"9" "36" // Loot a smoke grenade!
+			"10" "39" // Push the cart!
+			"11" "37" // Use all looted items!
+			"12" "38" // Wait for the helicopter!
+		}
+	}
+
+	"nmo_underground_challenge_2"
+	{
+		"Name" "Push the Cart"
+		"Description" "We must push little cart!"
+		"Objectives"
+		{
+			"0" "20" // Find a way to open the door!
+			"1" "21" // Weld through grate!
+			"2" "22" // Find dynamite and blow up the wall!
+			"3" "26" // Activate elevator!
+			"4" "30" // Push the cart!
+			"5" "31" // Loot a smoke grenade!
+			"6" "40" // Push the cart!
+			"7" "41" // Loot the car battery!
+			"8" "42" // Push the cart!
+			"9" "43" // Look for a code in the office building and loot a can of paint!
+			"10" "44" // Push the cart!
+			"11" "37" // Use all looted items!
+			"12" "38" // Wait for the helicopter!
+		}
+	}
+	"nmo_underground_challenge_3"
+	{
+		"Name" "Average melee appreciator"
+		"Description" "Complete the map without guns and explosives!"
+		"MapHack"
+		{
+			"includes"
+			{
+				"file" "maps/maphacks/challenges/nmo_underground_challenge_3.txt"
+			}
+		}
+	}
+}

@@ -1,0 +1,55 @@
+// 33: Objective01_leavestation - Find a way out of the station
+// 35: Objective02_maintenancedetour - Main entrance blocked, find alternative exit
+// 23: Objective03_tolindun - Find your way to Lindun Road
+// 25: Objective04_headout - Cross the bridge
+// 42: Objective06_findgas - Find gas to drench barricade in
+// 36: Objective05_oldtown - Find a way to enter the Old Quarter
+// 34: Objective07_burngas - Ignite the barricade using a welder
+// 40: Objective13_extinguishtires - Extinguish tire fort
+// 37: Objective08_extinguishgas - The fire is not dying, find an extinguisher
+// 26: Objective14_detourtires - Go down the alley path
+// 24: Objective09_crosscanal - Bridge the canal and cross it
+// 32: Objective15_batterybarricade - Find a car battery to power the door
+// 38: Objective10_IEDalley - Find an IED to blow up the alley door
+// 27: Objective16_truckpuzzle - Clear the path by moving the truck
+// 43: Objective11_welderalley - Find a welder to open the alley door
+// 46: Objective16b_recrosscanal - Cross canal via the truck
+// 47: Objectivemidpoint_intermediate - Search for evac station
+// 30: Objective17_findevac - Continue to evac station
+// 39: Objective12_IEDtires - Find explosives to destroy tire fort
+// 28: Objective18_horrifyingrealization - Evac station has succumbed to infection! Use radio to call help!
+// 29: Objective20_flarelauncher - Find a way to signal the boat
+// 31: Objective19_batteryforradio - Power is down, find a car battery to run it
+// 44: Objective21_burnbabehburn - Find some fuel
+// 63: Objecitve22_burnbabehburn_ignite - Set fire to the evac center using a welder to signal the boat!
+// 66: Objective23_holdout - Rescue is coming! Survive!
+
+"Challenges"
+{
+	"nmo_suzhou_challenge_1"
+	{
+		"Name"	"Bad Hair Day"
+		"Description" "Complete a round with the longest possible objective chain."
+		"Objectives"
+		{
+			"0" "33"
+			"1"	"35"
+			"2"	"23"
+			"3"	"25"
+			"4"	"36"
+			"5"	"42"
+			"6"	"34"
+			"7"	"37"
+			"8"	"47"
+			"9"	"26"
+			"10" "27"
+			"11" "46"
+			"12" "30"
+			"13" "28"
+			"14" "31"
+			"15" "44"
+			"16" "63"
+			"17" "66"
+		}
+	}
+}

@@ -1,0 +1,764 @@
+// ****************************************************************
+// No More Room In Hell
+// Sound effects implementation scripts for 'Citylife'
+// Created by Luke
+// ****************************************************************
+//
+//
+//
+//****************************
+// Simple soundscapes (basically roomtones)
+//****************************
+
+"citylife.computerroom"
+{
+	"dsp"	"20"
+
+	"playlooping"
+	{
+		"volume"		"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/security_center_loop.wav"
+	}
+}
+
+"citylife.medroom"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/roomtone_neutral1.wav"
+	}
+}
+
+
+"citylife.warehouse"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/laundry_loop1.wav"
+	}
+}
+
+// Stereo outdoor areas with light rain only
+"citylife.outdoorrain"
+{
+	"playlooping"
+	{
+		"volume"		"0.12"
+		"pitch"		"100"
+		"wave"		"ambient/water/city_rain_light_generic.wav"
+	}
+}
+
+//****************************
+// Level soundscapes (mixes of single/random soundscapes)
+//****************************
+
+//outback
+"citylife.outback"
+{
+	"dsp"	"22"
+
+	"playsoundscape"	//rain
+	{
+		"name"	"citylife.outdoorrain"
+		"volume"	"1"
+	}
+
+	"playsoundscape"	//aircon outtake
+	{
+		"positionoverride"	"0"
+		"name"	"aircon.outtake"
+		"volume" "1"
+	}
+
+	"playrandom"	//thunder1238
+	{
+		"time"		"50,85"
+		"volume"		"1"
+		"pitch"		"100"
+		"positionoverride"	"1"
+
+		"rndwave"
+		{
+			"wave"		"ambient/atmosphere/thunder3.wav"
+			"wave"		"ambient/atmosphere/thunder4.wav"
+		}
+	}
+
+	"playsoundscape"	//zombie horde distant position
+	{
+		"positionoverride"		"2"
+		"name"	"zombiehorde.distant"
+		"volume"	"0.7"
+	}
+
+	"playrandom"
+	{
+		"time"		"6,35"
+		"position"	"3"
+		"volume"	"1"
+		"soundlevel"	"SNDLVL_120dB"
+
+		"rndwave"
+		{
+  			"wave"		"ambient/background/dist_dog1.wav"
+  			"wave"		"ambient/background/dist_dog2.wav"
+  			"wave"		"ambient/background/dist_dog3.wav"
+  			"wave"		"ambient/background/dist_dog4.wav"
+		}
+	}
+}
+
+//outback - room leading to warehouse
+"outback.storeroom"
+{
+	"dsp"	"1"
+	"dsp_volume"	"0.7"
+
+	"playsoundscape"	//rain
+	{
+		"position"	"0"
+		"name"	"citylife.doorwayrain"
+		"volume"	"1"
+	}
+
+	"playsoundscape"	//zombie horde distant position
+	{
+		"positionoverride"	"1"
+		"name"	"zombiehorde.distant"
+		"volume"	"0.3"
+	}
+
+	"playsoundscape"
+	{
+		"position"		"2"
+		"name"			"flies.blood"
+		"volume"		"1"
+	}
+}
+
+// cold room tone for the supermarket, low thunder outside
+"citylife.supermarket"
+{
+	"dsp"	"12"
+		
+	"playlooping"
+	{
+		"volume"		"0.45"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/roomtone_neutral1.wav"
+	}
+
+	"playrandom"	//thunder1238
+	{
+		"time"		"50,85"
+		"volume"		"0.7"
+		"pitch"		"100"
+		"soundlevel" 	"SNDLVL_105dB"
+		"positionoverride"	"0"
+
+		"rndwave"
+		{
+			"wave"		"ambient/atmosphere/thunder3.wav"
+			"wave"		"ambient/atmosphere/thunder4.wav"
+		}
+	}
+
+	"playsoundscape" //airconintake by freezers
+	{
+		"positionoverride"	"1"
+		"name"	"aircon.intake"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"position"	"2"
+		"name"	"citylife.doorwayrain"
+		"volume"	"1"
+	}
+	
+	"playrandom"
+	{
+		"time"		"15,60"
+		"volume"		"0.3"
+		"pitch"		"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient/creatures/flies4.wav"
+			"wave"		"ambient/creatures/flies2.wav"
+		}
+	}
+}
+
+// Hole in the supermarket main entrance - wind and rain
+"citylife.hole"
+{
+	"dsp"	"12"
+
+	"playsoundscape"
+	{
+		"name"	"citylife.supermarket"
+		"volume"	"0.9"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"citylife.outdoorrain"
+		"volume"	"0.18"
+	}
+
+	"playlooping"
+	{
+		"position"		"6"
+		"volume"		"0.7"
+		"pitch"		"100"
+		"soundlevel" 	"SNDLVL_55dB"
+		"wave"		")ambient/wind/gusthole_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"position"		"7"	
+		"pitch"			"100"
+		"volume"		"0.5"
+		"soundlevel"  	"SNDLVL_40dB"
+
+		"wave"	"ambient/water/city_rain_light_backalley.wav"
+	}
+}
+
+// corridor ONE from supermarket to toilet
+"citylife.corridor1"
+{
+	"dsp"	"5"
+
+	"playlooping"
+	{
+		"volume"		"0.2"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/roomtone_uneasy1.wav"
+	}
+
+	"playlooping"
+	{
+		"position"		"0"	
+		"pitch"			"100"
+		"volume"		"1"
+		"soundlevel"  	"SNDLVL_50dB"
+
+		"wave"	"ambient/water/city_rain_light_backalley.wav"
+	}
+
+	"playlooping"
+	{
+		"position"		"1"	
+		"pitch"			"100"
+		"volume"		"1"
+		"soundlevel"  	"SNDLVL_50dB"
+
+		"wave"	"ambient/water/city_rain_light_backalley.wav"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"	"2"
+		"name"	"citylife.citychaos"
+		"volume" "1"
+	}
+
+	"playrandom"
+	{
+		"time"		"50,85"
+		"volume"		"1"
+		"pitch"		"100"
+		"soundlevel" 	"SNDLVL_105dB"
+		"positionoverride"	"3"
+
+		"rndwave"
+		{
+			"wave"		"ambient/atmosphere/thunder3.wav"
+			"wave"		"ambient/atmosphere/thunder4.wav"
+		}
+	}
+}
+
+// lower corridor TWO from supermarket to warehouse (by the air con)
+"citylife.corridor2"
+{
+	"dsp"	"5"
+
+	"playlooping"
+	{
+		"volume"		"0.2"
+		"pitch"		"95"
+		"wave"		"ambient/roomtones/roomtone_uneasy1.wav"
+	}
+
+	"playlooping"	//backalley_water3
+	{
+		"position"		"0"	
+		"pitch"			"100"
+		"volume"		"1"
+		"soundlevel"  		"SNDLVL_55dB"
+
+		"wave"	"ambient/water/city_rain_light_backalley.wav"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"		"1"
+		"name"	"skylight.rain"
+		"volume"		"1" 
+	}
+
+	"playsoundscape"
+	{
+		"ambientpositionoverride"	"2"
+		"name"	"citylife.citychaos"
+		"volume"	"1"
+	}
+
+	"playrandom"	//thunder12422
+	{
+		"time"			"50,85"
+		"volume"		"0.8"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_105dB"
+		"positionoverride"		"3"
+
+		"rndwave"
+		{
+			"wave"		"ambient/atmosphere/thunder3.wav"
+			"wave"		"ambient/atmosphere/thunder4.wav"
+		}
+	}
+
+	"playlooping"	//ventair1
+	{
+		"position"		"4"	
+		"volume"		"1"
+		"soundlevel"  	"SNDLVL_50dB"
+
+		"wave"	"ambient/machines/aircon_outtake.wav"
+	}
+}
+
+"citylife.toilet" 
+{
+	"dsp"	"11"
+
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/roomtone_neutral1.wav"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"	"0"
+		"name"			"citylife.drips"
+		"volume"		"0.5"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"	"1"
+		"name"			"citylife.drips"
+		"volume"		"0.5"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"	"2"
+		"name"			"citylife.drips"
+		"volume"		"0.5"
+	}
+
+	"playlooping"
+	{
+		"position"		"3"	
+		"pitch"			"100"
+		"volume"		"0.4"
+		"soundlevel"  	"SNDLVL_60dB"
+
+		"wave"	"ambient/water/waterpipe_3.wav"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"flies.swarm"
+		"volume"		"0.3"
+	}
+}
+	
+"citylife.warehousemain"
+{
+	"dsp"	"1"
+	"dsp_volume"	"0.7"
+
+	"playlooping"
+	{
+		"volume"		"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/laundry_loop1.wav"
+	}
+
+	"playsoundscape"	// citylife outdoor sounds coming from doorway
+	{
+		"position"	"0"
+		"ambientpositionoverride"	"0"
+		"name"	"citylife.doorwayrain"
+		"volume"	"0.5"
+	}
+
+	"playrandom"	//thunder_outdoor 1
+	{
+		"time"		"50,85"
+		"volume"		"1"
+		"pitch"		"100"
+		"soundlevel" 	"SNDLVL_115dB"
+		"positionoverride"	"1"
+
+		"rndwave"
+		{
+			"wave"		"ambient/atmosphere/thunder3.wav"
+			"wave"		"ambient/atmosphere/thunder4.wav"
+		}
+	}
+
+	"playrandom"	//thunder_outdoor 2
+	{
+		"time"		"50,85"
+		"volume"		"1"
+		"pitch"		"100"
+		"positionoverride"	"2"
+
+		"rndwave"
+		{
+			"wave"		"ambient/atmosphere/thunder3.wav"
+			"wave"		"ambient/atmosphere/thunder4.wav"
+		}
+	}
+}
+
+// sheltered areas out of the rain
+"citylife.rainshelter"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.15"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/roomtone_veryquiet.wav"
+	}
+
+	"playsoundscape"	// citylife outdoor sounds coming from doorway
+	{
+		"position"	"0"
+		"ambientpositionoverride"	"0"
+		"name"	"citylife.doorwaycityrain"
+		"volume"	"0.7"
+	}
+}
+
+// light outdoor rain with random city sounds over 4 positions (outdoor full)
+"citylife.citysounds_rain"
+{
+	"playsoundscape"
+	{
+		"name"	"citylife.outdoorrain"
+		"volume" "1"
+	}
+
+	"playrandom"
+	{
+		"time"		"5,10"
+		"volume"	"1"
+		"attenuation"	"0.7"
+		"soundlevel"	"SNDLVL_140dB"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"		"ambient/background/windshield_smash.wav"
+			"wave"		"ambient/background/window_smash1.wav"
+			"wave"		"ambient/background/window_smash2.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"1,4"
+		"volume"	"0.1,0.3"
+		"pitch"		"87,100"
+		"soundlevel" 	"SNDLVL_60dB"
+
+		"rndwave"
+		{
+  		"wave"		"#ambient/wind/gusthole1.wav"
+		"wave"		"#ambient/wind/gusthole2.wav"
+		"wave"		"#ambient/wind/gusthole3.wav"
+		"wave"		"#ambient/wind/gusthole4.wav"
+		"wave"		"#ambient/wind/gusthole5.wav"
+		"wave"		"#ambient/wind/gusthole6.wav"
+		"wave"		"#ambient/wind/gusthole7.wav"
+		}
+	}
+
+	"playrandom"	//thunder_outdoor
+	{
+		"time"		"50,85"
+		"volume"		"1"
+		"pitch"		"100"
+		"position"	"0"
+
+		"rndwave"
+		{
+			"wave"		"ambient/atmosphere/thunder3.wav"
+			"wave"		"ambient/atmosphere/thunder4.wav"
+		}
+	}
+
+	"playsoundscape"
+	{
+		"ambientpositionoverride"	"1"
+		"name"	"citylife.chaos"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"ambientpositionoverride"	"2"
+		"name"	"citylife.chaos"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"ambientpositionoverride"	"3"
+		"name"	"citylife.chaos"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"ambientpositionoverride"	"4"
+		"name"	"citylife.heli"
+		"volume" "1"
+	}
+}
+
+// rooms to the right of the oil taker on fire - outdoor positional at doorway
+"citylife.backbuilding"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.2"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/roomtone_uneasy1.wav"
+	}
+
+	"playsoundscape"	// citylife outdoor sounds coming from doorway
+	{
+		"position"	"0"
+		"ambientpositionoverride"	"0"
+		"name"	"citylife.doorwaycityrain"
+		"volume"	"1"
+	}
+}
+
+// random city sounds over 4 positions (for indoor ambientoverride)
+"citylife.citysounds"
+{
+	"playsoundscape"
+	{
+		"positionoverride"	"1"
+		"name"	"citylife.chaos"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"	"2"
+		"name"	"citylife.chaos"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"	"3"
+		"name"	"citylife.chaos"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"	"4"
+		"name"	"citylife.heli"
+		"volume" "1"
+	}
+}
+
+// security room in safe zone
+"citylife.computersafezone"
+{
+	"dsp"	"1"
+
+	"playsoundscape"
+	{
+		"name"	"citylife.computerroom"
+		"volume" "1"
+	}
+
+	"playlooping"
+	{
+		"position"		"0"	
+		"volume"		"1"
+		"soundlevel" 	"SNDLVL_55dB"
+
+		"wave"	"ambient/machines/computer1.wav"
+	}
+
+	// Rats scuttering
+	"playrandom"
+	{
+		"time"		"1,160"
+		"volume"		"0.3"
+		"pitch"		"100"
+		"soundlevel" 	"SNDLVL_45dB"
+		"positionoverride"	"1"
+
+		"rndwave"
+		{
+			"wave"		"ambient/creatures/rats1.wav"
+			"wave"		"ambient/creatures/rats2.wav"
+		}
+	}
+}
+//
+//****************************
+// single and Randomized (includes objects such as fans/fires etc.)
+//****************************
+
+// positonal rain spot for doorways at pos: 0 - no citysounds
+"citylife.doorwayrain"
+{
+
+	"playlooping"
+	{
+		"position"		"0"
+		"volume"		"0.25"
+		"attenuation"		"1"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_60dB"
+		"wave"		")ambient/water/city_rain_light_generic.wav"
+	}
+}
+
+// positonal rain spot for doorways at pos: 1, 2 - sirens etc included
+"citylife.doorwaycityrain"
+{
+	"playlooping"
+	{
+		"positionoverride"		"1"
+		"volume"		"0.3"
+		"attenuation"		"1"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_60dB"
+		"wave"		")ambient/water/city_rain_light_generic.wav"
+	}
+	// pos: 2 citysounds, place nearby
+
+	"playsoundscape"
+	{
+		"ambientpositionoverride"		"2"
+		"name"	"citylife.citysounds"
+		"volume" "0.4"
+	}
+}
+
+"citylife.chaos"
+{	
+	"playrandom"
+	{
+		"time"		"45,60"
+		"volume"	"0.5,0.8"
+		"pitch"		"85,110"
+		"attenuation"	"0.7"
+		"soundlevel"	"SNDLVL_105dB"
+
+		"rndwave"
+		{
+  			"wave"		"ambient/background/amb_gunfire3.wav"
+			"wave"		"ambient/background/amb_gunfire4.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"60,160"
+		"volume"	"0.3,0.5"
+		"pitch"		"100"
+		"attenuation"	"0.8"
+		"soundlevel"	"SNDLVL_85dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient/background/amb_siren1.wav"
+			"wave"		"ambient/background/amb_siren2.wav"
+		}
+	}
+}
+
+"citylife.heli"
+{
+	"playrandom"
+	{
+		"time"		"35,160"
+		"volume"	"0.8,1.0"
+		"pitch"		"95,105"
+		"attenuation"	"0.5"
+		"soundlevel"	"SNDLVL_120dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient/background/heli1.wav"
+		}
+	}
+}
+
+"citylife.drips"
+{	
+	"playrandom"
+	{
+		"time"		"2,15"
+		"volume"	"0.7,1.0"
+		"pitch"		"95,105"
+		"attenuation"	"0.9"
+		"soundlevel"	"SNDLVL_40dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient/water/drip1.wav"
+			"wave"		"ambient/water/drip2.wav"
+			"wave"		"ambient/water/drip3.wav"
+			"wave"		"ambient/water/drip4.wav"
+			"wave"		"ambient/water/drip5.wav"
+		}
+	}
+}

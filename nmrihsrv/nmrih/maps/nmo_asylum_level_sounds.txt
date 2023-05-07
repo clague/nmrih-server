@@ -1,0 +1,22 @@
+//****************************************
+// Asylum Cultist Voicelines
+//****************************************
+
+"Asylum.Cultist_Carbark"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_130dB"
+	"rndwave"
+	{
+		"wave"		"asylum/carbarks-003-1.mp3"
+		"wave"		"asylum/carbarks-004-2.mp3"
+		"wave"		"asylum/carbarks-005-3.mp3"
+		"wave"		"asylum/carbarks-006-5.mp3"
+		"wave"		"asylum/carbarks-007-6.mp3"
+		"wave"		"asylum/carbarks-008-3.mp3"
+		"wave"		"asylum/carbarks-009-2.mp3"
+		"wave"		"asylum/carbarks-010-2.mp3"
+	}
+}

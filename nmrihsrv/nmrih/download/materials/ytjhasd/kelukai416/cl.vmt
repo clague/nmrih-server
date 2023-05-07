@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "ytjhasd/kelukai416/cl"
+	"$lightwarptexture" "ytjhasd/kelukai416/basewarp"
+         "$bumpmap" "ytjhasd/kelukai416/normal"
+        "$nocull" 1
+	"$nodecal" 1
+	"$phong" "1"
+	"$phongboost"	".3"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[1 .7 .7]"
+	"$PhongExponent" "20"
+	"$halflambert" "1"
+}

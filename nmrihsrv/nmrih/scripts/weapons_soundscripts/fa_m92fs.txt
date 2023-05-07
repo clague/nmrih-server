@@ -1,0 +1,87 @@
+//************
+// Beretta
+//************
+
+"Weapon_Beretta.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"		"95,100"
+
+	"rndwave"
+	{
+		"wave"		")weapons/firearms/hndg_beretta92fs/Beretta92_Fire1.wav"
+	}
+}
+
+"Weapon_Beretta.ClipIn"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"		")weapons/firearms/hndg_beretta92fs/Beretta92_ClipIn.wav"
+}
+
+"Weapon_Beretta.ClipOut"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"		")weapons/firearms/hndg_beretta92fs/Beretta92_ClipOut.wav"
+}
+
+"Weapon_Beretta.DryFire"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"		")weapons/firearms/hndg_beretta92fs/Beretta92_DryFire.wav"
+}
+
+"Weapon_Beretta.GenericFoley"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.3"
+	"soundlevel"	"SNDLVL_30dB"
+
+	"rndwave"
+	{
+		"wave"		")player/clothes_generic_foley_01.wav"
+		"wave"		")player/clothes_generic_foley_02.wav"
+		"wave"		")player/clothes_generic_foley_03.wav"
+		"wave"		")player/clothes_generic_foley_04.wav"
+		"wave"		")player/clothes_generic_foley_05.wav"
+	}
+}
+
+"Weapon_Beretta.Slide"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.2,0.4"
+	"pitch"         "95,105"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"		")weapons/firearms/hndg_beretta92fs/Beretta92_Slide.wav"
+}
+
+"Weapon_Beretta.SlideLock"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"		")weapons/firearms/hndg_beretta92fs/Beretta92_SlideLock.wav"
+}
+
+"Weapon_Beretta.SlideRelease"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"		")weapons/firearms/hndg_beretta92fs/Beretta92_SlideRelease.wav"
+}

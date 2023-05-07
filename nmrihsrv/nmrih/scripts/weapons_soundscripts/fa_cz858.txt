@@ -1,0 +1,76 @@
+//************
+// cz858
+//************
+
+"Weapon_cz858.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"		"95,100"
+
+	"rndwave"
+	{
+		"wave"		")weapons/firearms/rifle_cz858/cz858_fire_01.wav"
+	}
+}
+
+"Weapon_cz858.ClipIn"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.9"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"	                ")weapons/firearms/rifle_cz858/cz858_ClipIn.wav"
+}
+
+
+"Weapon_cz858.ClipOut"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.9"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"	                ")weapons/firearms/rifle_cz858/cz858_ClipOut.wav"
+}
+
+
+"Weapon_cz858.Empty" //MISSING
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_60dB"
+
+	"rndwave"
+	{
+		"wave"		")weapons/firearms/rifle_cz858/Empty.wav"
+		"wave"		")weapons/firearms/rifle_cz858/Empty2.wav"
+	}
+}
+
+"Weapon_cz858.Slide"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_55dB"
+
+	         "wave"	        ")weapons/firearms/rifle_cz858/cz858_Slide1.wav"
+}
+
+"Weapon_cz858.SlideBack"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"	        ")weapons/firearms/rifle_cz858/cz858_SlideBack.wav"
+}
+
+"Weapon_cz858.SlideForward"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"	        ")weapons/firearms/rifle_cz858/cz858_SlideForward.wav"
+}

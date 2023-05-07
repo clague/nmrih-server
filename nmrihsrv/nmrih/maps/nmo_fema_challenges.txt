@@ -1,0 +1,92 @@
+// 28: objective4 - Fix the fuse box to open emergency door
+// 29: objective5 - Use the ID card  to disengage viral lockdown 
+// 31: objective7 - Use Menglers code to open the high security freezer
+// 32: objective8 - Reactivate the radio relay
+// 33: objective9 - Use the radio to send an SOS
+// 34: objective10 - Play bob the master’s voice to open the high security freezer
+// 35: objective11 - Recover the retroviral vaccine
+// 36: objective12 - Prime napalm canisters 
+// 37: objective13 - Escape the complex before sterilisation
+// 38: objective14 - Find an explosive to open the quarantine door
+// 39: objective15 - Radio for rescue
+// 40: objective16 - Cut the power to the electrified puddle
+// 41: objective17 - Use crank to open specimen gate
+// 42: objective18 - Use the blasting caps to blow the rock
+// 43: objective19 - Use blasting caps to clear rock slide
+// 44: objective20 - Weld off the ladders latch
+// 45: objective21 - Use the key to open surface gate
+// 48: objective24 - Secure the vaccine in case
+// 49: objective25 - Secure the vaccine onto the supply drop
+// 50: objective28 - Arm sterilisation procedure
+// 52: objective29 - Uncouple the load wagon
+// 46: objective30 - Take the stashed vaccine
+// 47: objective27 - Use the captain’s key to access the armoury
+// 24: Objective31 - Break out of the decontamination area
+// 26: Objective32 - Find the fuse for the surface generator
+// 27: Objective33 - Radio an SOS
+// 30: Objective34 - Setup the diesel pump for the chopper
+// 51: Objective35 - Keep the diesel pumping
+// 53: Objective36 - Use a welder to cut open the quarantine door
+// 54: Objective37 - Use a ladder to sneak inside the quarantine
+
+// Objective challenges
+// KV names are identifiers, and will be saved in records!
+"Challenges"
+{
+	"nmo_fema_challenge_1"
+	{
+		"Name" "Public Hero"
+		"Description" "Help secure the retroviral vaccine and we might return the favor."
+		"Objectives"
+		{
+			"0" "24" // Break out of the decontamination area
+			"1" "28" // Fix the fuse box to open emergency door
+			"2" "29" // Use the ID card  to disengage viral lockdown 
+			"3" "53" // Use a welder to cut open the quarantine door
+			"4" "32" // Reactivate the radio relay
+			"5" "34" // Play bob the master’s voice to open the high security freezer
+			"6" "31" // Use Menglers code to open the high security freezer
+			"7" "35" // Recover the retroviral vaccine
+			"8" "38" // Find an explosive to open the quarantine door
+			"9" "40" // Cut the power to the electrified puddle
+			"10" "41" // Use crank to open specimen gate
+			"11" "52" // Uncouple the load wagon
+			"12" "43" // Use blasting caps to clear rock slide
+			"13" "44" // Weld off the ladders latch
+			"14" "45" // Use the key to open surface gate
+			"15" "26" // Find the fuse for the surface generator
+			"16" "27" // Radio an SOS
+			"17" "48" // Secure the vaccine in case
+			"18" "49" // Secure the vaccine onto the supply drop
+		}
+	}
+
+	"nmo_fema_challenge_2"
+	{
+		"Name" "Pump it"
+		"Description" "We can't take off without fuel, keep that diesel pumping!"
+		"Objectives"
+		{
+			"0" "24" // Break out of the decontamination area
+			"1" "28" // Fix the fuse box to open emergency door
+			"2" "29" // Use the ID card  to disengage viral lockdown 
+			"3" "54" // Use a ladder to sneak inside the quarantine
+			"4" "33" // Use the radio to send an SOS
+			"5" "47" // Use the captain’s key to access the armoury
+			"6" "36" // Prime napalm canisters 
+			"7" "50" // Arm sterilisation procedure
+			"8" "37" // Escape the complex before sterilisation
+			"9" "39" // Radio for rescue
+			"10" "46" // Take the stashed vaccine
+			"11" "40" // Cut the power to the electrified puddle
+			"12" "41" // Use crank to open specimen gate
+			"13" "42" // Use the blasting caps to blow the rock
+			"14" "44" // Weld off the ladders latch
+			"15" "45" // Use the key to open surface gate
+			"16" "26" // Find the fuse for the surface generator
+			"17" "27" // Radio an SOS
+			"18" "30" // Setup the diesel pump for the chopper
+			"19" "51" // Keep the diesel pumping
+		}
+	}
+}

@@ -1,0 +1,14 @@
+"UGCCategories"
+{
+	"0" "Objective Maps"
+	"1" "Survival Maps"
+	"2" "Custom Maps"
+	"3" "Player Skins"
+	"4" "Weapon Skins"
+	"5" "Model Packs"
+	"6" "Sound Packs"
+	"7" "HUD / UI"
+	"8" "Scripts / Resources"
+	"9" "Mutators"
+	"10" "Miscellaneous"
+}

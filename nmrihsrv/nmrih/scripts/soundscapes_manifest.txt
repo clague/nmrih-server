@@ -1,0 +1,27 @@
+soundscapes_manifest
+{
+	"file"		"scripts/soundscapes.txt"
+
+	// additional soundscapes
+
+	"file"		"scripts/soundscapes_nmrih_citylife.txt"
+	"file"		"scripts/soundscapes_nmrih_auger.txt"
+	"file"		"scripts/soundscapes_nmrih_cabinfever.txt"
+	"file"		"scripts/soundscapes_nmo_nightfall.txt"
+	"file"		"scripts/soundscapes_nmo_cabin.txt"
+	"file"		"scripts/soundscapes_nmo_toxteth.txt"
+	"file"		"scripts/soundscapes_nmo_broadway.txt"
+	"file"		"scripts/soundscapes_nmo_chinatown.txt"
+	"file"		"scripts/soundscapes_nms_flooded.txt"
+	"file"		"scripts/soundscapes_nms_suburbia.txt"
+	"file"		"scripts/soundscapes_nms_arbre.txt"
+	"file"		"scripts/soundscapes_nms_isolated.txt"
+	"file"		"scripts/soundscapes_nms_northway.txt"
+	"file"		"scripts/soundscapes_nms_campblood.txt"
+        "file"		"scripts/soundscapes_nmo_brooklyn.txt"
+        "file"		"scripts/soundscapes_nms_ransack.txt"
+        "file"		"scripts/soundscapes_nmo_fema.txt"
+        "file"		"scripts/soundscapes_soundscapebooths"
+	"file"		"scripts/soundscapes_nms_drugstore"
+
+}

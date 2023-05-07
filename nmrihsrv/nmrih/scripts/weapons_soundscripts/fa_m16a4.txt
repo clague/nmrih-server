@@ -1,0 +1,73 @@
+//*********
+// M16
+//*********
+
+"Weapon_AR15.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"		"95,100"
+	"rndwave"
+	{
+		"wave"		")weapons/firearms/mil_m16a4/m16_fire_01.wav"
+	}
+
+}
+
+"Weapon_AR15.ClipOut"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"			"0.5"
+	"pitch"				"PITCH_NORM"
+	"wave"				")weapons/firearms/mil_m16a4/M16_ClipOut.wav"
+}
+
+"Weapon_AR15.ClipIn"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"			"0.5"
+	"pitch"				"PITCH_NORM"
+	"wave"				")weapons/firearms/mil_m16a4/M16_ClipIn.wav"
+}
+
+
+"Weapon_AR15.SlideRelease"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"			"0.5"
+	"pitch"				"PITCH_NORM"
+	"wave"				")weapons/firearms/mil_m16a4/M16_SlideRelease.wav"
+}
+
+"Weapon_AR15.Empty"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"			"0.5"
+	"pitch"				"PITCH_NORM"
+	"wave"				")weapons/firearms/mil_m16a4/M16_DryFire.wav"
+}
+
+"Weapon_AR15.Slide"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"			"0.5"
+      	"pitch"			"PITCH_NORM"
+	"wave"				")weapons/firearms/mil_m16a4/M16_Slide.wav"
+}
+
+"Weapon_AR15.Slide2"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"			"0.5"
+      	"pitch"			"PITCH_NORM"
+	"wave"				")weapons/firearms/mil_m16a4/M16_Slide2.wav"
+}
+
+"Weapon_AR15.DryFire"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"			"0.5"
+      	"pitch"			"PITCH_NORM"
+	"wave"				")weapons/firearms/mil_m16a4/M16_DryFire.wav"
+}

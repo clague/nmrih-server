@@ -1,0 +1,6 @@
+"Alt7"
+{
+	"name"		"Pugman"
+	"script"	"scripts/voice_soundscripts/voice_set_alt7.txt"
+	"gender"	"m"
+}

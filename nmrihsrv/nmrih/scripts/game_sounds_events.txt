@@ -1,0 +1,52 @@
+"Event.PlayerJoinGame"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"		"events/PlayerJoinGame.wav"
+}
+
+"Event.PlayerLeaveGame"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"		"events/PlayerLeaveGame.wav"
+}
+
+"Voice.HeliSupplyNorthway"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"soundlevel"		"SNDLVL_NORM"
+	"rndwave"
+	{
+		"wave"		"voice/northway_heli_supply/heli_supply_drop_northway_voice_01.wav"
+		"wave"		"voice/northway_heli_supply/heli_supply_drop_northway_voice_02.wav"
+		"wave"		"voice/northway_heli_supply/heli_supply_drop_northway_voice_03.wav"
+		"wave"		"voice/northway_heli_supply/heli_supply_drop_northway_voice_04.wav"
+		"wave"		"voice/northway_heli_supply/heli_supply_drop_northway_voice_05.wav"
+		"wave"		"voice/northway_heli_supply/heli_supply_drop_northway_voice_06.wav"
+		"wave"		"voice/northway_heli_supply/heli_supply_drop_northway_voice_07.wav"
+	}
+}
+
+"Event.PlayerNuked"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"		"#events/PlayerNuked.wav"
+}
+
+"Event.WatermelonRescue"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"		"#events/watermelon_rescue.wav"
+}

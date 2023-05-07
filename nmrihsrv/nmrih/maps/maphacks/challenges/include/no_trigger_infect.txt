@@ -1,0 +1,15 @@
+"MapHack"
+{
+	"entities"
+	{
+		// Remove infection chance from all triggers
+		$edit_all
+		{
+			"classname"	"trigger_infect"
+			"keyvalues"
+			{
+				"infect_chance"	"0"
+			}
+		}
+	}
+}

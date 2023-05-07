@@ -1,0 +1,355 @@
+//****************************************************************************
+// NO MORE ROOM IN HELL
+// Soundscapes for 'asylum'
+//
+//****************************************************************************
+//
+//****************************************
+// Ambient Setups
+//****************************************
+
+
+
+
+"asylum.roomtone1"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.8"
+		"pitch"		"90"
+		"wave"		"ambient/roomtones/roomtone_neutral1.wav"
+	}
+}
+"asylum.roomtone2"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.8"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/low_ambient_room_loop.wav"
+	}
+}
+
+"asylum.wind"
+{	
+	"playrandom"
+	{
+		"time"		"4,10"
+		"volume"	"0.7,1.0"
+		"pitch"		"90,105"
+		"attenuation"	"0.9"
+		"soundlevel"	"SNDLVL_40dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient/wind/wind_eerie_snippet_01.wav"
+			"wave"		"ambient/wind/wind_eerie_snippet_02.wav"
+			"wave"		"ambient/wind/wind_eerie_snippet_03.wav"
+			"wave"		"ambient/wind/wind_eerie_snippet_04.wav"
+			"wave"		"ambient/wind/wind_eerie_snippet_05.wav"
+			"wave"		"ambient/wind/wind_eerie_snippet_06.wav"
+			"wave"		"ambient/wind/wind_eerie_snippet_07.wav"
+		}
+	}
+}
+
+"asylum.animals"
+{	
+	"playrandom"
+	{
+		"time"		"7,15"
+		"volume"	"0.7,1.0"
+		"pitch"		"90,105"
+		"attenuation"	"0.9"
+		"soundlevel"	"SNDLVL_40dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient/animals/owl_hoot_01.wav"
+			"wave"		"ambient/animals/owl_hoot_02.wav"
+			"wave"		"ambient/animals/owl_hoot_03.wav"
+			"wave"		"ambient/animals/owl_hoot_04.wav"
+			"wave"		"ambient/animals/owl_hoot_05.wav"
+			"wave"		"ambient/animals/wolf_howl_01.wav"
+			"wave"		"ambient/animals/wolf_howl_02.wav"
+			"wave"		"ambient/animals/wolf_howl_03.wav"
+			"wave"		"ambient/animals/wolf_howl_04.wav"
+			"wave"		"ambient\creatures\rats1.wav"
+			"wave"		"ambient\creatures\rats2.wav"
+			"wave"		"ambient\creatures\rats3.wav"
+			"wave"		"ambient\creatures\rats4.wav"
+		}
+	}
+}
+
+"asylum.drips"
+{	
+	"playrandom"
+	{
+		"time"		"3,9"
+		"volume"		"0.7,1.0"
+		"pitch"		"90,105"
+		"soundlevel"	"SNDLVL_70dB"
+		"rndwave"
+		{
+			"wave"		"ambient/water/drip1.wav"
+			"wave"		"ambient/water/drip2.wav"
+			"wave"		"ambient/water/drip3.wav"
+			"wave"		"ambient/water/drip4.wav"
+			"wave"		"ambient/water/drip5.wav"
+		}
+	}
+}
+"asylum.drips2"
+{	
+	"playrandom"
+	{
+		"time"		"2,4"
+		"volume"	"0.7,1.0"
+		"pitch"		"90,105"
+		"attenuation"	"0.7"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"		"ambient/water/rain_drip1.wav"
+			"wave"		"ambient/water/rain_drip2.wav"
+			"wave"		"ambient/water/rain_drip3.wav"
+			"wave"		"ambient/water/rain_drip4.wav"
+		}
+	}
+}
+"asylum.drips3"
+{	
+	"playrandom"
+	{
+		"time"		"5,10"
+		"volume"	"0.4,1.0"
+		"pitch"		"90,105"
+		"rndwave"
+		{
+			"wave"		"ambient/water/distant_drip1.wav"
+			"wave"		"ambient/water/distant_drip2.wav"
+			"wave"		"ambient/water/distant_drip3.wav"
+			"wave"		"ambient/water/distant_drip4.wav"
+		}
+	}
+}
+"asylum.musictension"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"90"
+		"wave"		"#*music/tension1.wav"
+	}
+}
+"asylum.windoutdoor"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.8"
+		"pitch"		"100"
+		"wave"		"ambient\wind\wind_forest_eerie_01_loop.wav"
+	}
+}
+"asylum.windindoor"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.8"
+		"pitch"		"100"
+		"wave"		"ambient\levels\canals\tunnel_wind_loop1.wav"
+	}
+}
+"asylum.whispers"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"time"         "20,50"
+		"volume"       "0.1,0.5"
+		"pitch"       "50,100"
+		
+		"rndwave"
+		{
+			"wave"	"ambient\whispers\ambient.whisper1.wav"
+			"wave"	"ambient\whispers\ambient.whisper2.wav"
+			"wave"	"ambient\whispers\ambient.whisper3.wav"
+			"wave"	"ambient\whispers\ambient.whisper4.wav"
+			"wave"	"ambient\whispers\ambient.whisper5.wav"
+			"wave"	"ambient\whispers\ambient.whisper6.wav"
+			"wave"	"ambient\whispers\ambient.whisper7.wav"
+			"wave"	"ambient\whispers\ambient.whisper8.wav"
+		}
+	}
+}
+//****************************************
+// Level Areas 
+//****************************************
+
+"asylum.Basement"
+{
+	"dsp"	"22"
+
+	"playsoundscape"	
+	{
+		"name"	"asylum.roomtone1"
+		"volume" "1"
+	}	
+}
+
+"asylum.WetBasement"
+{
+	"dsp"	"22"
+
+	"playsoundscape"	
+	{
+		"name"	"asylum.roomtone1"
+		"volume" ".5"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"asylum.drips"
+		"positionoverride"	"0"
+		"volume"	"0.5"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"asylum.drips"
+		"positionoverride"	"1"
+		"volume"	"0.5"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"asylum.drips"
+		"positionoverride"	"2"
+		"volume"	"0.5"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"asylum.drips"
+		"positionoverride"	"3"
+		"volume"	"0.5"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"asylum.drips"
+		"positionoverride"	"4"
+		"volume"	"0.5"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"asylum.drips"
+		"positionoverride"	"5"
+		"volume"	"0.5"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"asylum.drips"
+		"positionoverride"	"6"
+		"volume"	"0.5"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"asylum.drips2"
+		"volume"	"0.5"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"asylum.drips3"
+		"volume"	"0.5"
+	}
+}
+
+"asylum.Interior"
+{
+	"dsp"	"22"
+
+	"playsoundscape"	
+	{
+		"name"	"asylum.roomtone1"
+		"volume" "1"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"asylum.whispers"
+		"volume" "1"
+	}
+	
+}
+
+"asylum.Courtyard"
+{
+	"dsp"	"1"
+
+	"playsoundscape"	
+	{
+		"name"	"asylum.animals"
+		"volume" "0.8"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"asylum.windoutdoor"
+		"volume" "1"
+	}
+	"playsoundscape"	
+	{
+		"name"	"asylum.wind"
+		"volume" "1"
+	}
+
+}
+
+"asylum.Cafe"
+{
+	"dsp"	"1"
+
+	"playsoundscape"	
+	{
+		"name"	"asylum.roomtone2"
+		"volume" "1"
+	}
+
+}
+
+"asylum.Scrublands"
+{
+	"dsp"	"1"
+
+	"playsoundscape"	
+	{
+		"name"	"asylum.windoutdoor"
+		"volume" "1"
+	}
+	"playsoundscape"	
+	{
+		"name"	"asylum.wind"
+		"volume" "1"
+	}
+
+}
+
+
+

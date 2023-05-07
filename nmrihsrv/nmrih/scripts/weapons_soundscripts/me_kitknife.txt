@@ -1,0 +1,77 @@
+//************
+// Kitchen Knife
+//************
+
+"Weapon_KitKnife.Draw"
+{	
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.5"
+	"rndwave"
+	{
+		"wave"		")player/weapon_draw_01.wav"
+		"wave"		")player/weapon_draw_02.wav"
+		"wave"		")player/weapon_draw_03.wav"
+		"wave"		")player/weapon_draw_04.wav"
+		"wave"		")player/weapon_draw_05.wav"
+	}
+}
+
+"Weapon_KitKnife.Holster"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.5"
+	"rndwave"
+	{
+		"wave"		")player/weapon_holster_01.wav"
+		"wave"		")player/weapon_holster_02.wav"
+		"wave"		")player/weapon_holster_03.wav"
+		"wave"		")player/weapon_holster_04.wav"
+		"wave"		")player/weapon_holster_05.wav"
+	}
+}
+
+"Weapon_KitKnife.Shove"
+{	
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.5"
+	"rndwave"
+	{
+		"wave"		")player/shove_01.wav"
+		"wave"		")player/shove_02.wav"
+		"wave"		")player/shove_03.wav"
+		"wave"		")player/shove_04.wav"
+		"wave"		")player/shove_05.wav"
+	}
+}
+
+"Weapon_KitKnife.SwingLight"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+    "rndwave"
+    {
+		"wave"		")weapons/melee/swing_light_sharp_01.wav"
+		"wave"		")weapons/melee/swing_light_sharp_02.wav"
+		"wave"		")weapons/melee/swing_light_sharp_03.wav"
+	}
+}
+
+"Weapon_KitKnife.SwingHeavy"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"		")weapons/melee/swing_light_sharp_01.wav"
+		"wave"		")weapons/melee/swing_light_sharp_02.wav"
+		"wave"		")weapons/melee/swing_light_sharp_03.wav"
+	}
+}

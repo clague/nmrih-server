@@ -1,0 +1,27 @@
+//************
+// Extinguisher
+//************
+
+"Weapon_Extinguisher.Extinguish"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_105dB"
+	"wave"		")weapons/tools/fire_extinguisher/Fire_Extinguisger_StartLoop.wav"
+}
+
+"Weapon_Extinguisher.Extinguish_Stop"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_105dB"
+	"wave"		")weapons/tools/fire_extinguisher/Fire_Extinguisger_Stop.wav"
+}
+
+"Weapon_Extinguisher.Lever"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_105dB"
+	"wave"		")weapons/tools/fire_extinguisher/Fire_Extinguisger_Lever.wav"
+}

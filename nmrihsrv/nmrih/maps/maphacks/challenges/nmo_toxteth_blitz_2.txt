@@ -1,0 +1,46 @@
+// "Sewer Sweep" (Blitz)
+
+"MapHack"
+{
+	"includes"
+	{
+		"file" "maps/maphacks/challenges/include/nmo_toxteth_shared.txt"
+		"file" "maps/maphacks/challenges/nmo_toxteth_challenge_2.txt"
+	}
+
+	"entities"
+	{
+		$remove { "targetname" "toxteth_chapel_floordoor" }
+		
+		// Replace chapel floordoor with an instant trig, don't bother listening to the guy on radio
+		"instant_trigger"
+		{
+			"origin" "-499.047 -6896 116"
+			"angles" "0 0 0"
+			"keyvalues"
+			{
+				"allowPlayers" "1"
+				"radius" "44"
+				
+				"connections"
+				{
+					"OnTrigger" "boundary_objL,ObjectiveComplete,,0,-1"
+					"OnTrigger" "chapel_door,Unlock,,0,-1"
+					"OnTrigger" "radiostatic,StopSound,,3,-1"
+					"OnTrigger" "toxteth_objl_voicesound1a,PlaySound,,2.95,-1"
+					"OnTrigger" "radiostatic,PlaySound,,1,-1"
+					"OnTrigger" "toxteth_spawns1,InputDisable,,0,-1"
+					"OnTrigger" "toxteth_spawns_chapel,InputEnable,,0,-1"
+					"OnTrigger" "toxteth_spawns_chapel,RespawnPlayers,,0.01,-1"
+				}
+			}
+		}
+		
+		// Spawn a welder near store doors, so players don't have to waste time finding one
+		"tool_welder"
+		{
+			"origin" "-1115.96 -10322 307.38"
+			"angles" "0 49.5 0"
+		}
+	}
+}

@@ -1,0 +1,6 @@
+"Default"
+{
+	"name"		"Cleric"
+	"script"	"scripts/voice_soundscripts/voice_set_default.txt"
+	"gender"	"m"
+}

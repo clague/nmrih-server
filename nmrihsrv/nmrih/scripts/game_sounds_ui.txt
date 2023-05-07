@@ -1,0 +1,325 @@
+//
+//
+// NOTE:  AUTOMATICALLY GENERATED FILE, ANY HAND EDITED COMMENTS WILL BE LOST!!!
+// NOTE:  AUTOMATICALLY GENERATED FILE, ANY HAND EDITED COMMENTS WILL BE LOST!!!
+// NOTE:  AUTOMATICALLY GENERATED FILE, ANY HAND EDITED COMMENTS WILL BE LOST!!!
+//
+// VOL_NORM		1.0f
+//
+//-----------------------------------------------------------------------------
+// common attenuation values
+//-----------------------------------------------------------------------------
+//
+// DON'T USE THESE - USE SNDLVL_ INSTEAD!!!
+//	ATTN_NONE		0.0f	
+//	ATTN_NORM		0.8f
+//	ATTN_IDLE		2.0f
+//	ATTN_STATIC		1.25f 
+//	ATTN_RICOCHET	1.5f
+//	ATTN_GUNFIRE	0.27f
+//
+//	SNDLVL_NONE		= 0,
+//	SNDLVL_25dB		= 25,
+//	SNDLVL_30dB		= 30,
+//	SNDLVL_35dB		= 35,
+//	SNDLVL_40dB		= 40,
+//	SNDLVL_45dB		= 45,
+//	SNDLVL_50dB		= 50,	// 3.9
+//	SNDLVL_55dB		= 55,	// 3.0
+//	SNDLVL_IDLE		= 60,	// 2.0
+//	SNDLVL_TALKING	= 60,	// 2.0
+//	SNDLVL_60dB		= 60,	// 2.0
+//	SNDLVL_65dB		= 65,	// 1.5
+//	SNDLVL_STATIC	= 66,	// 1.25
+//	SNDLVL_70dB		= 70,	// 1.0
+//	SNDLVL_NORM		= 75,
+//	SNDLVL_75dB		= 75,	// 0.8
+//	SNDLVL_80dB		= 80,	// 0.7
+//	SNDLVL_85dB		= 85,	// 0.6
+//	SNDLVL_90dB		= 90,	// 0.5
+//	SNDLVL_95dB		= 95,
+//	SNDLVL_100dB	= 100,	// 0.4
+//	SNDLVL_105dB	= 105,
+//	SNDLVL_120dB	= 120,
+//	SNDLVL_130dB	= 130,
+//	SNDLVL_GUNFIRE	= 140,	// 0.27
+//	SNDLVL_140dB	= 140,	// 0.2
+//	SNDLVL_150dB	= 150,	// 0.2
+
+"HUDQuickInfo.LowHealth"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.8"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"common/warning.wav"
+}
+
+"HUDQuickInfo.LowAmmo"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.8"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"common/warning.wav"
+}
+
+"HudChat.Message"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_NONE"
+	"pitch"	"PITCH_NORM"
+
+	"wave"	"TextChat.wav"
+}
+
+// Client .dll sounds
+
+"Player.DenyWeaponSelection"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.32"
+	"soundlevel"  "SNDLVL_NONE"
+	"pitch"	"PITCH_NORM"
+
+	"wave"	"common/wpn_denyselect.wav"
+}
+
+"Player.WeaponSelected"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.20"
+	"soundlevel"  	"SNDLVL_62dB"
+	"pitch"		"95,105"
+
+	"rndwavez"
+	{
+		"wave"		")player/clothes_generic_foley_01.wav"
+		"wave"		")player/clothes_generic_foley_02.wav"
+		"wave"		")player/clothes_generic_foley_03.wav"
+		"wave"		")player/clothes_generic_foley_04.wav"
+		"wave"		")player/clothes_generic_foley_05.wav"
+	}
+}
+
+"Player.WeaponSelectionMoveSlot"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.20"
+	"soundlevel"  	"SNDLVL_62dB"
+	"pitch"		"95,105"
+
+	"rndwave"
+	{
+		"wave"		")player/clothes_generic_foley_01.wav"
+		"wave"		")player/clothes_generic_foley_02.wav"
+		"wave"		")player/clothes_generic_foley_03.wav"
+		"wave"		")player/clothes_generic_foley_04.wav"
+		"wave"		")player/clothes_generic_foley_05.wav"
+	}
+}
+
+"Player.WeaponSelectionOpen"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.32"
+	"soundlevel"  "SNDLVL_NONE"
+	"pitch"	"PITCH_NORM"
+
+	"wave"	"common/wpn_hudon.wav"
+}
+
+"Player.WeaponSelectionClose"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.32"
+	"soundlevel"  "SNDLVL_NONE"
+	"pitch"	"PITCH_NORM"
+
+	"wave"	"common/wpn_select.wav"
+}
+
+"Objective.Begin"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_75dB"
+	"wave"		"ui\objective_begin.wav"
+}
+
+"Player.Spawn"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.5"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_75dB"
+	"wave"		"ui\player_spawn.wav"
+}
+
+"Blitz.TimerBeep"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.2"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_75dB"
+	"wave"		"ui\blitz_timer.wav"
+}
+
+// Keypad sounds and DTMF tones
+"Keypad.Press"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.5"
+	"pitch"		"95,105"
+	"soundlevel"  "SNDLVL_NONE"
+	
+	"wave"	"ui/keypad/keypad_press.wav"
+}
+
+"Keypad.DTMF_1"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.15"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"  "SNDLVL_NONE"
+	
+	"wave"	"ui/keypad/dtmf1.wav"
+}
+
+"Keypad.DTMF_2"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.15"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"  "SNDLVL_NONE"
+	
+	"wave"	"ui/keypad/dtmf2.wav"
+}
+
+"Keypad.DTMF_3"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.15"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"  "SNDLVL_NONE"
+	
+	"wave"	"ui/keypad/dtmf3.wav"
+}
+
+"Keypad.DTMF_4"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.15"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"  "SNDLVL_NONE"
+	
+	"wave"	"ui/keypad/dtmf4.wav"
+}
+
+"Keypad.DTMF_5"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.15"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"  "SNDLVL_NONE"
+	
+	"wave"	"ui/keypad/dtmf5.wav"
+}
+
+"Keypad.DTMF_6"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.15"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"  "SNDLVL_NONE"
+	
+	"wave"	"ui/keypad/dtmf6.wav"
+}
+
+"Keypad.DTMF_7"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.15"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"  "SNDLVL_NONE"
+	
+	"wave"	"ui/keypad/dtmf7.wav"
+}
+
+"Keypad.DTMF_8"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.15"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"  "SNDLVL_NONE"
+	
+	"wave"	"ui/keypad/dtmf8.wav"
+}
+
+"Keypad.DTMF_9"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.15"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"  "SNDLVL_NONE"
+	
+	"wave"	"ui/keypad/dtmf9.wav"
+}
+
+"Keypad.DTMF_0"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.15"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"  "SNDLVL_NONE"
+	
+	"wave"	"ui/keypad/dtmf0.wav"
+}
+
+"Keypad.DTMF_Star"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.15"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"  "SNDLVL_NONE"
+	
+	"wave"	"ui/keypad/dtmfstar.wav"
+}
+
+"Keypad.DTMF_Hash"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.15"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"  "SNDLVL_NONE"
+	
+	"wave"	"ui/keypad/dtmfhash.wav"
+}
+
+"Instructor.LessonStart"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.75"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel" 		"SNDLVL_NORM"
+
+	"wave"			"#ui/hint.wav"
+}
+
+"Instructor.ImportantLessonStart"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.75"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel" 		"SNDLVL_NORM"
+
+	"wave"			"#ui/beep22.wav"
+}

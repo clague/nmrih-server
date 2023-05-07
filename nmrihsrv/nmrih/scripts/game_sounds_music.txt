@@ -1,0 +1,1083 @@
+"NMRiH_Music.Ambient"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/ambiance/a_dark_alley.ogg"
+		"wave"		"#*dms/ambiance/a_dark_trail.ogg"
+		"wave"		"#*dms/ambiance/Alone.ogg"
+		"wave"		"#*dms/ambiance/ambiance.ogg"
+		"wave"		"#*dms/ambiance/ambiance_1.ogg"
+		"wave"		"#*dms/ambiance/ambient_one.ogg"
+		"wave"		"#*dms/ambiance/ambient_one_long.ogg"
+		"wave"		"#*dms/ambiance/ambient_two_guitar.ogg"
+		"wave"		"#*dms/ambiance/ambient_two_guitar_v2.ogg"
+		"wave"		"#*dms/ambiance/darkness.ogg"
+		"wave"		"#*dms/ambiance/distant_alarms.ogg"
+		"wave"		"#*dms/ambiance/shadows_ambiance.ogg"
+		"wave"		"#*dms/ambiance/dronings.ogg"
+		"wave"		"#*dms/ambiance/ghosts.ogg"
+		"wave"		"#*dms/ambiance/Farewell.ogg"
+		"wave"		"#*dms/ambiance/Journey.ogg"
+		"wave"		"#*dms/ambiance/Dark_Nights.ogg"
+		"wave"		"#*dms/ambiance/mellow.ogg"
+		"wave"		"#*dms/ambiance/mellow_4fxed.ogg"
+		"wave"		"#*dms/ambiance/nmrih_ambiance.ogg"
+		"wave"		"#*dms/ambiance/overwhelmed.ogg"
+		"wave"		"#*dms/ambiance/short.ogg"
+		"wave"		"#*dms/ambiance/we_may_want_to_run.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_42801.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_42802.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_21401_mix2.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_12301.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_12303.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_12801.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_21401.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_21901.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_22601.ogg"
+		"wave"		"#*dms/ambiance/ambiance32414v1.ogg"
+		"wave"		"#*dms/ambiance/ambiance32414v2.ogg"
+		"wave"		"#*dms/ambiance/ambiance032914.ogg"
+		"wave"		"#*dms/ambiance/nmrihmixdownambiance.ogg"
+		"wave"		"#*dms/ambiance/SRMFambiance.ogg" 
+		"wave"		"#*dms/ambiance/staringwatcherambiance.ogg"
+		"wave"	        "#*dms/ambiance/tfgdrowningcageambiance.ogg"
+		"wave"	        "#*dms/ambiance/visionofhopeambiance.ogg"
+	}
+}
+
+"NMRiH_Music.Tension_1"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/tension1/crashed_tension.ogg"
+		"wave"		"#*dms/tension1/pressure.ogg"
+		"wave"		"#*dms/tension1/quick_uneasy.ogg"
+		"wave"		"#*dms/tension1/street_tension_2.ogg"
+		"wave"		"#*dms/tension1/streets_01v2.ogg"
+		"wave"		"#*dms/tension1/streets_01.ogg"
+		"wave"		"#*dms/tension1/streets_02_builtup.ogg"
+		"wave"		"#*dms/tension1/tension2.ogg"
+		"wave"		"#*dms/tension1/farewell_short.ogg"
+		"wave"		"#*dms/tension1/shadows_tension1.ogg"
+		"wave"		"#*dms/tension1/Journey_tension.ogg"
+		"wave"		"#*dms/tension1/deeper.ogg"
+		"wave"		"#*dms/tension1/Forebode.ogg"
+		"wave"		"#*dms/tension1/Gloom.ogg"
+		"wave"		"#*dms/tension1/caustic_reverie_12302.ogg"
+		"wave"		"#*dms/tension1/caustic_reverie_21501.ogg"
+		"wave"		"#*dms/tension1/caustic_reverie_21601.ogg"
+		"wave"		"#*dms/tension1/caustic_reverie_20501.ogg"
+		"wave"		"#*dms/tension1/caustic_reverie_13001.ogg"
+		"wave"	        "#*dms/tension1/evilkidstension1.ogg"
+		"wave"	        "#*dms/tension1/tension1032614.ogg"
+		"wave"	        "#*dms/tension1/watchingstairstension1.ogg"
+	}
+}
+
+"NMRiH_Music.Tension_2"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.9"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/tension2/moving_shadows.ogg"
+		"wave"		"#*dms/tension2/street_tension.ogg"
+		"wave"		"#*dms/tension2/caustic_reverie_20601.ogg"
+		"wave"		"#*dms/tension2/tension2_22701.ogg"
+		"wave"		"#*dms/tension2/tension3_21101_v2.ogg"
+		"wave"		"#*dms/tension1/drive.ogg"
+		"wave"		"#*dms/tension2/better_to_run.ogg"
+		"wave"		"#*dms/tension2/tension2032814.ogg"
+		"wave"		"#*dms/tension2/tension232414v1.ogg"
+		"wave"		"#*dms/tension2/tfgtension2fx.ogg"
+	}
+}
+
+"NMRiH_Music.Tension_3"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.9"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/tension2/moving_shadows.ogg"
+		"wave"		"#*dms/tension2/street_tension.ogg"
+		"wave"		"#*dms/tension2/caustic_reverie_20601.ogg"
+		"wave"		"#*dms/tension2/tension2_22701.ogg"
+		"wave"		"#*dms/tension2/tension3_21101_v2.ogg"
+		"wave"		"#*dms/tension1/drive.ogg"
+		"wave"		"#*dms/tension2/better_to_run.ogg"
+	}
+}
+
+"NMRiH_Music.Pursuit"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*music/action1.wav"
+		"wave"		"#*survival/surv_wave03.mp3"
+		"wave"		"#*dms/evac/time_to_run_and_gun.ogg"
+		"wave"		"#*dms/tension2/better_to_run.ogg"
+		"wave"		"#*dms/tension1/drive.ogg"
+
+	}
+}
+
+"NMRiH_Music.Attack"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*music/action1.wav"
+		"wave"		"#*survival/surv_wave03.mp3"
+		"wave"		"#*dms/evac/time_to_run_and_gun.ogg"
+		"wave"		"#*dms/tension1/drive.ogg"
+		"wave"		"#*dms/tension2/moving_shadows.ogg"
+		"wave"		"#*dms/tension2/street_tension.ogg"
+		"wave"		"#*dms/tension2/caustic_reverie_20601.ogg"
+		"wave"		"#*dms/tension2/tension2_22701.ogg"
+		"wave"		"#*dms/tension2/tension3_21101_v2.ogg"
+		"wave"		"#*dms/tension2/better_to_run.ogg"
+
+
+	}
+}
+
+"NMRiH_Music.Evac"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/evac/do_you_know_where_your_zombies_are.ogg"
+		"wave"		"#*dms/evac/runandgunevac1.ogg"
+		"wave"		"#*dms/evac/time_to_run_and_gun.ogg"
+		"wave"		"#*dms/evac/enter_the_hive.ogg"
+		"wave"		"#*dms/evac/fuckit.ogg"
+		"wave"		"#*dms/evac/ToFreedom.ogg"
+		"wave"		"#*survival/surv_barricade_90s.wav"
+		"wave"		"#*dms/songs/Empty - Intense Version.ogg"
+		"wave"		"#*dms/evac/tftguevac.ogg"
+		"wave"		"#*dms/evac/driveevac.ogg"
+		"wave"		"#*dms/evac/hittheexits.ogg"
+	}
+}
+
+"NMRiH_Music.Challenge"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.6"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/evac/time_to_run_and_gun.ogg"
+		"wave"		"#*dms/evac/runandgunevac1.ogg"
+		"wave"		"#*dms/evac/runandgunevac2.ogg"
+		"wave"		"#*dms/evac/enter_the_hive.ogg"
+		"wave"		"#*dms/evac/do_you_know_where_your_zombies_are.ogg"
+	}
+}
+
+"NMRiH_Music.Blitz"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.6"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/evac/residentevac.ogg"
+		"wave"		"#*dms/evac/enter_the_hive_short.ogg"
+		"wave"		"#*dms/evac/fuckit.ogg"
+		"wave"		"#*dms/evac/hittheexits.ogg"
+	}
+}
+
+"NMRiH_Music.BorrowedTime"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*player/infection/borrowed_time.wav"
+	}
+}
+
+"NMRiH_Music.Vaccine"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/ambiance/melodyofdarkness.ogg"
+	}
+}
+
+"NMRiH_Music.housefire"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/songs/to_give_up.ogg"
+	}
+}
+
+"NMRiH_Music.toxteth"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.2"
+	"soundlevel"	"SNDLVL_35dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/ambiance/ambient_two_guitar_v2.ogg"
+		"wave"		"#*dms/ambiance/ambient_one_long.ogg"
+	}
+}
+
+"NMRiH_Music.cleopas"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/safe/caustic_reverie_12101.ogg"
+		"wave"		"#*dms/safe/caustic_reverie_12102.ogg"
+		"wave"		"#*dms/safe/wollem.ogg"
+		"wave"		"#*dms/safe/Dark_Nights.ogg"
+		"wave"		"#*dms/ambiance/distant_alarms.ogg"
+	}
+}
+
+"NMRiH_Music.brooklynamb"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"		"#*dms/ambiance/brooklynambiance1.ogg"
+		"wave"		"#*dms/ambiance/brooklynambiance2.ogg"
+		"wave"		"#*dms/spawn/spawn_zone_1.ogg"
+	}
+}
+
+"NMRiH_Music.brooklyntension"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"		"#*dms/tension1/brooklyntension1.ogg"
+		"wave"		"#*dms/tension1/brooklyntension11.ogg"
+	}
+}
+
+"NMRiH_Music.brooklyntension2"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"		"#*dms/tension1/brooklyntension1.ogg"
+		"wave"		"#*dms/tension1/brooklyntension11.ogg"
+		"wave"		"#*dms/tension2/moving_shadows.ogg"
+		"wave"		"#*dms/tension2/street_tension.ogg"
+		"wave"		"#*dms/tension2/caustic_reverie_20601.ogg"
+		"wave"		"#*dms/tension2/tension2_22701.ogg"
+		"wave"		"#*dms/tension2/tension3_21101_v2.ogg"
+		"wave"		"#*dms/tension1/drive.ogg"
+		"wave"		"#*dms/tension2/better_to_run.ogg"
+	}
+}
+
+"NMRiH_Music.brooklyntension3"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"		"#*dms/tension1/brooklyntension1.ogg"
+		"wave"		"#*dms/tension1/brooklyntension11.ogg"
+		"wave"		"#*dms/tension2/moving_shadows.ogg"
+		"wave"		"#*dms/tension2/street_tension.ogg"
+		"wave"		"#*dms/tension2/caustic_reverie_20601.ogg"
+		"wave"		"#*dms/tension2/tension2_22701.ogg"
+		"wave"		"#*dms/tension2/tension3_21101_v2.ogg"
+		"wave"		"#*dms/tension1/drive.ogg"
+		"wave"		"#*dms/tension2/better_to_run.ogg"
+	}
+}
+
+"NMRiH_Music.brooklynpursuit"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*music/action1.wav"
+		"wave"		"#*survival/surv_wave03.mp3"
+		"wave"		"#*dms/evac/time_to_run_and_gun.ogg"
+		"wave"		"#*dms/tension2/better_to_run.ogg"
+		"wave"		"#*dms/tension1/drive.ogg"
+
+	}
+}
+
+"NMRiH_Music.brooklynattack"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*music/action1.wav"
+		"wave"		"#*survival/surv_wave03.mp3"
+		"wave"		"#*dms/evac/time_to_run_and_gun.ogg"
+		"wave"		"#*dms/tension1/drive.ogg"
+		"wave"		"#*dms/tension2/moving_shadows.ogg"
+		"wave"		"#*dms/tension2/street_tension.ogg"
+		"wave"		"#*dms/tension2/caustic_reverie_20601.ogg"
+		"wave"		"#*dms/tension2/tension2_22701.ogg"
+		"wave"		"#*dms/tension2/tension3_21101_v2.ogg"
+		"wave"		"#*dms/tension2/better_to_run.ogg"
+
+
+	}
+}
+
+"NMRiH_Music.brooklynevac"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/evac/enter_the_hive.ogg"
+	}
+}
+
+"NMRiH.MainMenu"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"ui/main_menu.ogg"
+}
+
+"NMRiH_Music.cleopasevac"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_50dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/evac/cleopasevac.ogg"
+	}
+}
+
+"NMRiH_Music.cleopas"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.6"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/safe/wollem.ogg"
+		"wave"		"#*dms/safe/Dark_Nights.ogg"
+		"wave"		"#*dms/ambiance/distant_alarms.ogg"
+		"wave"		"#*dms/spawn/cleopasspawn.ogg"
+		"wave"		"#*dms/ambiance/cleopasambiance.ogg"
+		"wave"		"#*dms/ambiance/urgencyambiance1.ogg"
+		"wave"		"#*dms/ambiance/urgencyambiance2.ogg"
+		"wave"		"#*dms/ambiance/urgencyambiance3.ogg"
+		"wave"		"#*dms/ambiance/urgencyambiance4.ogg"
+	}
+}
+
+"NMRiH_Music.Tenscleopas1"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"		"#*dms/tension1/cleopastension1.ogg"
+		"wave"		"#*dms/tension1/cleopastension12.ogg"
+		"wave"		"#*dms/tension1/cleopastension13.ogg"
+	}
+}
+
+"NMRiH_Music.Tenscleopas2"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/tension2/cleopastension2.ogg"
+	}
+}
+
+"NMRiH_Music.Evac_Junction"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/evac/ToFreedom.ogg"
+	}
+}
+
+"NMRiH_Music.arpley_evac"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_50dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/evac/urgencyevac.ogg"
+	}
+}
+
+"NMRiH_Music.arpley_tension"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"		"#*dms/tension1/urgencytension1.ogg"
+		"wave"		"#*dms/tension2/urgencytension2.ogg"
+		"wave"		"#*dms/tension2/urgencytension3.ogg"
+		"wave"		"#*dms/tension2/urgencytension4.ogg"
+		"wave"		"#*dms/tension2/tftdytension2.ogg"
+		"wave"		"#*dms/tension1/cleopastension12.ogg"
+	}
+}
+
+"NMRiH_Music.zephyr_ambient"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/ambiance/ambient_two_guitar.ogg"
+		"wave"		"#*dms/ambiance/Dark_Nights.ogg"
+		"wave"		"#*dms/ambiance/mellow.ogg"
+	}
+}
+
+"NMRiH_Music.zephyr_tension_1"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"music\tension1.wav"
+		"wave"		"music\tension2.wav"
+		"wave"		"#*dms/tension1/Gloom.ogg"
+		"wave"		"#*dms/tension1/farewell_short.ogg"
+		"wave"		"#*dms/tension1/journey_tension.ogg"
+	}
+}
+
+"NMRiH_Music.zephyr_tension_2"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/tension2/tension3_21101_v2.ogg"
+		"wave"		"#*dms/tension2/tension2_22701.ogg"
+		"wave"		"#*dms/tension1/journey_tension.ogg"
+		"wave"		"#*dms/tension2/tumult.ogg"
+	}
+}
+
+"NMRiH_Music.zephyr_tension_3"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/evac/time_to_run_and_gun.ogg"
+		"wave"		"#*dms/tension2/caustic_reverie_20601.ogg"
+		"wave"		"#*dms/tension2/tension2_22701.ogg"
+		"wave"		"#*dms/tension2/tension3_21101_v2.ogg"
+		"wave"		"music\misc2.mp3"
+	}
+}
+
+"NMRiH_Music.zephyr_evac"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/evac/time_to_run_and_gun.ogg"
+	}
+}
+
+"NMRiH_Music.midwest_ambient"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/safe/caustic_reverie_12101.ogg"
+		"wave"		"#*dms/safe/caustic_reverie_12102.ogg"
+		"wave"		"#*dms/safe/wollem.ogg"
+		"wave"		"#*dms/ambiance/journey.ogg"
+		"wave"		"#*dms/ambiance/Alone.ogg"
+	}
+}
+
+"NMRiH_Music.midwest_tension_1"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/tension2/moving_shadows.ogg"
+		"wave"		"#*dms/tension2/street_tension.ogg"
+		"wave"		"#*dms/tension1/drive.ogg"
+	}
+}
+
+"NMRiH_Music.midwest_tension_2"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/tension2/moving_shadows.ogg"
+		"wave"		"#*dms/tension2/street_tension.ogg"
+		"wave"		"#*dms/tension2/tension3_21101_v2.ogg"
+		"wave"		"#*dms/tension2/tension2_22701.ogg"
+	}
+}
+
+"NMRiH_Music.midwest_tension_3"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"		"#*dms/tension2/better_to_run.ogg"
+		"wave"		"#*dms/tension1/shadows_tension1.ogg"
+	}
+}
+
+"NMRiH_Music.midwest_evac"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/evac/time_to_run_and_gun.ogg"
+		"wave"		"#*dms/tension2/better_to_run.ogg"
+		"wave"		"#*dms/songs/re_fallen_city.ogg"
+	}
+}
+
+"NMRiH_Music.suzhou_ambient"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/ambiance/journey.ogg"
+		"wave"		"#*dms/ambiance/urgencyambiance1.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_42801.ogg"
+		"wave"		"#*dms/ambiance/short.ogg"
+		"wave"		"#*dms/ambiance/visionofhopeambiance.ogg"
+		"wave"		"#*dms/safe/wollem.ogg"
+		"wave"		"#*dms/tension1/crashed_tension.ogg"
+	}
+}
+
+"NMRiH_Music.suzhou_tension_1"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/songs/city_of_sorrows.ogg"
+		"wave"		"#*dms/songs/defector.ogg"
+		"wave"		"#*dms/ambiance/overwhelmed.ogg"
+		"wave"		"#*dms/ambiance/urgencyambiance1.ogg"
+		"wave"		"#*dms/ambiance/urgencyambiance3.ogg"
+	}
+}
+
+"NMRiH_Music.suzhou_tension_2"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/tension1/urgencytension1.ogg"
+		"wave"		"#*dms/tension2/urgencytension2.ogg"
+		"wave"		"#*dms/tension1/journey_tension.ogg"
+	}
+}
+
+"NMRiH_Music.suzhou_tension_3"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/tension2/better_to_run.ogg"
+		"wave"		"#*dms/tension2/urgencytension3.ogg"
+	}
+}
+
+"NMRiH_Music.suzhou_evac"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/evac/urgencyevac.ogg"
+		"wave"		"#*dms/songs/empty - intense version.ogg"
+		"wave"		"#*dms/evac/time_to_run_and_gun.ogg"
+	}
+}
+
+"NMRiH_Music.femaamb"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"		"#*dms/spawn/spawn_zone_1.ogg"
+	}
+}
+
+"NMRiH_Music.fematension"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"	        "#*dms/tension1/watchingstairstension1.ogg"
+		"wave"		"#*dms/spawn/spawn_zone_1.ogg"
+	}
+}
+
+
+"NMRiH_Music.fematension2"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/tension2/moving_shadows.ogg"
+		"wave"		"#*dms/tension2/street_tension.ogg"
+		"wave"		"#*dms/tension2/caustic_reverie_20601.ogg"
+		"wave"		"#*dms/tension2/tension2_22701.ogg"
+		"wave"		"#*dms/tension2/tension3_21101_v2.ogg"
+		"wave"		"#*dms/tension1/drive.ogg"
+		"wave"		"#*dms/tension2/better_to_run.ogg"
+		"wave"		"#*dms/tension2/tension2032814.ogg"
+		"wave"		"#*dms/tension2/tension232414v1.ogg"
+		"wave"		"#*dms/tension2/tfgtension2fx.ogg"
+	}
+}
+
+
+"NMRiH_Music.fematension3"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"		"#*dms/tension2/moving_shadows.ogg"
+		"wave"		"#*dms/tension2/street_tension.ogg"
+		"wave"		"#*dms/tension2/caustic_reverie_20601.ogg"
+		"wave"		"#*dms/tension2/tension2_22701.ogg"
+		"wave"		"#*dms/tension2/tension3_21101_v2.ogg"
+		"wave"		"#*dms/tension1/drive.ogg"
+		"wave"		"#*dms/tension2/better_to_run.ogg"
+	}
+}
+
+"NMRiH_Music.femapursuit"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"		"#*music/action1.wav"
+		"wave"		"#*survival/surv_wave03.mp3"
+		"wave"		"#*dms/evac/time_to_run_and_gun.ogg"
+		"wave"		"#*dms/tension2/better_to_run.ogg"
+		"wave"		"#*dms/tension1/drive.ogg"
+	}
+}
+
+"NMRiH_Music.femaattack"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*music/action1.wav"
+		"wave"		"#*survival/surv_wave03.mp3"
+		"wave"		"#*dms/evac/time_to_run_and_gun.ogg"
+		"wave"		"#*dms/tension1/drive.ogg"
+		"wave"		"#*dms/tension2/moving_shadows.ogg"
+		"wave"		"#*dms/tension2/street_tension.ogg"
+		"wave"		"#*dms/tension2/caustic_reverie_20601.ogg"
+		"wave"		"#*dms/tension2/tension2_22701.ogg"
+		"wave"		"#*dms/tension2/tension3_21101_v2.ogg"
+		"wave"		"#*dms/tension2/better_to_run.ogg"
+	}
+}
+
+"NMRiH_Music.femaevac"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"		"#*dms/evac/hittheexits.ogg"
+	}
+}
+
+"NMRiH_Music.broadway2"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"		"#*dms/ambiance/RainDrop.ogg"
+		"wave"		"#*dms/ambiance/RainDrop_shorter.ogg"
+	}
+}
+
+"NMRiH_Music.QuarantineAmbient"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/ambiance/a_dark_alley.ogg"
+		"wave"		"#*dms/ambiance/a_dark_trail.ogg"
+		"wave"		"#*dms/ambiance/CoolzPiano.wav"
+		"wave"		"#*dms/ambiance/Alone.ogg"
+		"wave"		"#*dms/ambiance/ambiance.ogg"
+		"wave"		"#*dms/ambiance/ambiance_1.ogg"
+		"wave"		"#*dms/ambiance/ambient_one.ogg"
+		"wave"		"#*dms/ambiance/ambient_one_long.ogg"
+		"wave"		"#*dms/ambiance/ambient_two_guitar.ogg"
+		"wave"		"#*dms/ambiance/ambient_two_guitar_v2.ogg"
+		"wave"		"#*dms/ambiance/darkness.ogg"
+		"wave"		"#*dms/ambiance/distant_alarms.ogg"
+		"wave"		"#*dms/ambiance/shadows_ambiance.ogg"
+		"wave"		"#*dms/ambiance/dronings.ogg"
+		"wave"		"#*dms/ambiance/ghosts.ogg"
+		"wave"		"#*dms/ambiance/Farewell.ogg"
+		"wave"		"#*dms/ambiance/Journey.ogg"
+		"wave"		"#*dms/ambiance/Dark_Nights.ogg"
+		"wave"		"#*dms/ambiance/mellow.ogg"
+		"wave"		"#*dms/ambiance/mellow_4fxed.ogg"
+		"wave" 		"#*dms/ambiance/Urbex_V2.ogg"
+		"wave"		"#*dms/ambiance/nmrih_ambiance.ogg"
+		"wave"		"#*dms/ambiance/overwhelmed.ogg"
+		"wave"		"#*dms/ambiance/short.ogg"
+		"wave"		"#*dms/ambiance/we_may_want_to_run.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_42801.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_42802.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_21401_mix2.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_12301.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_12303.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_12801.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_21401.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_21901.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_22601.ogg"
+		"wave"		"#*dms/ambiance/ambiance32414v1.ogg"
+		"wave"		"#*dms/ambiance/ambiance32414v2.ogg"
+		"wave"		"#*dms/ambiance/ambiance032914.ogg"
+		"wave"		"#*dms/ambiance/nmrihmixdownambiance.ogg"
+		"wave"		"#*dms/ambiance/SRMFambiance.ogg" 
+		"wave"		"#*dms/ambiance/staringwatcherambiance.ogg"
+		"wave"	        "#*dms/ambiance/tfgdrowningcageambiance.ogg"
+		"wave"	        "#*dms/ambiance/visionofhopeambiance.ogg"
+	}
+}
+
+"NMRiH_Music.QuuarantineTension_1"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/tension1/urgencytension1.ogg"
+		"wave"		"#*dms/tension2/urgencytension2.ogg"
+		"wave"		"#*dms/tension2/urgencytension3.ogg"
+		"wave"		"#*dms/tension1/crashed_tension.ogg"
+		"wave"		"#*dms/tension1/pressure.ogg"
+		"wave"		"#*dms/tension1/quick_uneasy.ogg"
+		"wave"		"#*dms/tension1/street_tension_2.ogg"
+		"wave"		"#*dms/tension1/streets_01v2.ogg"
+		"wave"		"#*dms/tension1/streets_01.ogg"
+		"wave"		"#*dms/tension1/streets_02_builtup.ogg"
+		"wave"		"#*dms/tension1/tension2.ogg"
+		"wave"		"#*dms/tension1/farewell_short.ogg"
+		"wave"		"#*dms/tension1/shadows_tension1.ogg"
+		"wave"		"#*dms/tension1/Journey_tension.ogg"
+		"wave"		"#*dms/tension1/deeper.ogg"
+		"wave"		"#*dms/tension1/Forebode.ogg"
+		"wave"		"#*dms/tension1/Gloom.ogg"
+		"wave"		"#*dms/tension1/caustic_reverie_12302.ogg"
+		"wave"		"#*dms/tension1/caustic_reverie_21501.ogg"
+		"wave"		"#*dms/tension1/caustic_reverie_21601.ogg"
+		"wave"		"#*dms/tension1/caustic_reverie_20501.ogg"
+		"wave"		"#*dms/tension1/caustic_reverie_13001.ogg"
+		"wave"	        "#*dms/tension1/evilkidstension1.ogg"
+		"wave"	        "#*dms/tension1/tension1032614.ogg"
+		"wave"	        "#*dms/tension1/watchingstairstension1.ogg"
+	}
+}
+
+
+"NMRiH_Music.broadway2_spawn"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"		"#*dms/spawn/Raindrop_Ambiance.ogg"
+	}
+}
+
+"NMRiH_Music.broadway2_tension"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"		"#*dms/tension1/tension_bway2.ogg"
+		"wave"		"#*dms/tension1/tension_bway1.ogg"
+	}
+}
+
+"NMRiH_Music.broadway2_evac"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"		"#*dms/evac/residentevac.ogg"
+	}
+}
+
+"NMRiH_Music.laundry_evac"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/evac/time_to_run_and_gun.ogg"
+		"wave"		"#*dms/songs/re_fallen_city.ogg"
+		"wave"		"#*dms/songs/defector.ogg"
+		"wave"		"#*dms/songs/city_of_sorrows.ogg"
+		"wave"		"#*survival\surv_wave03.mp3"
+	}
+}
+
+//****************************************
+// AMBIENT CHILL MUSIC
+// Default music that plays when player(s) aren't being pursued, or attacked or going  en-route to a evac while eating cake.
+//****************************************
+
+
+"nms_notld.Ambient"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/ambiance/a_dark_alley.ogg"
+		"wave"		"#*dms/ambiance/a_dark_trail.ogg"
+		"wave"		"#*dms/ambiance/darkness.ogg"
+		"wave"		"#*dms/ambiance/distant_alarms.ogg"
+		"wave"		"#*dms/ambiance/ghosts.ogg"
+		"wave"		"#*dms/ambiance/mellow.ogg"
+		"wave"		"#*dms/ambiance/mellow_4fxed.ogg"
+		"wave"		"#*dms/ambiance/nmrih_ambiance.ogg"
+		"wave"		"#*dms/ambiance/short.ogg"
+		"wave"		"#*dms/ambiance/we_may_want_to_run.ogg"
+		"wave"		"#*dms/songs/notld_ambiance.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_42802.ogg"
+		"wave"		"#*dms/ambiance/caustic_reverie_21401_mix2.ogg"
+	}
+}
+
+"shelter.ambient"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"		"music\judged_unworthy.wav"
+	}
+}
+
+"shelter.tension1"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"		"music\tension1.wav"
+	}
+}
+
+"shelter.tension2"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+
+		"wave"		"music\tension2.wav"
+	}
+}

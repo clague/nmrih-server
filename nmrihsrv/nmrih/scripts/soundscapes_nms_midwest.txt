@@ -1,0 +1,334 @@
+//****************************************
+// Soundscapes for NMS_midwest AKA Zepyhr 2 - Billion(Surya)Lioe
+//****************************************
+
+//****************************************
+// Pitter Patter Pitter Patter
+//****************************************
+
+"midwest.rain_generic"
+{ 
+ 
+         "playlooping" 
+         { 
+                "volume"       "0.8" 
+                "pitch"        "100" 
+
+
+                "wave"         "ambient\water\suburb_rain_light.wav" 
+         }
+ 	
+	"playlooping" 
+         { 
+                "volume"       "0.6" 
+                "pitch"        "100" 
+
+
+                "wave"         "ambient\wind\medium_wind_loop.wav" 
+         }
+
+	"playrandom"
+	{
+		"time"         "30,50"
+		"volume"       "0.8"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\atmosphere\thunder1.wav"
+			"wave"	"ambient\atmosphere\thunder2.wav"
+			"wave"	"ambient\atmosphere\thunder3.wav"
+			"wave"	"ambient\atmosphere\thunder4.wav"
+
+		}
+	}
+
+	"playrandom"
+	{
+		"time"         "70,100"
+		"volume"       "1"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\levels\streetwar\city_scream3.wav"
+
+		}
+	}
+
+
+	"playrandom"
+	{
+		"time"         "120,150"
+		"volume"       "0.5"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\background\window_smash1.wav"
+
+		}
+	}
+
+
+	"playrandom"
+	{
+		"time"         "120,150"
+		"volume"       "0.5"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\background\window_smash2.wav"
+
+		}
+	}
+
+	"playrandom"
+	{
+		"time"         "6,30"
+		"volume"       "0.3"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\levels\canals\critter8.wav"
+			"wave"	"ambient\levels\canals\critter5.wav"
+			"wave"	"ambient\levels\canals\critter4.wav"
+		}
+	}
+	
+}
+
+//****************************************
+// Pitter Patter Pitter Patter (ALLEY REMIX)
+//****************************************
+
+"midwest.rain_alley"
+{ 
+ 
+         "playlooping" 
+         { 
+                "volume"       "0.8" 
+                "pitch"        "100" 
+
+
+                "wave"         "ambient\water\city_rain_light_backalley.wav" 
+         }
+ 	
+
+	"playlooping" 
+         { 
+                "volume"       "0.6" 
+                "pitch"        "100" 
+
+
+                "wave"         "ambient\atmosphere\tone_alley.wav" 
+         }
+	
+	"playrandom"
+	{
+		"time"         "30,50"
+		"volume"       "0.3"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\atmosphere\thunder1.wav"
+			"wave"	"ambient\atmosphere\thunder2.wav"
+			"wave"	"ambient\atmosphere\thunder3.wav"
+			"wave"	"ambient\atmosphere\thunder4.wav"
+
+		}
+	}
+
+
+}
+
+//****************************************
+// Creepy Ass Bar
+//****************************************
+
+"midwest.bar"
+{ 
+ 
+         "playlooping" 
+         { 
+                "volume"       "0.8" 
+                "pitch"        "100" 
+
+
+                "wave"         "ambient\roomtones\room_tone_3.wav" 
+         }
+	
+ 
+         "playlooping" 
+         { 
+                "volume"       "0.7" 
+                "pitch"        "100" 
+		"soundlevel" 	"SNDLVL_70dB"
+
+		"position" 	"0"
+
+
+
+                "wave"         "ambient\water\city_rain_light_generic.wav" 
+         }
+
+	"playlooping" 
+         { 
+                "volume"       "0.25" 
+                "pitch"        "100" 
+		"soundlevel" 	"SNDLVL_70dB"
+
+		"position" 	"1"
+
+
+
+                "wave"         "ambient\voices\crying_loop1.wav" 
+         }
+	
+}
+
+//****************************************
+// The Convinience Store Everyone Knows and Loves
+//****************************************
+
+"midwest.stopoff"
+{ 
+ 
+         "playlooping" 
+         { 
+                "volume"       "0.8" 
+                "pitch"        "100" 
+
+
+                "wave"         "ambient\roomtones\roomtone_neutral1.wav" 
+         }
+	
+         "playlooping" 
+         { 
+                "volume"       "0.7" 
+                "pitch"        "100" 
+		"soundlevel" 	"SNDLVL_70dB"
+
+		"position" 	"0"
+
+
+                "wave"         "ambient\water\city_rain_light_generic.wav" 
+         }
+
+}
+
+//****************************************
+// Ma La Soup Restaurant, Nyum
+//****************************************
+
+"midwest.xianglamei"
+{
+
+	"playlooping" 
+         { 
+                "volume"       "0.85" 
+                "pitch"        "90" 
+
+
+                "wave"         "ambient\wind\wind_draft_eerie_loop.wav" 
+         }
+ 
+	
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+
+		"wave"		"ambient\water\city_rain_light_thinroof.wav"
+
+	}	
+	
+	"playrandom" 
+         { 
+		"time"		"2,5"
+                "volume"       "0.75" 
+                "pitch"        "90,120" 
+		"soundlevel"	"SNDLVL_70dB"
+
+		"position"	"0"
+
+
+
+		"rndwave"
+		{
+
+                "wave"         "ambient\creatures\flies1.wav" 
+                "wave"         "ambient\creatures\flies2.wav" 
+                "wave"         "ambient\creatures\flies3.wav" 
+                "wave"         "ambient\creatures\flies4.wav" 
+                "wave"         "ambient\creatures\flies5.wav" 
+         
+		}
+	}
+
+         "playlooping" 
+         { 
+                "volume"       "0.7" 
+                "pitch"        "100" 
+		"soundlevel" 	"SNDLVL_70dB"
+
+
+                "wave"         "ambient\water\city_rain_light_generic.wav" 
+         }
+
+}
+
+//****************************************
+// For All Your Homocidal Needs
+//****************************************
+
+"midwest.gunstore"
+{
+
+	"playlooping" 
+         { 
+                "volume"       "0.65" 
+                "pitch"        "90" 
+
+                "wave"         "ambient\roomtones\room_tone_3.wav" 
+         }
+
+	"playlooping" 
+         { 
+                "volume"       "0.7" 
+                "pitch"        "100" 
+		"soundlevel" 	"SNDLVL_70dB"
+
+		"position" 	"0"
+
+                "wave"         "ambient\water\city_rain_light_generic.wav" 
+         }
+
+}
+
+//****************************************
+// Respawning box in the corner :3
+//****************************************
+
+"midwest.warehouse"
+{
+
+	"playlooping" 
+         { 
+                "volume"       "0.8" 
+                "pitch"        "90" 
+
+                "wave"         "ambient\atmosphere\cargo_hold2.wav" 
+         }
+
+	"playlooping"
+	{
+		"volume"       "1.0"
+		"pitch"	       "100"
+		"soundlevel" 	"SNDLVL_85dB"
+
+		"position"	"0"
+
+
+
+		"wave"	"ambient\water\city_rain_windyhole.wav"
+	}
+
+}

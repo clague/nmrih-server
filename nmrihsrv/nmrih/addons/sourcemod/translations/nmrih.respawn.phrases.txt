@@ -1,0 +1,62 @@
+"Phrases"
+{
+	"Admin Menu Item"
+	{
+		"en" "Respawn Menu"
+		"chi" "重生菜单"
+	}
+
+	"Menu Item Respawn"
+	{
+		"en" "Respawn player"
+		"chi" "复活玩家"
+	}
+
+	"Menu Item Respawn All"
+	{
+		"en" "Respawn all players"
+		"chi" "复活全部玩家"
+	}
+	
+	"Menu Item Respawn self"
+	{
+		"en" "Respawn self"
+		"chi" "复活自己"
+	}
+	
+	"Menu Item Nuke Players"
+	{
+		"en" "Kills all players"
+		"chi" "处死所有玩家"
+	}
+	
+	"Menu Item Freeze Players"
+	{
+		"en" "Freezes all players"
+		"chi" "冻结所有玩家"
+	}
+	
+	"Menu Item Unfreeze Players"
+	{
+		"en" "Unfreezes all players"
+		"chi" "解冻所有玩家"
+	}
+	
+	"Menu Item Freeze Zombies"
+	{
+		"en" "Freezes all zombies"
+		"chi" "冻结所有僵尸"
+	}
+	
+	"Menu Item Unfreeze zombies"
+	{
+		"en" "Unfreezes all zombies"
+		"chi" "解冻所有僵尸"
+	}
+	
+	"Menu Item Restart Round"
+	{
+		"en" "Restarts round immediately"
+		"chi" "重启本局"
+	}
+}

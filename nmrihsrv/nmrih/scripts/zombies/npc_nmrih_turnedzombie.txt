@@ -1,0 +1,62 @@
+"npc_nmrih_shamblerzombie"
+{
+	"models/nmr_zombie/bateman_infected.mdl"
+	{
+		"male"	"1"
+		"alert"		"Zombie.Alert"
+		"attack"	"Zombie.Attack"
+		"attackhit"	"Zombie.AttackHit"
+		"attackmiss"	"Zombie.AttackMiss"
+		"clawhit"	"Zombie.ClawHit"
+		"chomp"		"Zombie.Chomp"
+		"die"		"Zombie.Die"
+		"idle"		"Zombie.Idle"
+		"moan"		"Zombie.Moan1"
+		"pain"		"Zombie.Pain"
+	}
+	
+	"models/nmr_zombie/hunter_infected.mdl"
+	{
+		"male"	"1"
+		"alert"		"Zombie.Alert"
+		"attack"	"Zombie.Attack"
+		"attackhit"	"Zombie.AttackHit"
+		"attackmiss"	"Zombie.AttackMiss"
+		"clawhit"	"Zombie.ClawHit"
+		"chomp"		"Zombie.Chomp"
+		"die"		"Zombie.Die"
+		"idle"		"Zombie.Idle"
+		"moan"		"Zombie.Moan1"
+		"pain"		"Zombie.Pain"
+	}
+	
+	"models/nmr_zombie/molotov_infected.mdl"
+	{
+		"male"	"1"
+		"alert"		"Zombie.Alert"
+		"attack"	"Zombie.Attack"
+		"attackhit"	"Zombie.AttackHit"
+		"attackmiss"	"Zombie.AttackMiss"
+		"clawhit"	"Zombie.ClawHit"
+		"chomp"		"Zombie.Chomp"
+		"die"		"Zombie.Die"
+		"idle"		"Zombie.Idle"
+		"moan"		"Zombie.Moan1"
+		"pain"		"Zombie.Pain"
+	}
+	
+	"models/nmr_zombie/wally_infected.mdl"
+	{
+		"male"	"1"
+		"alert"		"Zombie.Alert"
+		"attack"	"Zombie.Attack"
+		"attackhit"	"Zombie.AttackHit"
+		"attackmiss"	"Zombie.AttackMiss"
+		"clawhit"	"Zombie.ClawHit"
+		"chomp"		"Zombie.Chomp"
+		"die"		"Zombie.Die"
+		"idle"		"Zombie.Idle"
+		"moan"		"Zombie.Moan1"
+		"pain"		"Zombie.Pain"
+	}
+}

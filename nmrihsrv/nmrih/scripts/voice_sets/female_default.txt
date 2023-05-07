@@ -1,0 +1,6 @@
+"FemaleDefault"
+{
+	"name"		"Chippants"
+	"script"	"scripts/voice_soundscripts/voice_set_femaledefault.txt"
+	"gender"	"f"
+}

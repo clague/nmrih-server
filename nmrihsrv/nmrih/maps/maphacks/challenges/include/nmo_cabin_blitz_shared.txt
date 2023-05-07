@@ -1,0 +1,35 @@
+"MapHack"
+{
+	"entities"
+	{
+		// Anti-frustration measures for all door planks
+		$edit { "id" "136410" "keyvalues" { "health" "5" } }
+		$edit { "id" "136413" "keyvalues" { "health" "5" } }
+		$edit { "id" "136416" "keyvalues" { "health" "5" } }
+		$edit { "id" "136419" "keyvalues" { "health" "5" } }
+		$edit { "id" "136422" "keyvalues" { "health" "5" } }
+		$edit { "id" "580817" "keyvalues" { "health" "5" } }
+		$edit { "id" "580814" "keyvalues" { "health" "5" } }
+		$edit { "id" "580811" "keyvalues" { "health" "5" } }
+		$edit { "id" "580808" "keyvalues" { "health" "5" } }
+		
+		// Unlocking a door with a key takes over 6 fricking seconds, make it quick
+		$remove_connections { "targetname" "triggera" }
+		$edit
+		{
+			"targetname" "triggera"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnTrigger" "!activator,Kill,,0,-1"
+					"OnTrigger" "obja_door1,Unlock,,0,-1"
+					"OnTrigger" "template_obja,ForceSpawn,,0,-1"
+					"OnTrigger" "propp_obja_dummy,Kill,,0.1,-1"
+					"OnTrigger" "boundary_obja,ObjectiveComplete,,0,-1"
+					"OnTrigger" "obj_a_click1,PlaySound,,0,-1"
+				}
+			}
+		}
+	}
+}

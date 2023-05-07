@@ -1,0 +1,2 @@
+// Base criterion
+criterion IsLeader "classname" "npc_national_guard_leader" "required"

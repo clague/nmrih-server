@@ -1,0 +1,45 @@
+Challenges
+{
+	"nmo_brooklyn_challenge_1"
+	{
+		"Name" "Core Workout"
+		"Description" "This roadblock won't budge on its own..."
+		"Objectives"
+		{
+			"0" "22" // Use the key to unlock the cell door
+			"1" "23" // Disengage sally port lock
+			"2" "26" // Use the I.E.D to blow out the precinct window
+			"3" "29" // Break off the lock 
+			"4" "34" // Break out of the apartment block
+			"5" "43" // Attach the hook so Mickey can pull down the fence
+			"6" "32" // Push the car out of the way, clear the path
+			"7" "45" // Find the extinguisher and put out the street fire
+			"8" "48" // Find the outpost and override the lockdown
+		}
+	}
+
+	"nmo_brooklyn_challenge_2"
+	{
+		"Name" "Shop and Chop"
+		"Description" "If we want to hit the road, we are gonna need supplies!"
+		"Objectives"
+		{
+			"0" "22" // Use the key to unlock the cell door
+			"1" "24" // Locate the keycode for holding area gate
+			"2" "25" // Find the fuse and restore power to the elevator
+			"3" "27" // Find the welder to access garage door release
+			"4" "29" // Break off the lock 
+			"5" "34" // Break out of the apartment block
+			"6" "30" // Find the padlock and help Mickey lock the door
+			"7" "37" // Push the cart
+			"8" "38" // Loot the water
+			"9" "44" // Push the cart
+			"10" "35" // Loot the Food
+			"11" "40" // Push the cart
+			"12" "41" // Loot the fuel
+			"13" "42" // Push the cart to meet Mickey
+			"14" "47" // Load up the van
+			"15" "46" // Reconnect the power cable for the quarantine gate
+		}
+	}
+}

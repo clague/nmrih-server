@@ -1,0 +1,87 @@
+"GameInfo"
+{
+	game	"No More Room in Hell"
+	title	""
+	title2	""
+	type multiplayer_only
+	nomodels 0
+	nohimodel 1
+	nocrosshair 1
+	supportsvr 0
+	nodegraph 0
+	hidden_maps
+	{
+		"test_speakers"		1
+		"test_hardware"		1
+	}
+
+
+	FileSystem
+	{
+		SteamAppId				224260
+
+		//
+		// Setup engine search paths.
+		//
+		// If a search path contains "_english", and the current language is not english, then
+		// another search path will be inserted above the english one by replacing "_english" with
+		// the appropriate language.
+		//
+		// To debug how the engine has parsed this file, type "path" at the console.
+		//
+		// Search paths are relative to the base directory, which is where hl2.exe is found.
+		//
+		// |gameinfo_path| points at the directory where gameinfo.txt is.
+		// |all_source_engine_paths| points at the directory containing HL2 shared content.
+		//
+		SearchPaths
+		{
+			// All user customizations are mounted from the Workshop or the /custom folder in
+			// the game directory by the NMRiH addon manager. If you are reading a guide on the
+			// internet that tells you add a line containing the custom folder to this file
+			// it is out dated and might break your game. Just skip that step and place your
+			// customization in the custom folder as usual.
+
+			// We search the NMRiH game vpk first.
+			game+mod			|gameinfo_path|nmrih.vpk
+			
+			// Now search NMRiH loose files.
+			mod+mod_write+default_write_path		|gameinfo_path|.
+			
+			// Add the nmrih directory as a game search path.  This is also where where writes
+			// to the "game" path go.
+			game+game_write		|gameinfo_path|			
+
+			// Where the game's binaries are
+			gamebin				|gameinfo_path|bin		
+			
+			// Now search the rest of the engine VPKs for anything that's missing.
+			game				|all_source_engine_paths|hl2/hl2_textures.vpk
+			game				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
+			game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
+			game				|all_source_engine_paths|hl2/hl2_misc.vpk
+			game				|all_source_engine_paths|hl2mp/hl2mp_english.vpk
+			game				|all_source_engine_paths|hl2mp/hl2mp_pak.vpk
+
+			platform			|all_source_engine_paths|platform/platform_misc.vpk			
+
+			// Last, mount in shared HL2 loose files
+			game				|all_source_engine_paths|hl2
+			game				|all_source_engine_paths|hl2mp
+			platform			|all_source_engine_paths|platform			
+
+			// Random files downloaded from gameservers go into a separate directory, so
+			// that it's easy to keep those files segregated from the official game files
+			// or customizations intentionally installed by the user.
+			//
+			// This directory is searched LAST.  If you visit a server and download
+			// a custom model, etc, we don't want that file to override the default
+			// game file indefinitely (after you have left the server).  Servers CAN have
+			// custom content that overrides the default game files, it just needs to be
+			// packed up in the .bsp file so that it will be mounted as a map search pack.
+			// The map search pack is mounted at the top of the search path list,
+			// but only while you are connected that server and on that map.
+			game+download	|gameinfo_path|download
+		}
+	}
+}

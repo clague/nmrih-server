@@ -1,0 +1,1026 @@
+
+"Zombie.Idle"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.5,0.8"
+	"pitch"			"85,100"
+
+	"soundlevel"		"SNDLVL_65dB"
+
+	"rndwave"
+	{
+		"wave"	")npc/nmr_zomb2/idle1.wav"
+		"wave"	")npc/nmr_zomb2/idle2.wav"
+		"wave"	")npc/nmr_zomb2/idle3.wav"
+		"wave"	")npc/nmr_zomb2/idle4.wav"
+		"wave"	")npc/nmr_zomb2/idle5.wav"
+		"wave"	")npc/nmr_zomb2/idle6.wav"
+		"wave"	")npc/nmr_zomb2/idle7.wav"
+		"wave"	")npc/nmr_zomb2/idle8.wav"
+		"wave"	")npc/nmr_zomb2/idle9.wav"
+		"wave"	")npc/nmr_zomb2/idle10.wav"
+		"wave"	")npc/nmr_zomb2/idle11.wav"
+		"wave"	")npc/nmr_zomb2/idle12.wav"
+		"wave"	")npc/nmr_zomb2/idle13.wav"
+		"wave"	")npc/nmr_zomb2/idle14.wav"
+		"wave"	")npc/nmr_zomb2/idle15.wav"	
+	}
+}
+
+"Zombie.Idle2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.5,0.8"
+	"pitch"			"98, 105"
+
+	"soundlevel"		"SNDLVL_65dB"
+
+	"rndwave"
+	{
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_01.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_02.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_03.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_04.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_05.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_06.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_07.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_08.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_09.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_10.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_11.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_12.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_13.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_14.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_15.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_16.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_17.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_18.wav"
+	}
+}
+
+"Zombie.Idle3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.4,0.65"
+	"pitch"			"88,105"
+
+	"soundlevel"		"SNDLVL_65dB"
+
+	"rndwave"
+	{
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-01.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-02.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-03.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-04.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-05.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-06.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-07.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-08.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-09.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-10.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_01.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_02.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_03.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_04.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_05.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_06.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_07.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_08.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_09.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_10.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_11.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_12.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_13.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_14.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_15.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_16.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_17.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_18.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_19.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_20.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_21.wav"
+	}
+}
+
+"NPC_NMR_Zombie.Moan1"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.6"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			")npc/zombie/moan_loop1.wav"
+}
+
+"NPC_NMR_Zombie.Moan2"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.95"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			")npc/zombie/moan_loop2.wav"
+}
+
+"NPC_NMR_Zombie.Moan3"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.95"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			")npc/zombie/moan_loop3.wav"
+}
+
+"NPC_NMR_Zombie.Moan4"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.95"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			")npc/zombie/moan_loop4.wav"
+}
+
+"Zombie.FootstepRight"  // using HL2 for now
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.5"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_75db"
+
+	"rndwave"
+	{
+		"wave"	")npc/zombie/foot1.wav"
+		"wave"	")npc/zombie/foot2.wav"
+		"wave"	")npc/zombie/foot3.wav"
+	}
+}
+
+"Zombie.FootstepLeft"  // using HL2 for now
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.5"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_75db"
+
+	"rndwave"
+	{
+		"wave"	")npc/zombie/foot1.wav"
+		"wave"	")npc/zombie/foot2.wav"
+		"wave"	")npc/zombie/foot3.wav"
+	}
+}
+
+"Zombie.ScuffRight"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.6"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_65db"
+
+	"rndwave"
+	{
+		"wave"	")npc/nmr_zomb_shared/zombie_scuff1.wav"
+		"wave"	")npc/nmr_zomb_shared/zombie_scuff3.wav"
+		"wave"	")npc/nmr_zomb_shared/zombie_scuff5.wav"
+		"wave"	")npc/nmr_zomb_shared/zombie_scuff7.wav"
+		"wave"	")npc/nmr_zomb_shared/zombie_scuff9.wav"
+		"wave"	")npc/nmr_zomb_shared/zombie_scuff11.wav"
+	}
+}
+
+"Zombie.ScuffLeft"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_65db"
+
+	"rndwave"
+	{
+		"wave"	")npc/nmr_zomb_shared/zombie_scuff2.wav"
+		"wave"	")npc/nmr_zomb_shared/zombie_scuff4.wav"
+		"wave"	")npc/nmr_zomb_shared/zombie_scuff6.wav"
+		"wave"	")npc/nmr_zomb_shared/zombie_scuff8.wav"
+		"wave"	")npc/nmr_zomb_shared/zombie_scuff10.wav"
+		"wave"	")npc/nmr_zomb_shared/zombie_scuff12.wav"
+	}
+}
+
+"Zombie.Alert"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.5"
+	"pitch"			"85,105"
+
+	"soundlevel"		"SNDLVL_75dB"
+
+	"rndwave"
+	{
+		"wave"	")npc/nmr_zomb2/alert1.wav"
+		"wave"	")npc/nmr_zomb2/alert2.wav"
+		"wave"	")npc/nmr_zomb2/alert3.wav"
+		"wave"	")npc/nmr_zomb2/alert4.wav"
+		"wave"	")npc/nmr_zomb2/alert5.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_01.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_02.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_03.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_04.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_05.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_06.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_07.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_08.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_09.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_10.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_11.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_12.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_13.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_14.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_15.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_16.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_17.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_18.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_19.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_20.wav"
+		"wave"	")npc/nmr_zomb2/alert_sham_m_21.wav"
+		"wave"	")npc/nmr_zomb1/zomb1_attack1.wav"
+		"wave"	")npc/nmr_zomb1/zomb1_attack2.wav"
+		"wave"	")npc/nmr_zomb1/zomb1_attack3.wav"
+		"wave"	")npc/nmr_zomb1/zomb1_attack4.wav"
+		"wave"	")npc/nmr_zomb1/zomb1_attack5.wav"
+		"wave"	")npc/nmr_zomb1/zomb1_attack6.wav"
+		"wave"	")npc/nmr_zomb1/zomb1_attack7.wav"
+		"wave"	")npc/nmr_zomb1/zomb1_attack8.wav"
+		"wave"	")npc/nmr_zomb1/zomb1_attack9.wav"
+		"wave"	")npc/nmr_zomb1/zomb1_attack10.wav"
+		"wave"	")npc/nmr_zomb1/zomb1_attack11.wav"		
+	}
+}
+
+"NPC_NMR_Zombie.ClawStart"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"98, 105"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	")npc/nmr_zomb1/attack_sham_m_01.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_02.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_03.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_04.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_05.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_06.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_07.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_08.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_09.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_10.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_11.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_12.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_13.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_14.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_15.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_16.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_17.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_18.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_19.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_20.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_21.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_22.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack01.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack02.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack03.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack04.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack05.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack06.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack07.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack08.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack09.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack10.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack11.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack12.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack13.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack14.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack15.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack16.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack17.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack18.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack19.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack20.wav"
+	}
+}
+
+"NPC_NMR_Zombie.Pursuit"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"98, 105"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_01.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_02.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_03.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_04.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_05.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_06.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_07.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_08.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_09.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_10.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_11.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_12.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_13.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_14.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_15.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_16.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_17.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_18.wav"
+	}
+}
+
+"NPC_NMR_Zombie.ClawHit"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.9"
+	"pitch"			"95,110"
+
+	"soundlevel"		"SNDLVL_75db"
+
+	"rndwave"
+	{
+		"wave"	")npc/nmr_zomb_shared/claw_strike1.wav"
+		"wave"	")npc/nmr_zomb_shared/claw_strike2.wav"
+		"wave"	")npc/nmr_zomb_shared/claw_strike3.wav"
+	}
+}
+
+"NPC_NMR_Zombie.Chomp"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.9"
+	"pitch"			"95,110"
+
+	"soundlevel"		"SNDLVL_75db"
+
+	"rndwave"
+	{
+		"wave"	")npc/nmr_zomb_shared/zombie_bite1.wav"
+		"wave"	")npc/nmr_zomb_shared/zombie_bite2.wav"
+		"wave"	")npc/nmr_zomb_shared/zombie_bite3.wav"
+	}
+}
+
+"NPC_NMR_Zombie.ClawMiss"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"pitch"			"95,105"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	")npc/zombie/claw_miss1.wav"
+		"wave"	")npc/zombie/claw_miss2.wav"
+		"wave"	")npc/zombie/claw_miss3.wav"
+	}
+}
+
+"NPC_NMR_Zombie.Swat"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			")npc/zombie/zombie_hit.wav"
+}
+
+
+
+// ZOMBIE DYING
+
+"NPC_NMR_Zombie.Die"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.4,0.65"
+	"pitch"			"88,105"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	")npc/nmr_zombie/die1.wav"
+		"wave"	")npc/nmr_zombie/die2.wav"
+		"wave"	")npc/nmr_zombie/die3.wav"
+	}
+}
+
+
+//FEMALE ZOMBIE SOUNDS
+
+"NPC_NMR_ZombieFem.ClawStart"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.4,0.65"
+	"pitch"			"88,105"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	")npc/nmr_zomb_female/femzom_attack01.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_attack02.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_attack03.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_attack04.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_attack05.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_attack06.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_attack07.wav"
+		
+	}
+}
+
+"NPC_NMR_ZombieFem.ClawStartMalePitched"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"140, 170"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	")npc/nmr_zomb1/attack_sham_m_01.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_02.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_03.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_04.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_05.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_06.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_07.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_08.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_09.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_10.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_11.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_12.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_13.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_14.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_15.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_16.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_17.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_18.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_19.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_20.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_21.wav"
+		"wave"	")npc/nmr_zomb1/attack_sham_m_22.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack01.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack02.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack03.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack04.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack05.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack06.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack07.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack08.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack09.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack10.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack11.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack12.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack13.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack14.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack15.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack16.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack17.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack18.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack19.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack20.wav"
+	}
+}
+
+
+"NPC_NMR_ZombieFem.Alert"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.4,0.65"
+	"pitch"			"88,105"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	")npc/nmr_zomb_female/femzom_sighted01.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_sighted02.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_sighted03.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_sighted04.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_sighted05.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_sighted06.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_sighted07.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_sighted08.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_sighted09.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_sighted10.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_sighted11.wav"
+	}
+}
+
+"NPC_NMR_ZombieFem.Idle"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.4,0.65"
+	"pitch"			"88,105"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	")npc/nmr_zomb_female/femzom_idle01.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_idle02.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_idle03.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_idle04.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_idle05.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_idle06.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_idle07.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_idle08.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_idle09.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_idle10.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_idle11.wav"
+	}
+}
+
+"NPC_NMR_ZombieFem.IdleMalePitched"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.5,0.8"
+	"pitch"			"140,165"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	")npc/nmr_zomb2/idle1.wav"
+		"wave"	")npc/nmr_zomb2/idle2.wav"
+		"wave"	")npc/nmr_zomb2/idle3.wav"
+		"wave"	")npc/nmr_zomb2/idle4.wav"
+		"wave"	")npc/nmr_zomb2/idle5.wav"
+		"wave"	")npc/nmr_zomb2/idle6.wav"
+		"wave"	")npc/nmr_zomb2/idle7.wav"
+		"wave"	")npc/nmr_zomb2/idle8.wav"
+		"wave"	")npc/nmr_zomb2/idle9.wav"
+		"wave"	")npc/nmr_zomb2/idle10.wav"
+		"wave"	")npc/nmr_zomb2/idle11.wav"
+		"wave"	")npc/nmr_zomb2/idle12.wav"
+		"wave"	")npc/nmr_zomb2/idle13.wav"
+		"wave"	")npc/nmr_zomb2/idle14.wav"
+		"wave"	")npc/nmr_zomb2/idle15.wav"	
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_01.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_02.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_03.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_04.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_05.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_06.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_07.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_08.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_09.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_10.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_11.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_12.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_13.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_14.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_15.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_16.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_17.wav"
+		"wave"	")npc/nmr_zomb2/pursuit_sham_m_18.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-01.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-02.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-03.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-04.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-05.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-06.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-07.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-08.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-09.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-10.wav"
+	}
+}
+
+
+
+
+"NPC_NMR_ZombieFem.Pain"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.4,0.65"
+	"pitch"			"88,105"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	")npc/nmr_zomb_female/femzom_pain01.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_pain02.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_pain03.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_pain04.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_pain05.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_pain06.wav"
+		"wave"	")npc/nmr_zomb_female/femzom_pain07.wav"
+	}
+}
+"NPC_NMR_ZombieFem.PainMalePitched"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.4,0.65"
+	"pitch"			"135,165"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain01.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain02.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain03.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain04.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain05.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain06.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain07.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain08.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain09.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain10.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain11.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain12.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain13.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain14.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain15.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain16.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain17.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain18.wav"
+	}
+}
+
+
+///////////////////////////
+// Runner Zombie
+"NPC_NMR_ZombieRunner_Male.Alert"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.5"
+	"pitch"			"85,105"
+
+	"soundlevel"		"SNDLVL_75dB"
+
+	"rndwave"
+	{
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-alert-01.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-alert-02.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-alert-03.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-alert-04.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-alert-05.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-alert-06.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-alert-07.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-alert-08.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-alert-09.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-alert-10.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-alert-11.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-alert-12.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-alert-13.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-alert-14.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-alert-15.wav"
+	}
+}
+
+"NPC_NMR_ZombieRunner_Male.Attack"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"98, 105"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack01.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack02.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack03.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack04.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack05.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack06.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack07.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack08.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack09.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack10.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack11.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack12.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack13.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack14.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack15.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack16.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack17.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack18.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack19.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-attack20.wav"
+	}
+}
+
+"NPC_NMR_ZombieRunner_Male.Death"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.4,0.65"
+	"pitch"			"88,105"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-01.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-02.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-03.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-04.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-05.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-06.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-07.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-08.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-09.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-10.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-11.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-12.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-13.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-14.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-15.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-16.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-17.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-18.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-19.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-death-20.wav"
+	}
+}
+
+"NPC_NMR_ZombieRunner_Male.Idle"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.4,0.65"
+	"pitch"			"88,105"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-01.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-02.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-03.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-04.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-05.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-06.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-07.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-08.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-09.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-idle-10.wav"
+	}
+}
+
+"NPC_NMR_ZombieRunner_Male.Pain"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.4,0.65"
+	"pitch"			"88,105"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain01.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain02.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain03.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain04.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain05.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain06.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain07.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain08.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain09.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain10.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain11.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain12.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain13.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain14.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain15.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain16.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain17.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pain18.wav"
+	}
+}
+
+"NPC_NMR_ZombieRunner_Male.Pursuit"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"98, 105"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pursuit-01.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pursuit-02.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pursuit-03.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pursuit-04.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pursuit-05.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pursuit-06.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pursuit-07.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pursuit-08.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pursuit-09.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pursuit-10.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pursuit-11.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pursuit-12.wav"
+		"wave" ")npc/nmr_zomb_runner_male/zomb_runner_male1-pursuit-13.wav"
+	}
+}
+
+///////////////////////////
+// Kid Zombie
+"NPC_NMR_ZombieKid.Alert"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.5"
+	"pitch"			"85,105"
+
+	"soundlevel"		"SNDLVL_75dB"
+
+	"rndwave"
+	{
+		"wave" ")npc/nmr_zomb_kid/z_child-alert01.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-alert02.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-alert03.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-alert04.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-alert05.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-alert06.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-alert07.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-alert08.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-alert09.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-alert10.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-alert11.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-alert12.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-alert13.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-alert14.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-alert15.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-alert16.wav"
+	}
+}
+
+"NPC_NMR_ZombieKid.Attack"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"98, 105"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave" ")npc/nmr_zomb_kid/z_child-attack01.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-attack02.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-attack03.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-attack04.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-attack05.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-attack06.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-attack07.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-attack08.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-attack09.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-attack10.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-attack11.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-attack12.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-attack13.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-attack14.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-attack15.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-attack16.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-attack17.wav"
+	}
+}
+
+"NPC_NMR_ZombieKid.Death"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.4,0.65"
+	"pitch"			"88,105"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave" ")npc/nmr_zomb_kid/z_child-death01.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-death02.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-death03.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-death04.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-death05.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-death06.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-death07.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-death08.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-death09.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-death10.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-death11.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-death12.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-death13.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-death14.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-death15.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-death16.wav"
+	}
+}
+
+"NPC_NMR_ZombieKid.Idle"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.4,0.65"
+	"pitch"			"88,105"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave" ")npc/nmr_zomb_kid/z_child-idle01.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-idle02.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-idle03.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-idle04.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-idle05.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-idle06.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-idle07.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-idle08.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-idle09.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-idle10.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-idle11.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-idle12.wav"
+	}
+}
+
+"NPC_NMR_ZombieKid.Pain"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.4,0.65"
+	"pitch"			"88,105"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave" ")npc/nmr_zomb_kid/z_child-pain01.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain02.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain03.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain04.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain05.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain06.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain07.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain08.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain09.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain10.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain11.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain12.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain13.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain14.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain15.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain16.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain17.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain18.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain19.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain20.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain21.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain22.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pain23.wav"
+	}
+}
+
+"NPC_NMR_ZombieKid.Pursuit"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"98, 105"
+
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave" ")npc/nmr_zomb_kid/z_child-pursuit01.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pursuit02.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pursuit03.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pursuit04.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pursuit05.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pursuit06.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pursuit07.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pursuit08.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pursuit09.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pursuit10.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pursuit11.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pursuit12.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pursuit13.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pursuit14.wav"
+		"wave" ")npc/nmr_zomb_kid/z_child-pursuit15.wav"
+	}
+}
+

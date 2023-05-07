@@ -1,0 +1,30 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/banana_chy/ikanadea/mana/hair"
+	"$bumpmap" "models/banana_chy/ikanadea/mana/normal"
+	"$lightwarptexture" "models/banana_chy/ikanadea/mana/shader/pyro_lightwarp"
+	"$phongexponenttexture" "models/banana_chy/ikanadea/mana/phong_exp"
+	$alphatest 1
+	$allowalphatocoverage 1
+	
+	"$phong" "1"
+	"$phongboost"	"0.25"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[1 .1 .1]"
+	$phongexponent 5
+	
+	$halflambert 1
+	$ambientocclusion 1
+
+	$nocull 1
+	$nodecal 1
+	
+	"$detail" "models/banana_chy/ikanadea/mana/black"
+	"$detailscale" "1"
+	"$detailblendfactor" ".07"
+	"$detailblendmode" "5"
+	
+	"$rimlight" "1"
+	"$rimlightexponent" "3"
+	"$rimlightboost" "4"
+}

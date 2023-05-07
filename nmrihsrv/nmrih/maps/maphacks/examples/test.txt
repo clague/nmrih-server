@@ -1,0 +1,517 @@
+// MapHack uses KeyValues syntax
+// Root key must be named as maphack (case insensitive)
+"MapHack"
+{
+	// Test include
+	"includes"
+	{
+		"file"	"maps/maphacks/challenges/include/rand.txt"
+	}
+
+	// Test precache
+	"precache"
+	{
+		"model"		"models/props_junk/watermelon01.mdl"
+		"material"	"matsys_regressiontest/background"
+		"sound"		"Event.WatermelonRescue"
+		"particle"	"LLtest"
+		"entity"	"_firesmoke"
+	}
+
+	// Test variables
+	"vars"
+	{
+		"iTest" { "type" "int" "value" "42" }
+		"flTest" { "type" "float" "value" "42.123456" }
+		"clrTest" { "type" "color" "value" "255 255 255" }
+		"iDefault" { "type" "int" }
+		"flDefault" { "type" "float" }
+		"clrDefault" { "type" "color" }
+		
+		// For rand test
+		"randMin" { "type" "int" "value" "0" }
+		"randMax" { "type" "int" "value" "100" }
+		
+		// For timed test
+		"timedEventTriggered" { "type" "int" "value" "0" }
+		
+		// For recursive test
+		"recursion" { "type" "int" "value" "0" }
+		
+		// For $getpos & $getang test
+		"vecPos" { "type" "string" }
+		"vecAng" { "type" "string" }
+		
+		// Pre-entity variable test
+		"pre_iTest" { "type" "int" "value" "69" }
+	}
+
+	// Test events
+	"events"
+	{
+		// MAPHACK_EVENT_TRIGGER
+		"EventTrigger"
+		{
+			"type"	"EVENT_TRIGGER"
+		}
+		
+		// MAPHACK_EVENT_TIMED
+		"EventTimed"
+		{
+			"type"	"EVENT_TIMED"
+			"delay"	"2.0"
+			"repeat"	"1"
+			"startDisabled"	"1"
+		}
+		
+		// MAPHACK_EVENT_OUTPUT
+		"EventOutput"
+		{
+			"type"	"EVENT_OUTPUT"
+			"targetname"	"test_melon"
+			"output"	"OnAwakened"
+		}
+		
+		// MAPHACK_EVENT_GAMEEVENT
+		"EventGameEvent"
+		{
+			"type"	"EVENT_GAMEEVENT"
+			"eventname"	"player_spawn"
+		}
+		
+		// You can't name events using reserved keynames!
+		"entities"
+		{
+			"type"	"EVENT_TRIGGER"
+		}
+	}
+
+	// Pre-entity field, run on LevelInit, directly fiddles with entdata buffer!
+	// Use this for stripping out entities before map load or to change classnames
+	// Note that this is completely separate from MapHack's runtime entities field, events can't be triggered, started or stopped here!
+	// !! - Only available function keys are:
+	// $edit, $edit_all, $modify, $remove, $remove_all,
+	// $if, $set, $increment, $decrement, $rand
+	"pre_entities"
+	{
+		// Creating an entity here plops it at the back of entdata buffer
+		"prop_physics"
+		{
+			"targetname"	"pre_test_melon"
+			"origin"	"0 0 0"
+			"angles"	"0 0 0"
+			"model"			"models/props_junk/watermelon01.mdl"
+			"rendercolor"	"%clrTest" // '%' = reference a MapHack variable
+		}
+		
+		// First version of MapHack required "keyvalues" field for new entities 
+		// As of 1.12, it's optional
+		"prop_physics"
+		{
+			"origin"	"0 0 0"
+			"angles"	"0 0 0"
+			
+			"keyvalues"
+			{
+				"targetname"	"pre_test_melon2"
+				"model"			"models/props_junk/watermelon01.mdl"
+				"rendercolor"	"%clrTest"
+			}
+		}
+		
+		// These edit entdata directly
+		$edit
+		{
+			"targetname"	"test_melon"
+			"keyvalues"
+			{
+				"modelscale"		"4.0"
+			}
+		}
+		
+		// Example, change sky name
+		$edit_all
+		{
+			"classname" "worldspawn"
+			"keyvalues"
+			{
+				"skyname" "sky_borealis01"
+			}
+		}
+		
+		// Another example, turn all props into zombies
+		$edit_all
+		{
+			"classname" "prop_physics"
+			"keyvalues"
+			{
+				"classname"	"npc_nmrih_shamblerzombie"
+			}
+		}
+		
+		// Test $modify
+		$modify
+		{
+			"insert"
+			{
+				"disableshadows" "1"
+			}
+			
+			"match"
+			{
+				"classname" "npc_nmrih_shamblerzombie"
+			}
+			
+			"replace"
+			{
+				"rendercolor" "0 0 0"
+			}
+			
+			"delete"
+			{
+				"rendercolor" "0 0 0"
+			}
+		}
+		
+		$remove_all
+		{
+			"classname" "random_spawner"
+		}
+		
+		// Control flow also works in pre-entity
+		$if
+		{
+			"cond" "pre_iTest == 69"
+			
+			// Bit ambiguous, entities field here is run here as if it's "pre_entities"
+			"entities"
+			{
+				$edit_all
+				{
+					"classname" "prop_physics"
+					"keyvalues"
+					{
+						"modelscale" "4.0"
+					}
+				}
+			}
+		}
+		
+		$set { "var" "pre_iTest" "value" "2" }
+		$increment { "var" "pre_iTest" }
+		$decrement { "var" "pre_iTest" }
+		$rand { "var" "pre_iTest" "rand_min" "%randMin" "rand_max" "%randMax" }
+	}
+
+	// Test main entities field, run on load
+	"entities"
+	{
+		// Spawn a test melon somewhere
+		// First version of MapHack required "keyvalues" field for new entities 
+		// As of 1.12, it's optional
+		"prop_physics"
+		{
+			"targetname"	"test_melon"
+			"origin"	"0 0 0"
+			"angles"	"0 0 0"
+			"keyvalues" // Still works!
+			{
+				"model"			"models/props_junk/watermelon01.mdl"
+				"rendercolor"	"%clrTest" // '%' = reference a MapHack variable
+			}
+		}
+		
+		// Spawn another test melon somewhere but this time in multiplayer
+		// ...and without "keyvalues"!
+		"prop_physics_multiplayer"
+		{
+			"targetname"	"test_melon2"
+			"origin"	"0 0 0"
+			"angles"	"0 0 0"
+			"model"			"models/props_junk/watermelon01.mdl"
+			"rendercolor"	"%clrTest"
+			
+			// You can use "connections" as before
+			"connections"
+			{
+				"OnAwakened" "test_melon2,Break,,0,-1"
+			}
+		}
+		
+		// Input test
+		"env_explosion"
+		{
+			"targetname" "explosion"
+			"origin" "0 0 0"
+			"angles" "0 0 0"
+			"magnitude"	"1337"
+		}
+
+		// Check for variable condition
+		// Keys:
+		// "cond" - Condition to test, uses C style operators
+		// "entities" - Entities field to run if test passes
+		$if
+		{
+			"cond" "iTest == 42"
+			
+			// This field will be run as if it was another entities field, it can be used for control flow eg. by nesting more $ifs
+			"entities"
+			{
+				// All function keys will also work here!
+				$console { "warning" "$if test passed" }
+			}
+		}
+		
+		// Set variable
+		// Keys:
+		// "var" - Variable to set
+		// "value" - Value to set
+		$set { "var" "iTest" "value" "2" }
+		
+		// Increment variable
+		// Keys:
+		// "var" - Variable to increment
+		$increment { "var" "iTest" }
+		
+		// Decrement variable
+		// Keys:
+		// "var" - Variable to decrement
+		$decrement { "var" "iTest" }
+		
+		// Set a variable to a random value
+		// Keys:
+		// "var" - Chosen variable
+		// "rand_min" - Min random value
+		// "rand_max" - Max random value
+		$rand { "var" "iTest" "rand_min" "%randMin" "rand_max" "%randMax" }
+		
+		// Send a command to console, or debug spew
+		// Keys:
+		// "cmd" - Send a console command
+		// "msg" - Send console spew
+		// "warning" - Send console warning
+		$console { "cmd" "echo cmd" }
+		$console { "msg" "$console msg" }
+		$console { "warning" "$console warning" }
+		
+		// Fire an input
+		// Keys:
+		// "targetname" - Target an entity by name
+		// "id" - Target an entity by Hammer ID
+		// "input" - Input to fire
+		// "value" - Value to set
+		// "type" - Type override (available types: int, float, string)
+		$fire { "targetname" "test_melon" "input" "Sleep" }
+		$fire { "targetname" "test_melon" "input" "Wake" }
+		$fire { "targetname" "explosion" "input" "Explode" }
+		$fire
+		{
+			"targetname" "test_melon"
+			"input" "Color"
+			"value" "255 255 255"
+		}
+		$fire
+		{
+			"targetname" "test_melon"
+			"input" "IgniteLifetime"
+			"value" "5.0"
+			"type"	"float"
+		}
+		
+		// Set KeyValues for existing entity
+		// Keys:
+		// "targetname" - Target an entity by name
+		// "id" - Target an entity by Hammer ID
+		// "keyvalues" - KeyValues to set, you can insert new pairs
+		$edit
+		{
+			"targetname"	"test_melon"
+			"keyvalues"
+			{
+				"modelscale"		"4.0"
+			}
+		}
+		
+		// Set KeyValues for ALL existing entities
+		// Keys:
+		// "classname" - Target all entities by classname
+		// "keyvalues" - KeyValues to set, you can insert new pairs
+		$edit_all
+		{
+			"classname"	"prop_physics"
+			"keyvalues"
+			{
+				"modelscale"		"4.0"
+			}
+		}
+		
+		// Edit entity datadesc fields
+		// Keys:
+		// "targetname" - Target an entity by name
+		// "id" - Target an entity by Hammer ID
+		// "fieldname" - Field to change
+		// "value" - Value to change on targeted field (type is determined automatically)
+		$edit_field
+		{
+			"targetname"	"test_melon"
+			"fieldname"	"m_clrRender"
+			"value"	"123 123 123"
+		}
+		
+		// Advanced key value manipulation, inspired by Stripper:Source's "modify"
+		// Keys:
+		// "match" - Match entities by these keys and values
+		// "replace" - Replace values on matched entities
+		// "insert" - Insert new keyvalues on matched entities
+		// "delete" - Remove existing keyvalues on matched entities
+		// "keyvalues" - Traditional keyvalues block ($edit) on matched entities
+		$modify
+		{
+			"match"
+			{
+				"classname" "npc_nmrih_shamblerzombie"
+			}
+			
+			"replace"
+			{
+				"rendercolor" "0 0 0"
+			}
+			
+			"insert"
+			{
+				"modelscale" "4.0"
+			}
+			
+			"delete"
+			{
+				"modelscale" "4.0"
+			}
+			
+			"keyvalues"
+			{
+				"rendercolor" "0 0 0"
+				"modelscale" "4.0"
+			}
+		}
+
+		// Get entity origin & angles, assigns it to variables
+		// Keys:
+		// "targetname" - Target an entity by name
+		// "id" - Target an entity by Hammer ID
+		// "var" - Variable to assign
+		$getpos { "targetname" "test_melon" "var" "vecPos"}
+		$getang { "targetname" "test_melon" "var" "vecAng"}
+		
+		// Set entity origin & angles
+		// Keys:
+		// "targetname" - Target an entity by name
+		// "id" - Target an entity by Hammer ID
+		// "value" - Value to set
+		$setpos { "targetname" "test_melon" "value" "%vecPos"}
+		$setang { "targetname" "test_melon" "value" "%vecAng"}
+		
+		// Trigger a MapHack event
+		// Keys:
+		// "event" - Event name
+		// "delay" - Delay event by this many seconds
+		$trigger { "event" "EventTrigger" }
+		$trigger { "event" "EventTriggerDelay" "delay" "5.0" }
+		
+		// Start a timed MapHack event
+		// Keys:
+		// "event" - Event name
+		$start { "event" "EventTimed" }
+		
+		// Respawn an entity
+		// Keys:
+		// "targetname" - Target an entity by name
+		// "id" - Target an entity by Hammer ID
+		$respawn { "targetname" "test_melon" }
+		
+		// Remove connections
+		// Keys:
+		// "targetname" - Target an entity by name
+		// "id" - Target an entity by Hammer ID
+		$remove_connections { "targetname" "test_melon" }
+		
+		// Remove an entity
+		// Keys:
+		// "targetname" - Target an entity by name
+		// "id" - Target an entity by Hammer ID
+		$remove { "targetname" "test_melon" }
+		
+		// Remove all named entities
+		// Keys:
+		// "classname" - Target all entities by classname
+		$remove_all { "classname" "prop_physics" }
+		
+		// Emits a sound
+		// Keys:
+		// "name" - Sound name
+		// "source" - Entity sound source (plays globally by default)
+		$playsound { "name" "Event.WatermelonRescue" }
+		$playsound
+		{
+			"name" "Event.WatermelonRescue"
+			"source"	"explosion"
+		}
+		
+		// Runs a VScript
+		// Keys:
+		// "run" - Run a script from given string (use escape characters for quotes!)
+		// "file" - Run a script from file in scripts/vscripts directory
+		$script { "run" "printl(\"MapHack \" + Version.GetVersionLabel() + \" & \" + _version_)" }
+		$script { "file" "test_ent.nut" }
+	}
+
+	// Events go here
+	"entities:EventTrigger" // Can specify a label type with a prefix...
+	{
+		$console { "msg" "EventTrigger" }
+		$trigger { "event" "EventUnregistered" }
+	}
+
+	"EventTimed" // ...or have none (defaults to entities field)
+	{
+		$console { "msg" "%timedEventTriggered" }
+		$increment { "var" "timedEventTriggered" }
+		$if { "cond" "timedEventTriggered == 5"
+			"entities"
+			{
+				// Stop a timed MapHack event
+				$console { "msg" "EventTimed: Stop" }
+				$stop { "event" "EventTimed" }
+			}
+		}
+	}
+
+	"EventOutput"
+	{
+		$console { "msg" "EventOutput" }
+	}
+
+	"EventGameEvent"
+	{
+		$console { "msg" "EventGameEvent" }
+	}
+
+	// MapHack allows unregistered events, uses default properties (trigger)
+	"EventUnregistered"
+	{
+		$console { "msg" "EventUnregistered" }
+	}
+	
+	// We got a safety net for this, don't go too far
+	"EventRecursiveTest"
+	{
+		$console { "msg" "%recursion" }
+		$increment { "var" "recursion" }
+		$trigger { "event" "EventRecursiveTest" }
+	}
+	
+	"EventTriggerDelay"
+	{
+		$console { "msg" "EventTriggerDelay" }
+	}
+}

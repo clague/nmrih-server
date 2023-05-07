@@ -1,0 +1,6 @@
+"Alt6"
+{
+	"name"		"James"
+	"script"	"scripts/voice_soundscripts/voice_set_alt6.txt"
+	"gender"	"m"
+}

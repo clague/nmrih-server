@@ -1,0 +1,73 @@
+//************
+// Frag
+//************
+
+"WeaponFrag.Toss"        // not yet made
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	")weapons/firearms/exp_frag/Frag_Toss.wav"
+}
+
+"WeaponFrag.Throw"       // not yet made
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_75dB"
+
+	//"wave"	")weapons/firearms/exp_frag/Frag_Throw.wav"
+	"wave"		"common/null.wav"
+}
+
+"WeaponFrag.Draw"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.9"
+	"soundlevel"	"SNDLVL_40dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"		")weapons/firearms/exp_frag/Frag_Draw.wav"
+	}
+}
+
+"WeaponFrag.PinPull"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"rndwave"
+	{
+		"wave"			")weapons/firearms/exp_frag/Frag_Pull_Pin1.wav"
+		"wave"			")weapons/firearms/exp_frag/Frag_Pull_Pin2.wav"
+	}
+}
+
+"WeaponFrag.Explode"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_140dB"
+	"rndwave"
+	{
+		"wave"			"^weapons/firearms/exp_frag/Frag_Explode1.wav"
+		"wave"			"^weapons/firearms/exp_frag/Frag_Explode2.wav"
+		"wave"			"^weapons/firearms/exp_frag/Frag_Explode3.wav"
+	}
+}
+
+"WeaponFrag.Debris"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"rndwave"
+	{
+		"wave"			"^weapons/firearms/exp_frag/Frag_Debris1.wav"
+		"wave"			"^weapons/firearms/exp_frag/Frag_Debris2.wav"
+	}
+}

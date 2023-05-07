@@ -1,0 +1,95 @@
+// 16: ObjA - Find welder to exit the apartments
+// 18: ObjB_1 - Break boards to get in cinema side entrance
+// 19: ObjB_2 - Gain entry to the cinema
+// 20: ObjB_3 - Go to the Hotel
+// 25: ObjC_1 - Find keys to open theater doors
+// 26: ObjC_2 - Climb through toilet vents
+// 28: ObjC_3 - Use welder on stairs gate
+// 29: ObjC_4 - Carry on through hotel
+// 27: ObjD_2 - Climb through vents
+// 32: ObjD_1 - Go through basement door
+// 34: ObjE_2 - Find a ladder, use it to climb through ceiling hole
+// 36: ObjE_3 - Find lever and go to the boiler room
+// 37: ObjE_4 - Go down hole to progress
+// 38: ObjF_1 - Exit the cinema to the alleyway
+// 39: ObjG_1 - Go to the basketball court through hole in fence
+// 40: ObjH_1 - Survive for 2 minutes
+// 41: ObjJ_1 - Find battery for the FastEx van in the garage
+// 42: ObjG_2 - Weld open alley gate
+// 43: ObjI_1 - Take a gascan to store rear entrance
+// 45: ObjM_1 - Find Radio to call for help
+// 46: ObjM_2 - Make your way back to the streets
+// 31: ObjE_1 - Go down hole to the sewers
+// 49: ObjO - Navigate the sewers
+// 50: ObjQ - Go to basketball court
+// 51: ObjP - Use Tank to blast into store.
+// 52: ObjR - Weld gate and get to the roof top for extraction
+// 53: ObJS - Go down the fire escape to extract via the train
+// 54: ObjT - Get back to the basketball court for extraction
+
+// Objective challenges
+// KV names are identifiers, and will be saved in records!
+"Challenges"
+{
+	"nmo_broadway2_challenge_1"
+	{
+		"Name" "Hoop Dreams"
+		"Description" "Every player dreams of making it.. out of here in one piece."
+		"Objectives"
+		{
+			"0" "16" // Find welder to exit the apartments
+			"1" "19" // Gain entry to the cinema
+			"2" "34" // Find a ladder, use it to climb through ceiling hole
+			"3" "38" // Exit the cinema to the alleyway
+			"4" "39" // Go to the basketball court through hole in fence
+			"5" "40" // Survive for 2 minutes
+			"6" "41" // Find battery for the FastEx van in the garage
+			"7" "43" // Take a gascan to store rear entrance
+			"8" "45" // Find Radio to call for help
+			"9" "52" // Weld gate and get to the roof top for extraction
+			"10" "54" // Get back to the basketball court for extraction
+		}
+	}
+
+	"nmo_broadway2_challenge_2"
+	{
+		"Name" "On a Rail"
+		"Description" "Looks like our rescue helicopter is no more. Escape via the train!"
+		"Objectives"
+		{
+			"0" "16" // Find welder to exit the apartments
+			"1" "20" // Go to the Hotel
+			"2" "32" // Go through basement door
+			"3" "26" // Climb through toilet vents
+			"4" "27" // Climb through vents
+			"5" "36" // Find lever and go to the boiler room
+			"6" "25" // Find keys to open theater doors
+			"7" "38" // Exit the cinema to the alleyway
+			"8" "42" // Weld open alley gate
+			"9" "41" // Find battery for the FastEx van in the garage
+			"10" "43" // Take a gascan to store rear entrance
+			"11" "45" // Find Radio to call for help
+			"12" "52" // Weld gate and get to the roof top for extraction
+			"13" "53" // Go down the fire escape to extract via the train
+		}
+	}
+
+	"nmo_broadway2_challenge_3"
+	{
+		"Name" "Tank Me Later"
+		"Description" "The store entrance is locked, can you make a new one?"
+		"Objectives"
+		{
+			"0" "16" // Find welder to exit the apartments
+			"1" "20" // Go to the Hotel
+			"2" "32" // Go through basement door
+			"3" "31" // Go down hole to the sewers
+			"4" "49" // Navigate the sewers
+			"5" "46" // Make your way back to the streets
+			"6" "51" // Use Tank to blast into store.
+			"7" "45" // Find Radio to call for help
+			"8" "52" // Weld gate and get to the roof top for extraction
+			"9" "53" // Go down the fire escape to extract via the train
+		}
+	}	
+}

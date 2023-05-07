@@ -1,0 +1,42 @@
+"SuicideStrings"
+{
+	"world"
+	{
+		"0"	"#Suicide_worldspawn"
+	}
+	
+	"player"
+	{
+		"0"	"#Suicide_player"
+	}
+	
+	"infection"
+	{
+		"0"	"#Suicide_infection"
+	}
+	
+	"bleed"
+	{
+		"0"	"#Suicide_bleed"
+	}
+	
+	"fall"
+	{
+		"0"	"#Suicide_fall"
+	}
+	
+	"drowned"
+	{
+		"0"	"#Suicide_drowned"
+	}
+	
+	"nuke"
+	{
+		"0"	"#Suicide_nuke"
+	}
+	
+	"disconnect"
+	{
+		"0"	"#Suicide_disconnect"
+	}
+}

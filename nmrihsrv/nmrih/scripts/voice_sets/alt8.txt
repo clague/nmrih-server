@@ -1,0 +1,6 @@
+"Alt8"
+{
+	"name"		"Tsarouhas"
+	"script"	"scripts/voice_soundscripts/voice_set_alt8.txt"
+	"gender"	"m"
+}

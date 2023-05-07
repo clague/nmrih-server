@@ -1,0 +1,17 @@
+"EyeRefract"
+{
+	"$iris" 			  "ytjhasd/kelukai416/eyel"	  //基础贴图路径
+	"$AmbientOcclTexture" "ytjhasd/kelukai416/ambient"  // RGB的环境遮挡，Alpha未使用
+	"$Envmap"             "Engine/eye-reflection-cubemap-"   		  // Reflection environment map
+	"$CorneaTexture"      "Engine/eye-cornea"                 		  // Special texture that has 2D cornea normal in RG and other data in BA
+	"$EyeballRadius" "0.5"				// 默认 0.5
+	"$AmbientOcclColor" "[0.1 0.1 0.1]"	// 默认 0.33, 0.33, 0.33
+	"$Dilation" "0.5"					// 默认 0.5
+	"$ParallaxStrength" "0.30"          // 默认 0.25
+	"$CorneaBumpStrength" "0.5"			// 默认 1.0
+	"$NoDecal" "1"
+	// 这些效果仅在ps.2.0b及以后版本中可用
+	"$RaytraceSphere" "0"	 // 默认 1 - 在像素着色器中启用光线追踪，使眼球朝四周看
+	"$SphereTexkillCombo" "0"// 默认 1 - Enables killing pixels that don't ray-intersect the sphere
+	"$lightwarptexture" "ytjhasd/kelukai416/basewarp"
+	}

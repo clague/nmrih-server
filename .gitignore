@@ -1,0 +1,11 @@
+.*
+logs/
+userdata/
+*.vpk
+*.bsp
+!.gitignore
+!.oh-my-zsh
+!.zshrc
+!.tmux.conf
+!.tmux.conf.local
+!.local

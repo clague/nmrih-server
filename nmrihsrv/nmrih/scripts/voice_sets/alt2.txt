@@ -1,0 +1,6 @@
+"Alt2"
+{
+	"name"		"Captain Munky"
+	"script"	"scripts/voice_soundscripts/voice_set_alt2.txt"
+	"gender"	"m"
+}

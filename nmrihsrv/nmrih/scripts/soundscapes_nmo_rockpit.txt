@@ -1,0 +1,785 @@
+//Rockpit soundscapes by sir
+
+
+
+// [][][][][][][][][][][][][][][][][][][][][][][][]   AMBIENT SETUPS   [][][][][][][][][][][][][][][][][][][][][][][][]
+
+"rockpit.util.outside_noise"		//Metal creaks
+{
+	"dsp"					"1"
+
+	"playrandom"
+	{
+		"time"				"10, 20"
+		"volume"		"0.4, 0.6"
+		"pitch"			"85, 100"
+		"rndwave"
+		{
+			"wave"		"ambient/chinatown/outside_noise1.wav"
+		}
+	}
+}
+
+"rockpit.util.hole_hits"		//Various hole hits
+{
+	"dsp"					"1"
+
+	"playrandom"
+	{
+		"time"				"10, 30"
+		"volume"		"0.8, 1"
+		"pitch"			"100"
+		"rndwave"
+		{
+			"wave"		"ambient\atmosphere\cave_hit3.wav"
+			"wave"		"ambient\atmosphere\hole_hit1.wav"
+			"wave"		"ambient\atmosphere\hole_hit4.wav"
+			"wave"		"ambient\atmosphere\hole_hit5.wav"
+			"wave"		"ambient\chinatown\subway_pass1.wav"
+			"wave"		"ambient\chinatown\subway_pass2.wav"
+		}
+	}
+}
+
+"rockpit.util.gusthole_snippets"		//Strong tunnel wind noises
+{
+	"dsp"					"1"
+	
+	"playrandom"
+	{
+		"time"				"3, 8"
+		"volume"		"0.4, 0.6"
+		"pitch"			"90, 100"
+		"rndwave"
+		{
+			"wave"		"ambient\wind\gusthole2.wav"
+			"wave"		"ambient\wind\gusthole3.wav"
+			"wave"		"ambient\wind\gusthole4.wav"
+			"wave"		"ambient\wind\gusthole6.wav"
+			"wave"		"ambient\wind\gusthole7.wav"
+		}
+	}
+}
+
+"rockpit.util.tunnel_rocks"		//Falling rocks around the player
+{
+	"dsp"					"1"
+
+	"playrandom"
+	{
+		"time"				"10, 20"
+		"volume"		"0.8, 1"
+		"pitch"			"95, 105"
+		"position"		"random"
+		"attenuation"	"0.7"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
+		}
+	}
+}
+
+"rockpit.util.eerie_snippets"		//Mild wind noises
+{
+	"dsp"					"1"
+
+	"playrandom"
+	{
+		"time"				"2, 10"
+		"volume"		"0.8, 1"
+		"pitch"			"90, 100"
+		"rndwave"
+		{
+			"wave"		"ambient\wind\wind_eerie_snippet_01.wav"
+			"wave"		"ambient\wind\wind_eerie_snippet_02.wav"
+			"wave"		"ambient\wind\wind_eerie_snippet_03.wav"
+			"wave"		"ambient\wind\wind_eerie_snippet_04.wav"
+			"wave"		"ambient\wind\wind_eerie_snippet_05.wav"
+			"wave"		"ambient\wind\wind_eerie_snippet_06.wav"
+			"wave"		"ambient\wind\wind_eerie_snippet_07.wav"
+		}
+	}
+}
+
+"rockpit.util.whispers"
+{
+	"dsp"					"1"
+
+	"playrandom"
+	{
+		"time"				"5, 10"
+		"volume"		"0.1, 0.2"
+		"pitch"			"100"
+		"rndwave"
+		{
+			"wave"		"ambient\whispers\Ambient.Whisper1.wav"
+			"wave"		"ambient\whispers\Ambient.Whisper2.wav"
+			"wave"		"ambient\whispers\Ambient.Whisper3.wav"
+			"wave"		"ambient\whispers\Ambient.Whisper4.wav"
+			"wave"		"ambient\whispers\Ambient.Whisper5.wav"
+			"wave"		"ambient\whispers\Ambient.Whisper6.wav"
+			"wave"		"ambient\whispers\Ambient.Whisper7.wav"
+			"wave"		"ambient\whispers\Ambient.Whisper8.wav"
+		}
+	}
+}
+
+"rockpit.util.wind_moans"
+{
+	"dsp"					"1"
+
+	"playrandom"
+	{
+		"time"				"8, 30"
+		"volume"		"0.3, 0.5"
+		"pitch"			"100"
+		"rndwave"
+		{
+			"wave"		"ambient\wind\wind_moan1.wav"
+			"wave"		"ambient\wind\wind_moan2.wav"
+			"wave"		"ambient\wind\wind_moan4.wav"
+		}
+	}
+}
+
+"rockpit.util.wood_creaks"		//Wood creaking sounds around the player
+{
+	"dsp"					"1"
+
+	"playrandom"
+	{
+		"time"				"2, 10"
+		"volume"		"0.8, 1"
+		"pitch"			"95, 105"
+		"position"		"random"
+		"attenuation"	"1"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\wood_creak1.wav"
+			"wave"		"ambient\materials\wood_creak2.wav"
+			"wave"		"ambient\materials\wood_creak3.wav"
+			"wave"		"ambient\materials\wood_creak4.wav"
+			"wave"		"ambient\materials\wood_creak5.wav"
+			"wave"		"ambient\materials\wood_creak6.wav"
+		}
+	}
+}
+
+"rockpit.util.crows"		//Crow noises around the player
+{
+	"dsp"					"1"
+
+	"playrandom"
+	{
+		"time"				"20, 60"
+		"volume"		"0.1, 0.2"
+		"pitch"			"95, 105"
+		"position"		"random"
+		"attenuation"	"0.9"
+		"rndwave"
+		{
+			"wave"		"ambient\background\dist_crows1.wav"
+			"wave"		"ambient\background\dist_crows2.wav"
+			"wave"		"ambient\background\dist_crows3.wav"
+		}
+	}
+}
+
+
+
+// [][][][][][][][][][][][][][][][][][][][][][][][]   LEVEL AREAS   [][][][][][][][][][][][][][][][][][][][][][][][]
+
+// ----------------------------------------------------------- Spawn -----------------------------------------------------------
+"rockpit.spawn"
+//Spawn drone, various cave hits, <spawn room fan>
+
+{
+	"dsp"					"1"
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/chinatown/subway.wav"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.hole_hits"
+		"volume"		"1"
+	}
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"position"		"0"
+		"wave"			"ambient/machines/fan_slow.wav"
+	}
+}
+
+// ----------------------------------------------------------- Gate -----------------------------------------------------------
+"rockpit.gate"
+//Wind, muffled horde moans, wind gusts, falling rocks, <generator>
+
+{
+	"dsp"					"1"
+
+	"playlooping"
+	{
+		"volume"		"0.25"
+		"pitch"			"100"
+		"wave"			"ambient/zombies/distant_horde_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.4"
+		"pitch"			"100"
+		"wave"			"ambient\atmosphere\town_ambience.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"			"100"
+		"wave"			"ambient\levels\canals\tunnel_wind_loop1.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"			"90"
+		"wave"			"ambient\atmosphere\hole_amb3.wav"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.gusthole_snippets"
+		"volume"		"1"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.eerie_snippets"
+		"volume"		"1"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.tunnel_rocks"
+		"volume"		"1"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.35"
+		"pitch"			"100"
+		"position"		"0"
+		"wave"			"ambient/machines/train_idle.wav"
+	}
+}
+
+// ----------------------------------------------------------- Pit Exterior -----------------------------------------------------------
+"rockpit.pit_exterior"
+//Generic exterior wind, horde moans, metal creaks, <generator>, <dumpster flies>
+
+{
+	"dsp"					"1"
+
+	"playlooping"
+	{
+		"volume"		"0.4"
+		"pitch"			"100"
+		"wave"			"ambient/zombies/distant_horde_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.8"
+		"pitch"			"100"
+		"wave"			"ambient\atmosphere\town_ambience.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient\wind\wind_forest_eerie_01_loop.wav"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.outside_noise"
+		"volume"		"1"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.35"
+		"pitch"			"100"
+		"position"		"0"
+		"wave"			"ambient/machines/train_idle.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"position"		"1"
+		"wave"			")ambient/animals/flies_loop1.wav"
+	}
+}
+
+// ----------------------------------------------------------- Pit Building -----------------------------------------------------------
+"rockpit.pit_building"
+//Generic indoor drone, muffled metal creaks, barely audible horde moans
+
+{
+	"dsp"					"1"
+
+	"playlooping"
+	{
+		"volume"		"0.15"
+		"pitch"			"100"
+		"wave"			"ambient/zombies/distant_horde_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.8"
+		"pitch"			"90"
+		"wave"			"ambient/chinatown/subway.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.4"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/room_tone_3.wav"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.outside_noise"
+		"volume"		"0.7"
+	}
+}
+
+// ----------------------------------------------------------- Tunnel -----------------------------------------------------------
+"rockpit.tunnel"
+//Devilish drone, moaning, falling rocks, light wind
+
+{
+	"dsp"					"1"
+
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"			"90"
+		"wave"			"ambient\quarantine\sewer_ambient_moaning.mp3"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"			"100"
+		"wave"			"ambient\levels\canals\tunnel_wind_loop1.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"			"90"
+		"wave"			"ambient\atmosphere\hole_amb3.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"			"90"
+		"wave"			"ambient\roomtones\room_tone_1.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient\roomtones\roomtone_danger2.wav"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.tunnel_rocks"
+		"volume"		"1"
+	}
+}
+
+// ----------------------------------------------------------- Maintenance -----------------------------------------------------------
+"rockpit.maintenance"
+//Industrial drone, whispers, <fire big>
+
+{
+	"dsp"					"1"
+
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"wave"			"ambient\levels\citadel\citadel_drone_loop3.wav"
+	}
+
+ 	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"wave"			"ambient\roomtones\room_tone_3.wav"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.whispers"
+		"volume"		"1"
+	}
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"position"		"0"
+		"attenuation"	"1.15"
+		"wave"			"ambient/fire/firebig.wav"
+	}
+}
+
+// ----------------------------------------------------------- Catwalk -----------------------------------------------------------
+"rockpit.catwalk"
+//Extremely windy, metal creaks, wind moans, barely audible horde moans, <generator>
+
+{
+	"dsp"					"1"
+
+	"playlooping"
+	{
+		"volume"		"0.15"
+		"pitch"			"100"
+		"wave"			"ambient/zombies/distant_horde_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.25"
+		"pitch"			"125"
+		"wave"			"ambient\wind\gusthole_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.4"
+		"pitch"			"100"
+		"wave"			"ambient\chinatown\docs_wind.wav"
+	}
+	
+		"playlooping"
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient\wind\wind_forest_eerie_01_loop.wav"
+	}
+	
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.wind_moans"
+		"volume"		"1"
+	}
+	
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.eerie_snippets"
+		"volume"		"1"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.outside_noise"
+		"volume"		"1"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.35"
+		"pitch"			"100"
+		"position"		"0"
+		"wave"			"ambient/machines/train_idle.wav"
+	}
+}
+
+// ----------------------------------------------------------- Control Building -----------------------------------------------------------
+"rockpit.control_building"
+//Generic indoor drone, muffled metal creaks, <security center loop>, <equipment beeps>
+
+{
+	"dsp"					"1"
+
+	"playlooping"
+	{
+		"volume"		"0.8"
+		"pitch"			"90"
+		"wave"			"ambient/chinatown/subway.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.4"
+		"pitch"			"100"
+		"wave"			"ambient/roomtones/room_tone_3.wav"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.outside_noise"
+		"volume"		"0.7"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.7"
+		"pitch"			"100"
+		"position"		"0"
+		"attenuation"	"1.2"
+		"wave"			"ambient/roomtones/security_center_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.7"
+		"pitch"			"90"
+		"position"		"1"
+		"attenuation"	"1.5"
+		"wave"			"ambient/levels/labs/equipment_beep_loop1.wav"
+	}
+}
+
+// ----------------------------------------------------------- Exit -----------------------------------------------------------
+"rockpit.exit"
+//Uneasy industrial drone, light eerie wind
+
+{
+	"dsp"					"1"
+
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"wave"			"ambient\levels\citadel\citadel_drone_loop4.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"			"90"
+		"wave"			"ambient\atmosphere\hole_amb3.wav"
+	}
+
+ 	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/wind/wind_draft_eerie_loop.wav"
+	}
+}
+
+// ----------------------------------------------------------- Brickhouse -----------------------------------------------------------
+"rockpit.brickhouse"
+//Danger drone, muffled wind, muffled metal creaks, barely audible horde moans
+
+{
+	"dsp"					"1"
+
+	"playlooping"
+	{
+		"volume"		"0.15"
+		"pitch"			"100"
+		"wave"			"ambient/zombies/distant_horde_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"wave"			"ambient\wind\wasteland_wind.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"			"90"
+		"wave"			"ambient\atmosphere\hole_amb3.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient\wind\wind_draft_eerie_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient\roomtones\roomtone_danger2.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.5"	
+		"wave"			"ambient/wind/low_wind_gust.wav"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.outside_noise"
+		"volume"		"0.7"
+	}
+}
+
+// ----------------------------------------------------------- Brickhouse Wood -----------------------------------------------------------
+"rockpit.brickhouse_wood"
+//Same as the last one, but with wood creaking sounds
+
+{
+	"dsp"					"1"
+	
+	"playsoundscape"	
+	{
+		"name"			"rockpit.brickhouse"
+		"volume"		"1"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.wood_creaks"
+		"volume"		"1"
+	}
+}
+
+// ----------------------------------------------------------- Surface Yard -----------------------------------------------------------
+"rockpit.surface_yard"
+//Surface wind, horde moans, wind moans, metal creaks, crows, <fire big>
+
+{
+	"dsp"					"1"
+
+	"playlooping"
+	{
+		"volume"		"0.4"
+		"pitch"			"100"
+		"wave"			"ambient/zombies/distant_horde_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.4"
+		"pitch"			"75"
+		"wave"			"ambient\wind\heavy_wind_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient\wind\wind_forest_eerie_01_loop.wav"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.outside_noise"
+		"volume"		"1"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.wind_moans"
+		"volume"		"1"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.crows"
+		"volume"		"1"
+	}
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"position"		"0"
+		"attenuation"	"1.15"
+		"wave"			"ambient/fire/firebig.wav"
+	}
+}
+
+// ----------------------------------------------------------- Road -----------------------------------------------------------
+"rockpit.road"
+//Slightly stronger surface wind, horde moans, wind moans, barely audible metal creaks, crows
+
+{
+	"dsp"				"1"
+
+	"playlooping"
+	{
+		"volume"		"0.4"
+		"pitch"			"100"
+		"wave"			"ambient/zombies/distant_horde_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"			"75"
+		"wave"			"ambient\wind\heavy_wind_loop.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"wave"			"ambient\chinatown\docs_wind.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient\wind\wind_forest_eerie_01_loop.wav"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.outside_noise"
+		"volume"		"0.5"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.wind_moans"
+		"volume"		"1"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.crows"
+		"volume"		"1"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"rockpit.util.eerie_snippets"
+		"volume"		"1"
+	}
+}

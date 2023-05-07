@@ -1,0 +1,36 @@
+// 20: Break_front - Break into the market
+// 21: Turn_off_alarm - Turn off the security alarm
+// 24: Exploding_door - Gain entry to the apartments through the alley
+// 26: Weld_door - Find a welder to get through the warehouse
+// 25: Use_radio - Find a way to call for help
+// 27: Pawnshop_fense_door - Open the door to the pawnshop
+// 29: Office_progress - Find an alternative way out of the building
+// 28: pawnshop_door_code - Enter the access code
+// 30: Find_sewer_key - Escape the city for good
+// 31: Street_door - Escape the safe haven
+// 36: Finale_tnt - Place three explosives in the tunnel to secure your escape
+
+// Objective challenges
+// KV names are identifiers, and will be saved in records!
+"Challenges"
+{
+	"nmo_junction_challenge_1"
+	{
+		"Name" "Safe Haven No More"
+		"Description" "Make a break for it to escape the city for good."
+		"Objectives"
+		{
+			"0" "31" // Escape the safe haven
+			"1" "20" // Break into the market
+			"2" "21" // Turn off the security alarm
+			"3" "24" // Gain entry to the apartments through the alley
+			"4" "25" // Find a way to call for help
+			"5" "26" // Find a welder to get through the warehouse
+			"6" "27" // Open the door to the pawnshop
+			"7" "28" // Enter the access code
+			"8" "29" // Find an alternative way out of the building
+			"9" "30" // Escape the city for good
+			"10" "36" // Place three explosives in the tunnel to secure your escape
+		}
+	}
+}

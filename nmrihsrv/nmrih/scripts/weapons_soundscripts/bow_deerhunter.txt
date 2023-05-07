@@ -1,0 +1,115 @@
+//************
+// DeerHunter
+//************
+
+"Weapon_DeerHunter.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"		"95,105"
+
+	"rndwave"
+	{
+		"wave"		")weapons\firearms\bow_deerhunter\bow_fire_01.wav"
+	}
+}
+
+"Weapon_DeerHunter.PullBack"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"		")weapons\firearms\bow_deerhunter\bow_pullback_01.wav"
+		"wave"		")weapons\firearms\bow_deerhunter\bow_pullback_02.wav"
+		"wave"		")weapons\firearms\bow_deerhunter\bow_pullback_03.wav"
+		"wave"		")weapons\firearms\bow_deerhunter\bow_pullback_04.wav"
+	}
+}               
+
+
+
+"Weapon_DeerHunter.ArrowFly"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"	                ")weapons\firearms\bow_deerhunter\arrow_fly_loop_01.wav"
+}
+
+"Weapon_DeerHunter.ArrowFetch"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	                ")weapons\firearms\bow_deerhunter\arrow_fetch_01.wav"
+		"wave"	                ")weapons\firearms\bow_deerhunter\arrow_fetch_02.wav"
+		"wave"	                ")weapons\firearms\bow_deerhunter\arrow_fetch_03.wav"
+		"wave"	                ")weapons\firearms\bow_deerhunter\arrow_fetch_04.wav"
+	}
+}
+
+"Weapon_DeerHunter.ArrowLoad"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_NORM"
+	"rndwave"
+	{
+		"wave"	                ")weapons\firearms\bow_deerhunter\arrow_load_01.wav"
+		"wave"	                ")weapons\firearms\bow_deerhunter\arrow_load_02.wav"
+		"wave"	                ")weapons\firearms\bow_deerhunter\arrow_load_03.wav"
+	}
+}
+
+"Weapon_DeerHunter.Shove"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")player/shove_01.wav"
+		"wave"		")player/shove_02.wav"
+		"wave"		")player/shove_03.wav"
+		"wave"		")player/shove_04.wav"
+		"wave"		")player/shove_05.wav"
+	}
+}
+
+"Weapon_DeerHunter.Draw"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")player/weapon_draw_01.wav"
+		"wave"		")player/weapon_draw_02.wav"
+		"wave"		")player/weapon_draw_03.wav"
+		"wave"		")player/weapon_draw_04.wav"
+		"wave"		")player/weapon_draw_05.wav"
+	}
+}
+
+"Weapon_DeerHunter.Holster"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")player/weapon_holster_01.wav"
+		"wave"		")player/weapon_holster_02.wav"
+		"wave"		")player/weapon_holster_03.wav"
+		"wave"		")player/weapon_holster_04.wav"
+		"wave"		")player/weapon_holster_05.wav"
+	}
+}

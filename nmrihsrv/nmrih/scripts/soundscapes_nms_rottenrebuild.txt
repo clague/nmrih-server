@@ -1,0 +1,749 @@
+//****************************************************************************
+// NO MORE ROOM IN HELL
+// Soundscapes for 'Cabinfever'
+//
+//****************************************************************************
+//
+//****************************************
+// Ambient Setups
+//****************************************
+
+"cabin.roomtone1"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.8"
+		"pitch"		"90"
+		"wave"		"ambient/roomtones/roomtone_neutral1.wav"
+	}
+}
+
+"cabin.roomtone2"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.9"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/roomtone_veryquiet.wav"
+	}
+}
+
+"cabin.roomtone3"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.8"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/low_ambient_room_loop.wav"
+	}
+}
+
+"cabin.roomtone4"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/room_tone_3.wav"
+	}
+}
+
+"cabin.thinroofrain"
+{
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"		"100"
+		"wave"		"ambient/water/city_rain_light_thinroof.wav"
+	}
+}
+
+"cabin.rainwindow1"
+{
+	"playlooping"
+	{
+		"volume"		"0.6"
+		"pitch"		"100"
+		"wave"		"ambient/water/city_rain_skylightclosed.wav"
+	}
+}
+
+"cabin.rainwindow2"
+{
+	"playlooping"
+	{
+		"volume"		"0.6"
+		"pitch"		"100"
+		"wave"		"ambient/water/city_rain_skylightclosed.wav"
+	}
+}
+
+"cabin.lighthum1"
+{
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"110"
+		"wave"		"ambient/machines/light_round.wav"
+	}
+}
+
+"cabin.lighthum2"
+{
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"110"
+		"wave"		"ambient/machines/light_round.wav"
+	}
+}
+
+"cabin.lighthum3"
+{
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"110"
+		"wave"		"ambient/machines/light_round.wav"
+	}
+}
+
+"cabin.lightwall"
+{
+	"playlooping"
+	{
+		"volume"		"0.2"
+		"pitch"		"110"
+		"wave"		"ambient/machines/light_wall2.wav"
+	}
+}
+
+"cabin.flies"
+{
+	"playlooping"
+	{
+		"volume"		"0.8"
+		"pitch"		"110"
+		"wave"		"ambient/animals/flies_loop1.wav"
+	}
+}
+
+
+"cabin.fanslow"
+{
+	"playlooping"	
+	{
+		"volume"	"1"	
+		"wave"	"ambient/machines/fan_slow.wav"
+	}
+}
+
+
+"cabin.whisper"
+{
+	"playrandom"
+	{
+		"time"         "5,8"
+		"volume"       "0.8"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\whispers\Ambient.Whisper1.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper2.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper3.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper4.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper5.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper6.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper7.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper8.wav"
+		}
+	}
+}
+
+"cabin.radio"
+{
+	"playlooping"	
+	{
+		"volume"	"1"	
+		"wave"	"ambient/radio/radio_static_2_loop.wav"
+	}
+}
+
+"cabin.broadcast"
+{
+	"playlooping"	
+	{
+		"volume"	"1"	
+		"wave"	"ambient/machines/policecar_radiochatter1.wav"
+	}
+}
+
+"cabin.zombiesbang"
+{
+	"playlooping"	
+	{
+		"volume"	"0.8"	
+		"wave"	"ambient/zombies/bangonglass_group.wav"
+	}
+
+	"playlooping"	
+	{
+		"volume"	"1"	
+		"wave"	"ambient/zombies/distant_horde_loop.wav"
+	}
+}
+
+"cabin.drips"
+{	
+	"playrandom"
+	{
+		"time"		"3,9"
+		"volume"	"0.7,1.0"
+		"pitch"		"95,105"
+		"attenuation"	"0.9"
+		"soundlevel"	"SNDLVL_40dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient/water/drip1.wav"
+			"wave"		"ambient/water/drip2.wav"
+			"wave"		"ambient/water/drip3.wav"
+			"wave"		"ambient/water/drip4.wav"
+			"wave"		"ambient/water/drip5.wav"
+		}
+	}
+}
+
+"cabin.dogs"
+{	
+	"playrandom"
+	{
+		"time"		"10,19"
+		"volume"	"0.8,1.0"
+		"pitch"		"90,100"
+		"attenuation"	"0.9"
+		"soundlevel"	"SNDLVL_30dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient/background/dist_dog1.wav"
+			"wave"		"ambient/background/dist_dog2.wav"
+			"wave"		"ambient/background/dist_dog3.wav"
+			"wave"		"ambient/background/dist_dog4.wav"
+		}
+	}
+}
+
+"cabin.crows"
+{	
+	"playrandom"
+	{
+		"time"		"8,22"
+		"volume"	"0.8,1.0"
+		"pitch"		"90,100"
+		"attenuation"	"0.9"
+		"soundlevel"	"SNDLVL_30dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient/background/dist_crows1.wav"
+			"wave"		"ambient/background/dist_crows2.wav"
+			"wave"		"ambient/background/dist_crows3.wav"
+		}
+	}
+}
+
+"cabin.windindoor"
+{	
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"	"ambient/wind/low_wind_gust.wav"
+	}
+}
+
+"cabin.windoutdoor"
+{	
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"	"ambient/wind/heavy_wind_loop.wav"
+	}
+}
+
+"cabin.windside"
+{	
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"	"ambient/wind/medium_wind_loop.wav"
+	}
+}
+
+"cabin.alarm"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"ambient/machines/CarAlarm.wav"
+	}
+}
+
+"cabin.fire1"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"ambient/fire/fire_sml3.wav"
+	}
+}
+
+
+"cabin.fridge"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"ambient/machines/fridge2.wav"
+	}
+}
+
+"cabin.musictension"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"90"
+		"wave"		"music/tension1.wav"
+	}
+}
+
+"cabin.windgusts"
+{
+	"playrandom"
+	{
+		"volume"	"0.3,0.5"
+		"pitch"		"100"
+		"time"		"7,25"
+		"pitch"		"90,130"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave" "ambient/wind/wind_hit1.wav"
+			"wave" "ambient/wind/wind_hit2.wav"
+			"wave" "ambient/wind/wind_snippet3.wav"
+			"wave" "ambient/wind/wind_snippet4.wav"
+			"wave" "ambient/wind/wind_snippet5.wav"
+		}
+	}
+}
+
+"cabin.windgustsscary"
+{
+	"playrandom"
+	{
+		"volume"	"0.3,0.5"
+		"pitch"		"100"
+		"time"		"7,25"
+		"pitch"		"90,130"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave" "ambient/wind/wind_moan4.wav"
+			"wave" "ambient/wind/wind_moan1.wav"
+			"wave" "ambient/wind/wind_moan2.wav"
+		}
+	}
+}
+
+"cabin.critters"
+{
+	"playrandom"
+	{
+		"time"		"4, 6"
+		"volume"	"0.1,0.2"
+		"pitch"		"95,110"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/levels/canals/critter1.wav"
+			"wave"	"ambient/levels/canals/critter2.wav"
+			"wave"	"ambient/levels/canals/critter3.wav"
+			"wave"	"ambient/levels/canals/critter4.wav"
+			"wave"	"ambient/levels/canals/critter5.wav"
+			"wave"	"ambient/levels/canals/critter6.wav"
+			"wave"	"ambient/levels/canals/critter7.wav"
+			"wave"	"ambient/levels/canals/critter8.wav"
+		}
+	}
+}
+
+"cabin.voices"
+{
+	"playrandom"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"time"		"20,35"
+		"pitch"		"90,130"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave" "ambient/creatures/town_scared_breathing1.wav"
+			"wave" "ambient/creatures/town_scared_breathing2.wav"
+			"wave" "ambient/creatures/town_scared_sob1.wav"
+		}
+	}
+}
+
+
+"cabin.rats"
+{
+	"playrandom"
+	{
+		"time"		"25, 32"
+		"volume"	"0.2,0.3"
+		"pitch"		"95,110"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/rats1.wav"
+			"wave"	"ambient/creatures/rats2.wav"
+			"wave"	"ambient/creatures/rats3.wav"
+			"wave"	"ambient/creatures/rats4.wav"
+		}
+	}
+}
+
+"cabin.radio"
+{
+	"playlooping"	
+	{
+		"volume"	"1"	
+		"wave"	"ambient/radio/radio_static_2_loop.wav"
+	}
+}
+
+"cabin.lake"
+{
+	"playlooping"	
+	{
+		"volume"	"1"	
+		"wave"	"ambient/water/lake_water.wav"
+		"soundlevel"	"SNDLVL_140db"
+	}
+}
+
+
+//****************************************
+// Level Areas 
+//****************************************
+
+
+
+"cabin.interiors"
+{
+	"dsp"	"1"
+
+	"playlooping" 
+        { 
+                "volume"       "0.2" 
+                "pitch"        "100" 
+                "wave"         "ambient\atmosphere\corridor.wav" 
+        }
+
+	"playsoundscape"
+	{
+		"name"	"cabin.musictension"
+		"volume" "0"
+	}
+
+
+	"playsoundscape"
+	{
+		"name"	"cabin.roomtone4"
+		"volume" "0.8"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"cabin.whisper"
+		"volume" "0.4"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"cabin.windindoor"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"cabin.voices"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"		"0"
+		"name"	"cabin.lighthum3"
+		"volume" "0.4"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"		"1"
+		"name"	"cabin.zombiesbang"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"		"2"
+		"name"	"cabin.dogs"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"		"3"
+		"name"	"cabin.crows"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"		"4"
+		"name"	"cabin.lightwall"
+		"volume" "0.3"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"		"5"
+		"name"	"cabin.flies"
+		"volume" "0.5"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"		"6"
+		"name"	"cabin.lighthum1"
+		"volume" "0.4"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"		"7"
+		"name"	"cabin.lighthum2"
+		"volume" "0.4"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"cabin.rats"
+		"volume"	"1.0"
+		
+	}
+}
+
+"cabin.toilet"
+{
+	"dsp"	"1"
+
+	"playsoundscape"
+	{
+		"name"	"cabin.roomtone4"
+		"volume" "0.8"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"cabin.drips"
+		"volume" "0.9"
+	}
+
+	"playrandom"
+	{
+		"time"		"1,60"
+		"volume"	"0.5"
+		"pitch"		"100"
+		"positionoverride"	"0"
+
+		"rndwave"
+		{
+			"wave"		"ambient/water/flush1.wav"
+		}
+	}
+
+	"playrandom"	
+	{
+		"time"		"20,35"
+		"volume"		"0.4"
+		"pitch"		"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient/atmosphere/thunder3.wav"
+			"wave"		"ambient/atmosphere/thunder4.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"position"		"1"	
+		"pitch"			"100"
+		"volume"		"0.3"
+
+		"wave"	"ambient/water/waterpipe_3.wav"
+	}
+}
+
+
+
+"cabin.exteriors"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	"0.35"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/hole_amb3.wav"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"cabin.windgusts"
+		"volume"	"0.35"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"cabin.windgustsscary"
+		"volume"	"0.35"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"cabin.critters"
+		"volume"	"0.40"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"		"1"
+		"name"	"cabin.lake"
+		"volume" "1"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"0"
+		"name"	"cabin.radio"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"cabin.voices"
+		"volume" "0.35"
+        }
+}
+
+
+"rotten.apartments"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.8"
+		"pitch"		"90"
+		"wave"		"ambient/roomtones/roomtone_neutral1.wav"
+	}
+        "cabin.rats"
+
+	"playrandom"
+	{
+		"time"		"25, 32"
+		"volume"	"0.2,0.3"
+		"pitch"		"95,110"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/rats1.wav"
+			"wave"	"ambient/creatures/rats2.wav"
+			"wave"	"ambient/creatures/rats3.wav"
+			"wave"	"ambient/creatures/rats4.wav"
+		}
+	}
+        
+
+}
+
+
+"rotten.streets"
+{ 
+  
+         "dsp"   "1" 
+         "playlooping" 
+         { 
+                "volume"       "1.0" 
+                "pitch"        "100" 
+                "wave"         "music/ambient1.wav" 
+          }      
+         "dsp"   "1" 
+         "playlooping" 
+         { 
+                "volume"       "0.35" 
+                "pitch"        "100" 
+                "wave"         "ambient\atmosphere\town_ambience.wav" 
+         }
+         "dsp"   "1" 
+         "playlooping" 
+         { 
+                "volume"       "0.70" 
+                "pitch"        "100" 
+                "wave"         "ambient\wind\medium_wind_loop.wav" 
+         }
+         "dsp"   "1" 
+         "playlooping" 
+         { 
+                "volume"       "0.29" 
+                "pitch"        "100" 
+                "wave"         "ambient\explosions\battle_loop1.wav" 
+         }
+	"dsp"	"1"
+	"playrandom"
+	{
+		"time"         "15,25"
+		"volume"       "0.35"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\background\amb_gunfire3.wav"
+			"wave"	"ambient\background\amb_gunfire4.wav"
+			"wave"	"ambient\background\Ambient.PoliceSiren1.wav"
+			"wave"	"ambient/creatures/rats2.wav"
+			"wave"	"ambient\background\dist_crows2.wav"
+			"wave"	"ambient\background\dist_dog1.wav"
+			"wave"	"ambient\background\heli1.wav"         
+			"wave"	"ambient\background\dist_dog4.wav"
+                        }
+}
+
+

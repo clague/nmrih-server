@@ -1,0 +1,1120 @@
+// **************************************************************
+// Common sounds
+
+"Death.Alt7"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/pain/pugman/pain1.wav"
+		"wave"		"player/pain/pugman/pain2.wav"
+        "wave"		"player/pain/pugman/pain3.wav"
+		"wave"		"player/pain/pugman/pain4.wav"
+		"wave"		"player/pain/pugman/pain5.wav"
+		"wave"		"player/pain/pugman/pain6.wav"
+        "wave"		"player/pain/pugman/pain7.wav"
+		"wave"		"player/pain/pugman/pain8.wav"
+		"wave"		"player/pain/pugman/pain9.wav"
+	}
+}
+
+"Pain.Alt7"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/pain/pugman/pain1.wav"
+		"wave"		"player/pain/pugman/pain2.wav"
+        "wave"		"player/pain/pugman/pain3.wav"
+		"wave"		"player/pain/pugman/pain4.wav"
+		"wave"		"player/pain/pugman/pain5.wav"
+		"wave"		"player/pain/pugman/pain6.wav"
+        "wave"		"player/pain/pugman/pain7.wav"
+		"wave"		"player/pain/pugman/pain8.wav"
+		"wave"		"player/pain/pugman/pain9.wav"
+	}
+}
+
+"Bleedout_Damage.Alt7"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/bleed/pugman/bleeding01.wav"
+		"wave"		"player/bleed/pugman/bleeding02.wav"
+		"wave"		"player/bleed/pugman/bleeding03.wav"
+		"wave"		"player/bleed/pugman/bleeding04.wav"
+		"wave"		"player/bleed/pugman/bleeding05.wav"
+		"wave"		"player/bleed/pugman/bleeding06.wav"
+		"wave"		"player/bleed/pugman/bleeding07.wav"
+		"wave"		"player/bleed/pugman/bleeding08.wav"
+	}
+}
+
+"Drown_Damage.Alt7"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/pl_drown2.wav"
+		"wave"		"player/pl_drown3.wav"
+	}
+}
+
+"LightBreath.Alt7"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_30dB"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"rndwave"
+	{
+		"wave"		"player/stamina/pugman/light_breath.wav"
+	}
+}
+
+"MediumBreath.Alt7"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_40dB"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"rndwave"
+	{
+		"wave"		"player/stamina/pugman/medium_breath1.wav"
+		"wave"		"player/stamina/pugman/medium_breath2.wav"
+	}
+}
+
+"HeavyBreath.Alt7"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"rndwave"
+	{
+		"wave"		"player/stamina/pugman/heavy_breath1.wav"
+		"wave"		"player/stamina/pugman/heavy_breath2.wav"
+		"wave"		"player/stamina/pugman/heavy_breath3.wav"
+	}
+}
+
+// **************************************************************
+// Ammo check sounds
+
+"AmmoCheck.Alt7.0"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/00rounds_01.wav"
+		"wave"		"player/ammocheck/pugman/00rounds_02.wav"
+		"wave"		"player/ammocheck/pugman/00rounds_03.wav"
+		"wave"		"player/ammocheck/pugman/00rounds_04.wav"
+	}
+}
+
+"AmmoCheck.Alt7.1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/01rounds_01.wav"
+		"wave"		"player/ammocheck/pugman/01rounds_02.wav"
+		"wave"		"player/ammocheck/pugman/01rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt7.2"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/02rounds_01.wav"
+		"wave"		"player/ammocheck/pugman/02rounds_02.wav"
+		"wave"		"player/ammocheck/pugman/02rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt7.3"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/03rounds_01.wav"
+		"wave"		"player/ammocheck/pugman/03rounds_02.wav"
+		"wave"		"player/ammocheck/pugman/03rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt7.4"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/04rounds_01.wav"
+		"wave"		"player/ammocheck/pugman/04rounds_02.wav"
+		"wave"		"player/ammocheck/pugman/04rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt7.5"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/05rounds_01.wav"
+		"wave"		"player/ammocheck/pugman/05rounds_02.wav"
+		"wave"		"player/ammocheck/pugman/05rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt7.6"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/06rounds_01.wav"
+		"wave"		"player/ammocheck/pugman/06rounds_02.wav"
+		"wave"		"player/ammocheck/pugman/06rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt7.7"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/07rounds_01.wav"
+		"wave"		"player/ammocheck/pugman/07rounds_02.wav"
+		"wave"		"player/ammocheck/pugman/07rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt7.8"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/08rounds_01.wav"
+		"wave"		"player/ammocheck/pugman/08rounds_02.wav"
+		"wave"		"player/ammocheck/pugman/08rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt7.9"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/09rounds_01.wav"
+		"wave"		"player/ammocheck/pugman/09rounds_02.wav"
+		"wave"		"player/ammocheck/pugman/09rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt7.10"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/10Rounds_01.wav"
+		"wave"		"player/ammocheck/pugman/10Rounds_02.wav"
+		"wave"		"player/ammocheck/pugman/10Rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt7.11"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/11Rounds_01.wav"
+		"wave"		"player/ammocheck/pugman/11Rounds_02.wav"
+		"wave"		"player/ammocheck/pugman/11Rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt7.12"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/12Rounds_01.wav"
+		"wave"		"player/ammocheck/pugman/12Rounds_02.wav"
+		"wave"		"player/ammocheck/pugman/12Rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt7.13"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/13Rounds_01.wav"
+		"wave"		"player/ammocheck/pugman/13Rounds_02.wav"
+		"wave"		"player/ammocheck/pugman/13Rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt7.14"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/14Rounds_01.wav"
+		"wave"		"player/ammocheck/pugman/14Rounds_02.wav"
+		"wave"		"player/ammocheck/pugman/14Rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt7.15"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/15Rounds_01.wav"
+		"wave"		"player/ammocheck/pugman/15Rounds_02.wav"
+		"wave"		"player/ammocheck/pugman/15Rounds_03.wav"
+	}
+}
+
+"AmmoCheck.Alt7.Half"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/rounds_abouthalf_01.wav"
+	}
+}
+
+"AmmoCheck.Alt7.OverHalf"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/rounds_overhalf_01.wav"
+	}
+}
+
+"AmmoCheck.Alt7.AlmostFull"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/rounds_almostfull_01.wav"
+	}
+}
+
+"AmmoCheck.Alt7.Full"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/pugman/rounds_full_01.wav"
+		"wave"		"player/ammocheck/pugman/rounds_full_02.wav"
+		"wave"		"player/ammocheck/pugman/rounds_full_03.wav"
+		"wave"		"player/ammocheck/pugman/rounds_full_04.wav"
+	}
+}
+
+// **************************************************************
+// Reload sounds
+// 'X Loads Remaining'
+
+"Reload.Alt7.Load0"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/00loads_01.wav"
+		"wave"	")player/reload/pugman/00loads_02.wav"
+		"wave"	")player/reload/pugman/00loads_03.wav"
+	}
+}
+
+"Reload.Alt7.Load1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/01loads_01.wav"
+		"wave"	")player/reload/pugman/01loads_02.wav"
+	}
+}
+
+"Reload.Alt7.Load2"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/02loads_01.wav"
+		"wave"	")player/reload/pugman/02loads_02.wav"
+	}
+}
+
+"Reload.Alt7.Load3"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/03loads_01.wav"
+		"wave"	")player/reload/pugman/03loads_02.wav"
+		"wave"	")player/reload/pugman/03loads_03.wav"
+	}
+}
+
+"Reload.Alt7.Load4"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/04loads_01.wav"
+		"wave"	")player/reload/pugman/04loads_02.wav"
+	}
+}
+
+"Reload.Alt7.Load5"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/05loads_01.wav"
+		"wave"	")player/reload/pugman/05loads_02.wav"
+	}
+}
+
+"Reload.Alt7.Load6"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/06loads_01.wav"
+		"wave"	")player/reload/pugman/06loads_02.wav"
+	}
+}
+
+"Reload.Alt7.Load7"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/07loads_01.wav"
+		"wave"	")player/reload/pugman/07loads_02.wav"
+	}
+}
+
+"Reload.Alt7.Load8"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/08loads_01.wav"
+		"wave"	")player/reload/pugman/08loads_02.wav"
+	}
+}
+
+"Reload.Alt7.Load9"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/09loads_01.wav"
+		"wave"	")player/reload/pugman/09loads_02.wav"
+	}
+}
+
+"Reload.Alt7.Load10"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/10loads_01.wav"
+		"wave"	")player/reload/pugman/10loads_02.wav"
+	}
+}
+
+"Reload.Alt7.Load11"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/11loads_01.wav"
+		"wave"	")player/reload/pugman/11loads_02.wav"
+	}
+}
+
+"Reload.Alt7.Load12"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/12loads_01.wav"
+		"wave"	")player/reload/pugman/12loads_02.wav"
+	}
+}
+
+"Reload.Alt7.Load13"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/13loads_01.wav"
+		"wave"	")player/reload/pugman/13loads_02.wav"
+	}
+}
+
+"Reload.Alt7.Load14"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/14loads_01.wav"
+		"wave"	")player/reload/pugman/14loads_02.wav"
+	}
+}
+
+"Reload.Alt7.Load15"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/15loads_01.wav"
+		"wave"	")player/reload/pugman/15loads_02.wav"
+	}
+}
+
+"Reload.Alt7.PlentyLoad"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/plenty_loads_01.wav"
+	}
+}
+
+// **************************************************************
+// Reload Sounds
+// 'X Magazines Remaining'
+
+"Reload.Alt7.Mag0"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/00mags_01.wav"
+		"wave"	")player/reload/pugman/00mags_02.wav"
+		"wave"	")player/reload/pugman/00mags_03.wav"
+
+	}
+}
+
+"Reload.Alt7.Mag1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/01mags_01.wav"
+		"wave"	")player/reload/pugman/01mags_02.wav"
+
+	}
+}
+
+
+"Reload.Alt7.Mag2"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/02mags_01.wav"
+		"wave"	")player/reload/pugman/02mags_02.wav"
+		"wave"	")player/reload/pugman/02mags_03.wav"
+
+	}
+}
+
+
+"Reload.Alt7.Mag3"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/03mags_01.wav"
+		"wave"	")player/reload/pugman/03mags_02.wav"
+
+	}
+}
+
+
+"Reload.Alt7.Mag4"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/04mags_01.wav"
+
+	}
+}
+
+"Reload.Alt7.Mag5"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/05mags_01.wav"
+
+	}
+}
+
+
+"Reload.Alt7.Mag6"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/06mags_01.wav"
+		"wave"	")player/reload/pugman/06mags_02.wav"
+
+	}
+}
+
+
+"Reload.Alt7.Mag7"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/07mags_01.wav"
+
+	}
+}
+
+
+"Reload.Alt7.Mag8"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/08mags_01.wav"
+
+	}
+}
+
+"Reload.Alt7.Mag9"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/09mags_01.wav"
+
+	}
+}
+
+
+"Reload.Alt7.Mag10"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/10mags_01.wav"
+
+	}
+}
+
+"Reload.Alt7.Mag11"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/11mags_01.wav"
+
+	}
+}
+
+"Reload.Alt7.Mag12"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/12mags_01.wav"
+
+	}
+}
+
+"Reload.Alt7.Mag13"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/13mags_01.wav"
+
+	}
+}
+
+"Reload.Alt7.Mag14"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/14mags_01.wav"
+
+	}
+}
+
+"Reload.Alt7.Mag15"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/15mags_01.wav"
+
+	}
+}
+
+"Reload.Alt7.PlentyMag"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/pugman/plenty_mags_01.wav"
+		"wave"	")player/reload/pugman/plenty_mags_02.wav"
+
+	}
+}
+
+// *********************************************************
+// Voice commands
+"VoiceCommand.Alt7.Ammo"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\pugman\needammo_01.wav"
+		"wave"		")voice\command\pugman\needammo_02.wav"
+		"wave"		")voice\command\pugman\needammo_03.wav"
+		"wave"		")voice\command\pugman\needammo_04.wav"
+		"wave"		")voice\command\pugman\needammo_05.wav"
+	}
+}
+
+"VoiceCommand.Alt7.Follow"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\pugman\followme_01.wav"
+		"wave"		")voice\command\pugman\followme_02.wav"
+		"wave"		")voice\command\pugman\followme_03.wav"
+		"wave"		")voice\command\pugman\followme_04.wav"
+		"wave"		")voice\command\pugman\followme_05.wav"
+	}
+}
+
+"VoiceCommand.Alt7.Help"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\pugman\helpme_01.wav"
+		"wave"		")voice\command\pugman\helpme_02.wav"
+		"wave"		")voice\command\pugman\helpme_03.wav"
+		"wave"		")voice\command\pugman\helpme_04.wav"
+		"wave"		")voice\command\pugman\helpme_05.wav"
+		"wave"		")voice\command\pugman\helpme_06.wav"
+	}
+}
+
+"VoiceCommand.Alt7.No"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\pugman\no_01.wav"
+		"wave"		")voice\command\pugman\no_02.wav"
+		"wave"		")voice\command\pugman\no_03.wav"
+		"wave"		")voice\command\pugman\no_04.wav"
+		"wave"		")voice\command\pugman\no_05.wav"
+		"wave"		")voice\command\pugman\no_06.wav"
+		"wave"		")voice\command\pugman\no_07.wav"
+	}
+}
+
+"VoiceCommand.Alt7.Stay"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\pugman\waithere_01.wav"
+		"wave"		")voice\command\pugman\waithere_02.wav"
+		"wave"		")voice\command\pugman\waithere_03.wav"
+		"wave"		")voice\command\pugman\waithere_04.wav"
+		"wave"		")voice\command\pugman\waithere_05.wav"
+	}
+}
+
+"VoiceCommand.Alt7.ThankYou"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\pugman\thankyou_01.wav"
+		"wave"		")voice\command\pugman\thankyou_02.wav"
+		"wave"		")voice\command\pugman\thankyou_03.wav"
+		"wave"		")voice\command\pugman\thankyou_04.wav"
+		"wave"		")voice\command\pugman\thankyou_05.wav"
+		"wave"		")voice\command\pugman\thankyou_06.wav"
+		"wave"		")voice\command\pugman\thankyou_07.wav"
+	}
+}
+
+"VoiceCommand.Alt7.Yes"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\pugman\yes_01.wav"
+		"wave"		")voice\command\pugman\yes_02.wav"
+		"wave"		")voice\command\pugman\yes_03.wav"
+		"wave"		")voice\command\pugman\yes_04.wav"
+		"wave"		")voice\command\pugman\yes_05.wav"
+		"wave"		")voice\command\pugman\yes_06.wav"
+		"wave"		")voice\command\pugman\yes_07.wav"
+		"wave"		")voice\command\pugman\yes_08.wav"
+		"wave"		")voice\command\pugman\yes_09.wav"
+	}
+}
+
+"VoiceCommand.Alt7.Injured"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\pugman\injured_01.wav"
+		"wave"		")voice\command\pugman\injured_02.wav"
+		"wave"		")voice\command\pugman\injured_03.wav"
+		"wave"		")voice\command\pugman\injured_04.wav"
+		"wave"		")voice\command\pugman\injured_05.wav"
+	}
+}
+
+"VoiceCommand.Alt7.Incoming"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\pugman\incoming_01.wav"
+		"wave"		")voice\command\pugman\incoming_02.wav"
+		"wave"		")voice\command\pugman\incoming_03.wav"
+		"wave"		")voice\command\pugman\incoming_04.wav"
+		"wave"		")voice\command\pugman\incoming_05.wav"
+	}
+}
+
+"VoiceCommand.Alt7.FireInTheHole"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\pugman\grenade_01.wav"
+		"wave"		")voice\command\pugman\grenade_02.wav"
+		"wave"		")voice\command\pugman\grenade_03.wav"
+		"wave"		")voice\command\pugman\grenade_04.wav"
+	}
+}
+
+"VoiceCommand.Alt7.Taunt"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\pugman\taunt_01.wav"
+		"wave"		")voice\command\pugman\taunt_02.wav"
+		"wave"		")voice\command\pugman\taunt_03.wav"
+		"wave"		")voice\command\pugman\taunt_04.wav"
+		"wave"		")voice\command\pugman\taunt_05.wav"
+		"wave"		")voice\command\pugman\taunt_06.wav"
+		"wave"		")voice\command\pugman\taunt_07.wav"
+		"wave"		")voice\command\pugman\taunt_08.wav"
+		"wave"		")voice\command\pugman\taunt_09.wav"
+	}
+}

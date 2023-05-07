@@ -1,0 +1,30 @@
+// 24: Objectives_Radio - Use the Radio to Call for Help.
+// 28: Objectives_Survive - Survive.
+// 27: Objectives_Door - Find a Key to Open the Door.
+// 25: Objectives_Secure - Hold Out Until Help Arrives.
+// 31: Objectives_Can - Burn Away the Obstruction.
+// 29: Objectives_Propane - Breach the Barricade.
+// 32: Objectives_Gauntlet - Make Your Way to the Safehouse.
+// 148: Objectives_Signal - Light a Signal Fire.
+
+// Objective challenges
+// KV names are identifiers, and will be saved in records!
+"Challenges"
+{
+	"nmo_boardwalk_challenge_1"
+	{
+		"Name" "Walk in the Park"
+		"Description" "Enjoy warm sand, free entertainment, and... who am I kidding?"
+		"Objectives"
+		{
+			"0" "32" // Make Your Way to the Safehouse.
+			"1" "27" // Find a Key to Open the Door.
+			"2" "24" // Use the Radio to Call for Help.
+			"3" "28" // Survive.
+			"4" "29" // Breach the Barricade.
+			"5" "31" // Burn Away the Obstruction.
+			"6" "148" // Light a Signal Fire.
+			"7" "25" // Hold Out Until Help Arrives.
+		}
+	}
+}

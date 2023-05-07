@@ -1,0 +1,405 @@
+//****************************************************************************
+// NO MORE ROOM IN HELL
+// Soundscapes for 'lakeside'
+//
+//****************************************************************************
+//
+//****************************************
+// Ambient Setups
+//****************************************
+
+//LISTED SOUNDS
+"lakeside.indoors1"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"90"
+		"wave"		"ambient\roomtones\low_ambient_room_loop.wav"
+	}
+}
+
+"lakeside.indoors2"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"90"
+		"wave"		"ambient\roomtones\room_paranoia.wav"
+	}
+}
+
+"lakeside.outdoors1"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"90"
+		"wave"		"ambient\atmosphere\ambience5.wav"
+	}
+}
+
+"lakeside.outdoors2"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"90"
+		"wave"		"ambient\wind\wind_draft_eerie_loop.wav"
+	}
+}
+
+"lakeside.corridorbig"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"90"
+		"wave"		"ambient\atmosphere\corridor.wav"
+	}
+}
+
+"lakeside.corridorsmall"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"90"
+		"wave"		"ambient\atmosphere\corridor2.wav"
+	}
+}
+
+
+"lakeside.cave1"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"90"
+		"wave"		"ambient\atmosphere\cave_outdoor1.wav"
+	}
+}
+
+"lakeside.underground"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"90"
+		"wave"		"ambient\water\corridor_water.wav"
+	}
+}
+"lakeside.leak"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"75"
+		"wave"		"ambient\creatures\leech_water_churn_loop2.wav"
+	}
+}
+
+"lakeside.cavesgenerators"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"0.9"
+		"pitch"		"90"
+		"wave"		"ambient\roomtones\security_center_loop.wav"
+	}
+}
+
+
+"lakeside.tunnelsmall"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"90"
+		"wave"		"ambient\wind\wind_tunnel1.wav"
+	}
+}
+
+"lakeside.tunneldrips"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"90"
+		"wave"		"ambient\water\drip_loop1.wav"
+	}
+}
+
+"lakeside.tunnelrumble"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"90"
+		"wave"		"ambient/levels/canals/tunnel_wind_loop1.wav"
+	}
+}
+
+"lakeside.tunnelwind"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"90"
+		"wave"		"ambient/wind/wind_tunnel1.wav"
+	}
+}
+
+"lakeside.servers"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"90"
+		"wave"		"ambient\roomtones\serverroom_loop.wav"
+	}
+}
+
+"lakeside.moans"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"90"
+		"wave"		"ambient\zombies\distant_horde_loop.wav"
+	}
+}
+
+
+"lakeside.thunder"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"time"		"15,60"
+		"volume"	"0.7,1.0"
+		"pitch"		"95,105"
+		"attenuation"	"0.9"
+		"soundlevel"	"SNDLVL_40dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient\atmosphere\thunder1.wav"
+			"wave"		"ambient\atmosphere\thunder2.wav"
+			"wave"		"ambient\atmosphere\thunder3.wav"
+			"wave"		"ambient\atmosphere\thunder4.wav"
+		}
+	}
+}
+
+"lakeside.crows"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"time"		"15,60"
+		"volume"	"0.7,1.0"
+		"pitch"		"95,105"
+		"position" "random"
+		"attenuation"	"0.9"
+		"soundlevel"	"SNDLVL_40dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient\background\dist_crows1.wav"
+			"wave"		"ambient\background\dist_crows2.wav"
+			"wave"		"ambient\background\dist_crows3.wav"
+		}
+	}
+}
+
+//LISTED AREAS
+
+"lakeside.spawn"
+{
+	"dsp"	"1"
+
+	"playsoundscape"	
+	{
+		"name"	"lakeside.indoors1"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"lakeside.indoors2"
+		"volume" "0.5"
+	}
+}
+
+
+"lakeside.outdoorsmain"
+{
+	"dsp"	"1"
+
+	"playsoundscape"	
+	{
+		"name"	"lakeside.outdoors1"
+		"volume" "0.5"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"lakeside.outdoors2"
+		"volume" "0.2"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"lakeside.thunder"
+		"volume" "1"
+	}
+	"playsoundscape"	
+	{
+		"name"	"lakeside.crows"
+		"volume" "1"
+	}
+}
+
+"lakeside.celler"
+{
+	"dsp"	"1"
+
+	"playsoundscape"	
+	{
+		"name"	"lakeside.underground"
+		"volume" "1"
+	}
+	"playsoundscape"	
+	{
+		"positionoverride"		"0"
+		"name"	"lakeside.leak"
+		"volume" "1"
+	}
+}
+
+"lakeside.indoorssmall"
+{
+	"dsp"	"1"
+
+	"playsoundscape"	
+	{
+		"name"	"lakeside.corridorsmall"
+		"volume" "1"
+	}
+}
+
+"lakeside.indoors_genericbig"
+{
+	"dsp"	"1"
+
+	"playsoundscape"	
+	{
+		"name"	"lakeside.corridorbig"
+		"volume" "1"
+	}
+}
+
+"lakeside.caves"
+{
+	"dsp"	"1"
+
+	"playsoundscape"	
+	{
+		"name"	"lakeside.cave1"
+		"volume" "1"
+	}
+	"playsoundscape"	
+	{
+		"name"	"lakeside.cavesgenerators"
+		"volume" "1"
+	}
+}
+
+"lakeside.tunnelcaves"
+{
+	"dsp"	"1"
+
+	"playsoundscape"	
+	{
+		"name"	"lakeside.tunnelsmall"
+		"volume" "1"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"lakeside.tunneldrips"
+		"volume" "1"
+	}
+}
+
+"lakeside.bigtunnel"
+{
+	"dsp"	"1"
+
+	"playsoundscape"	
+	{
+		"name"	"lakeside.tunnelrumble"
+		"volume" "1"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"lakeside.tunnelwind"
+		"volume" "1"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"lakeside.moans"
+		"volume" "1"
+	}
+}
+
+"lakeside.serverroom"
+{
+	"dsp"	"1"
+
+	"playsoundscape"	
+	{
+		"name"	"lakeside.servers"
+		"volume" "1"
+	}
+}
+
+
+

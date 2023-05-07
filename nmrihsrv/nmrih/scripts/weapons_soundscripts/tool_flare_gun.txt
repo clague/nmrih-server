@@ -1,0 +1,93 @@
+//************
+// Flare Gun
+//************
+"FlareGun.BarrelOpen"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"		"95,100"
+
+	"wave"		")weapons/tools/flaregun/Flaregun_BarrelOpen.wav"
+}
+
+"FlareGun.BarrelClose"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"		"95,100"
+
+	"wave"		")weapons/tools/flaregun/Flaregun_BarrelClosed.wav"
+}
+
+"FlareGun.Fire"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"		"95,100"
+
+	"wave"		")weapons/tools/flaregun/Flaregun_Fire.wav"
+}
+
+"FlareGun.HammerDown"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"		"95,100"
+
+	"wave"		")weapons/tools/flaregun/Flaregun_HammerDown.wav"
+}
+
+"FlareGun.HammerUp"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"		"95,100"
+
+	"wave"		")weapons/tools/flaregun/Flaregun_HammerUp.wav"
+}
+
+"FlareGun.Load"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"		"95,100"
+
+	"wave"		")weapons/tools/flaregun/Flaregun_Load.wav"
+}
+
+"FlareGun.SpentOut"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"		"95,100"
+
+	"wave"		")weapons/tools/flaregun/Flaregun_SpentOut.wav"
+}
+
+"FlareGun.Pop"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_90dB"
+	"pitch"		"95,100"
+
+	"wave"		")weapons/tools/flaregun/Flare_Pop.wav"
+}
+
+"Flare.Touch"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			")weapons/flaregun/impact.wav"
+}

@@ -1,0 +1,32 @@
+// Random testing
+
+"MapHack"
+{
+	"vars"
+	{
+		// Authors should change these on their scripts
+		"iRandMin" { "type" "int" "value" "0" }
+		"iRandMax" { "type" "int" "value" "1" }
+		
+		"flRandMin" { "type" "float" "value" "0.0" }
+		"flRandMax" { "type" "float" "value" "1.0" }
+		
+		// Don't change these
+		"iRand" { "type" "int" }
+		"flRand" { "type" "float" }
+		"clrRand" { "type" "color" }
+	}
+	
+	"entities"
+	{
+		// Initial roll
+		$trigger { "event" "Rand_Refresh" }
+	}
+	
+	"Rand_Refresh"
+	{
+		$rand { "var" "iRand" "rand_min" "%iRandMin" "rand_max" "%iRandMax" }
+		$rand { "var" "flRand" "rand_min" "%flRandMin" "rand_max" "%flRandMax" }
+		$rand { "var" "clrRand" }
+	}
+}

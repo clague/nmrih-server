@@ -1,0 +1,185 @@
+// "Rush Hour" (Blitz)
+
+"MapHack"
+{
+	"precache"
+	{
+		"model"	"models/props/vehicles/car_fire_truck_burned.mdl"
+	}
+
+	"entities"
+	{
+		// Dull planks
+		$edit { "id" "2494200" "keyvalues" { "health" "5" } }
+		$edit { "id" "3003486" "keyvalues" { "health" "5" } }
+		$edit { "id" "3567595" "keyvalues" { "health" "5" } }
+		
+		// Block path to gun store
+		"prop_dynamic_override"
+		{
+			"origin" "-1592 -3636 46"
+			"model" "models/props/vehicles/car_fire_truck_burned.mdl"
+			"modelscale" "1.0"
+			"angles" "0 40 0"
+			"fademindist" "-1"
+			"fadescale" "1"
+			"glowcolor" "255 255 255"
+			"glowdistance" "512"
+			"MaxAnimTime" "10"
+			"MinAnimTime" "5"
+			"renderamt" "255"
+			"rendercolor" "255 255 255"
+			"skin" "0"
+			"solid" "6"
+		}
+		
+		// Kill blocked zombie spawns
+		$remove { "id" "3235001" }
+		
+		// Subway exit button completes objective
+		$remove_connections { "id" "1677521" }
+		$edit
+		{
+			"id"	"1677521"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnPressed" "cabin_freightdoor,SetAnimation,open,0,-1"
+					"OnPressed" "subway_escape_boundary,ObjectiveComplete,,0,-1"
+					"OnPressed" "cabin_freightdoor_sound,PlaySound,,0,-1"
+					"OnPressed" "obj_d_off,HideSprite,,0,-1"
+					"OnPressed" "obj_d_on,ShowSprite,,0,-1"
+					"OnPressed" "ele_door_L,Open,,0,-1"
+					"OnPressed" "ele_door_R,Open,,0,-1"
+					"OnPressed" "ele_door_L,Kill,,2,-1"
+					"OnPressed" "!self,Kill,,0,-1"
+				}
+			}
+		}
+		
+		// Remove gas canister RNG
+		$remove_connections { "targetname" "obj_scavenge_logic" }
+		$edit
+		{
+			"targetname"	"obj_scavenge_logic"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnCase01"	"obj_scavenge_gas1_template,ForceSpawn,,0,-1"
+				}
+			}
+		}
+		
+		// Launch new objective without delay after gate release
+		$remove_connections { "targetname" "obj_scavenge_gate_release" }
+		$edit
+		{
+			"targetname"	"obj_scavenge_gate_release"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnPressed" "gate_scavenge_boundary,ObjectiveComplete,,0,-1"
+					"OnPressed" "obj_scavenge_gate,Open,,0,-1"
+					"OnPressed" "!self,Kill,,0,-1"
+				}
+			}
+		}
+		
+		// Ladder release button completes objective
+		$remove { "id" "3715362" }
+		$remove_connections { "id" "1763955" }
+		$edit
+		{
+			"id" "1763955"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnPressed" "ladder_dismount_boundary,ObjectiveComplete,,0,-1"
+					"OnPressed" "obj_e_off,HideSprite,,0,-1"
+					"OnPressed" "obj_e_on,ShowSprite,,0,-1"
+					"OnPressed" "ladder_dismount_brush,Open,,2,1"
+					"OnPressed" "ladder_dismount_clip,Kill,,0,1"
+					"OnPressed" "saferoom01_spawns,InputEnable,,0,-1"
+					"OnPressed" "saferoom01_spawns,RespawnPlayers,,4,-1"
+					"OnPressed" "station_spawnpoints,InputDisable,,0,-1"
+					"OnPressed" "!self,Kill,,0,-1"
+				}
+			}
+		}
+		
+		// Make room for finale skip revolver and ammo
+		$remove { "id" "2909140" }
+		$remove { "id" "2909142" }
+		$remove { "id" "2909144" }
+
+		// Finale skip revolver
+		"fa_sw686"
+		{
+			"origin" "-2639 2641.01 52.59"
+			"angles" "0 255 -90"
+		}
+
+		// Finale skip ammo
+		"random_spawner"
+		{
+			"origin" "-2657 2621.01 48.4236"
+			"angles" "0 227.5 0"
+			"ammo_fill_pct_max" "100"
+			"ammo_fill_pct_min" "100"
+			"ammobox_357" "100"
+		}
+
+		"random_spawner"
+		{
+			"origin" "-2647.65 2613.24 48.4236"
+			"angles" "0 325.5 0"
+			"ammo_fill_pct_max" "100"
+			"ammo_fill_pct_min" "100"
+			"ammobox_357" "100"
+		}
+		
+		// Finale radio
+		"env_instructor_hint"
+		{
+			"targetname" "blitz_radio_hint"
+			"origin" "-954 2999 24"
+			"hint_allow_nodraw_target" "1"
+			"hint_caption" "You're in a hurry? We'll be there ASAP!"
+			"hint_color" "255 255 255"
+			"hint_forcecaption" "1"
+			"hint_icon_offscreen" "icon_tip"
+			"hint_icon_onscreen" "icon_tip"
+			"hint_local_player_only" "No"
+			"hint_start_sound" "Instructor.LessonStart"
+			"hint_target" "obj_finale_radio"
+		}
+		
+		$remove_connections { "targetname" "obj_finale_radio" }
+		$edit
+		{
+			"targetname"	"obj_finale_radio"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnPressed" "blitz_radio_hint,ShowHint,,0,-1"
+					"OnPressed" "blitz_radio_hint,EndHint,,10,-1"
+					"OnPressed" "finale_boundary,ObjectiveComplete,,30,1"
+					"OnPressed" "obj_finale_radio_snd_callext,PlaySound,,0,-1"
+					"OnPressed" "obj_finale_radio_snd_activated,StopSound,,0,-1"
+					"OnPressed" "obj_finale_helicopter_train,SetSpeed,275,30,-1"
+					"OnPressed" "obj_finale_helicopter,Enable,,30,-1"
+					"OnPressed" "obj_finale_helicopter_sound,ToggleSound,,30,-1"
+					"OnPressed" "zs_docks1,InputSetSpawnDensity,2.5,0,-1"
+					"OnPressed" "music_manager,InputTriggerEvac,,0,1"
+					"OnPressed" "!self,Kill,,0,-1"
+					"OnPressed" "finale_radio_prop,DisableGlow,,0,-1"
+				}
+			}
+		}
+	}
+}

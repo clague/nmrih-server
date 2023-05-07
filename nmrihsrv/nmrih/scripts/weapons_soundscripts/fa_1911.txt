@@ -1,0 +1,102 @@
+//************
+// 1911
+//************
+
+"Weapon_1911.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"		"98,102"
+
+	"rndwave"
+	{
+		"wave"		")weapons/firearms/hndg_colt1911/Colt_1911_Fire1.wav"
+	}
+}
+
+
+"Weapon_1911.Empty"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"		"92,100"
+
+        "rndwave"
+        {
+	         "wave"	        ")weapons/firearms/hndg_colt1911/Colt_1911_DryFire.wav"
+        }
+}
+
+"Weapon_1911.clipin"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"	                ")weapons/firearms/hndg_colt1911/Colt_1911_ClipIn.wav"
+}
+
+"Weapon_1911.ClipOut"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"	                ")weapons/firearms/hndg_colt1911/Colt_1911_ClipOut.wav"
+}
+
+
+"Weapon_1911.Empty"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_60dB"
+
+	"rndwave"
+	{
+		"wave"		")weapons/firearms/hndg_colt1911/Colt_1911_Empty.wav"
+		"wave"		")weapons/firearms/hndg_colt1911/Colt_1911_Empty2.wav"
+	}
+}
+
+"Weapon_1911.SlideBack"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_45dB"
+
+        "rndwave"
+        {
+	         "wave"	        ")weapons/firearms/hndg_colt1911/Colt_1911_SlideBack1.wav"
+	         "wave"	        ")weapons/firearms/hndg_colt1911/Colt_1911_SlideBack2.wav"
+                 "wave"	        ")weapons/firearms/hndg_colt1911/Colt_1911_SlideBack3.wav"
+        }
+}
+
+"Weapon_1911.SlideForward"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_45dB"
+
+        "rndwave"
+        {
+	         "wave"	        ")weapons/firearms/hndg_colt1911/Colt_1911_SlideForward1.wav"
+	         "wave"	        ")weapons/firearms/hndg_colt1911/Colt_1911_SlideForward2.wav"
+                 "wave"	        ")weapons/firearms/hndg_colt1911/Colt_1911_SlideForward3.wav"
+        }
+}
+
+"Weapon_1911.SlideLock"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_45dB"
+
+        "rndwave"
+        {
+	         "wave"	        ")weapons/firearms/hndg_colt1911/Colt_1911_SlideLock.wav"
+        }
+}

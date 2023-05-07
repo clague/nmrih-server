@@ -1,0 +1,67 @@
+//************
+// Welder
+//************
+
+"Weapon_Welder.Flame"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_90dB"
+	"wave"		")weapons/tools/welder/Welder_Loop.wav"
+}
+
+"Weapon_Welder.Draw"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")player/weapon_draw_01.wav"
+		"wave"		")player/weapon_draw_02.wav"
+		"wave"		")player/weapon_draw_03.wav"
+		"wave"		")player/weapon_draw_04.wav"
+		"wave"		")player/weapon_draw_05.wav"
+	}
+}
+
+"Weapon_Welder.Holster"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")player/weapon_holster_01.wav"
+		"wave"		")player/weapon_holster_02.wav"
+		"wave"		")player/weapon_holster_03.wav"
+		"wave"		")player/weapon_holster_04.wav"
+		"wave"		")player/weapon_holster_05.wav"
+	}
+}
+
+"Weapon_Melee.WelderLight"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		")weapons/melee/swing_light_blunt_01.wav"
+		"wave"		")weapons/melee/swing_light_blunt_02.wav"
+		"wave"		")weapons/melee/swing_light_blunt_03.wav"
+	}
+}
+
+"Weapon_Melee.WelderHeavy"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		")weapons/melee/swing_light_blunt_01.wav"
+		"wave"		")weapons/melee/swing_light_blunt_02.wav"
+		"wave"		")weapons/melee/swing_light_blunt_03.wav"
+	}
+}

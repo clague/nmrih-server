@@ -1,0 +1,41 @@
+// "Sewer Sweep"
+
+"MapHack"
+{
+	"includes"
+	{
+		"file" "maps/maphacks/challenges/include/nmo_toxteth_shared.txt"
+	}
+
+	"entities"
+	{
+		$remove_connections { "targetname" "case_objd" }
+		$remove_connections { "targetname" "case_objk" }
+		
+		// Replace RNG crank
+		$edit
+		{
+			"targetname" "case_objk"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnCase01" "template_objk_1,ForceSpawn,,0,-1"
+				}
+			}
+		}
+		
+		// Replace RNG explosives
+		$edit
+		{
+			"targetname" "case_objd"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnCase01" "template_objd_1,ForceSpawn,,0,-1"
+				}
+			}
+		}
+	}
+}

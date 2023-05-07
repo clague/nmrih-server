@@ -1,0 +1,26 @@
+// "Under the Cabin"
+
+"MapHack"
+{
+	"includes"
+	{
+		"file"	"maps/maphacks/challenges/include/nmo_cabin_shared.txt"
+	}
+
+	"entities"
+	{
+		// Remove car battery RNG
+		$remove_connections { "targetname" "battery_picker" }
+		$edit
+		{
+			"targetname" "battery_picker"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnCase01" "template_propp_obji2,ForceSpawn,,0,-1"
+				}
+			}
+		}
+	}
+}

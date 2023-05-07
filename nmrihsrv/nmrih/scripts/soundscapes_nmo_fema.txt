@@ -1,0 +1,181 @@
+//****************************************
+// Ambient Setups
+//****************************************
+"fema.streets"
+{ 
+	 "dsp"   "1" 
+
+	 "playlooping" 
+	 { 
+			"volume"       "0.5" 
+			"pitch"        "100" 
+			"wave"         "ambient\wind\medium_wind_loop.wav" 
+	 }
+
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"time"         "15,25"
+		"volume"       "1"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\background\dist_crows1.wav"
+			"wave"	"ambient\background\dist_crows2.wav"
+			"wave"	"ambient\background\dist_crows3.wav"
+		}
+	}
+}
+
+"fema.spawn"
+{ 
+	 "dsp"   "1" 
+
+	 "playlooping" 
+	 { 
+			"volume"       "0.4" 
+			"pitch"        "100" 
+			"wave"         "ambient\roomtones\roomtone_uneasy2.wav" 
+	 }
+}
+
+"fema1.sewer"
+{ 
+	 "dsp"   "5" 
+
+	 "playlooping" 
+	 { 
+			"volume"       "0.3" 
+			"pitch"        "100" 
+			"wave"         "ambient\wind\medium_wind_loop.wav" 
+	 }
+       
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"time"         "0.5,1.5"
+		"volume"       "0.3"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\water\drip1.wav"
+			"wave"	"ambient\water\drip2.wav"
+			"wave"	"ambient/creatures/rats1.wav"
+			"wave"	"ambient/creatures/rats2.wav"
+			"wave"	"ambient\water\drip5.wav"
+		}
+	}
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"time"         "30,50"
+		"volume"       "0.8"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\whispers\Ambient.Whisper1.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper2.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper3.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper4.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper5.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper6.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper7.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper8.wav"
+		}
+	}
+}
+
+"fema.sewer"
+{ 
+	 "dsp"   "6" 
+
+	 "playlooping" 
+	 { 
+			"volume"       "0.6" 
+			"pitch"        "100" 
+			"wave"         "ambient\atmosphere\hole_amb3.wav" 
+	 }
+
+	 "dsp"   "1" 
+
+	 "playlooping" 
+	 { 
+			"volume"       "0.7" 
+			"pitch"        "100" 
+			"wave"         "ambient\wind\wind_draft_eerie_loop.wav" 
+	 }
+
+	 "dsp"   "1" 
+
+	 "playlooping" 
+	 { 
+			"volume"       "1" 
+			"pitch"        "100" 
+			"wave"         "ambient\roomtones\roomtone_uneasy2.wav" 
+	 }
+
+	 "dsp"   "1" 
+
+	 "playlooping" 
+	 { 
+			"volume"       "0.4" 
+			"pitch"        "100" 
+			"wave"         "ambient\atmosphere\tunnel1.wav" 
+	 }
+
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"time"         "5,10"
+		"volume"       "0.8"
+		"pitch"	       "100"
+		"rndwave"
+		{	
+			"wave"	"ambient\wind\low_wind_gust.wav"
+			"wave"	"ambient\atmosphere\hole_hit1.wav"
+			"wave"	"ambient\atmosphere\hole_hit2.wav"
+			"wave"	"ambient\atmosphere\hole_hit3.wav"
+			"wave"	"ambient\atmosphere\hole_hit4.wav"
+			"wave"	"ambient\water\drip2.wav"
+			"wave"	"ambient/creatures/rats1.wav"
+			"wave"	"ambient/creatures/rats2.wav"
+			"wave"	"ambient\water\drip5.wav"
+		}
+	}
+
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"time"         "30,50"
+		"volume"       "0.8"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\whispers\Ambient.Whisper1.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper2.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper3.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper4.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper5.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper6.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper7.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper8.wav"
+		}
+	}
+}
+
+"fema.indoorindustrial"
+{ 
+	 "dsp"   "1" 
+
+	 "playlooping" 
+	 { 
+			"volume"       "0.5" 
+			"pitch"        "100" 
+			"wave"         "ambient\roomtones\roomtone_danger2.wav" 	
+	 }
+}

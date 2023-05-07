@@ -1,0 +1,89 @@
+//************
+// Molotov
+//************
+
+"Weapon_Molotov.Ignite_Rag" 
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_NORM"
+	"wave"	")weapons/firearms/exp_molotov/molotov_rag_ignite_01.wav"
+}
+
+"Weapon_Molotov.Rag_Loop" 
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_NORM"
+	"wave"	")weapons/firearms/exp_molotov/molotov_rag_fire_loop_01.wav"
+}
+
+"Weapon_Molotov.Explode" 
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_NORM"
+	"wave"	")weapons/firearms/exp_molotov/molotov_explode_01.wav"
+}
+
+"Weapon_Molotov.Explode_NoFire" 
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_NORM"
+	"wave"	")weapons/firearms/exp_molotov/molotov_explode_nofire.wav"
+}
+
+"Weapon_Molotov.Fire_Loop" 
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_NORM"
+	"wave"	")weapons/firearms/exp_molotov/molotov_fire_full.wav"
+}
+
+"Weapon_Molotov.Draw"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")player/weapon_draw_01.wav"
+		"wave"		")player/weapon_draw_02.wav"
+		"wave"		")player/weapon_draw_03.wav"
+		"wave"		")player/weapon_draw_04.wav"
+		"wave"		")player/weapon_draw_05.wav"
+	}
+}
+
+"Weapon_Molotov.Holster"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")player/weapon_holster_01.wav"
+		"wave"		")player/weapon_holster_02.wav"
+		"wave"		")player/weapon_holster_03.wav"
+		"wave"		")player/weapon_holster_04.wav"
+		"wave"		")player/weapon_holster_05.wav"
+	}
+}
+
+"Weapon_Molotov.Shove"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_105dB"
+	"pitch"			"95,100"
+	"rndwave"
+	{
+		"wave"		")player/shove_01.wav"
+		"wave"		")player/shove_02.wav"
+		"wave"		")player/shove_03.wav"
+		"wave"		")player/shove_04.wav"
+		"wave"		")player/shove_05.wav"
+	}
+}

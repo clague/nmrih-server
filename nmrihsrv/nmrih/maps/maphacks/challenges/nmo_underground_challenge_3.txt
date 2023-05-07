@@ -1,0 +1,49 @@
+"MapHack"
+{
+    "entities"
+    {
+        "logic_ruleset"
+        {
+            "targetname" "ruleset"
+        }
+        
+        $fire 
+        {
+            "targetname" "ruleset"
+            "input" "ApplyCvars"
+            "value" "sv_ng_zombie_loot 0"
+        }
+    
+        $remove_all { "classname" "item_ammo_box" }
+        $remove_all { "classname" "exp_grenade" }
+        $remove_all { "classname" "exp_molotov" }
+        $remove_all { "classname" "exp_tnt" }
+        $remove_all { "classname" "fa_1022" }
+        $remove_all { "classname" "fa_1022_25mag" }
+        $remove_all { "classname" "fa_1911" }
+        $remove_all { "classname" "fa_500a" }
+        $remove_all { "classname" "fa_870" }
+        $remove_all { "classname" "fa_cz858" }
+        $remove_all { "classname" "fa_fnfal" }
+        $remove_all { "classname" "fa_glock17" }
+        $remove_all { "classname" "fa_jae700" }
+        $remove_all { "classname" "fa_m16a4" }
+        $remove_all { "classname" "fa_m16a4_carryhandle" }
+        $remove_all { "classname" "fa_m92fs" }
+        $remove_all { "classname" "fa_mac10" }
+        $remove_all { "classname" "fa_mkiii" }
+        $remove_all { "classname" "fa_mp5a3" }
+        $remove_all { "classname" "fa_sako85" }
+        $remove_all { "classname" "fa_sako85_ironsights" }
+        $remove_all { "classname" "fa_sks" }
+        $remove_all { "classname" "fa_sks_nobayo" }
+        $remove_all { "classname" "fa_superx3" }
+        $remove_all { "classname" "fa_sv10" }
+        $remove_all { "classname" "fa_sw686" }
+        $remove_all { "classname" "fa_winchester1892" }
+        $remove_all { "classname" "tool_flare_gun" }
+        $remove_all { "classname" "me_abrasivesaw" }
+        $remove_all { "classname" "me_chainsaw" }
+        $remove_all { "classname" "bow_deerhunter" }
+    }
+}

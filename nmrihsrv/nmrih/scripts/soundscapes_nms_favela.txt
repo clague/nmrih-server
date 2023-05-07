@@ -1,0 +1,58 @@
+"favela.generic"
+{
+         "dsp"   "14" 
+         "playlooping" 
+         { 
+                "volume"       "1.0" 
+                "pitch"        "100" 
+                "wave"         "ambient\wind\heavy_wind_loop.wav" 
+         }
+         "dsp"   "14" 
+         "playlooping" 
+         { 
+                "volume"       "1.0" 
+                "pitch"        "80" 
+                "wave"         "ambient\water\city_rain_light_generic.wav" 
+         }
+         "dsp"   "15" 
+         "playlooping" 
+         { 
+                "volume"       "0.1" 
+                "pitch"        "100" 
+                "wave"         "ambient\zombies\horde_medium_stereo.wav" 
+         }
+	"dsp"	"16"
+	"playrandom"
+	{
+		"time"         "15,30"
+		"volume"       "0.8, 1.0"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\background\dist_crows1.wav"
+			"wave"	"ambient\background\dist_crows2.wav"
+			"wave"	"ambient\background\dist_crows3.wav"
+			"wave"	"ambient\background\dist_dog1.wav"
+			"wave"	"ambient\background\dist_dog2.wav"
+			"wave"	"ambient\background\dist_dog3.wav"
+			"wave"	"ambient\background\dist_dog4.wav"
+			"wave"	"ambient\flooded\ravens.wav"
+		}
+	}
+	"dsp"	"14"
+	"playrandom"
+	{
+		"time"         "30,60"
+		"volume"       "0.5,0.8"
+		"pitch"	       "80,100"
+		"rndwave"
+		{
+			"wave"	"ambient\atmosphere\cave_hit1.wav"
+			"wave"	"ambient\atmosphere\cave_hit2.wav"
+			"wave"	"ambient\atmosphere\cave_hit3.wav"
+			"wave"	"ambient\atmosphere\cave_hit4.wav"
+			"wave"	"ambient\atmosphere\cave_hit5.wav"
+			"wave"	"ambient\atmosphere\cave_hit6.wav"
+		}
+	}
+}

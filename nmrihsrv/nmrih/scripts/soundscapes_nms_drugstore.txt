@@ -1,0 +1,111 @@
+"drugstore.outdoor"
+{
+	"dsp"	"16"
+	"playrandom"
+	{
+		"time"         "50,100"
+		"volume"       "0.4, 0.6"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\atmosphere\hole_amb3.wav"
+			"wave"	"ambient\atmosphere\hole_hit3.wav"
+			"wave"	"ambient\atmosphere\tone_alley.wav"		
+			"wave"	"ambient\background\amb_gunfire3.wav"
+			"wave"	"ambient\background\amb_gunfire4.wav"
+			"wave"	"ambient\background\amb_siren1.wav"
+			"wave"	"ambient\background\amb_siren2.wav"
+			"wave"	"ambient\chinatown\distant_fire4.wav"
+			"wave"	"ambient\chinatown\heli_pass.wav"
+			"wave"	"ambient\machines\heli_pass1.wav"
+			"wave"	"ambient\machines\heli_pass2.wav"
+			"wave"	"ambient\machines\heli_pass_distant1.wav"
+			"wave"	"ambient\chinatown\outside_noise1.wav"		
+			"wave"	"ambient\levels\streetwar\heli_distant1.wav"
+			"wave"	"ambient\wind\low_wind_gust.wav"
+			"wave"	"ambient\wind\wind_moan1.wav"
+			"wave"	"ambient\wind\wind_moan2.wav"
+			"wave"	"ambient\wind\wind_moan4.wav"
+			"wave"	"ambient\wind\wind_med1.wav"
+			
+		}
+	}
+	"dsp"	"1"
+	"playlooping"
+	{
+		"volume"		"0.35"
+		"pitch"			"100"
+		"wave"			"ambient\animals\cricket_ambient_01_loop.wav"
+	}
+	"dsp"	"1"
+	"playlooping"
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"wave"			"ambient\zombies\distant_horde_loop.wav"
+	}
+	"dsp"	"1"
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"wave"			"ambient\atmosphere\town_ambience.wav"
+	}
+
+
+}
+"drugstore.indoor"
+{
+	"dsp"	"16"
+	"playrandom"
+	{
+		"time"         "50,100"
+		"volume"       "0.1, 0.2"
+		"pitch"	       "100"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"	"ambient\atmosphere\hole_amb3.wav"
+			"wave"	"ambient\atmosphere\hole_hit3.wav"
+			"wave"	"ambient\atmosphere\tone_alley.wav"		
+			"wave"	"ambient\background\amb_gunfire3.wav"
+			"wave"	"ambient\background\amb_gunfire4.wav"
+			"wave"	"ambient\background\amb_siren1.wav"
+			"wave"	"ambient\background\amb_siren2.wav"
+			"wave"	"ambient\chinatown\distant_fire4.wav"
+			"wave"	"ambient\chinatown\heli_pass.wav"
+			"wave"	"ambient\machines\heli_pass1.wav"
+			"wave"	"ambient\machines\heli_pass2.wav"
+			"wave"	"ambient\machines\heli_pass_distant1.wav"
+			"wave"	"ambient\chinatown\outside_noise1.wav"		
+			"wave"	"ambient\levels\streetwar\heli_distant1.wav"
+			"wave"	"ambient\wind\low_wind_gust.wav"
+			"wave"	"ambient\wind\wind_moan1.wav"
+			"wave"	"ambient\wind\wind_moan2.wav"
+			"wave"	"ambient\wind\wind_moan4.wav"
+			"wave"	"ambient\wind\wind_med1.wav"
+		}
+	}
+	"dsp"	"1"
+	"playlooping"
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"wave"			"ambient\animals\cricket_ambient_01_loop.wav"
+	}
+	"dsp"	"1"
+	"playlooping"
+	{
+		"volume"		"0.15"
+		"pitch"			"100"
+		"wave"			"ambient\zombies\distant_horde_loop.wav"
+	}
+	"dsp"	"1"
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"wave"			"ambient\atmosphere\town_ambience.wav"
+	}
+
+}

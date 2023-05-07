@@ -1,0 +1,214 @@
+//****************************************
+// Zombie Attack
+//****************************************
+
+"drugstore.zombie.attack"
+{
+	"channel" "CHAN_AUTO"
+	"volume" "3.0"
+	"soundlevel" "SNDLVL_150dB"
+	"pitch" "PITCH_NORM"
+	"rndwave"
+	{
+		"wave" "#*dms/evac/enter_the_hive.ogg"
+		"wave" "#*music/misc2.wav"
+		"wave" "#*music/misc1.wav"
+		"wave" "#*dms/evac/do_you_know_where_your_zombies_are.ogg"
+		"wave" "#*dms/evac/driveevac.ogg"
+		"wave" "#*dms/evac/runandgunevac1.ogg"
+		"wave" "#*dms/evac/runandgunevac2.ogg"
+		"wave" "#*dms/evac/time_to_run_and_gun.ogg"
+	}
+}
+
+//****************************************
+// Evac Music
+//****************************************
+
+"drugstore.evac"
+{
+	"channel" "CHAN_AUTO"
+	"volume" "3.0"
+	"soundlevel" "SNDLVL_150dB"
+	"pitch" "PITCH_NORM"
+	"rndwave"
+	{
+		"wave" 		"#*dms\evac\enter_the_hive.ogg"
+		"wave" 		"#*dms\evac\urgencyevac.ogg"
+		"wave" 		"#*dms\evac\tofreedom.ogg"
+		"wave" 		"#*dms\evac\hittheexits.ogg"
+		"wave" 		"#*dms\songs\empty - intense version.ogg"
+		"wave" 		"#*dms\evac\tftguevac.ogg"
+
+	}
+}
+
+"drugstore.ambient"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms/ambiance/a_dark_alley.ogg"
+		"wave"		"#*dms/ambiance/a_dark_trail.ogg"
+		"wave"		"#*dms/ambiance/Alone.ogg"
+		"wave"		"#*dms/ambiance/ambiance.ogg"
+		"wave"		"#*dms/ambiance/ambiance_1.ogg"
+		"wave"		"#*dms/ambiance/ambient_one.ogg"
+		"wave"		"#*dms/ambiance/ambient_one_long.ogg"
+		"wave"		"#*dms\ambiance\brooklynambiance1.ogg"
+		"wave"		"#*dms\ambiance\brooklynambiance2.ogg"
+		"wave"		"#*dms\ambiance\cleopasambiance.ogg"
+		"wave"		"#*dms/ambiance/darkness.ogg"
+		"wave"		"#*dms/ambiance/distant_alarms.ogg"
+		"wave"		"#*dms/ambiance/shadows_ambiance.ogg"
+		"wave"		"#*dms/ambiance/dronings.ogg"
+		"wave"		"#*dms/ambiance/ghosts.ogg"
+		"wave"		"#*dms/ambiance/Farewell.ogg"
+		"wave"		"#*dms/ambiance/Journey.ogg"
+		"wave"		"#*dms/ambiance/Dark_Nights.ogg"
+		"wave"		"#*dms/ambiance/nmrih_ambiance.ogg"
+		"wave"		"#*dms/ambiance/overwhelmed.ogg"
+		"wave"		"#*dms\ambiance\raindrop_shorter.ogg"
+		"wave"		"#*dms\ambiance\urgencyambiance1.ogg"
+		"wave"		"#*dms\ambiance\urgencyambiance2.ogg"
+		"wave"		"#*dms\ambiance\urgencyambiance3.ogg"
+		"wave"		"#*dms\ambiance\urgencyambiance4.ogg"
+		"wave"		"#*dms\ambiance\umbra_ambience01.ogg"
+		"wave"		"#*dms\ambiance\smallworld.ogg"
+		"wave"		"#*dms\spawn\raindrop_ambiance.ogg"
+		"wave"		"#*dms\songs\lowdronefilter.ogg"
+		"wave"		"#*dms/songs/your_last_friend_is_becoming_a_monster.ogg"
+	}
+}
+
+"drugstore.tension_1"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms\tension1\brooklyntension1.ogg"
+		"wave"		"#*dms\tension1\brooklyntension11.ogg"
+		"wave"		"#*dms\tension1\cleopastension1.ogg"
+		"wave"		"#*dms\tension1\cleopastension12.ogg"
+		"wave"		"#*dms\tension1\cleopastension13.ogg"
+		"wave"		"#*dms\tension1\drive.ogg"
+		"wave"		"#*dms\tension1\farewell_short.ogg"
+		"wave"		"#*dms\tension1\gloom.ogg"
+		"wave"		"#*dms\tension1\journey_tension.ogg"
+		"wave"		"#*dms\tension1\quick_uneasy.ogg"
+		"wave"		"#*music\tension2.wav"
+		"wave"		"#*dms\tension1\street_tension_2.ogg"
+		"wave"		"#*dms\tension1\tension_bway1.ogg"
+		"wave"		"#*dms\tension1\tension_bway2.ogg"
+		"wave"		"#*dms\tension1\urgencytension1.ogg"
+		"wave"		"#*dms\tension1\streets_02_builtup.ogg"
+	}
+}
+
+"drugstore.tension_2"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.9"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms\tension1\brooklyntension1.ogg"
+		"wave"		"#*dms\tension1\cleopastension1.ogg"
+		"wave"		"#*dms\tension1\tension_bway2.ogg"
+		"wave"		"#*dms/tension2/tension3_21101_v2.ogg"
+		"wave"		"#*dms\tension2\cleopastension2.ogg"
+		"wave"		"#*dms\tension2\urgencytension2.ogg"
+		"wave"		"#*dms\tension2\urgencytension3.ogg"
+		"wave"		"#*dms/tension2/tfgtension2fx.ogg"
+		"wave"	    	"#*dms/tension1/urgencytension1.ogg"
+		"wave"		"#*dms/tension2/tfgtension2fx.ogg"
+		"wave"		"#*dms\songs\re_fallen_city.ogg"
+
+	}
+}
+
+"drugstore.tension_3"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.9"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave" 		"#*dms\evac\enter_the_hive.ogg"
+		"wave" 		"#*dms\evac\urgencyevac.ogg"
+		"wave" 		"#*dms\evac\tofreedom.ogg"
+		"wave" 		"#*dms\evac\hittheexits.ogg"
+		"wave" 		"#*dms\songs\empty - intense version.ogg"
+		"wave" 		"#*dms\evac\tftguevac.ogg"
+		"wave"		"#*dms\tension1\brooklyntension1.ogg"
+		"wave"		"#*dms\tension1\cleopastension1.ogg"
+		"wave"		"#*dms\tension1\tension_bway2.ogg"
+		"wave"		"#*dms/tension2/tension3_21101_v2.ogg"
+		"wave"		"#*dms\tension2\cleopastension2.ogg"
+		"wave"		"#*dms\tension2\urgencytension2.ogg"
+		"wave"		"#*dms\tension2\urgencytension3.ogg"
+		"wave"	    	"#*dms/tension1/urgencytension1.ogg"
+
+	}
+}
+
+"drugstore.pursuit"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*music/action1.wav"
+		"wave"		"#*dms/evac/time_to_run_and_gun.ogg"
+		"wave"		"#*dms/tension2/better_to_run.ogg"
+		"wave"		"#*dms/tension1/drive.ogg"
+		"wave"		"#*dms/tension2/make_your_move.ogg"
+		"wave"   	"#*dms/evac/do_you_know_where_your_zombies_are.ogg"
+		"wave"   	"#*dms/evac/driveevac.ogg"
+		"wave"		"#*dms/evac/time_to_run_and_gun.ogg"
+	}
+}
+
+"drugstore.attack"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*music/action1.wav"
+		"wave"		"#*survival/surv_wave03.wav"
+		"wave"		"#*dms/evac/time_to_run_and_gun.ogg"
+		"wave"		"#*dms/tension1/drive.ogg"
+		"wave"		"#*dms/tension2/moving_shadows.ogg"
+		"wave"		"#*dms/tension2/street_tension.ogg"
+		"wave"		"#*dms/tension2/caustic_reverie_20601.ogg"
+		"wave"		"#*dms/tension2/tension2_22701.ogg"
+		"wave"		"#*dms/tension2/tension3_21101_v2.ogg"
+		"wave"		"#*dms/tension2/better_to_run.ogg"
+		"wave"		"#*dms/tension2/make_your_move.ogg"
+	}
+}
+
+"drugstore.custom"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"#*dms\spawn\brooklyn.ogg"
+	}
+}

@@ -1,0 +1,85 @@
+//************
+// Glock17
+//************
+
+"Weapon_Glock17.Fire1"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"		"95,100"
+
+	"rndwave"
+	{
+		"wave"		")weapons/firearms/hndg_glock17/glock_fire_01.wav"
+	}
+}
+
+"Weapon_Glock17.MagazineIn"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"		")weapons/firearms/hndg_glock17/glock17_MagazineIn.wav"
+}
+
+"Weapon_glock17.MagazineOut"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"		")weapons/firearms/hndg_glock17/glock17_MagazineOut.wav"
+}
+
+"Weapon_glock17.DryFire"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"		")weapons/firearms/hndg_glock17/glock17_DryFire.wav"
+}
+
+"Weapon_glock17.GenericFoley"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.3"
+	"soundlevel"	"SNDLVL_30dB"
+
+	"rndwave"
+	{
+		"wave"		")weapons/firearms/hndg_glock17/glock17_genericfoley1.wav"
+		"wave"		")weapons/firearms/hndg_glock17/glock17_genericfoley2.wav"
+		"wave"		")weapons/firearms/hndg_glock17/glock17_genericfoley3.wav"
+	}
+}
+
+"Weapon_glock17.SlidePull"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.2,0.4"
+	"pitch"         "95,105"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"		")weapons/firearms/hndg_glock17/glock17_SlidePull.wav"
+}
+
+"Weapon_glock17.SlideLock"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"		")weapons/firearms/hndg_glock17/glock17_SlideLock.wav"
+}
+
+"Weapon_glock17.SlideRelease"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"		")weapons/firearms/hndg_glock17/glock17_SlideRelease.wav"
+}

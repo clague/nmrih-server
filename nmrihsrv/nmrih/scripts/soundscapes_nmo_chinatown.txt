@@ -1,0 +1,302 @@
+//****************************************************************************
+// NO MORE ROOM IN HELL
+// Soundscapes for 'Chinatown'
+//
+//****************************************************************************
+//
+//****************************************
+// Ambient Setups
+//****************************************
+
+//****************************************
+// Subway
+//****************************************
+
+"chinatown.subway"
+{
+	"dsp"	"22"
+
+	"playlooping"
+	{
+		"volume"		"0.8"
+		"pitch"			"100"
+		"wave"			"ambient/chinatown/subway.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"         "10, 20"
+		"volume"       "0.8, 1"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient/chinatown/subway_pass1.wav"
+			"wave"	"ambient/chinatown/subway_pass2.wav"
+		}
+	}
+}
+
+//****************************************
+// Outside
+//****************************************
+
+"chinatown.streets"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.7"
+		"pitch"			"100"
+		"wave"			"ambient/chinatown/outside.wav"
+	}
+	
+	"playlooping"		//zombie moaning
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"wave"			"ambient/zombies/distant_horde_loop.wav"
+	}
+	
+	"playrandom"
+	{
+		"time" 	        "8, 20"
+		"volume"       "0.2, 0.5"
+		"pitch"	       "85, 100"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"	"ambient/chinatown/distant_fire1.wav"
+			"wave"	"ambient/chinatown/distant_fire2.wav"
+			"wave"	"ambient/chinatown/distant_fire3.wav"
+			"wave"	"ambient/chinatown/distant_fire4.wav"
+			"wave"	"ambient/chinatown/distant_fire5.wav"
+		}
+	}
+	
+	"playrandom"		//dogs barking
+	{
+		"time" 	        "14, 28"
+		"volume"       "0.8, 1"
+		"pitch"	       "85, 100"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"	"ambient/background/dist_dog1.wav"
+			"wave"	"ambient/background/dist_dog2.wav"
+			"wave"	"ambient/background/dist_dog3.wav"
+			"wave"	"ambient/background/dist_dog4.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"       	"15, 20"
+		"volume"       "0.4, 0.6"
+		"pitch"	       "85, 100"
+		"rndwave"
+		{
+			"wave"	"ambient/chinatown/outside_noise1.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"       	"20, 50"
+		"volume"       "0.5, 1.0"
+		"pitch"	       	"90, 100"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"	"ambient/background/heli1.wav"
+		}
+	}
+}
+
+//****************************************
+// Inside
+//****************************************
+
+"chinatown.generic"
+{
+	"dsp"	"1"
+	
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"wave"			"ambient/chinatown/subway.wav"
+	}
+		
+	"playlooping"
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"wave"			"ambient/chinatown/outside.wav"
+	}
+	
+	"playrandom"
+	{
+		"time" 	        "8, 20"
+		"volume"       "0.2, 0.3"
+		"pitch"	       "85, 100"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"	"ambient/chinatown/distant_fire1.wav"
+			"wave"	"ambient/chinatown/distant_fire2.wav"
+			"wave"	"ambient/chinatown/distant_fire3.wav"
+			"wave"	"ambient/chinatown/distant_fire4.wav"
+			"wave"	"ambient/chinatown/distant_fire5.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"       	"15, 20"
+		"volume"       "0.3, 0.4"
+		"pitch"	       "85, 100"
+		"rndwave"
+		{
+			"wave"	"ambient/chinatown/outside_noise1.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"       	"20, 50"
+		"volume"       "0.5, 0.6"
+		"pitch"	       	"90, 100"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"	"ambient/background/heli1.wav"
+		}
+	}
+}
+
+//****************************************
+// Sewers
+//****************************************
+
+"chinatown.sewers"
+{
+	"dsp"	"20"
+
+	"playlooping"
+	{
+		"volume"		"0.9"
+		"pitch"			"100"
+		"wave"			"ambient/chinatown/subway.wav"
+	}
+	
+	"playlooping"		//dripping water
+	{
+		"volume"		"0.4"
+		"pitch"			"100"
+		"wave"			"ambient/water/drip_loop1.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		"0.7"
+		"pitch"			"100"
+		"wave"			"ambient/chinatown/sewers.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"			"10, 20"
+		"volume"		"0.4,0.6"
+		"pitch"			"100"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/rats1.wav"
+			"wave"	"ambient/creatures/rats2.wav"
+			"wave"	"ambient/creatures/rats3.wav"
+			"wave"	"ambient/creatures/rats4.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"         "10, 20"
+		"volume"       "0.4, 0.6"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient/chinatown/subway_pass1.wav"
+			"wave"	"ambient/chinatown/subway_pass2.wav"
+		}
+	}
+}
+
+//****************************************
+// Docks
+//****************************************
+
+"chinatown.docks"
+{
+	"dsp"	"1"
+	
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"			"100"
+		"wave"			"ambient/chinatown/docs.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		"0.45"
+		"pitch"			"100"
+		"wave"			"ambient/chinatown/docs_wind.wav"
+	}
+	
+	"playlooping"		//zombie moaning
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"wave"			"ambient/zombies/distant_horde_loop.wav"
+	}
+	
+	"playrandom"
+	{
+		"time" 	        "8, 20"
+		"volume"       "0.2, 0.5"
+		"pitch"	       "85, 100"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"	"ambient/chinatown/distant_fire1.wav"
+			"wave"	"ambient/chinatown/distant_fire2.wav"
+			"wave"	"ambient/chinatown/distant_fire3.wav"
+			"wave"	"ambient/chinatown/distant_fire4.wav"
+			"wave"	"ambient/chinatown/distant_fire5.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"       	"15, 20"
+		"volume"       "0.4, 0.8"
+		"pitch"	       "85, 100"
+		"rndwave"
+		{
+			"wave"	"ambient/chinatown/outside_noise1.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"       	"20, 50"
+		"volume"       "0.5, 1.0"
+		"pitch"	       	"90, 100"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"	"ambient/background/heli1.wav"
+		}
+	}
+}

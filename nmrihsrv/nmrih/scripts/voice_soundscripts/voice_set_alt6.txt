@@ -1,0 +1,1063 @@
+// **************************************************************
+// Common sounds
+
+"Death.Alt6"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/pain/pain1.wav"
+		"wave"		"player/pain/pain2.wav"
+        "wave"		"player/pain/pain3.wav"
+	}
+}
+
+"Pain.Alt6"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/pain/pain1.wav"
+		"wave"		"player/pain/pain2.wav"
+        "wave"		"player/pain/pain3.wav"
+	}
+}
+
+"Bleedout_Damage.Alt6"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/bleed/Bleeding01.wav"
+		"wave"		"player/bleed/Bleeding02.wav"
+		"wave"		"player/bleed/Bleeding03.wav"
+		"wave"		"player/bleed/Bleeding04.wav"
+		"wave"		"player/bleed/Bleeding05.wav"
+		"wave"		"player/bleed/Bleeding06.wav"
+		"wave"		"player/bleed/Bleeding07.wav"
+		"wave"		"player/bleed/Bleeding08.wav"
+		"wave"		"player/bleed/Bleeding09.wav"
+	}
+}
+
+"Drown_Damage.Alt6"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/pl_drown2.wav"
+		"wave"		"player/pl_drown3.wav"
+	}
+}
+
+"LightBreath.Alt6"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_30dB"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"rndwave"
+	{
+		"wave"		"player/stamina/light_breath.wav"
+	}
+}
+
+"MediumBreath.Alt6"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_40dB"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"rndwave"
+	{
+		"wave"		"player/stamina/medium_breath1.wav"
+	}
+}
+
+"HeavyBreath.Alt6"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"rndwave"
+	{
+		"wave"		"player/stamina/heavy_breath1.wav"
+		"wave"		"player/stamina/heavy_breath2.wav"
+		"wave"		"player/stamina/heavy_breath3.wav"
+	}
+}
+
+// **************************************************************
+// Ammo check sounds
+
+"AmmoCheck.Alt6.0"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/00Rounds_01.wav"
+		"wave"		"player/ammocheck/jamesr/00Rounds_02.wav"
+	}
+}
+
+"AmmoCheck.Alt6.1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/01Rounds_01.wav"
+		"wave"		"player/ammocheck/jamesr/01Rounds_02.wav"
+	}
+}
+
+"AmmoCheck.Alt6.2"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/02Rounds_01.wav"
+		"wave"		"player/ammocheck/jamesr/02Rounds_02.wav"
+	}
+}
+
+"AmmoCheck.Alt6.3"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/03Rounds_01.wav"
+		"wave"		"player/ammocheck/jamesr/03Rounds_02.wav"
+	}
+}
+
+"AmmoCheck.Alt6.4"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/04Rounds_01.wav"
+		"wave"		"player/ammocheck/jamesr/04Rounds_02.wav"
+	}
+}
+
+"AmmoCheck.Alt6.5"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/05Rounds_01.wav"
+		"wave"		"player/ammocheck/jamesr/05Rounds_02.wav"
+	}
+}
+
+"AmmoCheck.Alt6.6"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/06Rounds_01.wav"
+		"wave"		"player/ammocheck/jamesr/06Rounds_02.wav"
+	}
+}
+
+"AmmoCheck.Alt6.7"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/07Rounds_01.wav"
+		"wave"		"player/ammocheck/jamesr/07Rounds_02.wav"
+	}
+}
+
+"AmmoCheck.Alt6.8"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/08Rounds_01.wav"
+		"wave"		"player/ammocheck/jamesr/08Rounds_02.wav"
+	}
+}
+
+"AmmoCheck.Alt6.9"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/09Rounds_01.wav"
+		"wave"		"player/ammocheck/jamesr/09Rounds_02.wav"
+	}
+}
+
+"AmmoCheck.Alt6.10"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/10Rounds_01.wav"
+		"wave"		"player/ammocheck/jamesr/10Rounds_02.wav"
+	}
+}
+
+"AmmoCheck.Alt6.11"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/11Rounds_01.wav"
+		"wave"		"player/ammocheck/jamesr/11Rounds_02.wav"
+	}
+}
+
+"AmmoCheck.Alt6.12"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/12Rounds_01.wav"
+		"wave"		"player/ammocheck/jamesr/12Rounds_02.wav"
+	}
+}
+
+"AmmoCheck.Alt6.13"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/13Rounds_01.wav"
+		"wave"		"player/ammocheck/jamesr/13Rounds_02.wav"
+	}
+}
+
+"AmmoCheck.Alt6.14"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/14Rounds_01.wav"
+		"wave"		"player/ammocheck/jamesr/14Rounds_02.wav"
+	}
+}
+
+"AmmoCheck.Alt6.15"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/15Rounds_01.wav"
+		"wave"		"player/ammocheck/jamesr/15Rounds_02.wav"
+	}
+}
+
+"AmmoCheck.Alt6.Half"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/rounds_abouthalf_01.wav"
+		"wave"		"player/ammocheck/jamesr/rounds_abouthalf_02.wav"
+		"wave"		"player/ammocheck/jamesr/rounds_abouthalf_03.wav"
+	}
+}
+
+"AmmoCheck.Alt6.OverHalf"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/rounds_overhalf_01.wav"
+		"wave"		"player/ammocheck/jamesr/rounds_overhalf_02.wav"
+		"wave"		"player/ammocheck/jamesr/rounds_overhalf_03.wav"
+	}
+}
+
+"AmmoCheck.Alt6.AlmostFull"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/rounds_almostfull_01.wav"
+		"wave"		"player/ammocheck/jamesr/rounds_almostfull_02.wav"
+		"wave"		"player/ammocheck/jamesr/rounds_almostfull_03.wav"
+	}
+}
+
+"AmmoCheck.Alt6.Full"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/jamesr/rounds_full_01.wav"
+		"wave"		"player/ammocheck/jamesr/rounds_full_02.wav"
+		"wave"		"player/ammocheck/jamesr/rounds_full_03.wav"
+	}
+}
+
+// **************************************************************
+// Reload sounds
+// 'X Loads Remaining'
+
+"Reload.Alt6.Load0"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/00loads_01.wav"
+	}
+}
+
+"Reload.Alt6.Load1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/01loads_01.wav"
+	}
+}
+
+"Reload.Alt6.Load2"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/02loads_01.wav"
+	}
+}
+
+"Reload.Alt6.Load3"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/03loads_01.wav"
+	}
+}
+
+"Reload.Alt6.Load4"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/04loads_01.wav"
+	}
+}
+
+"Reload.Alt6.Load5"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/05loads_01.wav"
+	}
+}
+
+"Reload.Alt6.Load6"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/06loads_01.wav"
+	}
+}
+
+"Reload.Alt6.Load7"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/07loads_01.wav"
+	}
+}
+
+"Reload.Alt6.Load8"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/08loads_01.wav"
+	}
+}
+
+"Reload.Alt6.Load9"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/09loads_01.wav"
+	}
+}
+
+"Reload.Alt6.Load10"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/10loads_01.wav"
+	}
+}
+
+"Reload.Alt6.Load11"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/11loads_01.wav"
+	}
+}
+
+"Reload.Alt6.Load12"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/12loads_01.wav"
+	}
+}
+
+"Reload.Alt6.Load13"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/13loads_01.wav"
+	}
+}
+
+"Reload.Alt6.Load14"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/14loads_01.wav"
+	}
+}
+
+"Reload.Alt6.Load15"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/15loads_01.wav"
+	}
+}
+
+"Reload.Alt6.PlentyLoad"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/plenty_loads_01.wav"
+		"wave"	")player/reload/jamesr/plenty_loads_02.wav"
+	}
+}
+
+// **************************************************************
+// Reload Sounds
+// 'X Magazines Remaining'
+
+"Reload.Alt6.Mag0"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/00mags_01.wav"
+
+	}
+}
+
+"Reload.Alt6.Mag1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/01mags_01.wav"
+
+	}
+}
+
+
+"Reload.Alt6.Mag2"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/02mags_01.wav"
+
+	}
+}
+
+
+"Reload.Alt6.Mag3"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/03mags_01.wav"
+
+	}
+}
+
+
+"Reload.Alt6.Mag4"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/04mags_01.wav"
+
+	}
+}
+
+"Reload.Alt6.Mag5"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/05mags_01.wav"
+
+	}
+}
+
+
+"Reload.Alt6.Mag6"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/06mags_01.wav"
+
+	}
+}
+
+
+"Reload.Alt6.Mag7"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/07mags_01.wav"
+
+	}
+}
+
+
+"Reload.Alt6.Mag8"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/08mags_01.wav"
+
+	}
+}
+
+"Reload.Alt6.Mag9"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/09mags_01.wav"
+
+	}
+}
+
+
+"Reload.Alt6.Mag10"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/10mags_01.wav"
+
+	}
+}
+
+"Reload.Alt6.Mag11"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/11mags_01.wav"
+
+	}
+}
+
+"Reload.Alt6.Mag12"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/12mags_01.wav"
+
+	}
+}
+
+"Reload.Alt6.Mag13"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/13mags_01.wav"
+
+	}
+}
+
+"Reload.Alt6.Mag14"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/14mags_01.wav"
+
+	}
+}
+
+"Reload.Alt6.Mag15"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/15mags_01.wav"
+
+	}
+}
+
+"Reload.Alt6.PlentyMag"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/jamesr/plenty_mags_01.wav"
+		"wave"	")player/reload/jamesr/plenty_mags_02.wav"
+
+	}
+}
+
+// *********************************************************
+// Voice commands
+"VoiceCommand.Alt6.Ammo"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\jamesr\needammo_01.wav"
+		"wave"		")voice\command\jamesr\needammo_02.wav"
+		"wave"		")voice\command\jamesr\needammo_03.wav"
+		"wave"		")voice\command\jamesr\needammo_04.wav"
+		"wave"		")voice\command\jamesr\needammo_05.wav"
+	}
+}
+
+"VoiceCommand.Alt6.Follow"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\jamesr\followme_01.wav"
+		"wave"		")voice\command\jamesr\followme_02.wav"
+		"wave"		")voice\command\jamesr\followme_03.wav"
+		"wave"		")voice\command\jamesr\followme_04.wav"
+		"wave"		")voice\command\jamesr\followme_05.wav"
+	}
+}
+
+"VoiceCommand.Alt6.Help"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\jamesr\helpme_01.wav"
+		"wave"		")voice\command\jamesr\helpme_02.wav"
+		"wave"		")voice\command\jamesr\helpme_03.wav"
+		"wave"		")voice\command\jamesr\helpme_04.wav"
+		"wave"		")voice\command\jamesr\helpme_05.wav"
+	}
+}
+
+"VoiceCommand.Alt6.No"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\jamesr\no_01.wav"
+		"wave"		")voice\command\jamesr\no_02.wav"
+		"wave"		")voice\command\jamesr\no_03.wav"
+		"wave"		")voice\command\jamesr\no_04.wav"
+		"wave"		")voice\command\jamesr\no_05.wav"
+	}
+}
+
+"VoiceCommand.Alt6.Stay"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\jamesr\waithere_01.wav"
+		"wave"		")voice\command\jamesr\waithere_02.wav"
+		"wave"		")voice\command\jamesr\waithere_03.wav"
+		"wave"		")voice\command\jamesr\waithere_04.wav"
+		"wave"		")voice\command\jamesr\waithere_05.wav"
+	}
+}
+
+"VoiceCommand.Alt6.ThankYou"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\jamesr\thankyou_01.wav"
+		"wave"		")voice\command\jamesr\thankyou_02.wav"
+		"wave"		")voice\command\jamesr\thankyou_03.wav"
+		"wave"		")voice\command\jamesr\thankyou_04.wav"
+		"wave"		")voice\command\jamesr\thankyou_05.wav"
+	}
+}
+
+"VoiceCommand.Alt6.Yes"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\jamesr\yes_01.wav"
+		"wave"		")voice\command\jamesr\yes_02.wav"
+		"wave"		")voice\command\jamesr\yes_03.wav"
+		"wave"		")voice\command\jamesr\yes_04.wav"
+		"wave"		")voice\command\jamesr\yes_05.wav"
+	}
+}
+
+"VoiceCommand.Alt6.Injured"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\jamesr\injured_01.wav"
+		"wave"		")voice\command\jamesr\injured_02.wav"
+		"wave"		")voice\command\jamesr\injured_03.wav"
+		"wave"		")voice\command\jamesr\injured_04.wav"
+		"wave"		")voice\command\jamesr\injured_05.wav"
+	}
+}
+
+"VoiceCommand.Alt6.Incoming"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\jamesr\incoming_01.wav"
+		"wave"		")voice\command\jamesr\incoming_02.wav"
+		"wave"		")voice\command\jamesr\incoming_03.wav"
+		"wave"		")voice\command\jamesr\incoming_04.wav"
+		"wave"		")voice\command\jamesr\incoming_05.wav"
+	}
+}
+
+"VoiceCommand.Alt6.FireInTheHole"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\jamesr\grenade_01.wav"
+		"wave"		")voice\command\jamesr\grenade_02.wav"
+		"wave"		")voice\command\jamesr\grenade_03.wav"
+		"wave"		")voice\command\jamesr\grenade_04.wav"
+		"wave"		")voice\command\jamesr\grenade_05.wav"
+	}
+}
+
+"VoiceCommand.Alt6.Taunt"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\jamesr\taunt_01.wav"
+		"wave"		")voice\command\jamesr\taunt_02.wav"
+		"wave"		")voice\command\jamesr\taunt_03.wav"
+		"wave"		")voice\command\jamesr\taunt_04.wav"
+		"wave"		")voice\command\jamesr\taunt_05.wav"
+		"wave"		")voice\command\jamesr\taunt_06.wav"
+		"wave"		")voice\command\jamesr\taunt_07.wav"
+		"wave"		")voice\command\jamesr\taunt_08.wav"
+	}
+}

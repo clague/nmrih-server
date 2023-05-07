@@ -1,0 +1,17 @@
+"MenuBackgrounds"
+{
+	"FadeOutTime"	"1.5"
+	"FadeInTime"	"1.5"
+	"CrossFadeTime"	"3.0"
+	"Cycle"			"0" 	// Cycle through backgrounds randomly, overrides user setting!
+	"CycleInterval"	"6.0" 	// Interval for changing the background, in seconds
+
+	"Images"
+	{
+		// NOTE: For backwards compatibility with modded backgrounds,
+		// index 0 should always be "console/background01"!!
+		"0"	"console/background01"		// Anniversary (v.1.12) [Default]
+		"1"	"console/background_1007"	// Greenlit (v.1.07)
+		"2"	"console/background_1100"	// Rebirth (v.1.10)
+	}
+}

@@ -1,0 +1,72 @@
+// 29: subway_escape - Escape the subway!
+// 28: gate_fix - Find fuel for generator to open the gate!
+// 36: ladder_dismount - Release the ladder on the roadblock!
+// 35: sewer_way - Find your way through the sewers!
+// 26: welder - Use welder on the gate's lock to open it!
+// 34: docks_finale - Power up the radio and call for rescue!
+
+"Challenges"
+{
+	"nmo_chinatown_challenge_1"
+	{
+		"Name"	"Cutting Corners"
+		"Description" "Make your way through the map using shortcuts."
+		"Objectives"
+		{
+			"0" "29"
+			"1"	"28"
+			"2"	"36"
+			"3"	"35"
+			"4"	"26"
+			"5"	"34"
+		}
+
+		"MapHack"
+		{
+			"includes"
+			{
+				"file"	"maps/maphacks/challenges/nmo_chinatown_challenge_1.txt"
+			}
+		}
+	}
+	
+	"nmo_chinatown_blitz_1"
+	{
+		"Name"	"Blitz: Rush Hour"
+		"Description" "In Blitz mode, gain more time by completing objectives!"
+		"Blitz"	"1"
+		"Objectives"
+		{
+			"0" "29"
+			"1"	"28"
+			"2"	"36"
+			"3"	"35"
+			"4"	"26"
+			"5"	"34"
+		}
+		
+		"BlitzParams"
+		{
+			"InitialTime"	"90" // Start at 1:30 minutes
+			
+			// Objective timer additions
+			"DefaultObjAdd" "30" // By default, add 30s
+			"ObjectiveTimerAdd"
+			{
+				"28"	"90"
+				"36"	"90"
+				"35"	"60"
+				"26"	"120"
+				"34"	"0"
+			}
+		}
+
+		"MapHack"
+		{
+			"includes"
+			{
+				"file"	"maps/maphacks/challenges/nmo_chinatown_blitz_1.txt"
+			}
+		}
+	}
+}

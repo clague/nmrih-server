@@ -1,0 +1,31 @@
+"Phrases"
+{
+	"Complete"
+	{
+		"#format"	"{1:s},{2:s},{3:d},{4:d},{5:d}"
+		"en"		"{aqua} {1}{white} finished in{green} {2}{white} with{red} {3}{white} deaths and{red} {4}{white} kills ({deeppink} {5}{white} completions)"
+		"chi"		"{aqua} {1}{white} 在{green} {2}{white} 时间内以{red} {3}{white} 次死亡、{red} {4}{white} 次击杀撤离！(通关{deeppink}{5}{white} 次)"
+	}
+	"Chat"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:d},{5:d}"
+		"en"		"{aqua}{1}{default} hold {green}{2}{default} in {yellow}{3}{default} with {red}{4}{default} deaths and {red}{5}{default} kills."
+	}
+	"NoRecords"
+	{
+		"en"		"No records found."
+		"chi"		"没有任何记录."
+	}
+	"Top"
+	{
+		"#format"	"{1:s},{2:s},{3:d},{4:d},{5:d}"
+		"en"		"{1} - {2} - {3} Deaths - {4} Kills ({5} Total Times)"
+		"chi"		"{1} - {2} - {3} 死 - {4} 杀 (通关 {5} 次)"
+	}
+	"Map"
+	{
+		"#format"	"{1:s}"
+		"en"		"Records for {1}:"
+		"chi"		"{1} 的记录："
+	}
+}

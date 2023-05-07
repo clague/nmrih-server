@@ -1,0 +1,89 @@
+//************
+// Sledge Hammer
+//************
+
+"Weapon_Sledge.Draw"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+	"pitch"		"98,100"
+	"rndwave"
+	{
+		"wave"		")player/weapon_draw_01.wav"
+		"wave"		")player/weapon_draw_02.wav"
+		"wave"		")player/weapon_draw_03.wav"
+		"wave"		")player/weapon_draw_04.wav"
+		"wave"		")player/weapon_draw_05.wav"
+	}
+}
+
+"Weapon_Sledge.Holster"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+	"pitch"		"98,100"
+	"rndwave"
+	{
+		"wave"		")player/weapon_holster_01.wav"
+		"wave"		")player/weapon_holster_02.wav"
+		"wave"		")player/weapon_holster_03.wav"
+		"wave"		")player/weapon_holster_04.wav"
+		"wave"		")player/weapon_holster_05.wav"
+	}
+}
+
+"Weapon_Sledge.Swing"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_85dB"
+	"volume"	"1.0"
+	"pitch"         "95,100"
+	"rndwave"
+	{
+		"wave"		")weapons/melee/swing_heavy_blunt_01.wav"
+		"wave"		")weapons/melee/swing_heavy_blunt_02.wav"
+		"wave"		")weapons/melee/swing_heavy_blunt_03.wav"
+	}
+}
+
+"Weapon_Sledge.Shove"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_85dB"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		")player/shove_01.wav"
+		"wave"		")player/shove_02.wav"
+		"wave"		")player/shove_03.wav"
+		"wave"		")player/shove_04.wav"
+		"wave"		")player/shove_05.wav"
+	}
+}
+
+"Weapon_Sledge.HitFlesh"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		")weapons/melee/sledge/sledge_hit1.wav"
+		"wave"		")weapons/melee/sledge/sledge_hit2.wav"
+		"wave"		")weapons/melee/sledge/sledge_hit3.wav"
+	}
+}
+
+"Weapon_Sledge.HitWorld"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		")weapons/bat/Woodbat_hitworld1.wav"
+		"wave"		")weapons/bat/Woodbat_hitworld2.wav"
+	}
+}

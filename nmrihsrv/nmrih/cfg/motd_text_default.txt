@@ -1,0 +1,26 @@
+Welcome to NO MORE ROOM IN HELL
+
+For New Players:
+
+- We have a MANUAL! Open up your MAIN MENU and click on the PLAYER'S SURVIVAL GUIDE icon to access it!
+
+- Remember to check your COMPASS for objectives! Hit "C" by default.
+
+- Remember, you can CHECK AMMO by holding the RELOAD key! Hold "R" by default.
+
+- You can view your INVENTORY and EQUIP WEAPONS by opening the INVENTORY radial by holding "1" by default.
+
+- You can SHARE AMMO with other players by opening the AMMO radial by holding "2" by default!
+
+- Don't forget, you can use VOICE COMMANDS to communicate with your team! Open the VOICE COMMAND radial by holding "3" by default.
+
+- You are INFECTED if you see veins growing around the border of your screen, and your hearing/vision is growing faint.
+
+- You are BLEEDING if your character is grunting, there's a BLEEDING flash on your border, and there's a trail of blood coming out of your body. You cannot SPRINT if you are BLEEDING.
+- You are at LOW HEALTH if your screen starts to lose color.
+
+- If you find them, you can use PHALANX pills to stem off infection for a few minutes! EQUIP them through the INVENTORY, and then LEFT CLICK.
+
+- If you are BLEEDING you can find BANDAGES to stop it. EQUIP them through the INVENTORY, and then LEFT CLICK. FIRST AID KITS can stop BLEEDING as well. You can also stop BLEEDING by fully healing yourself with a FIRST AID STATION.
+
+- If you are at LOW HEALTH, you can use FIRST AID KITS to heal yourself. EQUIP them through the INVENTORY, and then LEFT CLICK.

@@ -1,0 +1,59 @@
+//************
+// Abrasive Saw
+//************
+
+"Weapon_AbrasiveSaw.IdleLoop"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_105"
+	"wave"		")weapons/melee/circular_saw/circular_saw_idle_01.wav"
+}
+
+"Weapon_AbrasiveSaw.SawLoop"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_135dB"
+	"wave"		")weapons/melee/circular_saw/circular_saw_fast_01.wav"
+}
+
+"Weapon_AbrasiveSaw.IdleToSaw"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_95dB"
+	"wave"		")weapons/melee/circular_saw/circular_saw_idle_to_fast_01.wav"
+}
+
+"Weapon_AbrasiveSaw.SawToIdle"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_95dB"
+	"wave"		")weapons/melee/circular_saw/circular_saw_fast_to_idle_01.wav"
+}
+
+"Weapon_AbrasiveSaw.Off"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"		")weapons/melee/circular_saw/circular_saw_shut_off_01.wav"
+}
+
+"Weapon_AbrasiveSaw.StartupFailed"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"		")weapons/melee/circular_saw/circular_saw_start_fail_01.wav"
+}
+
+"Weapon_AbrasiveSaw.StartupSuccess"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"		")weapons/melee/circular_saw/circular_saw_start_success_01.wav"
+}

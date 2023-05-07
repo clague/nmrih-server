@@ -1,0 +1,122 @@
+"npc_nmrih_shamblerzombie"
+{
+	"models/nmr_zombie/berny.mdl"
+	{
+		"male"	"1"
+		"alert"		"Zombie.Alert"
+		"attack"	"Zombie.Attack"
+		"attackhit"	"Zombie.AttackHit"
+		"attackmiss"	"Zombie.AttackMiss"
+		"clawhit"	"Zombie.ClawHit"
+		"chomp"		"Zombie.Chomp"
+		"die"		"Zombie.Die"
+		"idle"		"Zombie.Idle"
+		"moan"		"Zombie.Moan1"
+		"pain"		"Zombie.Pain"
+	}
+
+	"models/nmr_zombie/herby.mdl"
+	{
+		"male"	"1"
+		"alert"		"Zombie.Alert"
+		"attack"	"Zombie.Attack"
+		"attackhit"	"Zombie.AttackHit"
+		"attackmiss"	"Zombie.AttackMiss"
+		"clawhit"	"Zombie.ClawHit"
+		"chomp"		"Zombie.Chomp"
+		"die"		"Zombie.Die"
+		"idle"		"Zombie.Idle"
+		"moan"		"Zombie.Moan1"
+		"pain"		"Zombie.Pain"
+	}
+
+	"models/nmr_zombie/toby.mdl"
+	{
+		"male"	"1"
+		"alert"		"Zombie.Alert"
+		"attack"	"Zombie.Attack"
+		"attackhit"	"Zombie.AttackHit"
+		"attackmiss"	"Zombie.AttackMiss"
+		"clawhit"	"Zombie.ClawHit"
+		"chomp"		"Zombie.Chomp"
+		"die"		"Zombie.Die"
+		"idle"		"Zombie.Idle"
+		"moan"		"Zombie.Moan1"
+		"pain"		"Zombie.Pain"
+	}
+
+	"models/nmr_zombie/julie.mdl"
+	{
+		"male"	"0"
+		"alert"		"NPC_NMR_ZombieFem.Alert"
+		"attack"	"Zombie.Attack"
+		"attackhit"	"Zombie.AttackHit"
+		"attackmiss"	"Zombie.AttackMiss"
+		"clawhit"	"Zombie.ClawHit"
+		"chomp"		"Zombie.Chomp"
+		"die"		"Zombie.Die"
+		"idle"		"NPC_NMR_ZombieFem.Idle"
+		"moan"		"Zombie.Moan1"
+		"pain"		"NPC_NMR_ZombieFem.Pain"
+	}
+
+	"models/nmr_zombie/jogger.mdl"
+	{
+		"male"	"1"
+		"alert"		"Zombie.Alert"
+		"attack"	"Zombie.Attack"
+		"attackhit"	"Zombie.AttackHit"
+		"attackmiss"	"Zombie.AttackMiss"
+		"clawhit"	"Zombie.ClawHit"
+		"chomp"		"Zombie.Chomp"
+		"die"		"Zombie.Die"
+		"idle"		"Zombie.Idle"
+		"moan"		"Zombie.Moan1"
+		"pain"		"Zombie.Pain"
+	}
+
+	"models/nmr_zombie/casual_02.mdl"
+	{
+		"male"	"1"
+		"alert"		"Zombie.Alert"
+		"attack"	"Zombie.Attack"
+		"attackhit"	"Zombie.AttackHit"
+		"attackmiss"	"Zombie.AttackMiss"
+		"clawhit"	"Zombie.ClawHit"
+		"chomp"		"Zombie.Chomp"
+		"die"		"Zombie.Die"
+		"idle"		"Zombie.Idle"
+		"moan"		"Zombie.Moan1"
+		"pain"		"Zombie.Pain"
+	}
+
+	"models/nmr_zombie/maxx.mdl"
+	{
+		"male"	"1"
+		"alert"		"Zombie.Alert"
+		"attack"	"Zombie.Attack"
+		"attackhit"	"Zombie.AttackHit"
+		"attackmiss"	"Zombie.AttackMiss"
+		"clawhit"	"Zombie.ClawHit"
+		"chomp"		"Zombie.Chomp"
+		"die"		"Zombie.Die"
+		"idle"		"Zombie.Idle"
+		"moan"		"Zombie.Moan1"
+		"pain"		"Zombie.Pain"
+	}
+
+	"models/nmr_zombie/officezom.mdl"
+	{
+		"male"	"1"
+		"alert"		"Zombie.Alert"
+		"attack"	"Zombie.Attack"
+		"attackhit"	"Zombie.AttackHit"
+		"attackmiss"	"Zombie.AttackMiss"
+		"clawhit"	"Zombie.ClawHit"
+		"chomp"		"Zombie.Chomp"
+		"die"		"Zombie.Die"
+		"idle"		"Zombie.Idle"
+		"moan"		"Zombie.Moan1"
+		"pain"		"Zombie.Pain"
+	}
+}

@@ -1,0 +1,31 @@
+//************
+// Flashlight
+//************
+
+"Weapon_Flashlight.On"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+	"pitch"		"97,98"
+
+	"rndwave"
+	{
+		"wave"	")weapons/tools/flashlight/flashlight_on1.wav"
+		"wave"	")weapons/tools/flashlight/flashlight_on2.wav"
+	}
+}
+
+"Weapon_Flashlight.Off"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+	"pitch"		"97,98"
+
+	"rndwave"
+	{
+		"wave"	")weapons/tools/flashlight/flashlight_off1.wav"
+		"wave"	")weapons/tools/flashlight/flashlight_off2.wav"
+	}
+}

@@ -1,0 +1,6 @@
+*.so
+*.vpk
+bin/
+workshop/
+*.bsp
+logs/

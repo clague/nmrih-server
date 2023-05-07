@@ -1,0 +1,130 @@
+// 24: objA - Break gate lock
+// 25: objB1 - Break through motel side door, Find something suitable to do so
+// 31: objB_1 - Find a way to the basement
+// 28: objC - Find the key to the cinema backdoor
+// 30: objD - Find battery, power up truck
+// 34: objE - Proceed to the bar, Find the key
+// 35: objF - Turn sprinklers ON
+// 37: objG1 - Find lever for warehouse door
+// 33: objH - Gain entry to managers office and call for extraction [Evac]
+// 39: objD_1 - Take propane to cafe
+// 40: objI - Weld open motel side entrance
+
+// Objective challenges
+// KV names are identifiers, and will be saved in records!
+"Challenges"
+{
+	"nmo_broadway_challenge_1"
+	{
+		"Name"	"Cinema Premiere"
+		"Description"	"You're late to the premiere! Make your way through the crowds, and catch the train home!"
+		"Objectives"
+		{
+			"0"	"28"
+			"1"	"30"
+			"2"	"39"
+			"3"	"35"
+			"4"	"33"
+		}
+		
+		"MapHack"
+		{
+			"includes"
+			{
+				"file"	"maps/maphacks/challenges/nmo_broadway_challenge_1.txt"
+			}
+		}
+	}
+	
+	"nmo_broadway_challenge_2"
+	{
+		"Name"	"Motel Rush"
+		"Description"	"No reservations, mind that corpse on the pool."
+		"Objectives"
+		{
+			"0"	"24"
+			"1"	"31"
+			"2"	"34"
+			"3"	"37"
+			"4"	"33"
+		}
+		
+		"MapHack"
+		{
+			"includes"
+			{
+				"file"	"maps/maphacks/challenges/nmo_broadway_challenge_2.txt"
+			}
+		}
+	}
+	
+	"nmo_broadway_blitz_1"
+	{
+		"Name"	"Blitz: Cinema Premiere"
+		"Description"	"In Blitz mode, gain more time by completing objectives!"
+		"Blitz"	"1"
+		"Objectives"
+		{
+			"0"	"28"
+			"1"	"30"
+			"2"	"39"
+			"3"	"35"
+			"4"	"33"
+		}
+		
+		"BlitzParams"
+		{
+			"InitialTime"	"180" // Start at 3 minutes
+			
+			// Objective timer additions
+			"DefaultObjAdd" "30" // By default, add 30s
+			"ObjectiveTimerAdd"
+			{
+				// TODO
+			}
+		}
+		
+		"MapHack"
+		{
+			"includes"
+			{
+				"file"	"maps/maphacks/challenges/nmo_broadway_blitz_1.txt"
+			}
+		}
+	}
+	
+	"nmo_broadway_blitz_2"
+	{
+		"Name"	"Blitz: Motel Rush"
+		"Description"	"In Blitz mode, gain more time by completing objectives!"
+		"Blitz"	"1"
+		"Objectives"
+		{
+			"0"	"24"
+			"1"	"31"
+			"2"	"34"
+			"3"	"37"
+			"4"	"33"
+		}
+		
+		"BlitzParams"
+		{
+			"InitialTime"	"180" // Start at 3 minutes
+			
+			// Objective timer additions
+			"DefaultObjAdd" "30" // By default, add 30s
+			"ObjectiveTimerAdd"
+			{
+				// TODO
+			}
+		}
+		
+		"MapHack"
+		{
+			"includes"
+			{
+				"file"	"maps/maphacks/challenges/nmo_broadway_blitz_2.txt"
+			}
+		}
+	}
+}

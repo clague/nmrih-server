@@ -1,0 +1,106 @@
+//************
+// Crowbar
+//************
+
+"Weapon_Machete.Draw"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")player/weapon_draw_01.wav"
+		"wave"		")player/weapon_draw_02.wav"
+		"wave"		")player/weapon_draw_03.wav"
+		"wave"		")player/weapon_draw_04.wav"
+		"wave"		")player/weapon_draw_05.wav"
+	}
+}
+
+"Weapon_Machete.Holster" // Not yet done
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")player/weapon_holster_01.wav"
+		"wave"		")player/weapon_holster_02.wav"
+		"wave"		")player/weapon_holster_03.wav"
+		"wave"		")player/weapon_holster_04.wav"
+		"wave"		")player/weapon_holster_05.wav"
+	}
+}
+
+"Weapon_Machete.Shove"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"			"95,100"
+	"rndwave"
+	{
+		"wave"		")player/shove_01.wav"
+		"wave"		")player/shove_02.wav"
+		"wave"		")player/shove_03.wav"
+		"wave"		")player/shove_04.wav"
+		"wave"		")player/shove_05.wav"
+	}
+}
+
+"Weapon_Melee.MacheteLight"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"			"95,100"
+        "rndwave"
+        {
+		"wave"		")weapons/melee/swing_light_sharp_01.wav"
+		"wave"		")weapons/melee/swing_light_sharp_02.wav"
+		"wave"		")weapons/melee/swing_light_sharp_03.wav"
+	}
+}
+
+"Weapon_Melee.MacheteHeavy"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"			"95,100"
+    "rndwave"
+    {
+		"wave"		")weapons/melee/swing_light_sharp_01.wav"
+		"wave"		")weapons/melee/swing_light_sharp_02.wav"
+		"wave"		")weapons/melee/swing_light_sharp_03.wav"
+	}
+}
+
+"Weapon_Machete.Melee_Hit"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"			"98,102"
+
+	"rndwave"
+	{
+		"wave"		")weapons/melee/swing_light_sharp_01.wav"
+		"wave"		")weapons/melee/swing_light_sharp_02.wav"
+		"wave"		")weapons/melee/swing_light_sharp_03.wav"
+	}
+}
+
+"Weapon_Machete.Melee_HitWorld"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_90dB"
+	"pitch"			"90,120"
+
+	"rndwave"
+	{
+		"wave"		")weapons/crowbar/crowbar_impact1.wav"
+		"wave"		")weapons/crowbar/crowbar_impact2.wav"
+	}
+}

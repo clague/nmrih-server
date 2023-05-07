@@ -1,0 +1,59 @@
+"PlayerModels"
+{
+	"molotov"
+	{
+		"model"	"models/player/p_molotov.mdl"
+		"handmodel"	"models/arms/c_molotov_arms.mdl"
+		"name"	"Molotov"
+		"gender"	"m"
+	}
+	"wally"
+	{
+		"model"	"models/player/p_wally.mdl"
+		"handmodel"	"models/arms/c_wally_arms.mdl"
+		"name"	"Wally"
+		"gender"	"m"
+	}
+	"hunter"
+	{
+		"model"	"models/player/p_hunter.mdl"
+		"handmodel"	"models/arms/c_hunter_arms.mdl"
+		"name"	"The Hunter"
+		"gender"	"m"
+	}
+	"bateman"
+	{
+		"model"	"models/player/p_bateman.mdl"
+		"handmodel"	"models/arms/c_bateman_arms.mdl"
+		"name"	"Bateman"
+		"gender"	"m"
+	}
+	"jive"
+	{
+		"model"	"models/player/p_jive.mdl"
+		"handmodel"	"models/arms/c_jive_arms.mdl"
+		"name"	"Jive"
+		"gender"	"m"
+	}
+	"badass"
+	{
+		"model" "models/player/p_badass.mdl"
+		"handmodel"	"models/arms/c_badass_arms.mdl"
+		"name"	"Badass"
+		"gender"	"f"
+	}
+	"butcher"
+	{
+		"model" "models/player/p_butcher.mdl"
+		"handmodel"	"models/arms/c_butcher_arms.mdl"
+		"name"	"Butcher"
+		"gender"	"m"
+	}	
+	"roje"
+	{
+		"model" "models/player/p_roje.mdl"
+		"handmodel"	"models/arms/c_roje_arms.mdl"
+		"name"	"Roje"
+		"gender"	"m"
+	}	
+}

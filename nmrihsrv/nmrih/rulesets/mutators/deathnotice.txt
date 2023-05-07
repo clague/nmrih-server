@@ -1,0 +1,11 @@
+"Ruleset"
+{
+	"Name"	"Deathnotices"
+	"Author"	"NMRiH Team"
+	"Description"	"Displays kills / deaths."
+
+	"Base"
+	{
+		sv_deathnotice 1
+	}
+}

@@ -1,0 +1,64 @@
+// 16: ob_1 - Leave the Mill
+// 21: GarageKey - Find garage key
+// 22: test_radio - Use the radio to contact rescue
+// 24: restore_power - Telecommunications are down, Restore!
+// 25: find_way_back - Find an alternative route back to the cabin
+// 26: find_basement_key - Find key to cellar
+// 27: reset_trips - Reset the mains trip switch
+// 28: call_help - Use the radio!
+// 29: restore_power2 - Restore all 3 underground generators
+// 33: fuel_gen - Use the generator to enable emergency power
+// 32: use_laptop - Use the laptop!
+// 35: blow_open_celler - Take propane tank to blow open cellar doors
+// 37: fast_way_through - Enter the cabin via the side door
+// 38: weld_computer_room - Use welder on computer room door
+// 39: fast_way_key - Find the key to the locked door
+// 40: find_back_door - Find key to the back door
+// 41: enter_back_short - Use the welder on the locked gate
+// 42: reset_trips_fuel_way - Reset the mains trip switch
+// 43: work_out_code - Look for the code to the computer room
+// 44: turn_dish - No signal! Rotate the satellite dish!
+// 47: find_way_through_tunnel - Make your way through the tunnel
+// 48: use_crank - Find and use the crank to open metal door
+// 49: power_up - Reset the generator and switch
+// 50: weld_main_house - Weld the lock to the house
+
+// Objective challenges
+// KV names are identifiers, and will be saved in records!
+"Challenges"
+{
+	"nmo_lakeside_challenge_1"
+	{
+		"Name" "Run of the Mill"
+		"Description" "You won't see this every day."
+		"Objectives"
+		{
+			"0" "16" // Leave the Mill
+			"1" "37" // Enter the cabin via the side door
+			"2" "39" // Find the key to the locked door
+			"3" "33" // Use the generator to enable emergency power
+			"4" "35" // Take propane tank to blow open cellar doors
+			"5" "42" // Reset the mains trip switch
+			"6" "43" // Look for the code to the computer room
+			"7" "44" // No signal! Rotate the satellite dish!
+			"8" "32" // Use the laptop!
+		}
+	}
+
+	"nmo_lakeside_challenge_2"
+	{
+		"Name" "Downtime"
+		"Description" "Can't connect? It's not just you!"
+		"Objectives"
+		{
+			"0" "40" // Find key to the back door
+			"1" "39" // Find the key to the locked door
+			"2" "24" // Telecommunications are down, Restore!
+			"3" "29" // Restore all 3 underground generators
+			"4" "25" // Find an alternative route back to the cabin
+			"5" "26" // Find key to cellar
+			"6" "27" // Reset the mains trip switch
+			"7" "28" // Use the radio!
+		}
+	}
+}

@@ -1,0 +1,11 @@
+"Ruleset"
+{
+	"Name"	"No Zombie Respawn"
+	"Author"	"NMRiH Team"
+	"Description"	"Zombies will not respawn."
+
+	"Base"
+	{
+		sv_spawn_regen_target 0
+	}
+}

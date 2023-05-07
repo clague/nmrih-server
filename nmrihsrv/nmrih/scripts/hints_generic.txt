@@ -1,0 +1,15 @@
+"Hints"
+{
+	// Generic hints
+	"0" "#Hint_Generic_Compass"
+	"1" "#Hint_Generic_CheckAmmo"
+	"2" "#Hint_Generic_CheckInventory"
+	"3" "#Hint_Generic_AmmoInventory"
+	"4" "#Hint_Generic_VoiceCommand"
+	"5" "#Hint_Generic_Infected"
+	"6" "#Hint_Generic_Bleeding"
+	"7" "#Hint_Generic_LowHealth"
+	"8" "#Hint_Generic_Pills"
+	"9" "#Hint_Generic_Bandages"
+	"10" "#Hint_Generic_FirstAid"
+}

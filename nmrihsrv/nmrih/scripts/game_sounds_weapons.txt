@@ -1,0 +1,538 @@
+//
+// Edited by : Luke & SSBA
+//
+//
+// NOTE: Distance varient flag (<) starts at 240 world units and ends at 1320 world units.
+// This cannot be changed in a mod.
+//
+
+//************
+// General Weapon Foley
+//************
+
+"WeaponGeneral.HandTap"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.3"
+	"soundlevel"	"SNDLVL_55dB"
+	"pitch"		"95, 105"
+
+	"rndwave"
+	{
+		"wave"	")weapons\Firearms\Hand_Tap1.wav"
+	}
+}
+
+"WeaponGeneral.Draw"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+	"pitch"		"95, 105"
+
+	"rndwave"
+	{
+		"wave"		")player/weapon_draw_01.wav"
+		"wave"		")player/weapon_draw_02.wav"
+		"wave"		")player/weapon_draw_03.wav"
+		"wave"		")player/weapon_draw_04.wav"
+		"wave"		")player/weapon_draw_05.wav"
+	}
+}
+
+"Weapon_Pistol.Draw"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+	"pitch"		"95, 105"
+
+	"rndwave"
+	{
+		"wave"		")player/weapon_draw_01.wav"
+		"wave"		")player/weapon_draw_02.wav"
+		"wave"		")player/weapon_draw_03.wav"
+		"wave"		")player/weapon_draw_04.wav"
+		"wave"		")player/weapon_draw_05.wav"
+	}
+}
+
+"WeaponGeneral.Holster"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+	"pitch"		"95, 105"
+
+	"rndwave"
+	{
+		"wave"		")player/weapon_holster_01.wav"
+		"wave"		")player/weapon_holster_02.wav"
+		"wave"		")player/weapon_holster_03.wav"
+		"wave"		")player/weapon_holster_04.wav"
+		"wave"		")player/weapon_holster_05.wav"
+	}
+}
+
+"Weapon_Pistol.Holster"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+	"pitch"		"95, 105"
+
+	"rndwave"
+	{
+		"wave"		")player/weapon_holster_01.wav"
+		"wave"		")player/weapon_holster_02.wav"
+		"wave"		")player/weapon_holster_03.wav"
+		"wave"		")player/weapon_holster_04.wav"
+		"wave"		")player/weapon_holster_05.wav"
+	}
+}
+
+"WeaponGeneral.PistolMelee_Miss"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"95, 105"
+
+	"rndwave"
+	{
+		"wave"		")player/shove_01.wav"
+		"wave"		")player/shove_02.wav"
+		"wave"		")player/shove_03.wav"
+		"wave"		")player/shove_04.wav"
+		"wave"		")player/shove_05.wav"
+	}
+}
+
+
+"WeaponGeneral.PistolMelee_Hit"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"95, 105"
+
+	"rndwave"
+	{
+		"wave"		")player/shove_01.wav"
+		"wave"		")player/shove_02.wav"
+		"wave"		")player/shove_03.wav"
+		"wave"		")player/shove_04.wav"
+		"wave"		")player/shove_05.wav"
+	}
+}
+
+
+"WeaponGeneral.RifleMelee_Miss"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"95, 105"
+
+	"rndwave"
+	{
+		"wave"		")player/shove_01.wav"
+		"wave"		")player/shove_02.wav"
+		"wave"		")player/shove_03.wav"
+		"wave"		")player/shove_04.wav"
+		"wave"		")player/shove_05.wav"
+	}
+}
+
+
+"WeaponGeneral.RifleMelee_Hit"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"95, 105"
+
+	"rndwave"
+	{
+		"wave"		")player/shove_01.wav"
+		"wave"		")player/shove_02.wav"
+		"wave"		")player/shove_03.wav"
+		"wave"		")player/shove_04.wav"
+		"wave"		")player/shove_05.wav"
+	}
+}
+
+"WeaponGeneral.SKSMelee_Hit"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"95, 105"
+
+	"rndwave"
+	{
+		"wave"		")player/shove_01.wav"
+		"wave"		")player/shove_02.wav"
+		"wave"		")player/shove_03.wav"
+		"wave"		")player/shove_04.wav"
+		"wave"		")player/shove_05.wav"
+	}
+}
+
+"WeaponGeneral.SKSMelee_Miss"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"95, 105"
+
+	"rndwave"
+	{
+		"wave"		")player/shove_01.wav"
+		"wave"		")player/shove_02.wav"
+		"wave"		")player/shove_03.wav"
+		"wave"		")player/shove_04.wav"
+		"wave"		")player/shove_05.wav"
+	}
+}
+
+
+//************
+// Melee Shared
+//************
+
+"Weapon_Melee.Draw_Heavy"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+	"pitch"		"95, 105"
+
+	"rndwave"
+	{
+		"wave"		")player/weapon_draw_01.wav"
+		"wave"		")player/weapon_draw_02.wav"
+		"wave"		")player/weapon_draw_03.wav"
+		"wave"		")player/weapon_draw_04.wav"
+		"wave"		")player/weapon_draw_05.wav"
+	}
+}
+
+"Weapon_Melee.Holster_Light"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+	"pitch"		"95, 105"
+
+	"rndwave"
+	{
+		"wave"		")player/weapon_holster_01.wav"
+		"wave"		")player/weapon_holster_02.wav"
+		"wave"		")player/weapon_holster_03.wav"
+		"wave"		")player/weapon_holster_04.wav"
+		"wave"		")player/weapon_holster_05.wav"
+	}
+}
+
+"Weapon_Melee.Holster_Heavy"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_55dB"
+	"pitch"		"95, 105"
+
+	"rndwave"
+	{
+		"wave"		")player/weapon_holster_01.wav"
+		"wave"		")player/weapon_holster_02.wav"
+		"wave"		")player/weapon_holster_03.wav"
+		"wave"		")player/weapon_holster_04.wav"
+		"wave"		")player/weapon_holster_05.wav"
+	}
+}
+
+"Weapon_Melee.SwipeBluntHvy"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.65"
+	"rndwave"
+	{
+		"wave"		")weapons\Melee\swing_heavy_blunt_01.wav"
+		"wave"		")weapons\Melee\swing_heavy_blunt_02.wav"
+		"wave"		")weapons\Melee\swing_heavy_blunt_03.wav"
+	}
+}
+
+
+"Weapon_Melee.SwipeSharpHvy"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.65"
+	"rndwave"
+	{
+		"wave"		")weapons\Melee\swing_heavy_sharp_01.wav"
+		"wave"		")weapons\Melee\swing_heavy_sharp_02.wav"
+		"wave"		")weapons\Melee\swing_heavy_sharp_03.wav"
+	}
+}
+
+"Weapon_Melee.ShoveSharpHvy"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.8"
+	"pitch"		"100"
+
+	"rndwave"
+	{
+		"wave"		")player/shove_01.wav"
+		"wave"		")player/shove_02.wav"
+		"wave"		")player/shove_03.wav"
+		"wave"		")player/shove_04.wav"
+		"wave"		")player/shove_05.wav"
+	}
+}
+
+"Weapon_Melee.SwipeSharpLite"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.85"
+	"rndwave"
+	{
+		"wave"		")weapons\Melee\swing_light_sharp_01.wav"
+		"wave"		")weapons\Melee\swing_light_sharp_02.wav"
+		"wave"		")weapons\Melee\swing_light_sharp_03.wav"
+	}
+}
+
+"Weapon_Melee.SwipeSharpLight"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.85"
+	"rndwave"
+	{
+		"wave"		")weapons\Melee\swing_light_sharp_01.wav"
+		"wave"		")weapons\Melee\swing_light_sharp_02.wav"
+		"wave"		")weapons\Melee\swing_light_sharp_03.wav"
+	}
+}
+
+
+"Weapon_Melee.SwipeLight"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.5"
+	"rndwave"
+	{
+		"wave"		")weapons\Melee\swing_light_blunt_01.wav"
+		"wave"		")weapons\Melee\swing_light_blunt_02.wav"
+		"wave"		")weapons\Melee\swing_light_blunt_03.wav"
+	}
+}
+
+"Weapon_Melee.ShoveLight"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.8"
+
+	"rndwave"
+	{
+		"wave"		")player/shove_01.wav"
+		"wave"		")player/shove_02.wav"
+		"wave"		")player/shove_03.wav"
+		"wave"		")player/shove_04.wav"
+		"wave"		")player/shove_05.wav"
+	}
+}
+
+
+"Weapon_Melee.SwingMedium"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_64dB"
+	"volume"	"0.5"
+	"rndwave"
+	{
+		"wave"		")weapons\Melee\swing_light_blunt_01.wav"
+		"wave"		")weapons\Melee\swing_light_blunt_02.wav"
+		"wave"		")weapons\Melee\swing_light_blunt_03.wav"
+	}
+}
+
+"Weapon_Melee.ShoveMedium"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.8"
+
+	"rndwave"
+	{
+		"wave"		")player/shove_01.wav"
+		"wave"		")player/shove_02.wav"
+		"wave"		")player/shove_03.wav"
+		"wave"		")player/shove_04.wav"
+		"wave"		")player/shove_05.wav"
+	}
+}
+
+//************
+// Baseball Bat (Wood)
+//************
+
+"Weapon_WoodBat.Draw"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"wave"		")weapons/Melee/WoodBat_Draw.wav"
+}
+
+
+"Weapon_WoodBat.HitFlesh"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		")weapons/Melee/WoodBat_Hit1.wav"
+		"wave"		")weapons/Melee/WoodBat_Hit2.wav"
+	}
+}
+
+"Weapon_WoodBat.HitWorld"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		")weapons/Melee/WoodBat_Hitworld1.wav"
+		"wave"		")weapons/Melee/WoodBat_Hitworld2.wav"
+	}
+}
+
+//************
+// Knife
+//************
+
+"Weapon_Knife.Slash"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		")weapons/Melee/Knife_Slash1.wav"
+		"wave"		")weapons/Melee/Knife_Slash2.wav"
+		"wave"		")weapons/Melee/Knife_Slash3.wav"
+	}
+}
+
+"Weapon_Knife.Stab"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		")weapons/Melee/Knife_Stab1.wav"
+		"wave"		")weapons/Melee/Knife_Stab2.wav"
+		"wave"		")weapons/Melee/Knife_Stab3.wav"
+	}
+}
+
+// *******
+// HL2 SOUNDS
+
+// *******
+// BULLETS
+
+"Bullets.DefaultNearmiss"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	">weapons/fx/nearmiss/bulletLtoR03.wav"
+		"wave"	">weapons/fx/nearmiss/bulletLtoR04.wav"
+		
+		"wave"	">weapons/fx/nearmiss/bulletLtoR06.wav"
+		"wave"	">weapons/fx/nearmiss/bulletLtoR07.wav"
+		"wave"	">weapons/fx/nearmiss/bulletLtoR09.wav"
+		"wave"	">weapons/fx/nearmiss/bulletLtoR10.wav"
+
+		"wave"	">weapons/fx/nearmiss/bulletLtoR13.wav"
+		"wave"	">weapons/fx/nearmiss/bulletLtoR14.wav"
+	}
+}
+
+"FX_RicochetSound.Ricochet"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5, 0.6"
+	"soundlevel"  "SNDLVL_80dB"
+	"pitch"	"90, 110"
+
+	"rndwave"
+	{
+		"wave"	")weapons/fx/rics/ric1.wav"
+		"wave"	")weapons/fx/rics/ric2.wav"
+		"wave"	")weapons/fx/rics/ric3.wav"
+		"wave"	")weapons/fx/rics/ric4.wav"
+		"wave"	")weapons/fx/rics/ric5.wav"
+	}
+}
+
+
+
+// *******
+// GHOST LOADING
+// *******
+
+
+"Shotgun.GhostLoad"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.9"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	")weapons/firearms/ghost1.wav"
+		"wave"	")weapons/firearms/ghost2.wav"
+		"wave"	")weapons/firearms/ghost3.wav"
+		"wave"	")weapons/firearms/ghost4.wav"
+
+	}
+}
+
+// *********
+// FIRE SELECT
+// *********
+
+"WeaponGeneral.FireSelect"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.9"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	")weapons/firearms/gun_fire_mode_03.wav"
+		"wave"	")weapons/firearms/gun_fire_mode_04.wav"
+
+	}
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<title>NMRiH MotD</title>
+<style type="text/css">
+pre 	{
+		font-family:Arial Black,Tahoma;
+		color:#F4260A;
+    	}
+body	{
+		background:#2A2B2C;
+		background-image:url('materials\HUD\motd_background.png');
+		margin-left:8px;
+		margin-top:0px;
+		font-family:Lucida Sans Unicode,Tahoma;
+		color:#B01212;
+		}
+a	{
+    	text-decoration:    underline;
+	}
+a:link  {
+    color:  #FFFFFF;
+    }
+a:visited   {
+    color:  #FFFFFF;
+    }
+a:active    {
+    color:  #FFFFFF;
+    }
+a:hover {
+    color:  #FFFFFF;
+    text-decoration:    underline;
+    }
+</style>
+</head>
+<body scroll="no">
+Welcome to NO MORE ROOM IN HELL<br>
+<br>
+<u>For New Players | English</u><br>
+We have a MANUAL! Open up your main menu and CLICK on the PLAYER'S SURVIVAL GUIDE icon to read it!<br>
+Remember to check your COMPASS for objectives! Hit "C" by default.<br>
+Remember, you can CHECK AMMO by holding the RELOAD key! Hold "R" by default.<br>
+You can view your INVENTORY and EQUIP WEAPONS by opening the INVENTORY radial by holding "1" by default.<br>
+You can SHARE AMMO with other players by opening the AMMO radial by holding "2" by default!<br>
+Don't forget, you can use VOICE COMMANDS to communicate with your team! Open the VOICE COMMAND radial by holding "3" by default.<br>
+Keep in mind that other players can see the exact light cone from your MAGLITE, so make sure you are pointing it somewhere useful!<br>
+If you find them, you can use PHALANX pills to stem off infection for a few minutes! Consume them by clicking on them in the INVENTORY!<br>
+<br>
+</body>
+</html>

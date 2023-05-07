@@ -1,0 +1,6 @@
+"Alt4"
+{
+	"name"		"Harry"
+	"script"	"scripts/voice_soundscripts/voice_set_alt4.txt"
+	"gender"	"m"
+}

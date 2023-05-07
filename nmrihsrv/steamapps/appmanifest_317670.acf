@@ -1,0 +1,46 @@
+"AppState"
+{
+	"appid"		"317670"
+	"Universe"		"1"
+	"name"		"No More Room in Hell Dedicated Server"
+	"StateFlags"		"4"
+	"installdir"		"No More Room in Hell Dedicated Server"
+	"LastUpdated"		"1676367567"
+	"SizeOnDisk"		"7242267866"
+	"StagingSize"		"0"
+	"buildid"		"10540467"
+	"LastOwner"		"76561198749709504"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"3302987328"
+	"BytesDownloaded"		"3302987328"
+	"BytesToStage"		"6403758263"
+	"BytesStaged"		"6403758263"
+	"TargetBuildID"		"10540467"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"317672"
+		{
+			"manifest"		"9030547991358817583"
+			"size"		"687448754"
+		}
+		"317673"
+		{
+			"manifest"		"1886418754834629898"
+			"size"		"6488507720"
+		}
+		"317675"
+		{
+			"manifest"		"628111262076882352"
+			"size"		"66311392"
+		}
+	}
+	"UserConfig"
+	{
+	}
+	"MountedConfig"
+	{
+	}
+}

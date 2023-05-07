@@ -1,0 +1,177 @@
+"centralpark.exterior.01"
+{
+	"dsp" "1"
+
+
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/ambience/crucial_TreeStreet_Bird_loop.wav"
+	}
+	
+
+
+	"playrandom"
+	{
+		"time"		"8,23"
+		"volume"	".8,1"
+		"pitch"		"85,115"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"ambient/random_amb_sounds/hopper_fly_01.wav"
+			"wave"	"ambient/random_amb_sounds/hopper_fly_02.wav"
+			"wave"	"ambient/random_amb_sounds/hopper_fly_03.wav"
+		}
+	}
+	
+	
+	"playrandom"
+	{
+		"time"		"16,80"
+		"volume"	".1,.35"
+		"pitch"		"85,115"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"ambient/background/dist_crows1.wav"
+			"wave"	"ambient/background/dist_crows2.wav"
+			"wave"	"ambient/background/dist_crows3.wav"
+		}
+	}
+}
+	
+"centralpark.garage.01"
+{
+		"dsp"	"1"
+
+		"playlooping"
+		{
+			"volume"	"0.20"
+			"wave"		"ambient/atmosphere/undercity_loop1.wav"
+			"pitch"		"100"
+			"attenuation"	"0"
+		}
+
+		"playlooping"
+		{
+			"volume"	"0.20"
+			"pitch"		"100"
+			"wave"		"ambient/atmosphere/cargo_hold2.wav"
+		}
+
+		"playrandom"
+		{
+			"time"		"5,18"
+			"volume"	"0.2,0.5"
+			"pitch"		"95,105"
+			"position"	"random"
+			"soundlevel"	"SNDLVL_140db"
+
+			"rndwave"
+			{
+				"wave"		"ambient/atmosphere/cave_hit2.wav"
+				"wave"		"ambient/atmosphere/hole_hit1.wav"
+				"wave"		"ambient/atmosphere/hole_hit2.wav"
+				"wave"		"ambient/atmosphere/hole_hit5.wav"
+				"wave"		"ambient/materials/metal_stress4.wav"
+				"wave"		"ambient/materials/metal_stress5.wav"
+				"wave"		"ambient/materials/rustypipes1.wav"
+				"wave"		"ambient/materials/rustypipes2.wav"
+				"wave"		"ambient/materials/rustypipes3.wav"
+			}
+		}
+
+		//"playsoundscape"
+		//{
+			//"positionoverride"	"0"
+			//"name"	"coast.util_antlion_den"
+			//"volume" "0.3"
+		//}	
+
+}
+
+"centralpark.sewer.01"
+{
+
+	
+	"dsp"	"1"	
+
+	"playlooping"
+	{
+		"volume"	"0.18"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/cargo_hold2.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"15,40"
+		"volume"	"0.35,0.55"
+		"pitch"		"95,105"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/rats1.wav"
+			"wave"	"ambient/creatures/rats2.wav"
+			"wave"	"ambient/creatures/rats3.wav"
+			"wave"	"ambient/creatures/rats4.wav"
+		}
+		
+	}
+
+	"playrandom"
+	{
+		"time"		"8, 14"
+		"volume"	"0.2, 0.35"
+		"pitch"		"100,120"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/materials/rock1.wav"
+			"wave"	"ambient/materials/rock2.wav"
+			"wave"	"ambient/materials/rock3.wav"
+			"wave"	"ambient/materials/rock4.wav"
+			"wave"	"ambient/materials/rock5.wav"
+		}
+
+	}
+
+
+	"playrandom"
+	{
+		"volume"	"0.1,0.2"
+		"pitch"		"90,120"
+		"time"		"0.5, 5.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140dB"
+		"rndwave"
+		{
+			"wave"	"ambient/water/distant_drip1.wav"
+			"wave"	"ambient/water/distant_drip2.wav"
+			"wave"	"ambient/water/distant_drip3.wav"
+			"wave"	"ambient/water/distant_drip4.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"30,180"
+		"volume"	"0.3,0.5"
+		"pitch"		"80,120"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/town_scared_sob1.wav"
+			"wave"	"ambient/creatures/town_scared_breathing1.wav"
+			"wave"	"ambient/creatures/town_scared_breathing2.wav"
+		}
+	}
+}

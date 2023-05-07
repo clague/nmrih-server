@@ -1,0 +1,157 @@
+// 26: ObjF - Break into the store.
+// 25: ObjE - Weld through store side entrance
+// 22: ObjD - Use tnt to get through to the store
+// 20: ObjC - Find fuel tank to blast through garden wall
+// 19: ObjB - Answer the Phone
+// 29: ObjG_2 - Find dead staff member to enter warehouse office
+// 17: ObjA - Proceed to Hartington road
+// 30: ObjG_3 - Find dead staff member to enter warehouse office
+// 28: ObjG_1 - Find dead staff member to enter warehouse office
+// 34: ObjH - Call for help
+// 33: ObjI - Answer the phone
+// 35: ObjJ - Use welder on 3 wall sockets to cause a fire! [Evac]
+// 42: ObjK - Find crank to open door
+// 45: ObjM - Use welder on manhole cover
+// 43: ObjL - Proceed to the chapel
+// 47: ObjZ - Proceed back to Hartington road
+
+// Objective challenges
+// KV names are identifiers, and will be saved in records!
+"Challenges"
+{
+	"nmo_toxteth_challenge_1"
+	{
+		"Name"	"Graveyard Dash"
+		"Description"	"I suggest cutting through the graveyard..."
+		"Objectives"
+		{
+			"0"	"17"
+			"1"	"19"
+			"2"	"20"
+			"3"	"22"
+			"4"	"26"
+			"5"	"28"
+			"6"	"34"
+			"7"	"47"
+			"8"	"33"
+			"9"	"35"
+		}
+		
+		"MapHack"
+		{
+			"includes"
+			{
+				"file"	"maps/maphacks/challenges/nmo_toxteth_challenge_1.txt"
+			}
+		}
+	}
+	
+	"nmo_toxteth_challenge_2"
+	{
+		"Name"	"Sewer Sweep"
+		"Description"	"Well, if you don't mind the sludge..."
+		"Objectives"
+		{
+			"0"	"17"
+			"1"	"45"
+			"2"	"42"
+			"3"	"43"
+			"4"	"22"
+			"5"	"25"
+			"6"	"29"
+			"7"	"34"
+			"8"	"47"
+			"9"	"33"
+			"10"	"35"
+		}
+		
+		"MapHack"
+		{
+			"includes"
+			{
+				"file"	"maps/maphacks/challenges/nmo_toxteth_challenge_2.txt"
+			}
+		}
+	}
+	
+	"nmo_toxteth_blitz_1"
+	{
+		"Name"	"Blitz: Graveyard Dash"
+		"Description"	"We can't afford much time so be quick! In Blitz mode, gain more time by completing objectives!"
+		"Blitz"	"1"
+		"Objectives"
+		{
+			"0"	"17"
+			"1"	"19"
+			"2"	"20"
+			"3"	"22"
+			"4"	"26"
+			"5"	"28"
+			"6"	"34"
+			"7"	"47"
+			"8"	"33"
+			"9"	"35"
+		}
+		
+		"BlitzParams"
+		{
+			"InitialTime"	"180" // Start at 3 minutes
+			
+			// Objective timer additions
+			"DefaultObjAdd" "30" // By default, add 30s
+			"ObjectiveTimerAdd"
+			{
+				// TODO
+			}
+		}
+		
+		"MapHack"
+		{
+			"includes"
+			{
+				"file"	"maps/maphacks/challenges/nmo_toxteth_blitz_1.txt"
+			}
+		}
+	}
+	
+	"nmo_toxteth_blitz_2"
+	{
+		"Name"	"Blitz: Sewer Sweep"
+		"Description"	"You do realize you're walking on other people's excrement right? In Blitz mode, gain more time by completing objectives!"
+		"Blitz"	"1"
+		"Objectives"
+		{
+			"0"	"17"
+			"1"	"45"
+			"2"	"42"
+			"3"	"43"
+			"4"	"22"
+			"5"	"25"
+			"6"	"29"
+			"7"	"34"
+			"8"	"47"
+			"9"	"33"
+			"10"	"35"
+		}
+		
+		"BlitzParams"
+		{
+			"InitialTime"	"180" // Start at 3 minutes
+			
+			// Objective timer additions
+			"DefaultObjAdd" "30" // By default, add 30s
+			"ObjectiveTimerAdd"
+			{
+				// TODO
+			}
+		}
+		
+		"MapHack"
+		{
+			"includes"
+			{
+				"file"	"maps/maphacks/challenges/nmo_toxteth_blitz_2.txt"
+			}
+		}
+	}
+}

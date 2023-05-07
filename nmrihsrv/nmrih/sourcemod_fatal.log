@@ -1,0 +1,440 @@
+L 11/28/2022 - 15:26:04: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:04: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:04: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:04: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:04: Type	DataPack            |	Count	3855
+L 11/28/2022 - 15:26:04: Type	Timer               |	Count	3855
+L 11/28/2022 - 15:26:04: Type	TraceRay            |	Count	1040452
+L 11/28/2022 - 15:26:04: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:04: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:04: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:04
+L 11/28/2022 - 15:26:04: -- Approximately 96375 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:04: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:04: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:04: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:04: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:04: Type	DataPack            |	Count	3854
+L 11/28/2022 - 15:26:04: Type	Timer               |	Count	3854
+L 11/28/2022 - 15:26:04: Type	TraceRay            |	Count	1040454
+L 11/28/2022 - 15:26:04: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:04: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:04: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:04
+L 11/28/2022 - 15:26:04: -- Approximately 96350 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:04: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:04: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:04: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:04: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:04: Type	DataPack            |	Count	3853
+L 11/28/2022 - 15:26:04: Type	Timer               |	Count	3853
+L 11/28/2022 - 15:26:04: Type	TraceRay            |	Count	1040456
+L 11/28/2022 - 15:26:04: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:04: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:04: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:04
+L 11/28/2022 - 15:26:04: -- Approximately 96325 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:04: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:04: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:04: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:04: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:04: Type	DataPack            |	Count	3852
+L 11/28/2022 - 15:26:04: Type	Timer               |	Count	3852
+L 11/28/2022 - 15:26:04: Type	TraceRay            |	Count	1040458
+L 11/28/2022 - 15:26:04: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:04: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:04: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:04
+L 11/28/2022 - 15:26:04: -- Approximately 96300 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:05: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:05: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:05: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:05: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:05: Type	DataPack            |	Count	3851
+L 11/28/2022 - 15:26:05: Type	Timer               |	Count	3851
+L 11/28/2022 - 15:26:05: Type	TraceRay            |	Count	1040460
+L 11/28/2022 - 15:26:05: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:05: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:05: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:04
+L 11/28/2022 - 15:26:05: -- Approximately 96275 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:05: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:05: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:05: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:05: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:05: Type	DataPack            |	Count	3850
+L 11/28/2022 - 15:26:05: Type	Timer               |	Count	3850
+L 11/28/2022 - 15:26:05: Type	TraceRay            |	Count	1040462
+L 11/28/2022 - 15:26:05: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:05: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:05: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:05
+L 11/28/2022 - 15:26:05: -- Approximately 96250 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:05: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:05: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:05: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:05: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:05: Type	DataPack            |	Count	3849
+L 11/28/2022 - 15:26:05: Type	Timer               |	Count	3849
+L 11/28/2022 - 15:26:05: Type	TraceRay            |	Count	1040464
+L 11/28/2022 - 15:26:05: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:05: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:05: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:05
+L 11/28/2022 - 15:26:05: -- Approximately 96225 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:05: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:05: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:05: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:05: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:05: Type	DataPack            |	Count	3848
+L 11/28/2022 - 15:26:05: Type	Timer               |	Count	3848
+L 11/28/2022 - 15:26:05: Type	TraceRay            |	Count	1040466
+L 11/28/2022 - 15:26:05: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:05: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:05: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:05
+L 11/28/2022 - 15:26:05: -- Approximately 96200 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:06: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:06: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:06: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:06: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:06: Type	DataPack            |	Count	3847
+L 11/28/2022 - 15:26:06: Type	Timer               |	Count	3847
+L 11/28/2022 - 15:26:06: Type	TraceRay            |	Count	1040468
+L 11/28/2022 - 15:26:06: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:06: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:06: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:05
+L 11/28/2022 - 15:26:06: -- Approximately 96175 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:06: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:06: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:06: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:06: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:06: Type	DataPack            |	Count	3846
+L 11/28/2022 - 15:26:06: Type	Timer               |	Count	3846
+L 11/28/2022 - 15:26:06: Type	TraceRay            |	Count	1040470
+L 11/28/2022 - 15:26:06: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:06: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:06: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:06
+L 11/28/2022 - 15:26:06: -- Approximately 96150 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:06: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:06: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:06: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:06: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:06: Type	DataPack            |	Count	3845
+L 11/28/2022 - 15:26:06: Type	Timer               |	Count	3845
+L 11/28/2022 - 15:26:06: Type	TraceRay            |	Count	1040472
+L 11/28/2022 - 15:26:06: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:06: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:06: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:06
+L 11/28/2022 - 15:26:06: -- Approximately 96125 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:06: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:06: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:06: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:06: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:06: Type	DataPack            |	Count	3844
+L 11/28/2022 - 15:26:06: Type	Timer               |	Count	3844
+L 11/28/2022 - 15:26:06: Type	TraceRay            |	Count	1040474
+L 11/28/2022 - 15:26:06: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:06: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:06: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:06
+L 11/28/2022 - 15:26:06: -- Approximately 96100 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:07: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:07: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:07: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:07: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:07: Type	DataPack            |	Count	3843
+L 11/28/2022 - 15:26:07: Type	Timer               |	Count	3843
+L 11/28/2022 - 15:26:07: Type	TraceRay            |	Count	1040476
+L 11/28/2022 - 15:26:07: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:07: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:07: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:06
+L 11/28/2022 - 15:26:07: -- Approximately 96075 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:07: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:07: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:07: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:07: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:07: Type	DataPack            |	Count	3842
+L 11/28/2022 - 15:26:07: Type	Timer               |	Count	3842
+L 11/28/2022 - 15:26:07: Type	TraceRay            |	Count	1040478
+L 11/28/2022 - 15:26:07: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:07: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:07: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:07
+L 11/28/2022 - 15:26:07: -- Approximately 96050 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:07: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:07: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:07: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:07: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:07: Type	DataPack            |	Count	3841
+L 11/28/2022 - 15:26:07: Type	Timer               |	Count	3841
+L 11/28/2022 - 15:26:07: Type	TraceRay            |	Count	1040480
+L 11/28/2022 - 15:26:07: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:07: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:07: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:07
+L 11/28/2022 - 15:26:07: -- Approximately 96025 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:07: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:07: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:07: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:07: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:07: Type	DataPack            |	Count	3840
+L 11/28/2022 - 15:26:07: Type	Timer               |	Count	3840
+L 11/28/2022 - 15:26:07: Type	TraceRay            |	Count	1040482
+L 11/28/2022 - 15:26:07: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:07: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:07: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:07
+L 11/28/2022 - 15:26:07: -- Approximately 96000 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:08: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:08: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:08: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:08: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:08: Type	DataPack            |	Count	3839
+L 11/28/2022 - 15:26:08: Type	Timer               |	Count	3839
+L 11/28/2022 - 15:26:08: Type	TraceRay            |	Count	1040484
+L 11/28/2022 - 15:26:08: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:08: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:08: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:07
+L 11/28/2022 - 15:26:08: -- Approximately 95975 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:08: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:08: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:08: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:08: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:08: Type	DataPack            |	Count	3838
+L 11/28/2022 - 15:26:08: Type	Timer               |	Count	3838
+L 11/28/2022 - 15:26:08: Type	TraceRay            |	Count	1040486
+L 11/28/2022 - 15:26:08: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:08: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:08: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:08
+L 11/28/2022 - 15:26:08: -- Approximately 95950 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:08: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:08: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:08: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:08: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:08: Type	DataPack            |	Count	3837
+L 11/28/2022 - 15:26:08: Type	Timer               |	Count	3837
+L 11/28/2022 - 15:26:08: Type	TraceRay            |	Count	1040488
+L 11/28/2022 - 15:26:08: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:08: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:08: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:08
+L 11/28/2022 - 15:26:08: -- Approximately 95925 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:08: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:08: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:08: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:08: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:08: Type	DataPack            |	Count	3836
+L 11/28/2022 - 15:26:08: Type	Timer               |	Count	3836
+L 11/28/2022 - 15:26:08: Type	TraceRay            |	Count	1040490
+L 11/28/2022 - 15:26:08: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:08: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:08: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:08
+L 11/28/2022 - 15:26:08: -- Approximately 95900 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:09: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:09: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:09: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:09: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:09: Type	DataPack            |	Count	3835
+L 11/28/2022 - 15:26:09: Type	Timer               |	Count	3835
+L 11/28/2022 - 15:26:09: Type	TraceRay            |	Count	1040492
+L 11/28/2022 - 15:26:09: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:09: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:09: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:08
+L 11/28/2022 - 15:26:09: -- Approximately 95875 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:09: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:09: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:09: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:09: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:09: Type	DataPack            |	Count	3834
+L 11/28/2022 - 15:26:09: Type	Timer               |	Count	3834
+L 11/28/2022 - 15:26:09: Type	TraceRay            |	Count	1040494
+L 11/28/2022 - 15:26:09: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:09: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:09: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:09
+L 11/28/2022 - 15:26:09: -- Approximately 95850 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:09: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:09: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:09: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:09: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:09: Type	DataPack            |	Count	3833
+L 11/28/2022 - 15:26:09: Type	Timer               |	Count	3833
+L 11/28/2022 - 15:26:09: Type	TraceRay            |	Count	1040496
+L 11/28/2022 - 15:26:09: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:09: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:09: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:09
+L 11/28/2022 - 15:26:09: -- Approximately 95825 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 15:26:09: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 15:26:09: [SM] Unloading plugin to free 1048162 handles.
+L 11/28/2022 - 15:26:09: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 15:26:09: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:09: Type	DataPack            |	Count	3832
+L 11/28/2022 - 15:26:09: Type	Timer               |	Count	3832
+L 11/28/2022 - 15:26:09: Type	TraceRay            |	Count	1040498
+L 11/28/2022 - 15:26:09: --------------------------------------------------------------------------
+L 11/28/2022 - 15:26:09: Oldest Living Handle: TraceRay created at 11/28/2022 - 15:25:56
+L 11/28/2022 - 15:26:09: Newest Living Handle: TraceRay created at 11/28/2022 - 15:26:09
+L 11/28/2022 - 15:26:09: -- Approximately 95800 bytes of memory are in use by (1048162) Handles.
+
+L 11/28/2022 - 17:45:15: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 17:45:15: [SM] Unloading plugin to free 1048154 handles.
+L 11/28/2022 - 17:45:15: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 17:45:15: --------------------------------------------------------------------------
+L 11/28/2022 - 17:45:15: Type	Timer               |	Count	1
+L 11/28/2022 - 17:45:15: Type	TraceRay            |	Count	1048153
+L 11/28/2022 - 17:45:15: --------------------------------------------------------------------------
+L 11/28/2022 - 17:45:15: Oldest Living Handle: TraceRay created at 11/28/2022 - 17:45:13
+L 11/28/2022 - 17:45:15: Newest Living Handle: TraceRay created at 11/28/2022 - 17:45:15
+L 11/28/2022 - 17:45:15: -- Approximately 0 bytes of memory are in use by (1048154) Handles.
+
+L 11/28/2022 - 17:55:06: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "antistuck.smx")
+L 11/28/2022 - 17:55:06: [SM] Unloading plugin to free 1048163 handles.
+L 11/28/2022 - 17:55:06: [SM] Contact the author(s) of this plugin to correct this error.
+L 11/28/2022 - 17:55:06: --------------------------------------------------------------------------
+L 11/28/2022 - 17:55:06: Type	Timer               |	Count	1
+L 11/28/2022 - 17:55:06: Type	TraceRay            |	Count	1048162
+L 11/28/2022 - 17:55:06: --------------------------------------------------------------------------
+L 11/28/2022 - 17:55:06: Oldest Living Handle: TraceRay created at 11/28/2022 - 17:54:51
+L 11/28/2022 - 17:55:06: Newest Living Handle: TraceRay created at 11/28/2022 - 17:55:06
+L 11/28/2022 - 17:55:06: -- Approximately 0 bytes of memory are in use by (1048163) Handles.
+
+L 01/26/2023 - 03:28:56: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "obj_translator.smx")
+L 01/26/2023 - 03:28:56: [SM] Unloading plugin to free 1043733 handles.
+L 01/26/2023 - 03:28:56: [SM] Contact the author(s) of this plugin to correct this error.
+L 01/26/2023 - 03:28:56: --------------------------------------------------------------------------
+L 01/26/2023 - 03:28:56: Type	KeyValues           |	Count	1
+L 01/26/2023 - 03:28:56: Type	DataPack            |	Count	1043720
+L 01/26/2023 - 03:28:56: Type	File                |	Count	11
+L 01/26/2023 - 03:28:56: Type	Trie                |	Count	1
+L 01/26/2023 - 03:28:56: --------------------------------------------------------------------------
+L 01/26/2023 - 03:28:56: Oldest Living Handle: File created at 2023/01/25 - 06:02:27
+L 01/26/2023 - 03:28:56: Newest Living Handle: DataPack created at 2023/01/26 - 03:28:56
+L 01/26/2023 - 03:28:56: -- Approximately 35513194 bytes of memory are in use by (1043733) Handles.
+
+L 01/26/2023 - 03:28:57: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "obj_translator.smx")
+L 01/26/2023 - 03:28:57: [SM] Unloading plugin to free 1043733 handles.
+L 01/26/2023 - 03:28:57: [SM] Contact the author(s) of this plugin to correct this error.
+L 01/26/2023 - 03:28:57: --------------------------------------------------------------------------
+L 01/26/2023 - 03:28:57: Type	KeyValues           |	Count	1
+L 01/26/2023 - 03:28:57: Type	DataPack            |	Count	1043720
+L 01/26/2023 - 03:28:57: Type	File                |	Count	11
+L 01/26/2023 - 03:28:57: Type	Trie                |	Count	1
+L 01/26/2023 - 03:28:57: --------------------------------------------------------------------------
+L 01/26/2023 - 03:28:57: Oldest Living Handle: File created at 2023/01/25 - 06:02:27
+L 01/26/2023 - 03:28:57: Newest Living Handle: DataPack created at 2023/01/26 - 03:28:56
+L 01/26/2023 - 03:28:57: -- Approximately 35513194 bytes of memory are in use by (1043733) Handles.
+
+L 01/26/2023 - 03:28:57: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "obj_translator.smx")
+L 01/26/2023 - 03:28:57: [SM] Unloading plugin to free 1043733 handles.
+L 01/26/2023 - 03:28:57: [SM] Contact the author(s) of this plugin to correct this error.
+L 01/26/2023 - 03:28:57: --------------------------------------------------------------------------
+L 01/26/2023 - 03:28:57: Type	KeyValues           |	Count	1
+L 01/26/2023 - 03:28:57: Type	DataPack            |	Count	1043720
+L 01/26/2023 - 03:28:57: Type	File                |	Count	11
+L 01/26/2023 - 03:28:57: Type	Trie                |	Count	1
+L 01/26/2023 - 03:28:57: --------------------------------------------------------------------------
+L 01/26/2023 - 03:28:57: Oldest Living Handle: File created at 2023/01/25 - 06:02:27
+L 01/26/2023 - 03:28:57: Newest Living Handle: DataPack created at 2023/01/26 - 03:28:56
+L 01/26/2023 - 03:28:57: -- Approximately 35513194 bytes of memory are in use by (1043733) Handles.
+
+L 01/26/2023 - 03:28:57: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "obj_translator.smx")
+L 01/26/2023 - 03:28:57: [SM] Unloading plugin to free 1043733 handles.
+L 01/26/2023 - 03:28:57: [SM] Contact the author(s) of this plugin to correct this error.
+L 01/26/2023 - 03:28:57: --------------------------------------------------------------------------
+L 01/26/2023 - 03:28:58: Type	KeyValues           |	Count	1
+L 01/26/2023 - 03:28:58: Type	DataPack            |	Count	1043720
+L 01/26/2023 - 03:28:58: Type	File                |	Count	11
+L 01/26/2023 - 03:28:58: Type	Trie                |	Count	1
+L 01/26/2023 - 03:28:58: --------------------------------------------------------------------------
+L 01/26/2023 - 03:28:58: Oldest Living Handle: File created at 2023/01/25 - 06:02:27
+L 01/26/2023 - 03:28:58: Newest Living Handle: DataPack created at 2023/01/26 - 03:28:56
+L 01/26/2023 - 03:28:58: -- Approximately 35513194 bytes of memory are in use by (1043733) Handles.
+
+L 01/26/2023 - 03:28:58: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "obj_translator.smx")
+L 01/26/2023 - 03:28:58: [SM] Unloading plugin to free 1043733 handles.
+L 01/26/2023 - 03:28:58: [SM] Contact the author(s) of this plugin to correct this error.
+L 01/26/2023 - 03:28:58: --------------------------------------------------------------------------
+L 01/26/2023 - 03:28:58: Type	KeyValues           |	Count	1
+L 01/26/2023 - 03:28:58: Type	DataPack            |	Count	1043720
+L 01/26/2023 - 03:28:58: Type	File                |	Count	11
+L 01/26/2023 - 03:28:58: Type	Trie                |	Count	1
+L 01/26/2023 - 03:28:58: --------------------------------------------------------------------------
+L 01/26/2023 - 03:28:58: Oldest Living Handle: File created at 2023/01/25 - 06:02:27
+L 01/26/2023 - 03:28:58: Newest Living Handle: DataPack created at 2023/01/26 - 03:28:56
+L 01/26/2023 - 03:28:58: -- Approximately 35513194 bytes of memory are in use by (1043733) Handles.
+
+L 01/26/2023 - 03:28:58: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "obj_translator.smx")
+L 01/26/2023 - 03:28:58: [SM] Unloading plugin to free 1043733 handles.
+L 01/26/2023 - 03:28:58: [SM] Contact the author(s) of this plugin to correct this error.
+L 01/26/2023 - 03:28:58: --------------------------------------------------------------------------
+L 01/26/2023 - 03:28:58: Type	KeyValues           |	Count	1
+L 01/26/2023 - 03:28:58: Type	DataPack            |	Count	1043720
+L 01/26/2023 - 03:28:58: Type	File                |	Count	11
+L 01/26/2023 - 03:28:58: Type	Trie                |	Count	1
+L 01/26/2023 - 03:28:58: --------------------------------------------------------------------------
+L 01/26/2023 - 03:28:58: Oldest Living Handle: File created at 2023/01/25 - 06:02:27
+L 01/26/2023 - 03:28:58: Newest Living Handle: DataPack created at 2023/01/26 - 03:28:56
+L 01/26/2023 - 03:28:58: -- Approximately 35513194 bytes of memory are in use by (1043733) Handles.
+
+L 01/26/2023 - 03:28:59: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "obj_translator.smx")
+L 01/26/2023 - 03:28:59: [SM] Unloading plugin to free 1043733 handles.
+L 01/26/2023 - 03:28:59: [SM] Contact the author(s) of this plugin to correct this error.
+L 01/26/2023 - 03:28:59: --------------------------------------------------------------------------
+L 01/26/2023 - 03:28:59: Type	KeyValues           |	Count	1
+L 01/26/2023 - 03:28:59: Type	DataPack            |	Count	1043720
+L 01/26/2023 - 03:28:59: Type	File                |	Count	11
+L 01/26/2023 - 03:28:59: Type	Trie                |	Count	1
+L 01/26/2023 - 03:28:59: --------------------------------------------------------------------------
+L 01/26/2023 - 03:28:59: Oldest Living Handle: File created at 2023/01/25 - 06:02:27
+L 01/26/2023 - 03:28:59: Newest Living Handle: DataPack created at 2023/01/26 - 03:28:56
+L 01/26/2023 - 03:28:59: -- Approximately 35513194 bytes of memory are in use by (1043733) Handles.
+
+L 01/26/2023 - 03:28:59: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "obj_translator.smx")
+L 01/26/2023 - 03:28:59: [SM] Unloading plugin to free 1043733 handles.
+L 01/26/2023 - 03:28:59: [SM] Contact the author(s) of this plugin to correct this error.
+L 01/26/2023 - 03:28:59: --------------------------------------------------------------------------
+L 01/26/2023 - 03:28:59: Type	KeyValues           |	Count	1
+L 01/26/2023 - 03:28:59: Type	DataPack            |	Count	1043720
+L 01/26/2023 - 03:28:59: Type	File                |	Count	11
+L 01/26/2023 - 03:28:59: Type	Trie                |	Count	1
+L 01/26/2023 - 03:28:59: --------------------------------------------------------------------------
+L 01/26/2023 - 03:28:59: Oldest Living Handle: File created at 2023/01/25 - 06:02:27
+L 01/26/2023 - 03:28:59: Newest Living Handle: DataPack created at 2023/01/26 - 03:28:56
+L 01/26/2023 - 03:28:59: -- Approximately 35513194 bytes of memory are in use by (1043733) Handles.
+
+L 01/26/2023 - 03:29:00: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "obj_translator.smx")
+L 01/26/2023 - 03:29:00: [SM] Unloading plugin to free 1043733 handles.
+L 01/26/2023 - 03:29:00: [SM] Contact the author(s) of this plugin to correct this error.
+L 01/26/2023 - 03:29:00: --------------------------------------------------------------------------
+L 01/26/2023 - 03:29:00: Type	KeyValues           |	Count	1
+L 01/26/2023 - 03:29:00: Type	DataPack            |	Count	1043720
+L 01/26/2023 - 03:29:00: Type	File                |	Count	11
+L 01/26/2023 - 03:29:00: Type	Trie                |	Count	1
+L 01/26/2023 - 03:29:00: --------------------------------------------------------------------------
+L 01/26/2023 - 03:29:00: Oldest Living Handle: File created at 2023/01/25 - 06:02:27
+L 01/26/2023 - 03:29:00: Newest Living Handle: DataPack created at 2023/01/26 - 03:28:56
+L 01/26/2023 - 03:29:00: -- Approximately 35513194 bytes of memory are in use by (1043733) Handles.
+
+L 01/26/2023 - 03:29:00: [SM] MEMORY LEAK DETECTED IN PLUGIN (file "obj_translator.smx")
+L 01/26/2023 - 03:29:00: [SM] Unloading plugin to free 1043733 handles.
+L 01/26/2023 - 03:29:00: [SM] Contact the author(s) of this plugin to correct this error.
+L 01/26/2023 - 03:29:00: --------------------------------------------------------------------------
+L 01/26/2023 - 03:29:00: Type	KeyValues           |	Count	1
+L 01/26/2023 - 03:29:00: Type	DataPack            |	Count	1043720
+L 01/26/2023 - 03:29:00: Type	File                |	Count	11
+L 01/26/2023 - 03:29:00: Type	Trie                |	Count	1
+L 01/26/2023 - 03:29:00: --------------------------------------------------------------------------
+L 01/26/2023 - 03:29:00: Oldest Living Handle: File created at 2023/01/25 - 06:02:27
+L 01/26/2023 - 03:29:00: Newest Living Handle: DataPack created at 2023/01/26 - 03:28:56
+L 01/26/2023 - 03:29:00: -- Approximately 35513194 bytes of memory are in use by (1043733) Handles.
+

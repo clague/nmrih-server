@@ -1,0 +1,10 @@
+// "Cinema Premiere" (Blitz)
+
+"MapHack"
+{
+	"includes"
+	{
+		"file"	"maps/maphacks/challenges/include/nmo_broadway_blitz_shared.txt"
+		"file"	"maps/maphacks/challenges/nmo_broadway_challenge_1.txt"
+	}
+}

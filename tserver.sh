@@ -1,0 +1,1 @@
+sudo schedtool -a 0 -n -15 -e sudo -u clague /home/clague/nmrihsrv/srcds_run -debug -console -insecure -game nmrih -nocrashdialog -port 27018 -tickrate 100 +map nmo_broadway -autoupdate -steam_dir /home/clague/.local/share/Steam/steamcmd/ -steamcmd_script /home/clague/nmrih_update.txt +servercfgfile server_test.cfg +sv_pure -1 -insecure -high -noipx

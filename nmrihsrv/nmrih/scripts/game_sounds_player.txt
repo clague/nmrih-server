@@ -1,0 +1,647 @@
+//New:
+//"NMRPlayer.Clothes_Foley"
+
+"HL2Player.SprintNoPower"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_40dB"
+
+	"wave"	"player/sprint_deny.wav"
+}
+
+"HL2Player.SprintStart"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_40dB"
+
+	"wave"	"player/sprint_start.wav"
+}
+
+"NMRPlayer.FlashLightOn"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.8"
+	"soundlevel"    "SNDLVL_35dB"
+	"pitch"	"PITCH_NORM"
+	
+	"rndwave"
+	{
+			"wave" "items/flashlight_on1.wav"
+			"wave" "items/flashlight_on2.wav"
+	}	
+}
+
+"NMRPlayer.FlashLightOff"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_35dB"
+	"pitch"	"PITCH_NORM"
+
+	"rndwave"
+	{
+			"wave" "items/flashlight_off1.wav"
+			"wave" "items/flashlight_off2.wav"
+	}	
+}
+
+"NMRPlayer.InfectionTheme"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"player/infection/player_infection.ogg"
+}
+
+"NMRPlayer.TakePills"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"player/infection/pills_swallow1.wav"
+}
+
+"NMRPlayer.TakeBandages"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"player/bleedout/bandage1.wav"
+}
+
+"HL2Player.PickupWeapon"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_45dB"
+
+	"wave"	"items/ammo_pickup.wav"
+}
+
+"HL2Player.TrainUse"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"plats/train_use1.wav"
+}
+
+"HL2Player.Use"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.2"
+	"soundlevel"  "SNDLVL_35dB"
+
+	"rndwave"
+	{
+			"wave"	"player/movement/movement_use1.wav"
+	}
+}
+
+"HL2Player.UseNPC"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.2"
+	"soundlevel"  "SNDLVL_35dB"
+	
+	"rndwave"
+	{
+			"wave"	"player/movement/movement_use1.wav"
+	}
+}
+
+"HL2Player.UseDeny"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"common/wpn_denyselect.wav"
+}
+
+// SHARED player sounds
+
+"NMRPlayer.Male.BurnPain"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_60dB"
+
+	"rndwave"
+	{
+		"wave"	"player/pl_burnpain1.wav"
+		"wave"	"player/pl_burnpain2.wav"
+		"wave"	"player/pl_burnpain3.wav"
+	}
+}
+
+"NMRPlayer.Female.BurnPain"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_60dB"
+
+	"rndwave"
+	{
+		"wave"		")voice/command/sandwich/pain01.wav"
+		"wave"		")voice/command/sandwich/pain02.wav"
+	}
+}
+
+"NMRPlayer.Male.Death"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_60dB"
+
+	"rndwave"
+	{
+		"wave"	"player/pl_pain5.wav"
+		"wave"	"player/pl_pain6.wav"
+		"wave"	"player/pl_pain7.wav"
+	}
+}
+
+"NMRPlayer.Female.Death"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_60dB"
+
+	"rndwave"
+	{
+		"wave"		")player/pain/female/pain1.wav"
+		"wave"		")player/pain/female/pain2.wav"
+		"wave"		")player/pain/female/pain3.wav"
+		"wave"		")player/pain/female/pain4.wav"
+		"wave"		")player/pain/female/pain5.wav"
+	}
+}
+
+"Player.PlasmaDamage"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.5"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"player/general/flesh_burn.wav"
+}
+
+"Player.SonicDamage"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
+		"wave"	"player/pl_pain5.wav"
+		"wave"	"player/pl_pain6.wav"
+		"wave"	"player/pl_pain7.wav"
+	}
+}
+
+"Player.DrownStart"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"		"90,110"
+
+	"wave"	"player/pl_drown1.wav"
+}
+
+"Player.Swim"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"		"player/footsteps/wade5.wav"
+		"wave"		"player/footsteps/wade6.wav"
+		"wave"		"player/footsteps/wade7.wav"
+		"wave"		"player/footsteps/wade8.wav"
+	}
+}
+
+"NMRPlayer.Male.FallDamage"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.75"
+	"pitch"		"90,110"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"		")player/pl_fallpain1.wav"
+		"wave"		")player/pl_fallpain3.wav"
+	}
+}
+
+"NMRPlayer.Female.FallDamage"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.75"
+	"pitch"		"90,110"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"		")player/pain/female/pain1.wav"
+		"wave"		")player/pain/female/pain2.wav"
+		"wave"		")player/pain/female/pain3.wav"
+		"wave"		")player/pain/female/pain4.wav"
+		"wave"		")player/pain/female/pain5.wav"
+	}
+}
+
+"Player.FallGib"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.75"
+	"pitch"		"90,110"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"		"physics/body/body_medium_break2.wav"
+	}
+}
+
+"Player.DrownContinue"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"		"90,110"
+
+	"rndwave"
+	{
+		"wave"	"player/pl_drown1.wav"
+		"wave"	"player/pl_drown2.wav"
+		"wave"	"player/pl_drown3.wav"
+	}
+}
+
+"Player.Wade"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.25"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
+		"wave"	"player/footsteps/wade5.wav"
+		"wave"	"player/footsteps/wade6.wav"
+		"wave"	"player/footsteps/wade7.wav"
+		"wave"	"player/footsteps/wade8.wav"
+	}
+}
+
+"Player.AmbientUnderWater"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.22"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"ambient/water/underwater.wav"
+}
+
+"Player.UseTrain"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"plats/train_use1.wav"
+}
+
+"Player.UseDeny"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.2"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
+			"wave"	"player/movement/movement_use1.wav"
+	}
+}
+
+"Player.PickupWeapon"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"	"95,105"
+	"wave"	"items/ammo_pickup.wav"
+}
+
+"Player.PickupItem"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"	"95,105"
+	"rndwave"
+	{
+		"wave"	"player/clothes_generic_foley_01.wav"
+		"wave"	"player/clothes_generic_foley_02.wav"
+		"wave"	"player/clothes_generic_foley_03.wav"
+		"wave"	"player/clothes_generic_foley_04.wav"
+		"wave"	"player/clothes_generic_foley_05.wav"
+	}
+}
+
+
+"Geiger.BeepLow"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"player/geiger1.wav"
+		"wave"	"player/geiger2.wav"
+	}
+}
+
+"Geiger.BeepHigh"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"player/geiger2.wav"
+		"wave"	"player/geiger3.wav"
+	}
+}
+
+"NMRPlayer.LightBreath"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_30dB"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"wave"		"player/stamina/light_breath.wav"
+}
+
+"NMRPlayer.MediumBreath"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_40dB"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"rndwave"
+	{
+		"wave"		"player/stamina/medium_breath1.wav"
+	}
+}
+
+"NMRPlayer.HeavyBreath"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"rndwave"
+	{
+		"wave"		"player/stamina/heavy_breath1.wav"
+		"wave"		"player/stamina/heavy_breath2.wav"
+		"wave"		"player/stamina/heavy_breath3.wav"
+	}
+}
+
+"NMRPlayer.LightBreath.Female"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_30dB"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"wave"		"player/stamina/female/light_breath.wav"
+}
+
+"NMRPlayer.MediumBreath.Female"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_40dB"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"rndwave"
+	{
+		"wave"		"player/stamina/female/medium_breath1.wav"
+		"wave"		"player/stamina/female/medium_breath2.wav"
+	}
+}
+
+"NMRPlayer.HeavyBreath.Female"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"rndwave"
+	{
+		"wave"		"player/stamina/female/heavy_breath1.wav"
+		"wave"		"player/stamina/female/heavy_breath2.wav"
+		"wave"		"player/stamina/female/heavy_breath3.wav"
+	}
+}
+
+"NMRPlayer.HeartBeatIn"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"wave"		"player/stamina/heartbeat_in.wav"
+}
+
+"NMRPlayer.HeartBeatOut"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"wave"		"player/stamina/heartbeat_out.wav"
+}
+
+"NMRPlayer.Male.Pain"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"pitch"		"90,110"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"		")player/pain/pain1.wav"
+		"wave"		")player/pain/pain2.wav"
+		"wave"		")player/pain/pain3.wav"
+	}
+}
+
+"NMRPlayer.Female.Pain"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"pitch"		"90,110"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"		")player/pain/female/pain1.wav"
+		"wave"		")player/pain/female/pain2.wav"
+		"wave"		")player/pain/female/pain3.wav"
+		"wave"		")player/pain/female/pain4.wav"
+		"wave"		")player/pain/female/pain5.wav"
+	}
+}
+
+"NMRPlayer.Death"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"		"#music/leftbehind_short.wav"
+}
+
+"NMRPlayer.Grabbed"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.30"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"		"music/terror3.wav"
+}
+
+"NMRPlayer.SkillshotStart"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"player/skillshot/HoldBreath01.wav"
+		"wave"	"player/skillshot/HoldBreath02.wav"
+		"wave"	"player/skillshot/HoldBreath03.wav"
+		"wave"	"player/skillshot/HoldBreath04.wav"
+	}
+}
+
+"NMRPlayer.Bleedout_Damage"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"player/bleed/Bleeding01.wav"
+		"wave"	"player/bleed/Bleeding02.wav"
+		"wave"	"player/bleed/Bleeding03.wav"
+		"wave"	"player/bleed/Bleeding04.wav"
+		"wave"	"player/bleed/Bleeding05.wav"
+		"wave"	"player/bleed/Bleeding06.wav"
+		"wave"	"player/bleed/Bleeding07.wav"
+		"wave"	"player/bleed/Bleeding08.wav"
+		"wave"	"player/bleed/Bleeding09.wav"
+	}
+}
+
+"NMRPlayer.Clothes_Foley"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.2"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"player/footsteps/clothes_movement_01.wav"
+		"wave"	"player/footsteps/clothes_movement_02.wav"
+		"wave"	"player/footsteps/clothes_movement_03.wav"
+		"wave"	"player/footsteps/clothes_movement_04.wav"
+		"wave"	"player/footsteps/clothes_movement_05.wav"
+		"wave"	"player/footsteps/clothes_movement_06.wav"
+		"wave"	"player/footsteps/clothes_movement_07.wav"
+		"wave"	"player/footsteps/clothes_movement_08.wav"
+	}
+}
+
+"NMRPlayer.SightsAim"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"need sound"
+		"wave"	"need sound"
+		"wave"	"need sound"
+	}
+}
+
+"NMRPlayer.SightsRevert"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"need sound"
+		"wave"	"need sound"
+		"wave"	"need sound"
+
+	}
+}
+
+"NMRPlayer.ContemplateSuicide"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"	"player/infection/suicide.ogg"
+}
+
+"NMRPlayer.GunshotSuicide"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.5"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_75dB"
+
+	"wave"	"player/gunshot_suicide.wav"
+}

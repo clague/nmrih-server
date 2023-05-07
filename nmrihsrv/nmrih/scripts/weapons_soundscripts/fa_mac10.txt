@@ -1,0 +1,73 @@
+//************
+// MP5
+//************
+
+"Weapon_MAC10.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"	")weapons/firearms/smg_mac10/mac10_fire_01.wav"
+	}
+}
+
+
+"Weapon_MAC10.dry"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.4"
+	"soundlevel"	"SNDLVL_55dB"
+	
+	"rndwave"	
+	{
+		"wave"		")weapons/firearms/smg_mac10/Mac10_dry01.wav"
+	}
+}
+
+"Weapon_MAC10.ClipOut"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"		")weapons/firearms/smg_mac10/Mac10_Mag_Out.wav"
+}
+
+"Weapon_MAC10.ClipIn"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"		")weapons/firearms/smg_mac10/Mac10_Mag_In_1.wav"
+}
+
+"Weapon_MAC10.Cliphit"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"		")weapons/firearms/smg_mac10/Mac10_Mag_In_2.wav"
+}
+
+"Weapon_MAC10.Boltpull"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.6"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"		")weapons/firearms/smg_mac10/Mac10_Mag_In_3.wav"
+}
+
+"Weapon_MAC10.Stockpull"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.6"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"		")weapons/firearms/smg_mac10/Mac10_Pull.wav"
+}

@@ -1,0 +1,99 @@
+//************
+// SKS
+//************
+
+"Weapon_SKS.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"		"95,105"
+
+	"rndwave"
+	{
+		"wave"		")weapons/firearms/rifle_sks/sks_fire_01.wav"
+
+	}
+}
+
+"Weapon_SKS.ClipIn1"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.9"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"	                ")weapons/firearms/rifle_sks/SKS_ClipIn1.wav"
+}
+
+"Weapon_SKS.ClipIn2"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.9"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"	                ")weapons/firearms/rifle_sks/SKS_ClipIn2.wav"
+}
+
+"Weapon_SKS.ClipOut"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.9"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"	                ")weapons/firearms/rifle_sks/SKS_ClipOut.wav"
+}
+
+
+"Weapon_SKS.Empty" //MISSING
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_60dB"
+
+	"rndwave"
+	{
+		"wave"		")weapons/firearms/rifle_sks/Empty.wav"
+		"wave"		")weapons/firearms/rifle_sks/Empty2.wav"
+	}
+}
+
+"Weapon_SKS.Slide"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_55dB"
+
+	         "wave"	        ")weapons/firearms/rifle_sks/SKS_Slide1.wav"
+}
+
+"Weapon_SKS.SlideBack"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"	        ")weapons/firearms/rifle_sks/SKS_SlideBack.wav"
+}
+
+"Weapon_SKS.SlideForward"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"	        ")weapons/firearms/rifle_sks/SKS_SlideForward.wav"
+}
+
+"Weapon_SKS.BayonetImpact"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"physics/flesh/flesh_impact_bayonet1.wav"
+		"wave"	"physics/flesh/flesh_impact_bayonet2.wav"
+		"wave"	"physics/flesh/flesh_impact_bayonet3.wav"
+	}
+}

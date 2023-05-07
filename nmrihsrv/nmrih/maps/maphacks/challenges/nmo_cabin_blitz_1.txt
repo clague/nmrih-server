@@ -1,0 +1,11 @@
+// "Cabin Fever" (Blitz)
+
+"MapHack"
+{
+	"includes"
+	{
+		"file"	"maps/maphacks/challenges/include/nmo_cabin_shared.txt"
+		"file"	"maps/maphacks/challenges/include/nmo_cabin_blitz_shared.txt"
+		"file"	"maps/maphacks/challenges/nmo_cabin_challenge_1.txt"
+	}
+}

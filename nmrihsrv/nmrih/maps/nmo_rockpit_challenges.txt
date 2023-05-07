@@ -1,0 +1,113 @@
+// 31: obj_start - Weld open the gate
+// 41: obj_elec - Find 3 planks to bridge the electrified puddle
+// 30: obj_panel - Use the panel in the control room, open the gate B
+// 42: obj_moving - Make your way towards the gate
+// 43: obj_barrier - Use a gas can to destroy the barricade
+// 44: obj_tunnel - Find an alternative way into the maintenance tunnels
+// 45: obj_gen_underground - Restore power to the elevator
+// 34: obj_gen_normal - Restore power to the elevator
+// 23: obj_lever - Attach a spare lever to the elevator
+// 24: obj_fubar - Pry open the elevator doors
+// 33: obj_esc - Escape to the surface!
+// 27: obj_shed - Find a key to enter the shed
+// 40: obj_carbattery - Use battery to open the entrance gate, get ready for an escape
+// 32: obj_van - Get into the FastEx van and escape!
+// 29: obj_fire - Find an extinguisher and put out the fire
+// 39: obj_radio - Call for help, use the radio upstairs
+// 153: obj_siren - Activate a siren to signal your position
+// 37: obj_survive - Survive!
+// 38: obj_heli - Get extracted by the helicopter!
+
+"Challenges"
+{
+	"nmo_rockpit_challenge_1"
+	{
+		"Name"	"Power Trip"
+		"Description" "We know this place inside out, it'll be a walk in the park."
+		"Objectives"
+		{
+			"0" "31"
+			"1" "30"
+			"2" "42"
+			"3" "34"
+			"4" "23"
+			"5" "33"
+			"6" "27"
+			"7" "40"
+			"8" "32"
+		}
+
+		"MapHack"
+		{
+			"includes"
+			{
+				"file"	"maps/maphacks/challenges/nmo_rockpit_challenge_1.txt"
+			}
+		}
+	}
+
+	"nmo_rockpit_challenge_2"
+	{
+		"Name"	"Under Stress"
+		"Description" "Complete a round with the longest possible objective chain."
+		"Objectives"
+		{
+			"0" "31"
+			"1" "41"
+			"2" "30"
+			"3" "42"
+			"4" "43"
+			"5" "44"
+			"6" "45"
+			"7" "24"
+			"8" "33"
+			"9" "29"
+			"10" "39"
+			"11" "153"
+			"12" "37"
+			"13" "38"
+		}
+	}
+
+	"nmo_rockpit_blitz_1"
+	{
+		"Name"	"Blitz: Power Trip"
+		"Description" "In Blitz mode, gain more time by completing objectives!"
+		"Blitz"	"1"
+		"Objectives"
+		{
+			"0" "31"
+			"1" "30"
+			"2" "42"
+			"3" "34"
+			"4" "23"
+			"5" "33"
+			"6" "27"
+			"7" "40"
+			"8" "32"
+		}
+
+		"BlitzParams"
+		{
+			"InitialTime"	"180" // Start at 3 minutes
+			
+			// Objective timer additions
+			"DefaultObjAdd" "30" // By default, add 30s
+			"ObjectiveTimerAdd"
+			{
+				"30" "60" // Give extra time to reach the gate B
+				"42" "60" // Give extra time for reaching the gate B
+				"23" "60" // Give extra time to reach the surface
+				"33" "120" // Give extra time for reaching the surface
+			}
+		}
+
+		"MapHack"
+		{
+			"includes"
+			{
+				"file"	"maps/maphacks/challenges/nmo_rockpit_blitz_1.txt"
+			}
+		}
+	}
+}

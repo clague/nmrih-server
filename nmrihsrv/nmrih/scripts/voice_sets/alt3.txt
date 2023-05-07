@@ -1,0 +1,6 @@
+"Alt3"
+{
+	"name"		"Bingo Bango"
+	"script"	"scripts/voice_soundscripts/voice_set_alt3.txt"
+	"gender"	"m"
+}

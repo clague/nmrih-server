@@ -1,0 +1,987 @@
+//****************************************************************************
+// NO MORE ROOM IN HELL
+// Soundscapes for 'Broadway'
+//
+//****************************************************************************
+//
+//****************************************
+// Ambient Setups
+//****************************************
+
+"broadway.rain"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"90"
+		"wave"		"ambient/water/city_rain_light_generic.wav"
+	}
+}
+
+"broadway.rain"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"90"
+		"wave"		"ambient/water/city_rain_light_generic.wav"
+	}
+}
+
+"broadway.rain1"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"90"
+		"wave"		"ambient/water/city_rain_light_generic.wav"
+	}
+}
+
+"broadway.rain2"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"90"
+		"wave"		"ambient/water/city_rain_light_generic.wav"
+	}
+}
+
+"broadway.rain3"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"90"
+		"wave"		"ambient/water/city_rain_light_generic.wav"
+	}
+}
+
+"broadway.rainalley"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"90"
+		"wave"		"ambient/water/city_rain_light_backalley.wav"
+	}
+}
+
+"broadway.roomtone1"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.8"
+		"pitch"		"90"
+		"wave"		"ambient/roomtones/roomtone_neutral1.wav"
+	}
+}
+
+"broadway.roomtone2"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.9"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/roomtone_veryquiet.wav"
+	}
+}
+
+"broadway.roomtone3"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.8"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/low_ambient_room_loop.wav"
+	}
+}
+
+"broadway.roomtone4"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"wave"		"ambient/roomtones/room_tone_3.wav"
+	}
+}
+
+"broadway.thinroofrain"
+{
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"		"100"
+		"wave"		"ambient/water/city_rain_light_thinroof.wav"
+	}
+}
+
+"broadway.rainwindow1"
+{
+	"playlooping"
+	{
+		"volume"		"0.6"
+		"pitch"		"100"
+		"wave"		"ambient/water/city_rain_skylightclosed.wav"
+	}
+}
+
+"broadway.rainwindow2"
+{
+	"playlooping"
+	{
+		"volume"		"0.6"
+		"pitch"		"100"
+		"wave"		"ambient/water/city_rain_skylightclosed.wav"
+	}
+}
+
+"broadway.lighthum"
+{
+	"playlooping"
+	{
+		"volume"		"0.2"
+		"pitch"		"110"
+		"wave"		"ambient/machines/light_wall2.wav"
+	}
+}
+
+"broadway.lighthum2"
+{
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"		"110"
+		"wave"		"ambient/electricity/fluorescent_hum.wav"
+	}
+}
+
+"broadway.flies"
+{
+	"playlooping"
+	{
+		"volume"		"0.8"
+		"pitch"		"110"
+		"wave"		"ambient/animals/flies_loop1.wav"
+	}
+}
+
+
+"broadway.fanslow"
+{
+	"playlooping"	
+	{
+		"volume"	"1"	
+		"wave"	"ambient/machines/fan_slow.wav"
+	}
+}
+
+"broadway.order"
+{	
+	"playrandom"
+	{
+		"time"		"50,70"
+		"volume"	"0.6,0.8"
+		"pitch"		"90,120"
+		"attenuation"	"0.7"
+		"soundlevel"	"SNDLVL_105dB"
+
+		"rndwave"
+		{
+  			"wave"		"ambient/background/amb_gunfire3.wav"
+			"wave"		"ambient/background/amb_gunfire4.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"40,65"
+		"volume"	"0.3,0.5"
+		"pitch"		"100"
+		"attenuation"	"0.8"
+		"soundlevel"	"SNDLVL_85dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient/background/amb_siren1.wav"
+			"wave"		"ambient/background/amb_siren2.wav"
+		}
+	}
+}
+
+"broadway.whisper"
+{
+	"playrandom"
+	{
+		"time"         "5,8"
+		"volume"       "0.8"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\whispers\Ambient.Whisper1.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper2.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper3.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper4.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper5.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper6.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper7.wav"
+			"wave"	"ambient\whispers\Ambient.Whisper8.wav"
+		}
+	}
+}
+
+"broadway.radio"
+{
+	"playlooping"	
+	{
+		"volume"	"1"	
+		"wave"	"ambient/radio/radio_static_2_loop.wav"
+	}
+}
+
+"broadway.broadcast"
+{
+	"playlooping"	
+	{
+		"volume"	"1"	
+		"wave"	"ambient/machines/policecar_radiochatter1.wav"
+	}
+}
+
+"broadway.zombiesbang"
+{
+	"playlooping"	
+	{
+		"volume"	"0.8"	
+		"wave"	"ambient/zombies/bangonglass_group.wav"
+	}
+
+	"playlooping"	
+	{
+		"volume"	"1"	
+		"wave"	"ambient/zombies/distant_horde_loop.wav"
+	}
+}
+
+"broadway.drips"
+{	
+	"playrandom"
+	{
+		"time"		"3,9"
+		"volume"	"0.7,1.0"
+		"pitch"		"95,105"
+		"attenuation"	"0.9"
+		"soundlevel"	"SNDLVL_40dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient/water/drip1.wav"
+			"wave"		"ambient/water/drip2.wav"
+			"wave"		"ambient/water/drip3.wav"
+			"wave"		"ambient/water/drip4.wav"
+			"wave"		"ambient/water/drip5.wav"
+		}
+	}
+}
+
+"broadway.dogs"
+{	
+	"playrandom"
+	{
+		"time"		"10,19"
+		"volume"	"0.8,1.0"
+		"pitch"		"90,100"
+		"attenuation"	"0.9"
+		"soundlevel"	"SNDLVL_30dB"
+
+		"rndwave"
+		{
+			"wave"		"ambient/background/dist_dog1.wav"
+			"wave"		"ambient/background/dist_dog2.wav"
+			"wave"		"ambient/background/dist_dog3.wav"
+			"wave"		"ambient/background/dist_dog4.wav"
+		}
+	}
+}
+
+"broadway.finalsiren"
+{	
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"	"ambient/background/airraid_siren.wav"
+	}
+}
+
+"broadway.windindoor"
+{	
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"	"ambient/wind/low_wind_gust.wav"
+	}
+}
+
+"broadway.windoutdoor"
+{	
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"	"ambient/wind/heavy_wind_loop.wav"
+	}
+}
+
+"broadway.windside"
+{	
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"	"ambient/wind/medium_wind_loop.wav"
+	}
+}
+
+"broadway.cityamb"
+{	
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"	"ambient/background/city_quiet_loop1.wav"
+	}
+}
+
+"broadway.alarm"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"ambient/machines/CarAlarm.wav"
+	}
+}
+
+"broadway.fire1"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"ambient/fire/fire_sml3.wav"
+	}
+}
+
+
+"broadway.fridge"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"ambient/machines/fridge2.wav"
+	}
+}
+
+"broadway.musictension"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"90"
+		"wave"		"#*music/tension1.wav"
+	}
+}
+
+
+"broadway.musicspawn"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"90"
+		"wave"		"#*music/leftbehind_short.wav"
+	}
+}
+
+//****************************************
+// Level Areas 
+//****************************************
+
+"broadway.warehouse"
+{
+	"dsp"	"22"
+
+	"playsoundscape"	
+	{
+		"name"	"broadway.roomtone1"
+		"volume" "1"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"broadway.thinroofrain"
+		"volume" "1"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"0"
+		"name"	"broadway.roomtone2"
+		"volume"	"1"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"1"
+		"name"	"broadway.lighthum"
+		"volume"	"0.8"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"2"
+		"name"	"broadway.rainwindow1"
+		"volume"	"1"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"3"
+		"name"	"broadway.rainwindow2"
+		"volume"	"1"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"4"
+		"name"	"broadway.fanslow"
+		"volume"	"1"
+	}
+	
+	"playsoundscape"	
+	{
+		"positionoverride"		"5"
+		"name"	"broadway.flies"
+		"volume"	"1"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"6"
+		"name"	"broadway.rain"
+		"volume" "0.7"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"7"
+		"name"	"broadway.rain1"
+		"volume" "0.7"
+	}
+
+	"playrandom"	
+	{
+		"time"		"12,25"
+		"volume"		"1"
+		"pitch"		"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient/atmosphere/thunder3.wav"
+			"wave"		"ambient/atmosphere/thunder4.wav"
+		}
+	}
+
+	"playrandom"	
+	{
+		"time"		"80,130"
+		"volume"		"1"
+		"pitch"		"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient/background/heli1.wav"
+			"wave"		"ambient/background/amb_siren1.wav"
+		}
+	}	
+}
+
+"broadway.outdoorsrain"
+{
+	"dsp"	"1"
+
+	"playsoundscape"	
+	{
+		"name"	"broadway.rain"
+		"volume" "0.8"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"broadway.windoutdoor"
+		"volume" "1"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"broadway.order"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"broadway.cityamb"
+		"volume" "0.6"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"1"
+		"name"	"broadway.radio"
+		"volume" "1"
+	}
+	
+	"playsoundscape"	
+	{
+		"positionoverride"		"0"
+		"name"	"broadway.broadcast"
+		"volume" "1"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"2"
+		"name"	"broadway.dogs"
+		"volume" "1"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"3"
+		"name"	"broadway.alarm"
+		"volume" "1"
+	}
+
+	"playrandom"	
+	{
+		"time"		"20,35"
+		"volume"		"1"
+		"pitch"		"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient/atmosphere/thunder3.wav"
+			"wave"		"ambient/atmosphere/thunder4.wav"
+			"wave"		"ambient/background/heli1.wav"
+		}
+	}
+}
+
+"broadway.motel"
+{
+	"dsp"	"1"
+
+
+	"playsoundscape"
+	{
+		"name"	"broadway.musictension"
+		"volume" "1"
+	}
+
+
+	"playsoundscape"
+	{
+		"name"	"broadway.roomtone3"
+		"volume" "0.5"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"broadway.whisper"
+		"volume" "0.5"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"broadway.windindoor"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"broadway.order"
+		"volume" "0.7"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"broadway.cityamb"
+		"volume" "0.3"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"		"0"
+		"name"	"broadway.lighthum2"
+		"volume" "0.4"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"		"1"
+		"name"	"broadway.zombiesbang"
+		"volume" "0.7"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"2"
+		"name"	"broadway.rainwindow1"
+		"volume"	"1"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"3"
+		"name"	"broadway.rain"
+		"volume" "0.5"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"4"
+		"name"	"broadway.rain1"
+		"volume" "0.8"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"5"
+		"name"	"broadway.rain2"
+		"volume" "0.5"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"6"
+		"name"	"broadway.rain3"
+		"volume" "0.5"
+	}
+
+	"playlooping" 
+         { 
+                "volume"       "1" 
+                "pitch"        "100" 
+                "wave"         "ambient\atmosphere\corridor.wav" 
+         }
+
+	"playrandom"	
+	{
+		"time"		"20,35"
+		"volume"		"0.5"
+		"pitch"		"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient/atmosphere/thunder3.wav"
+			"wave"		"ambient/atmosphere/thunder4.wav"
+		}
+	}
+}
+
+"broadway.toilet"
+{
+	"dsp"	"1"
+
+	"playsoundscape"
+	{
+		"name"	"broadway.roomtone4"
+		"volume" "0.8"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"broadway.drips"
+		"volume" "0.9"
+	}
+
+	"playrandom"
+	{
+		"time"		"1,60"
+		"volume"	"0.5"
+		"pitch"		"100"
+		"positionoverride"	"0"
+
+		"rndwave"
+		{
+			"wave"		"ambient/water/flush1.wav"
+		}
+	}
+
+	"playrandom"	
+	{
+		"time"		"20,35"
+		"volume"		"0.4"
+		"pitch"		"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient/atmosphere/thunder3.wav"
+			"wave"		"ambient/atmosphere/thunder4.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"position"		"1"	
+		"pitch"			"100"
+		"volume"		"0.3"
+
+		"wave"	"ambient/water/waterpipe_3.wav"
+	}
+}
+
+"broadway.sidealley"
+{
+	"dsp"	"1"
+
+	"playsoundscape"	
+	{
+		"name"	"broadway.rain"
+		"volume" "0.6"
+	}
+
+	"playsoundscape"	
+	{
+		"name"	"broadway.windside"
+		"volume" "0.8"
+	}
+	"playsoundscape"	
+	{
+		"name"	"broadway.rainalley"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"broadway.cityamb"
+		"volume" "0.6"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"0"
+		"name"	"broadway.flies"
+		"volume"	"1"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"		"1"
+		"name"	"broadway.lighthum2"
+		"volume" "0.4"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"		"2"
+		"name"	"broadway.fire1"
+		"volume" "1"
+	}
+
+	"playrandom"	
+	{
+		"time"		"10,15"
+		"volume"		"0.4"
+		"pitch"		"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient/atmosphere/thunder3.wav"
+			"wave"		"ambient/atmosphere/thunder4.wav"
+		}
+	}
+
+	"playrandom"	
+	{
+		"time"		"30,45"
+		"volume"		"0.3"
+		"pitch"		"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient/background/window_smash1.wav"
+			"wave"		"ambient/background/window_smash2.wav"
+		}
+	}
+}
+
+"broadway.generic"
+{
+	"dsp"	"22"
+
+	"playsoundscape"	
+	{
+		"name"	"broadway.roomtone1"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"broadway.roomtone3"
+		"volume" "0.5"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"broadway.cityamb"
+		"volume" "0.3"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"		"0"
+		"name"	"broadway.lighthum2"
+		"volume" "1"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"1"
+		"name"	"broadway.rain"
+		"volume" "1"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"2"
+		"name"	"broadway.flies"
+		"volume"	"1"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"3"
+		"name"	"broadway.rainwindow1"
+		"volume"	"1"
+	}
+	
+	"playsoundscape"	
+	{
+		"positionoverride"		"4"
+		"name"	"broadway.dogs"
+		"volume" "1"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"6"
+		"name"	"broadway.fridge"
+		"volume" "0.5"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"7"
+		"name"	"broadway.fridge"
+		"volume" "0.5"
+	}
+
+	"playrandom"	
+	{
+		"time"		"20,35"
+		"volume"		"0.7"
+		"pitch"		"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient/atmosphere/thunder3.wav"
+			"wave"		"ambient/atmosphere/thunder4.wav"
+			"wave"		"ambient/background/heli1.wav"
+		}
+	}
+}
+
+"broadway.spawn"
+{
+	"dsp"	"22"
+
+	"playsoundscape"	
+	{
+		"name"	"broadway.roomtone1"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"broadway.roomtone3"
+		"volume" "0.5"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"broadway.cityamb"
+		"volume" "0.3"
+	}
+
+	"playsoundscape"
+	{
+		"positionoverride"		"0"
+		"name"	"broadway.lighthum2"
+		"volume" "1"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"1"
+		"name"	"broadway.rain"
+		"volume" "0.7"
+	}
+
+	"playsoundscape"	
+	{
+		"positionoverride"		"2"
+		"name"	"broadway.flies"
+		"volume"	"1"
+	}
+
+	"playrandom"	
+	{
+		"time"		"20,35"
+		"volume"		"0.7"
+		"pitch"		"100"
+
+		"rndwave"
+		{
+			"wave"		"ambient/atmosphere/thunder3.wav"
+			"wave"		"ambient/atmosphere/thunder4.wav"
+			"wave"		"ambient/background/heli1.wav"
+		}
+	}
+}
+
+
+
+
+

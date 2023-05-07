@@ -1,0 +1,100 @@
+"NMRPlayer.TokenEarned"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"@survival/surv_token_earned.wav"
+}
+"NMRPlayer.TokenDenied"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"@survival/surv_token_denied.wav"
+}
+"NMRPlayer.TokenUsed"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"@survival/surv_token_used.wav"
+}
+"Wave.Begin_0"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"soundlevel"  	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"@survival/wave_0_begin.wav"
+}
+
+"Wave.Begin_1"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"soundlevel"  	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"@survival/wave_1_begin.wav"
+}
+
+"Wave.Begin_2"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"soundlevel"  	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"@survival/wave_2_begin.wav"
+}
+
+"Wave.Begin_3"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"soundlevel"  	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"@survival/wave_3_begin.wav"
+}
+
+"Wave.Complete"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"soundlevel"  	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+	"wave"			"@survival/wave_end.wav"
+}
+
+"Wave.LowZombies"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"soundlevel"  	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"@survival/x1_zombies_left.wav"
+}
+
+//-----------------------------
+// Safe Zone Sounds
+//-----------------------------
+"SafeZone.UnderAttack"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.5"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"120"
+
+	"wave"		"@survival/surv_alarm.wav"
+}
+
+"SafeZone.Killed"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.4"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"@survival/surv_zone_dead.wav"
+}

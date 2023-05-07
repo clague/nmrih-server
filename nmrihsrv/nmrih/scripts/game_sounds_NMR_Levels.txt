@@ -1,0 +1,711 @@
+// ****************************************************************
+// No More Room In Hell
+// Sound effects implementation scripts
+// Created by Luke <- Gayyyy
+// ****************************************************************
+//	SNDLVL_NONE		= 0,
+//	SNDLVL_25dB		= 25,
+//	SNDLVL_30dB		= 30,
+//	SNDLVL_35dB		= 35,
+//	SNDLVL_40dB		= 40,
+//	SNDLVL_45dB		= 45,
+//	SNDLVL_50dB		= 50,	= 3.9
+//	SNDLVL_55dB		= 55,	= 3.0
+//	SNDLVL_IDLE		= 60,	= 2.0
+//	SNDLVL_TALKING		= 60,	= 2.0
+//	SNDLVL_60dB		= 60,	= 2.0
+//	SNDLVL_65dB		= 65,	= 1.5
+//	SNDLVL_STATIC		= 66,	= 1.25
+//	SNDLVL_70dB		= 70,	= 1.0
+//	SNDLVL_NORM		= 75,
+//	SNDLVL_75dB		= 75,	= 0.8
+//	SNDLVL_80dB		= 80,	= 0.7
+//	SNDLVL_85dB		= 85,	= 0.6
+//	SNDLVL_90dB		= 90,	= 0.5
+//	SNDLVL_95dB		= 95,
+//	SNDLVL_100dB	= 100,	= 0.4
+//	SNDLVL_105dB	= 105,
+//	SNDLVL_120dB	= 120,
+//	SNDLVL_130dB	= 130,
+//	SNDLVL_GUNFIRE	= 140, = 0.27
+//	SNDLVL_140dB	= 140,	= 0.2
+//	SNDLVL_150dB	= 150,	= 0.2
+//
+//***********
+// Ambient
+//***********
+
+//mono
+"city_rain_light_backalley"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_45dB"
+	"wave"			"ambient/water/city_rain_light_backalley.wav"
+}
+
+//stereo
+"city_rain_light_generic"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_45dB"
+	"wave"			"ambient/water/city_rain_light_generic.wav"
+}
+
+//mono
+"city_rain_light_metal"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_50dB"
+	"wave"			"ambient/water/city_rain_light_metal.wav"
+}
+
+//mono
+"city_rain_skylightclosed"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_55dB"
+	"wave"			"ambient/water/city_rain_skylightclosed.wav"
+}
+
+//stereo
+"city_rain_light_thinroof"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"attenuation"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_55dB"
+	"wave"			")ambient/water/city_rain_light_thinroof.wav"
+}
+
+//mono
+"city_rain_windyhole"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_50dB"
+	"wave"			"ambient/water/city_rain_windyhole.wav"
+}
+
+//mono
+"wind_closedwindow"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_55dB"
+	"wave"			"ambient/wind/wind_closedwindow.wav"
+}
+
+//mono
+"waterpipe_1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_45db"
+	"wave"			"ambient/water/waterpipe_1.wav"
+}
+
+//mono
+"waterpipe_2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_45db"
+	"wave"			"ambient/water/waterpipe_2.wav"
+}
+
+//mono
+"waterpipe_3"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_45db"
+	"wave"			"ambient/water/waterpipe_3.wav"
+}
+//
+//***********
+// Creatures
+//***********
+
+"flies.litter"
+{		
+	"playrandom"	//random flys buzz 
+	{
+		"time"		"2,15"
+		"volume"		"0.7,0.8"
+		"pitch"		"95,105"
+		"soundlevel"		"SNDLVL_65db"
+
+		"rndwave"
+		{
+			"wave"		"ambient/animals/fly_buzz1.wav"
+			"wave"		"ambient/animals/fly_buzz2.wav"
+			"wave"		"ambient/animals/fly_buzz3.wav"
+			"wave"		"ambient/animals/fly_buzz4.wav"
+			"wave"		"ambient/animals/fly_buzz5.wav"
+			"wave"		"ambient/animals/fly_buzz6.wav"
+			"wave"		"ambient/animals/fly_buzz7.wav"
+			"wave"		"ambient/animals/fly_buzz8.wav"
+			"wave"		"ambient/animals/fly_buzz9.wav"
+			"wave"		"ambient/animals/fly_buzz10.wav"
+			"wave"		"ambient/animals/fly_buzz11.wav"
+			"wave"		"ambient/animals/fly_buzz12.wav"
+			"wave"		"ambient/animals/fly_buzz13.wav"
+			"wave"		"ambient/animals/fly_buzz14.wav"
+			"wave"		"ambient/animals/fly_buzz15.wav"
+		}
+	}
+}
+
+
+"flies.corpse" // constant flies from corpse
+{		
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"soundlevel"		"SNDLVL_65db"
+		"wave"		")ambient/animals/flies_loop1.wav"
+	}
+
+	"playrandom"	//random flys buzz 
+	{
+		"time"		"2,8"
+		"volume"		"0.7,0.95"
+		"pitch"		"95,115"
+		"soundlevel"		"SNDLVL_45db"
+
+		"rndwave"
+		{
+			"wave"		"ambient/animals/fly_buzz1.wav"
+			"wave"		"ambient/animals/fly_buzz2.wav"
+			"wave"		"ambient/animals/fly_buzz3.wav"
+			"wave"		"ambient/animals/fly_buzz4.wav"
+			"wave"		"ambient/animals/fly_buzz5.wav"
+			"wave"		"ambient/animals/fly_buzz6.wav"
+			"wave"		"ambient/animals/fly_buzz7.wav"
+			"wave"		"ambient/animals/fly_buzz8.wav"
+			"wave"		"ambient/animals/fly_buzz9.wav"
+			"wave"		"ambient/animals/fly_buzz10.wav"
+			"wave"		"ambient/animals/fly_buzz11.wav"
+			"wave"		"ambient/animals/fly_buzz12.wav"
+			"wave"		"ambient/animals/fly_buzz13.wav"
+			"wave"		"ambient/animals/fly_buzz14.wav"
+			"wave"		"ambient/animals/fly_buzz15.wav"
+		}
+	}
+}
+//
+//***********
+// Machines
+//***********
+
+"fridge_old"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"95,105"
+	"soundlevel"		"SNDLVL_38dB"
+	"wave"			"ambient/machines/fridge2.wav"
+}
+
+"heater_old"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"95,105"
+	"soundlevel"		"SNDLVL_40dB"
+	"wave"			"ambient/machines/heater1.wav"
+}
+
+"borked_elevator"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"			"ambient/machines/borked_elevator.wav"
+}
+
+"policecar_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_70dB"
+	"wave"			"ambient/machines/policecar_engine_idle.wav"
+}
+
+"policecar_radiochatter1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_50dB"
+	"wave"			"ambient/machines/policecar_radiochatter1.wav"
+}
+
+"policecar_siren_broken1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_115dB"
+	"wave"			"ambient/machines/policecar_siren_broken.wav"
+}
+
+"electric_fence"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_55dB"
+	"wave"			"ambient/electricity/electric_fence_idle.wav"
+}
+
+"fire_hydrant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_35dB"
+	"wave"			"ambient/machines/fire_hydrant.wav"
+}
+
+"aircon_intake"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_35dB"
+	"wave"			"ambient/machines/aircon_intake.wav"
+}
+
+"aircon_outtake"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_43dB"
+	"wave"			"ambient/machines/aircon_outtake.wav"
+}
+
+"fan_fast"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_55dB"
+	"wave"			"ambient/machines/fan_fast.wav"
+}
+
+"fan_slow"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_55dB"
+	"wave"			"ambient/machines/fan_slow.wav"
+}
+
+"washing_machine"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"attenuation"		"0.8"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_70dB"
+	"wave"			"^ambient/machines/washing_machine_cycle2.wav"
+}
+
+"transformer"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.6"
+	"attenuation"		"0.7"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_30dB"
+	"wave"			"ambient/machines/transformer_hum.wav"
+}
+//
+//**********
+// Distant/background
+//**********
+
+"zombie_horde"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"attenuation"		"0.7"
+	"soundlevel"		"SNDLVL_68dB"
+	"wave"			")ambient/zombies/distant_horde_loop.wav"
+}
+
+"zombie_horde_medium"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_68dB"
+	"wave"			")ambient/zombies/horde_medium_stereo.wav"
+}
+//
+//***********
+// Zombies
+//***********
+
+//stereo
+"bang_on_glass"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_75dB"
+	"wave"			")ambient/zombies/bangonglass_group.wav"
+}
+
+//***********
+// Radio
+//***********
+
+//Mono
+"radio_blava"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_65dB"
+	"wave"			"#ambient/radio/radio_internet_blava.wav"
+}
+
+//Mono
+"radio_chocrain"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_65dB"
+	"wave"			"#ambient/radio/radio_internet_chocrain.wav"
+}
+
+//**********
+// Placeholder
+//**********
+
+"PLACEHOLDER"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_120dB"
+//	"wave"			"ambient/zombies/distant_horde_loop.wav"
+}
+
+//*********
+//By Rez
+//*********
+"phone_box_ring"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"95,105"
+	"soundlevel"		"SNDLVL_NORM"
+//	"wave"			"ambient/phone/phone_box_ring_01.wav"
+}
+
+// ****************************************************************
+// No More Room In Hell
+// Sound effects implementation scripts
+// Created by Hermann Rauth for Sonic Valley Productions
+// ****************************************************************
+//	SNDLVL_NONE		= 0,
+//	SNDLVL_25dB		= 25,
+//	SNDLVL_30dB		= 30,
+//	SNDLVL_35dB		= 35,
+//	SNDLVL_40dB		= 40,
+//	SNDLVL_45dB		= 45,
+//	SNDLVL_50dB		= 50,	= 3.9
+//	SNDLVL_55dB		= 55,	= 3.0
+//	SNDLVL_IDLE		= 60,	= 2.0
+//	SNDLVL_TALKING		= 60,	= 2.0
+//	SNDLVL_60dB		= 60,	= 2.0
+//	SNDLVL_65dB		= 65,	= 1.5
+//	SNDLVL_STATIC		= 66,	= 1.25
+//	SNDLVL_70dB		= 70,	= 1.0
+//	SNDLVL_NORM		= 75,
+//	SNDLVL_75dB		= 75,	= 0.8
+//	SNDLVL_80dB		= 80,	= 0.7
+//	SNDLVL_85dB		= 85,	= 0.6
+//	SNDLVL_90dB		= 90,	= 0.5
+//	SNDLVL_95dB		= 95,
+//	SNDLVL_100dB	= 100,	= 0.4
+//	SNDLVL_105dB	= 105,
+//	SNDLVL_120dB	= 120,
+//	SNDLVL_130dB	= 130,
+//	SNDLVL_GUNFIRE	= 140, = 0.27
+//	SNDLVL_140dB	= 140,	= 0.2
+//	SNDLVL_150dB	= 150,	= 0.2
+
+
+"light_fluor"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"90,110"
+	"soundlevel"		"SNDLVL_35dB"
+	"wave"			"ambient/machines/light_fluor.wav"
+}
+
+
+"light_round"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".5,1"
+	"pitch"			"95,105"
+	"soundlevel"		"SNDLVL_40dB"
+	"wave"			"ambient/machines/light_round.wav"
+}
+
+
+"light_wall"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".5,1"
+	"pitch"			"95,105"
+	"soundlevel"		"SNDLVL_40dB"
+	"wave"			"ambient/machines/light_wall2.wav"
+}
+
+
+"clock"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_30dB"
+	"wave"			"ambient/machines/clock_wall_round1.wav"
+}
+
+
+"clock_evil"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_30dB"
+	"wave"			"ambient/machines/clock_wall_round2.wav"
+}
+
+
+"light_bulb"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".6,1"
+	"pitch"			"95,105"
+	"soundlevel"		"SNDLVL_39dB"
+	"wave"			"ambient/machines/light_bulb2.wav"
+}
+
+
+"light_spot_floor"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"90,110"
+	"soundlevel"		"SNDLVL_35dB"
+	"wave"			"ambient/machines/light_spot_floor.wav"
+}
+
+
+"light_spot_stand"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"90,110"
+	"soundlevel"		"SNDLVL_45dB"
+	"wave"			"ambient/machines/light_spot_stand.wav"
+}
+
+
+"radio1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"75,125"
+	"soundlevel"		"SNDLVL_50dB"
+	"wave"			"ambient/machines/radio_static.wav"
+}
+
+
+"tv_hum"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"90,110"
+	"soundlevel"		"SNDLVL_30dB"
+	"wave"			"ambient/machines/tv_hum3.wav"
+}
+
+"fire_place"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_50dB"		//was 50, tried 70 with sml2,
+	"wave"			"^ambient/fire/fire_sml3.wav"
+}
+
+
+"fire_small"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_45dB"		//was 45
+	"wave"			"^ambient/fire/fire_sml3.wav"
+}
+
+
+"fire_medium"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_60dB"		//was 50, tried 70 with med3.
+	"wave"			"^ambient/fire/fire_med3.wav"
+}
+
+
+"drain"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"98,102"
+	"soundlevel"		"SNDLVL_45dB"
+	"wave"			"ambient/water/drain.wav"
+}
+
+"flush"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_60dB"
+	"wave"			"ambient/water/flush1.wav"
+}
+
+"urinal"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"98,102"
+	"soundlevel"		"SNDLVL_50dB"
+	"wave"			"ambient/water/urinal1.wav"
+}
+
+
+// PROTOTYPE SCRIPTS
+//
+// The following scripts are under testing.
+// Do not use them.
+// If you find any useful, copy to the section above and rename it.
+
+
+"light_fluor_dmg"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_40dB"
+	
+	"rndwave"
+	{
+		"wave"		"ambient/machines/light_fluor.wav"
+		"wave"		"ambient/machines/light_zap1.wav"
+		"wave"		"ambient/machines/light_zap2.wav"
+		"wave"		"ambient/machines/light_zap3.wav"
+		"wave"		"ambient/machines/light_zap4.wav"
+	}
+}
+
+"light_fluor_loop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_100dB"
+	
+	"rndwave"
+	{
+		"wave"		"ambient/machines/light_zap1.wav"
+		"wave"		"ambient/machines/light_zap2.wav"
+		"wave"		"ambient/machines/light_zap3.wav"
+		"wave"		"ambient/machines/light_zap4.wav"
+	}
+}
+
+"light_fluor_tst"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"		"SNDLVL_100dB"
+	
+	"rndwave"
+	{
+		"wave"		"ambient/machines/light_zap1.wav"
+		"wave"		"ambient/machines/light_zap2.wav"
+		"wave"		"ambient/machines/light_zap3.wav"
+		"wave"		"ambient/machines/light_zap4.wav"
+	}
+}
+
+
+//	SNDLVL_NONE		= 0,
+//	SNDLVL_25dB		= 25,
+//	SNDLVL_30dB		= 30,
+//	SNDLVL_35dB		= 35,
+//	SNDLVL_40dB		= 40,
+//	SNDLVL_45dB		= 45,
+//	SNDLVL_50dB		= 50,	= 3.9
+//	SNDLVL_55dB		= 55,	= 3.0
+//	SNDLVL_IDLE		= 60,	= 2.0
+//	SNDLVL_TALKING		= 60,	= 2.0
+//	SNDLVL_60dB		= 60,	= 2.0
+//	SNDLVL_65dB		= 65,	= 1.5
+//	SNDLVL_STATIC		= 66,	= 1.25
+//	SNDLVL_70dB		= 70,	= 1.0
+//	SNDLVL_NORM		= 75,
+//	SNDLVL_75dB		= 75,	= 0.8
+//	SNDLVL_80dB		= 80,	= 0.7
+//	SNDLVL_85dB		= 85,	= 0.6
+//	SNDLVL_90dB		= 90,	= 0.5
+//	SNDLVL_95dB		= 95,
+//	SNDLVL_100dB	= 100,	= 0.4
+//	SNDLVL_105dB	= 105,
+//	SNDLVL_120dB	= 120,
+//	SNDLVL_130dB	= 130,
+//	SNDLVL_GUNFIRE	= 140, = 0.27
+//	SNDLVL_140dB	= 140,	= 0.2
+//	SNDLVL_150dB	= 150,	= 0.2
+
+
+
+
+
+// ****************************************************************
+// No More Room In Hell
+// Sound effects implementation scripts
+// Created by Hermann Rauth for Sonic Valley Productions
+// ****************************************************************

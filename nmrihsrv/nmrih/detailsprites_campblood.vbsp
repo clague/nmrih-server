@@ -1,0 +1,79 @@
+detail
+{
+
+	campblood_grass01
+	{
+		"density" "1500.0"
+
+		Group1
+		{
+			"alpha" "1"
+
+			Model1
+			{
+				"sprite" "0 0 256 256 1024" 
+				"spritesize" "0.5 0.0 40 40"
+				"spriterandomscale" "0.2"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+
+			Model2
+			{
+				"sprite" "256 0 256 232 1024" 
+				"spritesize" "0.5 0.0 18 18"
+				"spriterandomscale" "0.2"
+				"amount" "0.02"
+				"detailOrientation" "2"
+			}
+
+			Model3
+			{
+				"sprite" "512 0 128 249 1024" 
+				"spritesize" "0.5 0.0 13 26"
+				"spriterandomscale" "0.2"
+				"amount" "0.03"
+				"detailOrientation" "2"
+			}
+
+			Model4
+			{
+				"sprite" "640 0 256 249 1024" 
+				"spritesize" "0.5 0.0 20 20"
+				"spriterandomscale" "0.2"
+				"amount" "0.03"
+				"detailOrientation" "2"
+			}
+
+			Model5
+			{
+				"sprite" "0 256 256 250 1024" 
+				"spritesize" "0.5 0.0 20 20"
+				"spriterandomscale" "0.2"
+				"amount" "0.02"
+				"detailOrientation" "2"
+			}
+
+
+		}
+		Group3
+		{
+			"alpha" "0.5"
+		}
+
+		Group4
+		{
+			"alpha" "0.3"
+
+		}
+
+		Group5
+		{
+			"alpha" "0.0"
+
+		}
+		
+
+	}
+
+}

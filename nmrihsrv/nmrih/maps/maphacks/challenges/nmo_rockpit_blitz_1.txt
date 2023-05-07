@@ -1,0 +1,63 @@
+// "Power Trip" (Blitz)
+
+"MapHack"
+{
+	"includes"
+	{
+		"file"	"maps/maphacks/challenges/nmo_rockpit_challenge_1.txt"
+	}
+
+	"entities"
+	{
+
+		// Quickly open the shed door
+		$remove_connections { "targetname" "obj_shed_trigger" }
+		$edit
+		{
+			"targetname" "obj_shed_trigger"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnTrigger" "obj_shed_item*,Kill,,0,1"
+					"OnTrigger" "obj_shed_outline*,Kill,,0,1"
+
+					"OnTrigger" "template_shed,Enable,,0,1"
+
+					"OnTrigger" "obj_shed_snd_1,PlaySound,,0,1"
+					"OnTrigger" "obj_shed_boundary,ObjectiveComplete,,0,1"
+
+					"OnTrigger" "storagedoor,Unlock,,0,1"
+					"OnTrigger" "storagedoor,Open,,0.01,1"
+				}
+			}
+		}
+
+		// Ensure that the zombies in the shed can't be seen while spawning
+		$edit
+		{
+			"targetname" "template_shed"
+			"keyvalues"
+			{
+				"SpawnFrequency"		"0.01"
+			}
+		}
+
+		// Complete the battery objective quickly
+		$remove_connections { "targetname" "obj_carbattery_trigger" }
+		$edit
+		{
+			"targetname" "obj_carbattery_trigger"
+			"keyvalues"
+			{
+				"connections"
+				{
+					"OnTrigger" "obj_carbattery_boundary,ObjectiveComplete,,0,1"
+
+					"OnTrigger" "!activator,Kill,,0,1"
+					"OnTrigger" "obj_carbattery_relay1,Trigger,,0,1"
+				}
+			}
+		}
+	}
+}

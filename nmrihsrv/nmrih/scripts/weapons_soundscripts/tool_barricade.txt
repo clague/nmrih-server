@@ -1,0 +1,149 @@
+//************
+// Hammer
+//************
+
+
+"Weapon_Hammer.Draw"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")player/weapon_draw_01.wav"
+		"wave"		")player/weapon_draw_02.wav"
+		"wave"		")player/weapon_draw_03.wav"
+		"wave"		")player/weapon_draw_04.wav"
+		"wave"		")player/weapon_draw_05.wav"
+	}
+}
+
+"Weapon_Hammer.Holster"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")player/weapon_holster_01.wav"
+		"wave"		")player/weapon_holster_02.wav"
+		"wave"		")player/weapon_holster_03.wav"
+		"wave"		")player/weapon_holster_04.wav"
+		"wave"		")player/weapon_holster_05.wav"
+	}
+}
+
+"Weapon_Hammer.BoardDraw"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")weapons/melee/hammer/board-draw1.wav"
+		"wave"		")weapons/melee/hammer/board-draw2.wav"
+		"wave"		")weapons/melee/hammer/board-draw3.wav"
+		"wave"		")weapons/melee/hammer/board-draw4.wav"
+	}
+}
+
+
+"Weapon_Hammer.BoardHolster"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")weapons/melee/hammer/board-holster1.wav"
+		"wave"		")weapons/melee/hammer/board-holster2.wav"
+		"wave"		")weapons/melee/hammer/board-holster3.wav"
+		"wave"		")weapons/melee/hammer/board-holster4.wav"
+	}
+}
+
+
+"Weapon_Hammer.Barricade"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")weapons/melee/hammer/barricade-1.wav"
+		"wave"		")weapons/melee/hammer/barricade-2.wav"
+
+	}
+}
+
+
+"Weapon_Hammer.BoardLight"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")weapons/melee/hammer/board_damage-light1.wav"
+		"wave"		")weapons/melee/hammer/board_damage-light2.wav"
+		"wave"		")weapons/melee/hammer/board_damage-light3.wav"
+		"wave"		")weapons/melee/hammer/board_damage-light4.wav"
+
+	}
+}
+
+
+"Weapon_Hammer.BoardHeavy"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")weapons/melee/hammer/board_damage-heavy1.wav"
+		"wave"		")weapons/melee/hammer/board_damage-heavy2.wav"
+		"wave"		")weapons/melee/hammer/board_damage-heavy3.wav"
+
+	}
+}
+
+
+"Weapon_Hammer.BoardBroken"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")weapons/melee/hammer/board_damage-broken1.wav"
+		"wave"		")weapons/melee/hammer/board_damage-broken2.wav"
+
+	}
+}
+
+
+"Weapon_Melee.HammerLight"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		")weapons/melee/hammer/Hammer_Hit1.wav"
+		"wave"		")weapons/melee/hammer/Hammer_Hit2.wav"
+		"wave"		")weapons/melee/hammer/Hammer_Hit3.wav"
+	}
+}
+
+"Weapon_Melee.HammerSwing"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		")weapons/melee/swing_light_blunt_01.wav"
+		"wave"		")weapons/melee/swing_light_blunt_02.wav"
+		"wave"		")weapons/melee/swing_light_blunt_03.wav"
+	}
+}

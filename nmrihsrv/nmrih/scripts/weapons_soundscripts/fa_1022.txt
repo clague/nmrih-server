@@ -1,0 +1,87 @@
+//************
+// Ruger 10/22
+//************
+
+"Weapon_22Pistol.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"		"95,100"
+
+	"rndwave"
+	{
+		"wave"		")weapons/firearms/rifle_ruger1022/ruger_fire_01.wav"
+		"wave"		")weapons/firearms/rifle_ruger1022/ruger_fire_02.wav"
+	}
+}
+
+"Weapon_22Pistol.ClipIn"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"	                ")weapons/firearms/rifle_ruger1022/Ruger_ClipIn.wav"
+}
+
+"Weapon_22Pistol.ClipOut"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"	                ")weapons/firearms/rifle_ruger1022/Ruger_ClipOut.wav"
+}
+
+
+"Weapon_22Pistol.Empty"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_60dB"
+
+	"rndwave"
+	{
+		"wave"		")weapons/firearms/rifle_ruger1022/Ruger_DryFire1.wav"
+		"wave"		")weapons/firearms/rifle_ruger1022/Ruger_DryFire2.wav"
+	}
+}
+
+"Weapon_22Pistol.Slide"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_45dB"
+
+        "rndwave"
+        {
+	         "wave"	        ")weapons/firearms/rifle_ruger1022/Ruger_Slide1.wav"
+	         "wave"	        ")weapons/firearms/rifle_ruger1022/Ruger_Slide3.wav"
+        }
+}
+
+"Weapon_22Pistol.SlideLock"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_45dB"
+
+        "rndwave"
+        {
+	         "wave"	        ")weapons/firearms/rifle_ruger1022/Ruger_SlideLock.wav"
+        }
+}
+
+"Weapon_22Pistol.DryFire"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_45dB"
+
+        "rndwave"
+        {
+	         "wave"	        ")weapons/firearms/rifle_ruger1022/Ruger_DryFire1.wav"
+	         "wave"	        ")weapons/firearms/rifle_ruger1022/Ruger_DryFire1.wav"
+        }
+}

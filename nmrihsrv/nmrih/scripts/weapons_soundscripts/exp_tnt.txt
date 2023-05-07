@@ -1,0 +1,81 @@
+//************
+// TNT
+//************
+
+"Weapon_TNT.Explode" 
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_140dB"
+	"wave"	")weapons/firearms/exp_tnt/tnt_explode_01.wav"
+}
+
+"Weapon_TNT.Ignite" 
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_NORM"
+	"wave"	")weapons/firearms/exp_tnt/tnt_ignite_01.wav"
+}
+
+"Weapon_TNT.Pop" 
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_NORM"
+	"wave"	")weapons/firearms/exp_tnt/tnt_pop_01.wav"
+}
+
+"Weapon_TNT.Spark_Loop" 
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_NORM"
+	"wave"	")weapons/firearms/exp_tnt/tnt_spark_loop_01.wav"
+}
+
+"Weapon_TNT.Draw"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")player/weapon_draw_01.wav"
+		"wave"		")player/weapon_draw_02.wav"
+		"wave"		")player/weapon_draw_03.wav"
+		"wave"		")player/weapon_draw_04.wav"
+		"wave"		")player/weapon_draw_05.wav"
+	}
+}
+
+"Weapon_TNT.Holster"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.4"
+	"rndwave"
+	{
+		"wave"		")player/weapon_holster_01.wav"
+		"wave"		")player/weapon_holster_02.wav"
+		"wave"		")player/weapon_holster_03.wav"
+		"wave"		")player/weapon_holster_04.wav"
+		"wave"		")player/weapon_holster_05.wav"
+	}
+}
+
+"Weapon_TNT.Shove"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_105dB"
+	"pitch"			"95,100"
+	"rndwave"
+	{
+		"wave"		")player/shove_01.wav"
+		"wave"		")player/shove_02.wav"
+		"wave"		")player/shove_03.wav"
+		"wave"		")player/shove_04.wav"
+		"wave"		")player/shove_05.wav"
+	}
+}

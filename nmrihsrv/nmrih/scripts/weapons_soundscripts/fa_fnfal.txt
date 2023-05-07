@@ -1,0 +1,53 @@
+//************
+// FN FAL
+//************
+
+"Weapon_FAL.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"		"95,100"
+
+	"rndwave"
+	{
+		"wave"		")weapons/firearms/rifle_fnfal/fnfal_fire_01.wav"
+	}
+}
+
+"Weapon_FAL.MagIn"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.9"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"	                ")weapons/firearms/rifle_fnfal/fnfal_magin_01.wav"
+}
+
+
+"Weapon_FAL.MagOut"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.9"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"	                ")weapons/firearms/rifle_fnfal/fnfal_magout_01.wav"
+}
+
+"Weapon_FAL.Boltback"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_55dB"
+
+	         "wave"	        ")weapons/firearms/rifle_fnfal/fnfal_boltback_01.wav"
+}
+
+"Weapon_FAL.Boltforward"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_55dB"
+
+	"wave"	        ")weapons/firearms/rifle_fnfal/fnfal_boltforward_01.wav"
+}

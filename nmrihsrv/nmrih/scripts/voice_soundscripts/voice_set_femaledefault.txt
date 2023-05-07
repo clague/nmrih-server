@@ -1,0 +1,1116 @@
+// **************************************************************
+// Common sounds
+
+"Death.FemaleDefault"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/pain/female/pain1.wav"
+		"wave"		"player/pain/female/pain2.wav"
+        "wave"		"player/pain/female/pain3.wav"
+		"wave"		"player/pain/female/pain4.wav"
+		"wave"		"player/pain/female/pain5.wav"
+	}
+}
+
+"Pain.FemaleDefault"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/pain/female/pain1.wav"
+		"wave"		"player/pain/female/pain2.wav"
+        "wave"		"player/pain/female/pain3.wav"
+		"wave"		"player/pain/female/pain4.wav"
+		"wave"		"player/pain/female/pain5.wav"
+	}
+}
+
+"Bleedout_Damage.FemaleDefault"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/bleed/female/bleeding1.wav"
+		"wave"		"player/bleed/female/bleeding2.wav"
+		"wave"		"player/bleed/female/bleeding3.wav"
+		"wave"		"player/bleed/female/bleeding4.wav"
+	}
+}
+
+"Drown_Damage.FemaleDefault"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"125" // :^)
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/pl_drown2.wav"
+		"wave"		"player/pl_drown3.wav"
+	}
+}
+
+"LightBreath.FemaleDefault"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_30dB"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"rndwave"
+	{
+		"wave"		"player/stamina/female/light_breath.wav"
+	}
+}
+
+"MediumBreath.FemaleDefault"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_40dB"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"rndwave"
+	{
+		"wave"		"player/stamina/female/medium_breath1.wav"
+		"wave"		"player/stamina/female/medium_breath2.wav"
+	}
+}
+
+"HeavyBreath.FemaleDefault"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"		"PITCH_NORM"
+	"volume"	"1.0"
+
+	"rndwave"
+	{
+		"wave"		"player/stamina/female/heavy_breath1.wav"
+		"wave"		"player/stamina/female/heavy_breath2.wav"
+		"wave"		"player/stamina/female/heavy_breath3.wav"
+	}
+}
+
+// **************************************************************
+// Ammo check sounds
+
+"AmmoCheck.FemaleDefault.0"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/0rounds1.wav"
+		"wave"		"player/ammocheck/chippants/0rounds2.wav"
+		"wave"		"player/ammocheck/chippants/0rounds3.wav"
+		"wave"		"player/ammocheck/chippants/0rounds4.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/1rounds1.wav"
+		"wave"		"player/ammocheck/chippants/1rounds2.wav"
+		"wave"		"player/ammocheck/chippants/1rounds3.wav"
+		"wave"		"player/ammocheck/chippants/1rounds4.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.2"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/2rounds1.wav"
+		"wave"		"player/ammocheck/chippants/2rounds2.wav"
+		"wave"		"player/ammocheck/chippants/2rounds3.wav"
+		"wave"		"player/ammocheck/chippants/2rounds4.wav"
+		"wave"		"player/ammocheck/chippants/2rounds5.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.3"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/3rounds1.wav"
+		"wave"		"player/ammocheck/chippants/3rounds2.wav"
+		"wave"		"player/ammocheck/chippants/3rounds3.wav"
+		"wave"		"player/ammocheck/chippants/3rounds4.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.4"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/4rounds1.wav"
+		"wave"		"player/ammocheck/chippants/4rounds2.wav"
+		"wave"		"player/ammocheck/chippants/4rounds3.wav"
+		"wave"		"player/ammocheck/chippants/4rounds4.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.5"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/5rounds1.wav"
+		"wave"		"player/ammocheck/chippants/5rounds2.wav"
+		"wave"		"player/ammocheck/chippants/5rounds3.wav"
+		"wave"		"player/ammocheck/chippants/5rounds4.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.6"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/6rounds1.wav"
+		"wave"		"player/ammocheck/chippants/6rounds2.wav"
+		"wave"		"player/ammocheck/chippants/6rounds3.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.7"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/7rounds1.wav"
+		"wave"		"player/ammocheck/chippants/7rounds2.wav"
+		"wave"		"player/ammocheck/chippants/7rounds3.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.8"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/8rounds1.wav"
+		"wave"		"player/ammocheck/chippants/8rounds2.wav"
+		"wave"		"player/ammocheck/chippants/8rounds3.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.9"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/9rounds1.wav"
+		"wave"		"player/ammocheck/chippants/9rounds2.wav"
+		"wave"		"player/ammocheck/chippants/9rounds3.wav"
+		"wave"		"player/ammocheck/chippants/9rounds4.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.10"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/10Rounds1.wav"
+		"wave"		"player/ammocheck/chippants/10Rounds2.wav"
+		"wave"		"player/ammocheck/chippants/10Rounds3.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.11"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/11Rounds1.wav"
+		"wave"		"player/ammocheck/chippants/11Rounds2.wav"
+		"wave"		"player/ammocheck/chippants/11Rounds3.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.12"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/12Rounds1.wav"
+		"wave"		"player/ammocheck/chippants/12Rounds2.wav"
+		"wave"		"player/ammocheck/chippants/12Rounds3.wav"
+		"wave"		"player/ammocheck/chippants/12Rounds4.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.13"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/13Rounds1.wav"
+		"wave"		"player/ammocheck/chippants/13Rounds2.wav"
+		"wave"		"player/ammocheck/chippants/13Rounds3.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.14"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/14Rounds1.wav"
+		"wave"		"player/ammocheck/chippants/14Rounds2.wav"
+		"wave"		"player/ammocheck/chippants/14Rounds3.wav"
+		"wave"		"player/ammocheck/chippants/14Rounds4.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.15"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/15Rounds1.wav"
+		"wave"		"player/ammocheck/chippants/15Rounds2.wav"
+		"wave"		"player/ammocheck/chippants/15Rounds3.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.Half"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/rounds_abouthalf_01.wav"
+		"wave"		"player/ammocheck/chippants/rounds_abouthalf_02.wav"
+		"wave"		"player/ammocheck/chippants/rounds_abouthalf_03.wav"
+		"wave"		"player/ammocheck/chippants/rounds_abouthalf_04.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.OverHalf"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/rounds_overhalf_01.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.AlmostFull"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/rounds_almostfull_01.wav"
+		"wave"		"player/ammocheck/chippants/rounds_almostfull_02.wav"
+		"wave"		"player/ammocheck/chippants/rounds_almostfull_03.wav"
+	}
+}
+
+"AmmoCheck.FemaleDefault.Full"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		"player/ammocheck/chippants/rounds_full_01.wav"
+		"wave"		"player/ammocheck/chippants/rounds_full_02.wav"
+		"wave"		"player/ammocheck/chippants/rounds_full_03.wav"
+		"wave"		"player/ammocheck/chippants/rounds_full_04.wav"
+		"wave"		"player/ammocheck/chippants/rounds_full_05.wav"
+		"wave"		"player/ammocheck/chippants/rounds_full_06.wav"
+		"wave"		"player/ammocheck/chippants/rounds_full_07-freshie.wav"
+	}
+}
+
+// **************************************************************
+// Reload sounds
+// 'X Loads Remaining'
+
+"Reload.FemaleDefault.Load0"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/00loads_01.wav"
+		"wave"	")player/reload/chippants/00loads_02.wav"
+	}
+}
+
+"Reload.FemaleDefault.Load1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/01loads_01.wav"
+	}
+}
+
+"Reload.FemaleDefault.Load2"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/02loads_01.wav"
+	}
+}
+
+"Reload.FemaleDefault.Load3"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/03loads_01.wav"
+	}
+}
+
+"Reload.FemaleDefault.Load4"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/04loads_01.wav"
+	}
+}
+
+"Reload.FemaleDefault.Load5"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/05loads_01.wav"
+		"wave"	")player/reload/chippants/05loads_02.wav"
+	}
+}
+
+"Reload.FemaleDefault.Load6"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/06loads_01.wav"
+	}
+}
+
+"Reload.FemaleDefault.Load7"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/07loads_01.wav"
+	}
+}
+
+"Reload.FemaleDefault.Load8"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/08loads_01.wav"
+	}
+}
+
+"Reload.FemaleDefault.Load9"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/09loads_01.wav"
+	}
+}
+
+"Reload.FemaleDefault.Load10"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/10loads_01.wav"
+	}
+}
+
+"Reload.FemaleDefault.Load11"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/11loads_01.wav"
+	}
+}
+
+"Reload.FemaleDefault.Load12"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/12loads_01.wav"
+	}
+}
+
+"Reload.FemaleDefault.Load13"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/13loads_01.wav"
+		"wave"	")player/reload/chippants/13loads_02.wav"
+	}
+}
+
+"Reload.FemaleDefault.Load14"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/14loads_01.wav"
+	}
+}
+
+"Reload.FemaleDefault.Load15"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/15loads_01.wav"
+	}
+}
+
+"Reload.FemaleDefault.PlentyLoad"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/plenty_loads_01.wav"
+		"wave"	")player/reload/chippants/plenty_loads_02.wav"
+	}
+}
+
+// **************************************************************
+// Reload Sounds
+// 'X Magazines Remaining'
+
+"Reload.FemaleDefault.Mag0"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/00mags_01.wav"
+		"wave"	")player/reload/chippants/00mags_02.wav"
+		"wave"	")player/reload/chippants/00mags_03.wav"
+
+	}
+}
+
+"Reload.FemaleDefault.Mag1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/01mags_01.wav"
+		"wave"	")player/reload/chippants/01mags_02.wav"
+
+	}
+}
+
+
+"Reload.FemaleDefault.Mag2"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/02mags_01.wav"
+
+	}
+}
+
+
+"Reload.FemaleDefault.Mag3"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/03mags_01.wav"
+		"wave"	")player/reload/chippants/03mags_02.wav"
+		"wave"	")player/reload/chippants/03mags_03.wav"
+
+	}
+}
+
+
+"Reload.FemaleDefault.Mag4"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/04mags_01.wav"
+
+	}
+}
+
+"Reload.FemaleDefault.Mag5"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/05mags_01.wav"
+
+	}
+}
+
+
+"Reload.FemaleDefault.Mag6"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/06mags_01.wav"
+		"wave"	")player/reload/chippants/06mags_02.wav"
+
+	}
+}
+
+
+"Reload.FemaleDefault.Mag7"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/07mags_01.wav"
+
+	}
+}
+
+
+"Reload.FemaleDefault.Mag8"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/08mags_01.wav"
+
+	}
+}
+
+"Reload.FemaleDefault.Mag9"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/09mags_01.wav"
+
+	}
+}
+
+
+"Reload.FemaleDefault.Mag10"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/10mags_01.wav"
+		"wave"	")player/reload/chippants/10mags_02.wav"
+
+	}
+}
+
+"Reload.FemaleDefault.Mag11"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/11mags_01.wav"
+
+	}
+}
+
+"Reload.FemaleDefault.Mag12"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/12mags_01.wav"
+
+	}
+}
+
+"Reload.FemaleDefault.Mag13"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/13mags_01.wav"
+		"wave"	")player/reload/chippants/13mags_02.wav"
+
+	}
+}
+
+"Reload.FemaleDefault.Mag14"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/14mags_01.wav"
+
+	}
+}
+
+"Reload.FemaleDefault.Mag15"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/15mags_01.wav"
+
+	}
+}
+
+"Reload.FemaleDefault.PlentyMag"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	")player/reload/chippants/plenty_mags_01.wav"
+		"wave"	")player/reload/chippants/plenty_mags_02.wav"
+
+	}
+}
+
+// *********************************************************
+// Voice commands
+"VoiceCommand.FemaleDefault.Ammo"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\chippants\needammo_01.wav"
+		"wave"		")voice\command\chippants\needammo_02.wav"
+		"wave"		")voice\command\chippants\needammo_03.wav"
+		"wave"		")voice\command\chippants\needammo_04.wav"
+		"wave"		")voice\command\chippants\needammo_05.wav"
+	}
+}
+
+"VoiceCommand.FemaleDefault.Follow"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\chippants\followme_01.wav"
+		"wave"		")voice\command\chippants\followme_02.wav"
+		"wave"		")voice\command\chippants\followme_03.wav"
+		"wave"		")voice\command\chippants\followme_04.wav"
+		"wave"		")voice\command\chippants\followme_05.wav"
+		"wave"		")voice\command\chippants\followme_06.wav"
+		"wave"		")voice\command\chippants\followme_07.wav"
+		"wave"		")voice\command\chippants\followme_08.wav"
+	}
+}
+
+"VoiceCommand.FemaleDefault.Help"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\chippants\helpme_01.wav"
+		"wave"		")voice\command\chippants\helpme_02.wav"
+		"wave"		")voice\command\chippants\helpme_03.wav"
+		"wave"		")voice\command\chippants\helpme_04.wav"
+		"wave"		")voice\command\chippants\helpme_05.wav"
+		"wave"		")voice\command\chippants\helpme_06.wav"
+		"wave"		")voice\command\chippants\helpme_07.wav"
+	}
+}
+
+"VoiceCommand.FemaleDefault.No"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\chippants\no_01.wav"
+		"wave"		")voice\command\chippants\no_02.wav"
+		"wave"		")voice\command\chippants\no_03.wav"
+		"wave"		")voice\command\chippants\no_04.wav"
+		"wave"		")voice\command\chippants\no_05.wav"
+		"wave"		")voice\command\chippants\no_06.wav"
+	}
+}
+
+"VoiceCommand.FemaleDefault.Stay"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\chippants\waithere_01.wav"
+		"wave"		")voice\command\chippants\waithere_02.wav"
+		"wave"		")voice\command\chippants\waithere_03.wav"
+		"wave"		")voice\command\chippants\waithere_04.wav"
+		"wave"		")voice\command\chippants\waithere_05.wav"
+	}
+}
+
+"VoiceCommand.FemaleDefault.ThankYou"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\chippants\thankyou_01.wav"
+		"wave"		")voice\command\chippants\thankyou_02.wav"
+		"wave"		")voice\command\chippants\thankyou_03.wav"
+		"wave"		")voice\command\chippants\thankyou_04.wav"
+		"wave"		")voice\command\chippants\thankyou_05.wav"
+	}
+}
+
+"VoiceCommand.FemaleDefault.Yes"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\chippants\yes_01.wav"
+		"wave"		")voice\command\chippants\yes_02.wav"
+		"wave"		")voice\command\chippants\yes_03.wav"
+		"wave"		")voice\command\chippants\yes_04.wav"
+		"wave"		")voice\command\chippants\yes_05.wav"
+	}
+}
+
+"VoiceCommand.FemaleDefault.Injured"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\chippants\injured_01.wav"
+		"wave"		")voice\command\chippants\injured_02.wav"
+		"wave"		")voice\command\chippants\injured_03.wav"
+		"wave"		")voice\command\chippants\injured_04.wav"
+		"wave"		")voice\command\chippants\injured_05.wav"
+		"wave"		")voice\command\chippants\injured_06.wav"
+		"wave"		")voice\command\chippants\injured_07.wav"
+		"wave"		")voice\command\chippants\injured_08.wav"
+		"wave"		")voice\command\chippants\injured_09.wav"
+	}
+}
+
+"VoiceCommand.FemaleDefault.Incoming"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\chippants\incoming_01.wav"
+		"wave"		")voice\command\chippants\incoming_02.wav"
+		"wave"		")voice\command\chippants\incoming_03.wav"
+		"wave"		")voice\command\chippants\incoming_04.wav"
+		"wave"		")voice\command\chippants\incoming_05.wav"
+		"wave"		")voice\command\chippants\incoming_06.wav"
+		"wave"		")voice\command\chippants\incoming_07.wav"
+		"wave"		")voice\command\chippants\incoming_08.wav"
+	}
+}
+
+"VoiceCommand.FemaleDefault.FireInTheHole"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\chippants\grenade_01.wav"
+		"wave"		")voice\command\chippants\grenade_02.wav"
+		"wave"		")voice\command\chippants\grenade_03.wav"
+		"wave"		")voice\command\chippants\grenade_04.wav"
+	}
+}
+
+"VoiceCommand.FemaleDefault.Taunt"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"		")voice\command\chippants\taunt_01.wav"
+		"wave"		")voice\command\chippants\taunt_02.wav"
+		"wave"		")voice\command\chippants\taunt_03.wav"
+		"wave"		")voice\command\chippants\taunt_04.wav"
+		"wave"		")voice\command\chippants\taunt_05.wav"
+		"wave"		")voice\command\chippants\taunt_06.wav"
+		"wave"		")voice\command\chippants\taunt_07.wav"
+		"wave"		")voice\command\chippants\taunt_08.wav"
+		"wave"		")voice\command\chippants\taunt_09.wav"
+	}
+}

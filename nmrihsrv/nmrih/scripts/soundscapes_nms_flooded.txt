@@ -1,0 +1,109 @@
+//****************************************
+// Ambient Setups
+//****************************************
+"flooded.interior"
+{ 
+         "dsp"   "14" 
+         "playlooping" 
+         { 
+                "volume"       "1" 
+                "pitch"        "100" 
+                "wave"         "ambient\wind\wind_draft_eerie_loop.wav" 
+         }
+         "dsp"   "15" 
+         "playlooping" 
+         { 
+                "volume"       "0.05" 
+                "pitch"        "100" 
+                "wave"         "ambient\zombies\horde_medium_stereo.wav" 
+         }
+  	"dsp"   "14" 
+         "playlooping" 
+         { 
+                "volume"       "0.2" 
+                "pitch"        "100" 
+                "wave"         "ambient\wind\heavy_wind_loop.wav" 
+         }
+  	"dsp"   "14" 
+         "playlooping" 
+         { 
+                "volume"       "0.25" 
+                "pitch"        "100" 
+                "wave"         "ambient\flooded\cricket_looped.wav" 
+         }
+	"dsp"	"16"
+	"playrandom"
+	{
+		"time"         "1,3"
+		"volume"       "0.5"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\water\drip1.wav"
+			"wave"	"ambient\water\drip2.wav"
+			"wave"	"ambient\water\drip3.wav"
+			"wave"	"ambient\water\drip4.wav"
+			"wave"	"ambient\water\drip5.wav"
+		}
+	}
+	"dsp"	"16"
+	"playrandom"
+	{
+		"time"         "15,30"
+		"volume"       "0.25"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\background\dist_crows1.wav"
+			"wave"	"ambient\background\dist_crows2.wav"
+			"wave"	"ambient\background\dist_crows3.wav"
+			"wave"	"ambient\background\dist_dog1.wav"
+			"wave"	"ambient\background\dist_dog2.wav"
+			"wave"	"ambient\background\dist_dog3.wav"
+			"wave"	"ambient\background\dist_dog4.wav"
+			"wave"	"ambient\flooded\ravens.wav"
+		}
+	}
+}
+"flooded.exterior"
+{
+         "dsp"   "14" 
+         "playlooping" 
+         { 
+                "volume"       "1" 
+                "pitch"        "100" 
+                "wave"         "ambient\wind\heavy_wind_loop.wav" 
+         }
+         "dsp"   "15" 
+         "playlooping" 
+         { 
+                "volume"       "0.1" 
+                "pitch"        "100" 
+                "wave"         "ambient\zombies\horde_medium_stereo.wav" 
+         }
+  	"dsp"   "14" 
+         "playlooping" 
+         { 
+                "volume"       "0.5" 
+                "pitch"        "100" 
+                "wave"         "ambient\flooded\cricket_looped.wav" 
+         }
+	"dsp"	"16"
+	"playrandom"
+	{
+		"time"         "15,30"
+		"volume"       "1"
+		"pitch"	       "100"
+		"rndwave"
+		{
+			"wave"	"ambient\background\dist_crows1.wav"
+			"wave"	"ambient\background\dist_crows2.wav"
+			"wave"	"ambient\background\dist_crows3.wav"
+			"wave"	"ambient\background\dist_dog1.wav"
+			"wave"	"ambient\background\dist_dog2.wav"
+			"wave"	"ambient\background\dist_dog3.wav"
+			"wave"	"ambient\background\dist_dog4.wav"
+			"wave"	"ambient\flooded\ravens.wav"
+		}
+	}
+}
