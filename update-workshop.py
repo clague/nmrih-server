@@ -51,9 +51,11 @@ collection = []
 if workshop_enable:
     while retry_time > 0:
         try:
-            collection = [id["publishedfileid"] for id in requests.post("https://api.steampowered.com/ISteamRemoteStorage/GetCollectionDetails/v1/", data={"collectioncount": 1, "publishedfileids[0]": COLLECTION_ID}).json()["response"]["collectiondetails"][0]["children"]]
+            collection = [id["publishedfileid"] for id in requests.post("https://clague.moe/stm-proxy/ISteamRemoteStorage/GetCollectionDetails/v1/", data={"collectioncount": 1, "publishedfileids[0]": COLLECTION_ID}).json()["response"]["collectiondetails"][0]["children"]]
             if len(collection) > 220:
                 break
+            else:
+                log.write("collection is too short! length: {}".format(len(collection)));
         except:
             pass
         retry_time -= 1

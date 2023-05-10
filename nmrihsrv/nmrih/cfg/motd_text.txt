@@ -1,9 +1,4 @@
 新增地图：
-nmo_coast_escape_v2
-删除地图：
-
-[Fri Apr 14 06:00:06 2023]
-新增地图：
 nmo_coast_escape_v4
 删除地图：
 nmo_coast_escape_v2
@@ -37,5 +32,10 @@ nmo_threshold
 nmo_9circlesofhell_1-3_ep1_v2
 删除地图：
 nmo_9circlesofhell_1-3_ep1_v1
+
+[Mon May  8 13:46:13 2023]
+新增地图：
+nmo_ishimura_task_v1_3
+删除地图：
 
 本服务器部分插件源码：https://github.com/clague/plugin-source

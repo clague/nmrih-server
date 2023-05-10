@@ -152,6 +152,7 @@
 	"nmo_insomnia_alpha"		"2843471810"
 	"nmo_insomnia_v3"		"2119025784"
 	"nmo_insomniatown_v1"		"2914529122"
+	"nmo_ishimura_task_v1_3"		"2973076359"
 	"nmo_keystone_y9v3"		"1930041608"
 	"nmo_khafre_v12"		"1597268004"
 	"nmo_kosovos_v7"		"2159888088"

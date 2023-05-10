@@ -166,6 +166,7 @@ nmo_in_the_land_fin
 nmo_insomnia_alpha
 nmo_insomnia_v3
 nmo_insomniatown_v1
+nmo_ishimura_task_v1_3
 nmo_junction
 nmo_jurassicpark
 nmo_keystone_y9v3
