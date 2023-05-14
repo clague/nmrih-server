@@ -206,3 +206,6 @@
 [Sat Apr 15 12:09:23 2023] Cannot connect to steam!
 [Wed Apr 19 06:03:16 2023] Cannot connect to steam!
 [Fri May  5 06:03:59 2023] Cannot connect to steam!
+[Thu May 11 11:15:49 2023] Update.py -> detect workshop_maps.txt don't contain some maps, you may execute workshop_download 2973211225 first!
+[Thu May 11 11:17:02 2023] Cannot connect to steam!
+[Thu May 11 11:19:08 2023] Cannot connect to steam!

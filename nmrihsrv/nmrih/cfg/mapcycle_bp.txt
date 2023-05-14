@@ -95,6 +95,7 @@ nmo_delusion_v2
 nmo_despair
 nmo_despair_hard
 nmo_desperate_esc_6
+nmo_desperate_esc_7
 nmo_desperate_escape
 nmo_desperate_escape3_shortcut
 nmo_desperate_escape_part2
@@ -172,6 +173,7 @@ nmo_jurassicpark
 nmo_keystone_y9v3
 nmo_khafre_v12
 nmo_kosovos_v7
+nmo_krankekollege
 nmo_l4d_the_sacrifice_v1
 nmo_lab_f3
 nmo_laboratory_v3
